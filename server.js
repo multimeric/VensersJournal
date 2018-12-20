@@ -1,7 +1,12 @@
+'use strict';
+
 var express = require('express');
+var favicon = require('serve-favicon');
 var app = express();
 
 app.set('view engine', 'ejs');
+
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.use('/public', express.static('public'));
 
