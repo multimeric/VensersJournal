@@ -1,0 +1,24 @@
+.error-big {
+  margin: 12%;
+  font-size: 2.5em;
+  font-family: 'Charm', cursive;
+}
+
+.error-small {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.spooky {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
+  mix-blend-mode: multiply;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 75%;
+}

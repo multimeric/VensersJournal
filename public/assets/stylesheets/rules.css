@@ -1,0 +1,49 @@
+th {
+  text-align: center;
+  font-size: 22px;
+  border-radius: 0 30px 0 30px; 
+}
+
+tr {
+  border-bottom: 1px solid var(--black);
+  vertical-align: middle;
+}
+
+tr:first-child, :last-child {
+  border-bottom: none;
+}
+
+td {
+  padding: 1.2em;
+}
+
+#oldHeader {
+  color: var(--heavy-color);
+  background-color: var(--old-color);
+}
+
+#newHeader {
+  color: var(--heavy-color);
+  background-color: var(--new-color);
+}
+
+.old {
+  font-weight: bold;
+  color: var(--heavy-color);
+  background: var(--old-color);
+}
+
+.new {
+  font-weight: bold;
+  background: var(--new-color);
+  color: var(--heavy-color);
+  background: var(--new-color);
+}
+
+.remove {
+  color: var(--old-color);
+}
+
+.add {
+  color: var(--new-color);
+}

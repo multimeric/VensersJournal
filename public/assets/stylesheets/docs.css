@@ -1,8 +1,8 @@
 @import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
 :root {
-	--mute-color: #BAB6B6;
 	--header-bg: #150B00;
+	--muted-color: #A6A99D;
 }
 
 table {
@@ -31,7 +31,7 @@ ul {
 	list-style: none;
 }
 
-.container > div > ul > li::before {
+.container-fluid > div > ul > li::before {
 	content: '•';
 	color: #000000;
 	display: inline-block;
@@ -83,7 +83,7 @@ h2 {
 	text-indent: .5em;
 }
 
-.text-muted {
+.removed {
 	text-decoration: line-through;
 }
 
