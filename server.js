@@ -33,6 +33,10 @@ app.get('/ipg', function(req, res) {
   res.render('pages/ipg');
 })
 
+app.get('/archives', function(req, res) {
+  res.render('pages/archives');
+})
+
 app.use(function(req, res, next){
     res.status(404).render('pages/404.ejs', {title: "Sorry, page not found"});
 });
