@@ -21,6 +21,10 @@ app.get(['/', '/rules', '/cr'], function(req, res) {
   res.render('pages/rules');
 })
 
+app.get(/^\/[\w]{3}-[\w]{3}$/, function(req, res) {
+  res.render('pages/rules')
+})
+
 app.get('/mtr', function(req, res) {
   res.render('pages/mtr');
 })
