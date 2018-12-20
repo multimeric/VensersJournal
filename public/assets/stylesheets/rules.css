@@ -18,32 +18,32 @@ td {
 }
 
 #oldHeader {
-  color: var(--heavy-color);
-  background-color: var(--old-color);
+  color: var(--cream);
+  background-color: var(--red);
 }
 
 #newHeader {
-  color: var(--heavy-color);
-  background-color: var(--new-color);
+  color: var(--cream);
+  background-color: var(--green);
 }
 
 .old {
   font-weight: bold;
-  color: var(--heavy-color);
-  background: var(--old-color);
+  color: var(--cream);
+  background: var(--red);
 }
 
 .new {
   font-weight: bold;
-  background: var(--new-color);
-  color: var(--heavy-color);
-  background: var(--new-color);
+  background: var(--green);
+  color: var(--cream);
+  background: var(--green);
 }
 
 .remove {
-  color: var(--old-color);
+  color: var(--red);
 }
 
 .add {
-  color: var(--new-color);
+  color: var(--green);
 }

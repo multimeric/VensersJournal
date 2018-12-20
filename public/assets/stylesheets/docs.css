@@ -1,10 +1,5 @@
 @import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
-:root {
-	--header-bg: #150B00;
-	--muted-color: #A6A99D;
-}
-
 table {
 	margin: 0 auto;
 	width: 75%;
@@ -19,12 +14,24 @@ h2 {
 	font-weight: bold;
 	font-size: 22px;
 	padding: 5px;
+	cursor: pointer;
+	color: var(--cream);
+	background-color: var(--black);
+	border-radius: 0 30px 0 30px;
+	text-indent: .5em;
 }
 
-.new {
-	font-weight: bold;
-	background: var(--new-color);
-	color: var(--heavy-color);
+h2:after {
+	font-family:'FontAwesome';
+  content:"\f077";
+  float: right;
+  margin-right: 15px;
+  color: inherit;
+}
+
+h2.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content:"\f078";
 }
 
 ul {
@@ -41,7 +48,7 @@ ul {
 
 ul > .fix::before {
 	content: '•';
-	color: var(--new-color);
+	color: var(--green);
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
@@ -65,43 +72,28 @@ ol > li {
 }
 
 ol > .fix::before {
-	color: var(--new-color);
+	color: var(--green);
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
-}
-
-.new-section > ol > li::before {
-	color: var(--heavy-color);
-}
-
-h2 {
-	cursor: pointer;
-	color: var(--heavy-color);
-	background-color: var(--header-bg);
-	border-radius: 0 30px 0 30px;
-	text-indent: .5em;
 }
 
 .removed {
 	text-decoration: line-through;
 }
 
+.new {
+	font-weight: bold;
+	background: var(--green);
+	color: var(--cream);
+}
+
 .new-section {
-	background-color: var(--new-color);
-	color: var(--heavy-color);
+	background-color: var(--green);
+	color: var(--cream);
 	font-weight: bold;
 }
 
-h2:after {
-	font-family:'FontAwesome';
-  content:"\f077";
-  float: right;
-  margin-right: 15px;
-  color: inherit;
-}
-
-h2.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content:"\f078";
+.new-section > ol > li::before {
+	color: var(--cream);
 }
