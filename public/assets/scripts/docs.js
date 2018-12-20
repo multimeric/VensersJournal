@@ -11,7 +11,7 @@ function findNewStuff() {
 function linkAndExpand(id) {
   $(id).on('shown.bs.collapse', function() {
     console.log($(id).offset());
-    $('html').animate({scrollTop: $(id).prev('h2').offset().top }, 'fast');
+    $('html').animate({scrollTop: $(id).prev('h2').offset().top - 50 }, 'fast');
   });
   $(id).collapse('show');
 }
