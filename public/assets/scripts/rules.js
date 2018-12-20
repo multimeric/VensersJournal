@@ -19,7 +19,19 @@ function XHR(file, callback){
  * spit out the proper rules
  */
 function getDiffedRules() {
-    XHR('public/assets/rules/M19-GRN.json', function(response) {
+    var thisURL = window.location.pathname.split(/[\/,\-]/);
+    
+    fromRules = thisURL[1];
+    toRules = thisURL[2];
+
+    if (thisURL.length < 3) {
+      fromRules = 'M19';
+      toRules = 'GRN';
+    }
+
+    var diffPair = 'public/assets/rules/'.concat(fromRules, '-', 
+                                                 toRules, '.json');
+    XHR(diffPair, function(response) {
         console.log(window.location.href)
         usableJSON = $.parseJSON(response);
 
