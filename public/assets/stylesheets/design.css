@@ -9,6 +9,9 @@ body {
 	font-family: sans-serif;
 }
 
+.container-fluid {
+	max-width: 80%;
+}
 table {
 	border-collapse: collapse;
 	width: 100%;
