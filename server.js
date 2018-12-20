@@ -33,4 +33,8 @@ app.get('/ipg', function(req, res) {
   res.render('pages/ipg');
 })
 
+app.use(function(req, res, next){
+    res.status(404).render('pages/404.ejs', {title: "Sorry, page not found"});
+});
+
 app.listen(3000);
