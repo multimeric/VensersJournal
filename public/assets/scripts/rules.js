@@ -1,7 +1,10 @@
 function XHR(file, callback){
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function(){
-        if(xhr.readyState === 4 && xhr.status === 200){
+        if (xhr.status === 404) {
+            window.location='/404';
+        }
+        if (xhr.readyState === 4 && xhr.status === 200){
             callback(xhr.responseText);
         }
     }
@@ -32,7 +35,6 @@ function getDiffedRules() {
     var diffPair = 'public/assets/rules/'.concat(fromRules, '-', 
                                                  toRules, '.json');
     XHR(diffPair, function(response) {
-        console.log(window.location.href)
         usableJSON = $.parseJSON(response);
 
         headerObj = usableJSON[0];
