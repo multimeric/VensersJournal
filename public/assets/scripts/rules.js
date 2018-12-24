@@ -13,6 +13,21 @@ function XHR(file, callback){
     xhr.send();
 }
 
+var savedHeaders = [];
+
+const mq = window.matchMedia("(min-width: 1000px)");
+mq.addListener(adjustHeaders);
+
+function adjustHeaders(mq) {
+    if (mq.matches) {
+        $('#oldHeader').text(savedHeaders[0]);
+        $('#newHeader').text(savedHeaders[1]);
+    } else {
+        $('#oldHeader').text($('#oldHeader').text().slice(-4, -1));
+        $('#newHeader').text($('#newHeader').text().slice(-4, -1));
+    }
+}
+
 /**
  * Generates the table of rules diffs.
  *
@@ -86,7 +101,7 @@ function insertEmptyCell() {
  * @param {Object} rule - The rule to format 
  */
 function prettifyRule(rule) {
-            return '<b>' + rule.ruleNum + '</b><br>' + rule.ruleText;
+    return '<b>' + rule.ruleNum + '</b><br>' + rule.ruleText;
 }
 
 
@@ -101,6 +116,10 @@ function prettifyRule(rule) {
 function getHeaders(someJSON) {
     $('#oldHeader').html(someJSON.old);
     $('#newHeader').html(someJSON.new);
+
+    savedHeaders = [ $('#oldHeader').text(), $('#newHeader').text()]
+
+    adjustHeaders(mq);
 }
 
 

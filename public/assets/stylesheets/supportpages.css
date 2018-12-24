@@ -2,14 +2,8 @@
   margin: 12%;
 }
 
-.error-big {
-  font-size: 2.5em;
+.error {
   font-family: 'Charm', cursive;
-}
-
-.error-small {
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .spooky {
@@ -28,7 +22,7 @@ hr {
 
 .set-heading {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: var(--black);
 }
 
