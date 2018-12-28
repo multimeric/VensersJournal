@@ -15,6 +15,7 @@ tr:first-child, :last-child {
 }
 
 td {
+  word-break: break-word;
   padding: 1.2rem;
 }
 
