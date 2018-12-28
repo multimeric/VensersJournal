@@ -18,6 +18,14 @@ var savedHeaders = [];
 const mq = window.matchMedia("(min-width: 1000px)");
 mq.addListener(adjustHeaders);
 
+/**
+ * Fixes headers as media size changes.
+ *
+ * Adjusts headers to just set abbreviations when the screen size drops
+ * below a certain value.
+ *
+ * @param mq - matchMedia query
+ */
 function adjustHeaders(mq) {
     if (mq.matches) {
         $('#oldHeader').text(savedHeaders[0]);
