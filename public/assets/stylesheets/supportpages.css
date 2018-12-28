@@ -2,8 +2,10 @@
   margin: 12%;
 }
 
-.error {
+.cursive {
   font-family: 'Charm', cursive;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
 }
 
 .spooky {
