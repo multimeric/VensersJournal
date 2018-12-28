@@ -32,13 +32,13 @@ hr {
   width: 75%;
 }
 
-h2 {font-size: 2.074em;}
+h2 {font-size: 2.074rem;}
 
-h3 {font-size: 1.728em;}
+h3 {font-size: 1.728rem;}
 
-h4 {font-size: 1.44em;}
+h4 {font-size: 1.44rem;}
 
-h5 {font-size: 1.2em;}
+h5 {font-size: 1.2rem;}
 
 .navbar-dark .navbar-brand {
   font-family: 'Charm', cursive;
@@ -69,18 +69,22 @@ body {
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen {
-  .container-fluid {
-    max-width: 100%;
+  html {
     font-size:1.6rem;
     line-height: 1.92rem;
   }
+
+  .container-fluid {
+    max-width: 100%;
+    
+  }
   .navbar-dark .navbar-brand {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .navbar-dark .nav-link {
     font-size:2rem;
-    line-height: 3rem;
+    line-height: 2.4rem;
   }
 }
 
@@ -93,8 +97,6 @@ body {
 @media only screen and (min-width: 768px) {
   .container-fluid {
     max-width: 100%;
-    font-size: 1rem;
-    line-height: 1.2rem;
   }
 
   .navbar-dark .navbar-brand {
@@ -102,8 +104,8 @@ body {
   }
 
   .navbar-dark .nav-link {
-    font-size:1rem;
-    line-height: 1rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
   }
 }
 
@@ -112,10 +114,20 @@ body {
   .container-fluid {
     max-width: 90%;
   }
+
+  .navbar-dark .nav-link {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
   .container-fluid {
     max-width: 80%;
   }
