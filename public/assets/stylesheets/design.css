@@ -25,6 +25,21 @@ header:after {
     bottom: 0;
 }
 
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 75%;
+}
+
+h2 {font-size: 2.074em;}
+
+h3 {font-size: 1.728em;}
+
+h4 {font-size: 1.44em;}
+
+h5 {font-size: 1.2em;}
+
 .navbar-dark .navbar-brand {
   font-family: 'Charm', cursive;
   color: var(--cream);
@@ -53,11 +68,11 @@ body {
 }
 
  /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 600px) {
+@media only screen {
   .container-fluid {
     max-width: 100%;
     font-size:1.6rem;
-    line-height: 1.7rem;
+    line-height: 1.92rem;
   }
   .navbar-dark .navbar-brand {
     font-size: 3rem;
@@ -78,15 +93,8 @@ body {
 @media only screen and (min-width: 768px) {
   .container-fluid {
     max-width: 100%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 1000px) {
-  .container-fluid {
-    max-width: 80%;
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: 1.2rem;
   }
 
   .navbar-dark .navbar-brand {
@@ -96,6 +104,13 @@ body {
   .navbar-dark .nav-link {
     font-size:1rem;
     line-height: 1rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1000px) {
+  .container-fluid {
+    max-width: 90%;
   }
 }
 

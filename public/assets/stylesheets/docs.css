@@ -10,28 +10,27 @@ tr, td {
 	padding: .5rem 1rem;
 }
 
-h2 {
-	font-weight: bold;
-	font-size: 1.5rem;
-	padding: .4rem;
+hr {
+	width: 100%;
+}
+
+h3 {
+	padding: .5rem 0;
 	cursor: pointer;
-	color: var(--cream);
-	background-color: var(--black);
-	border-radius: 0 2rem 0 2rem;
 	text-indent: .5rem;
 }
 
-h2:after {
+h3:after {
 	font-family:'FontAwesome';
-  content:"\f077";
+  content: "\f078";
   float: right;
   margin-right: 1rem;
   color: inherit;
 }
 
-h2.collapsed:after {
+h3.collapsed:after {
     /* symbol for "collapsed" panels */
-    content:"\f078";
+    content:"\f054";
 }
 
 ul {
