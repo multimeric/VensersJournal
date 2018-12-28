@@ -17,7 +17,11 @@ app.get('/about', function(req, res) {
   res.render('pages/about');
 })
 
-app.get(['/', '/rules', '/cr'], function(req, res) {
+app.get('/', function(req, res) {
+  res.render('pages/landing');
+})
+
+app.get(['/rules', '/cr'], function(req, res) {
   res.render('pages/rules');
 })
 
@@ -38,7 +42,7 @@ app.get('/archives', function(req, res) {
 })
 
 app.use(function(req, res, next){
-    res.status(404).render('pages/404.ejs', {title: "Sorry, page not found"});
+  res.status(404).render('pages/404.ejs');
 });
 
 app.listen(3000);
