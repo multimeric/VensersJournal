@@ -1,18 +1,20 @@
 <!DOCTYPE html>
   <head>
     <% include ../partials/head %>
+    
   </head>
 
   <header>
     <% include ../partials/header %>
     <link href="/public/assets/stylesheets/supportpages.css" rel="stylesheet"/>
   </header>
+  <body>
     <div class='container-fluid text-center'>
       <div class='offset'>
         <h2>Old Diffs</h2>
         <div class='row'>
           <div class='col-md-4'>
-            <h3>Rules</h3>
+            <h3>CR</h3>
             <p>
               <a href='/M19-GRN'>Guilds of Ravnica</a>
               [<a href='https://magic.wizards.com/en/articles/archive/news/guilds-ravnica-update-bulletin-2018-09-28'>update bulletin</a>]
@@ -49,53 +51,13 @@
 
         <h2>Raw Documents</h2>
         <p>Not interested in the changes and just want the docs in their pure, unadulterated forms? Look no further.</p>
+
         <div class='row'>
-          <div class='col-md-4'>
-            <h3>Rules</h3>
-            <p><a href='static/rules/Guilds of Ravnica (GRN).txt' target='_blank'>Guilds of Ravnica</a></p>
-            <p><a href='static/rules/Magic Core 2019 (M19).txt' target='_blank'>Magic Core 2019</a></p>
-            <p><a href='static/rules/Commander Anthology II (CM2).txt' target='_blank'>Commander Anthology II</a></p>
-            <p><a href='static/rules/Battlebond (BBD).txt' target='_blank'>Battlebond</a></p>
-            <p><a href='static/rules/Dominaria (DOM).txt' target='_blank'>Dominaria</a></p>
-            <p><a href='static/rules/Rivals of Ixalan (RIX).txt' target='_blank'>Rivals of Ixalan</a></p>
-            <p><a href='static/rules/Ixalan (XLN).txt' target='_blank'>Ixalan</a></p>
-            <p><a href='static/rules/Commander 2017 (C17).txt' target='_blank'>Commander 2017</a></p>
-            <p><a href='static/rules/Hour of Devastation (HOU).txt' target='_blank'>Hour of Devastation</a></p>
-            <p><a href='static/rules/Commander Anthology (CMA).txt' target='_blank'>Commander Anthology</a></p>
-            <p><a href='static/rules/Amonkhet (AKH).txt' target='_blank'>Amonkhet</a></p>
-            <p><a href='static/rules/Aether Revolt (AER).txt' target='_blank'>Aether Revolt</a></p>
-            <p><a href='static/rules/Commander 2016 (C16).txt' target='_blank'>Commander 2016</a></p>
-            <p><a href='static/rules/Kaladesh (KLD).txt' target='_blank'>Kaladesh</a></p>
-            <p><a href='static/rules/Conspiracy Take the Crown (CN2).txt' target='_blank'>Conspiracy: Take the Crown</a></p>
-            <p><a href='static/rules/Eldritch Moon (EMN).txt' target='_blank'>Eldritch Moon</a></p>
-            <p><a href='static/rules/Shadows Over Innistrad (SOI).txt' target='_blank'>Shadows Over Innistrad</a></p>
-            <p><a href='static/rules/Oath of the Gatewatch (OGW).txt' target='_blank'>Oath of the Gatewatch</a></p>
-            <p><a href='static/rules/Commander 2015 (C15).txt' target='_blank'>Commander 2015</a></p>
-            <p><a href='static/rules/Battle for Zendikar (BFZ).txt' target='_blank'>Battle for Zendikar</a></p>
-            <p><a href='static/rules/Magic Origins (ORI).txt' target='_blank'>Magic Origins</a></p>
-            <p><a href='static/rules/Dragons of Tarkir (DTK).txt' target='_blank'>Dragons of Tarkir</a></p>
-            <p><a href='static/rules/Khans of Tarkir (KTK).txt' target='_blank'>Khans of Tarkir</a></p>
-            <p><a href='static/rules/Born of the Gods (BNG).txt' target='_blank'>Born of the Gods</a></p>
-            <p><a href='static/rules/Commander 2013 (C13).txt' target='_blank'>Commander 2013</a></p>
-            <p><a href='static/rules/Onslaught (ONS).txt' target='_blank'>Onslaught</a></p>
-          </div>
-          <div class='col-md-4'>
-            <h3>IPG</h3>
-            <p><a href='static/ipg/mtg_ipg_5oct18_en.pdf' target='_blank'>5 Oct, 2018</a></p>
-            <p><a href='static/ipg/mtg_ipg_13jul18_en.pdf' target='_blank'>13 Jul, 2018</a></p>
-            <p><a href='static/ipg/mtg_ipg_29sep17a_en.pdf' target='_blank'>29 Sep, 2017</a></p>
-          </div>
-          <div class='col-md-4'>
-            <h3>MTR</h3>
-            <p><a href='static/mtr/mtg_mtr_5oct18_en.pdf' target='_blank'>5 Oct, 2018</a></p>
-            <p><a href='static/mtr/mtg_mtr_13jul18_en.pdf' target='_blank'>13 Jul, 2018</a></p>
-            <p><a href='static/mtr/mtg_mtr_17nov17_en.pdf' target='_blank'>17 Nov, 2017</a></p>
-            <p><a href='static/mtr/mtg_mtr_1sep17_en.pdf' target='_blank'>1 Sep, 2017</a></p>
-            <p><a href='static/mtr/mtg_mtr_14jul17_en.pdf' target='_blank'>14 Jul, 2017</a></p>
-            <p><a href='static/mtr/mtg_mtr_19jun17_en.pdf' target='_blank'>19 Jun, 2017</a></p>
-            <p><a href='static/mtr/mtg_mtr_28apr17_en.updated.pdf' target='_blank'>28 Apr, 2017</a></p>
-            <p><a href='static/mtr/mtg_mtr_20Jan17_en.pdf' target='_blank'>20 Jan, 2017</a></p>
-          </div>
+          <% include ../partials/archives_cr %>
+          
+          <% include ../partials/archives_ipg %>
+            
+          <% include ../partials/archives_mtr %>
         </div>
       </div>
     </div>

@@ -1,0 +1,6 @@
+<div class='col-md-4'>
+  <h3>CR</h3>
+  <% mcr.forEach(function(each) { %>
+    <p><a href='/static/rules/<%= each.filepath %>'><%- each.setName %></a></p>
+  <% }); %>
+</div>
