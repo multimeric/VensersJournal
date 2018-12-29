@@ -1,7 +1,7 @@
 'use strict';
 
 var express = require('express');
-var helpers = require('./helpers')
+var helpers = require('./static/res/helpers')
 var fs = require('fs');
 var path = require('path');
 var favicon = require('serve-favicon');

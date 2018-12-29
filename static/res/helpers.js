@@ -1,7 +1,7 @@
 'use strict';
 
 var dateFormat = require('dateformat');
-var sets = require('./static/res/sets')
+var sets = require('./sets')
 
 module.exports = {
   parseDocFiles: function(fileList) {
@@ -23,7 +23,7 @@ module.exports = {
       var date = dateFormat(each.slice(3,-8), 'dd mmm, yyyy');
       crArr.push({filepath: each, setName: setDict[each.slice(-7,-4)]});
     }
-    
+
     return crArr;
   }
 }
