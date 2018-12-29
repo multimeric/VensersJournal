@@ -40,7 +40,7 @@ app.get('/ipg', function(req, res) {
 })
 
 app.get('/archives/:doc(\\w{3}\\_\\w{6,7})', function(req, res) {
-  res.render('pages/archives/' + req.params.doc + '.ejs');
+  res.render('pages/archives/' + req.params.doc);
 })
 
 app.get('/archives', function(req, res) {
@@ -53,11 +53,11 @@ app.get('/archives', function(req, res) {
 })
 
 app.use(function(req, res, next){
-  res.status(404).render('pages/error_template.ejs', {status: res.statusCode + ': unhandled route'});
+  res.status(404).render('pages/error_template', {status: res.statusCode + ': unhandled route'});
 });
 
 app.use(function(err, req, res, next) {
-  res.status(500).render('pages/error_template.ejs', {status: res.statusCode + ': unknown file'})
+  res.status(500).render('pages/error_template', {status: res.statusCode + ': unknown file'})
 });
 
 app.listen(3000);
