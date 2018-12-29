@@ -1,0 +1,509 @@
+[
+    {
+        "names": {
+            "old_full": "Magic Core 2019",
+            "old_setcode": "M19",
+            "new_full": "Guilds of Ravnica",
+            "new_setcode": "GRN"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "103.4c",
+            "ruleText": "In a multiplayer game and in any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards they old_start as old_end had before. Subsequent hands decrease by one card as normal."
+        },
+        "new": {
+            "ruleNum": "103.4c",
+            "ruleText": "In a multiplayer game and in any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards new_start as new_end they had before. Subsequent hands decrease by one card as normal."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "106.4.",
+            "ruleText": "When an effect instructs a player to add mana, that mana goes into a player\u2019s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player\u2019s mana pool as unspent mana. Each player\u2019s mana pool empties at the end of each step and phase, and the player is said to lose this mana. Cards with abilities that produce mana or refer to unspent mana have received errata in the old_start Oracle old_end card reference to no longer explicitly refer to the mana pool."
+        },
+        "new": {
+            "ruleNum": "106.4.",
+            "ruleText": "When an effect instructs a player to add mana, that mana goes into a player\u2019s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player\u2019s mana pool as unspent mana. Each player\u2019s mana pool empties at the end of each step and phase, and the player is said to lose this mana. Cards with abilities that produce mana or refer to unspent mana have received errata in the new_start Oracle\u2122 new_end card reference to no longer explicitly refer to the mana pool."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "106.6a",
+            "ruleText": "Some replacement effects increase the amount of mana produced by a spell or ability. In these cases, any restrictions or additional effects created by the spell or ability will apply to all mana produced. If the spell or ability creates a delayed triggered ability that triggers when the mana is spent, a separate delayed triggered ability is created for each mana produced."
+        },
+        "new": {
+            "ruleNum": "106.6a",
+            "ruleText": "Some replacement effects increase the amount of mana produced by a spell or ability. In these cases, any restrictions or additional effects created by the spell or ability will apply to all mana produced. If the spell or ability creates a delayed triggered ability that triggers when the mana is spent, a separate delayed triggered ability is created for each mana produced. new_start If the spell or ability creates a continuous effect or replacement effect if the mana is spent, a separate effect is created once for each mana produced. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "107.3h",
+            "ruleText": "Normally, all instances of X on an object have the same value at any given time."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.3h",
+            "ruleText": "old_start Normally, all instances of X on an object have the same value at any given time. old_end If an object gains an ability, the value of X within that ability is the value defined by that ability, or 0 if that ability doesn\u2019t define a value of X."
+        },
+        "new": {
+            "ruleNum": "107.3i",
+            "ruleText": "If an object gains an ability, the value of X within that ability is the value defined by that ability, or 0 if that ability doesn\u2019t define a value of X. new_start This is an exception to rule 107.3h. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "107.3j",
+            "ruleText": "If an object\u2019s activated ability has an {X}, [-X], or X in its activation cost, the value of X for that ability is independent of any other values of X chosen for that object or for other instances of abilities of that object. This is an exception to rule 107.3h."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "108.1.",
+            "ruleText": "Use the old_start Oracle\u2122 old_end card reference when determining a card\u2019s wording. A card\u2019s Oracle text can be found using the Gatherer card database at Gatherer.Wizards.com."
+        },
+        "new": {
+            "ruleNum": "108.1.",
+            "ruleText": "Use the new_start Oracle new_end card reference when determining a card\u2019s wording. A card\u2019s Oracle text can be found using the Gatherer card database at Gatherer.Wizards.com."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "110.5d",
+            "ruleText": "If a spell or ability would create a token, but old_start an old_end effect states that a permanent with one or more of that token\u2019s characteristics can\u2019t enter the battlefield, the token is not created."
+        },
+        "new": {
+            "ruleNum": "110.5d",
+            "ruleText": "If a spell or ability would create a token, but new_start a rule or new_end effect states that a permanent with one or more of that token\u2019s characteristics can\u2019t enter the battlefield, the token is not created."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "112.1.",
+            "ruleText": "An ability can be one of old_start two old_end things:"
+        },
+        "new": {
+            "ruleNum": "112.1.",
+            "ruleText": "An ability can be one of new_start three new_end things:"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "112.1a",
+            "ruleText": "An ability old_start is old_end a characteristic an object has that lets it affect the game. An object\u2019s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that grant abilities usually use the words \u201chas,\u201d \u201chave,\u201d \u201cgains,\u201d or \u201cgain.\u201d) Abilities generate effects. (See rule 609, \u201cEffects.\u201d)"
+        },
+        "new": {
+            "ruleNum": "112.1a",
+            "ruleText": "An ability new_start can be new_end a characteristic an object has that lets it affect the game. An object\u2019s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that grant abilities usually use the words \u201chas,\u201d \u201chave,\u201d \u201cgains,\u201d or \u201cgain.\u201d) Abilities generate effects. (See rule 609, \u201cEffects.\u201d)"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "112.1b",
+            "ruleText": "An ability can be something that a player has that changes how the game affects the player. A player normally has no abilities unless granted to that player by effects."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.1.",
+            "ruleText": "Some spells and abilities require their controller to choose one or more targets for them. The targets are old_start object(s), player(s), old_end and/or old_start zone(s) old_end the spell or ability will affect. These targets are declared as part of the process of putting the spell or ability on the stack. The targets can\u2019t be changed except by another spell or ability that explicitly says it can do so."
+        },
+        "new": {
+            "ruleNum": "114.1.",
+            "ruleText": "Some spells and abilities require their controller to choose one or more targets for them. The targets are new_start object(s) new_end and/or new_start player(s) new_end the spell or ability will affect. These targets are declared as part of the process of putting the spell or ability on the stack. The targets can\u2019t be changed except by another spell or ability that explicitly says it can do so."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.1a",
+            "ruleText": "An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase \u201ctarget [something],\u201d where the \u201csomething\u201d is a phrase that describes an old_start object, player, or zone. old_end The target(s) are chosen as the spell is cast; see rule 601.2c. (If an activated or triggered ability of an instant or sorcery uses the word target, that ability is targeted, but the spell is not.)"
+        },
+        "new": {
+            "ruleNum": "114.1a",
+            "ruleText": "An instant or sorcery spell is targeted if its spell ability identifies something it will affect by using the phrase \u201ctarget [something],\u201d where the \u201csomething\u201d is a phrase that describes an new_start object and/or player. new_end The target(s) are chosen as the spell is cast; see rule 601.2c. (If an activated or triggered ability of an instant or sorcery uses the word target, that ability is targeted, but the spell is not.)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.1c",
+            "ruleText": "An activated ability is targeted if it identifies something it will affect by using the phrase \u201ctarget [something],\u201d where the \u201csomething\u201d is a phrase that describes an old_start object, player, or zone. old_end The target(s) are chosen as the ability is activated; see rule 602.2b."
+        },
+        "new": {
+            "ruleNum": "114.1c",
+            "ruleText": "An activated ability is targeted if it identifies something it will affect by using the phrase \u201ctarget [something],\u201d where the \u201csomething\u201d is a phrase that describes an new_start object and/or player. new_end The target(s) are chosen as the ability is activated; see rule 602.2b."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.1d",
+            "ruleText": "A triggered ability is targeted if it identifies something it will affect by using the phrase \u201ctarget [something],\u201d where the \u201csomething\u201d is a phrase that describes an old_start object, player, or zone. old_end The target(s) are chosen as the ability is put on the stack; see rule 603.3d."
+        },
+        "new": {
+            "ruleNum": "114.1d",
+            "ruleText": "A triggered ability is targeted if it identifies something it will affect by using the phrase \u201ctarget [something],\u201d where the \u201csomething\u201d is a phrase that describes an new_start object and/or player. new_end The target(s) are chosen as the ability is put on the stack; see rule 603.3d."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.2.",
+            "ruleText": "Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can\u2019t exist on the battlefield, such as a spell or old_start ability, or (c) targets a zone. old_end"
+        },
+        "new": {
+            "ruleNum": "114.2.",
+            "ruleText": "Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, new_start or new_end (b) targets an object that can\u2019t exist on the battlefield, such as a spell or new_start ability. See also rule 114.4. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.3.",
+            "ruleText": "The same target can\u2019t be chosen multiple times for any one instance of the word \u201ctarget\u201d on a spell or ability. If the spell or ability uses the word \u201ctarget\u201d in multiple places, the same old_start object, player, old_end or old_start zone old_end can be chosen once for each instance of the word \u201ctarget\u201d (as long as it fits the targeting criteria). This rule applies both when choosing targets for a spell or ability and when changing targets or choosing new targets for a spell or ability (see rule 114.7)."
+        },
+        "new": {
+            "ruleNum": "114.3.",
+            "ruleText": "The same target can\u2019t be chosen multiple times for any one instance of the word \u201ctarget\u201d on a spell or ability. If the spell or ability uses the word \u201ctarget\u201d in multiple places, the same new_start object new_end or new_start player new_end can be chosen once for each instance of the word \u201ctarget\u201d (as long as it fits the targeting criteria). This rule applies both when choosing targets for a spell or ability and when changing targets or choosing new targets for a spell or ability (see rule 114.7)."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "114.9a",
+            "ruleText": "An object that looks for a \u201c[spell or ability] with a single target\u201d checks the number of times any old_start objects, players, old_end or old_start zones old_end became the target of that spell or ability when it was put on the stack, not the number of its targets that are currently legal. If the same old_start object, player, old_end or old_start zone old_end became a target more than once, each of those instances is counted separately."
+        },
+        "new": {
+            "ruleNum": "114.9a",
+            "ruleText": "An object that looks for a \u201c[spell or ability] with a single target\u201d checks the number of times any new_start objects new_end or new_start players new_end became the target of that spell or ability when it was put on the stack, not the number of its targets that are currently legal. If the same new_start object new_end or new_start player new_end became a target more than once, each of those instances is counted separately."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "116.1d",
+            "ruleText": "A player may activate a mana ability whenever they have priority, whenever they old_start have old_end casting a spell or activating an ability that requires a mana payment, or whenever a rule or effect asks for a mana payment (even in the middle of casting or resolving a spell or activating or resolving an ability)."
+        },
+        "new": {
+            "ruleNum": "116.1d",
+            "ruleText": "A player may activate a mana ability whenever they have priority, whenever they new_start are new_end casting a spell or activating an ability that requires a mana payment, or whenever a rule or effect asks for a mana payment (even in the middle of casting or resolving a spell or activating or resolving an ability)."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "117.6.",
+            "ruleText": "Some old_start mana costs contain old_end no mana old_start symbols. old_end This represents an unpayable cost. An ability can also have an unpayable cost if its cost is based on the mana cost of an object with no mana cost. Attempting to cast a spell or activate an ability that has an unpayable cost is a legal action. However, attempting to pay an unpayable cost is an illegal action."
+        },
+        "new": {
+            "ruleNum": "117.6.",
+            "ruleText": "Some new_start objects have new_end no mana new_start cost. new_end This represents an unpayable cost. An ability can also have an unpayable cost if its cost is based on the mana cost of an object with no mana cost. Attempting to cast a spell or activate an ability that has an unpayable cost is a legal action. However, attempting to pay an unpayable cost is an illegal action."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.3.",
+            "ruleText": "If an effect instructs a player to choose a card name, the player must choose the name of a card old_start that is legal old_end in the old_start format of the game the player is playing. old_end (See rule old_start 100.6.) old_end A player may not choose the name of a token unless it\u2019s also the name of a card."
+        },
+        "new": {
+            "ruleNum": "201.3.",
+            "ruleText": "If an effect instructs a player to choose a card name, the player must choose the name of a card in the new_start Oracle card reference. new_end (See rule new_start 108.1.) new_end A player may not choose the name of a token unless it\u2019s also the name of a card."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.5.",
+            "ruleText": "If an ability of an object uses a phrase such as \u201cthis [something]\u201d to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn\u2019t the appropriate characteristic at the time."
+        },
+        "new": null
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "202.3d",
+            "ruleText": "The converted mana cost of a split card not on the stack or of a fused split spell on the stack is determined from the combined mana costs of its halves. Otherwise, while a split card is on the stack, the converted mana cost of the spell is determined by the mana cost of the half that was chosen to be cast. See rule 708, \u201cSplit Cards.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Xenagos, Yanggu, and Yanling."
+        },
+        "new": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, new_start Aminatou, new_end Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, new_start Estrid, new_end Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, new_start Windgrace, new_end Xenagos, Yanggu, and Yanling."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "206.3.",
+            "ruleText": "Previously, a spell or ability that affected cards from a particular set checked for that set\u2019s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards \u201cwith a name originally printed\u201d in a particular set. See rule old_start 700.7 old_end for details."
+        },
+        "new": {
+            "ruleNum": "206.3.",
+            "ruleText": "Previously, a spell or ability that affected cards from a particular set checked for that set\u2019s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards \u201cwith a name originally printed\u201d in a particular set. See rule new_start 700.8 new_end for details."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "206.4.",
+            "ruleText": "Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the old_start Magic old_end Tournament Rules). See the old_start Magic old_end Tournament Rules for the current definitions of the constructed formats (WPN.Wizards.com/en/resources/rules-documents)."
+        },
+        "new": {
+            "ruleNum": "206.4.",
+            "ruleText": "Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the new_start Magic: The Gathering new_end Tournament Rules). See the new_start Magic: The Gathering new_end Tournament Rules for the current definitions of the constructed formats (WPN.Wizards.com/en/resources/rules-documents)."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, and will of the council."
+        },
+        "new": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, new_start undergrowth, new_end and will of the council."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "207.3.",
+            "ruleText": "Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many old_start Ravnica: City old_end of old_start Guilds\u00ae and Return to Ravnica\u2122 block cards, old_end and a faction icon appears in the text box of most Scars of Mirrodin\u2122 block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play."
+        },
+        "new": {
+            "ruleNum": "207.3.",
+            "ruleText": "Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many new_start cards associated with the guilds new_end of new_start Ravnica, new_end and a faction icon appears in the text box of most Scars of Mirrodin\u2122 block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "303.4i",
+            "ruleText": "If an effect attempts to put an Aura onto the battlefield attached to an object or player it can\u2019t legally enchant, the Aura remains in its current zone, unless that zone is the stack. In that case, the Aura is put into its owner\u2019s graveyard instead of entering the battlefield. If the Aura is a token, it isn\u2019t created."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "303.4i",
+            "ruleText": "If an effect attempts to old_start put old_end an Aura old_start onto old_end the battlefield old_start enchanting old_end an object or player it can\u2019t legally enchant, the Aura old_start remains in its current zone. old_end"
+        },
+        "new": {
+            "ruleNum": "303.4j",
+            "ruleText": "If an effect attempts to new_start attach new_end an Aura new_start on new_end the battlefield new_start to new_end an object or player it can\u2019t legally enchant, the Aura new_start doesn\u2019t move. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "400.7c",
+            "ruleText": "old_start If an old_end ability of a permanent old_start requires information about choices made as that permanent was cast as a spell, including what mana was spent to cast that spell, it uses old_end information about the spell that became that old_start permanent as it resolved. old_end"
+        },
+        "new": {
+            "ruleNum": "400.7c",
+            "ruleText": "new_start An new_end ability of a permanent new_start can reference new_end information about the spell that became that new_start permanent, including what costs were paid to cast that spell or what mana was spent to pay those costs. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.2c",
+            "ruleText": "The player announces their choice of an appropriate old_start player, object, or zone old_end for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a kicker cost) or a particular mode was chosen for it; otherwise, the spell is cast as though it did not require those targets. Similarly, a spell may require alternative targets only if an alternative or additional cost was chosen for it. If the spell has a variable number of targets, the player announces how many targets they will choose before they announce those targets. In some cases, the number of targets will be defined by the spell\u2019s text. Once the number of targets the spell has is determined, that number doesn\u2019t change, even if the information used to determine the number of targets does. The same target can\u2019t be chosen multiple times for any one instance of the word \u201ctarget\u201d on the spell. However, if the spell uses the word \u201ctarget\u201d in multiple places, the same old_start object, player, or zone old_end can be chosen once for each instance of the word \u201ctarget\u201d (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that they obey the maximum possible number of such effects without violating any rules or effects that say that an object or player can\u2019t be chosen as a target. The chosen old_start players, objects, old_end and/or old_start zones old_end each become a target of that spell. (Any abilities that trigger when those old_start players, objects, old_end and/or old_start zones old_end become the target of a spell trigger at this point; they\u2019ll wait to be put on the stack until the spell has finished being cast.)"
+        },
+        "new": {
+            "ruleNum": "601.2c",
+            "ruleText": "The player announces their choice of an appropriate new_start object or player new_end for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a kicker cost) or a particular mode was chosen for it; otherwise, the spell is cast as though it did not require those targets. Similarly, a spell may require alternative targets only if an alternative or additional cost was chosen for it. If the spell has a variable number of targets, the player announces how many targets they will choose before they announce those targets. In some cases, the number of targets will be defined by the spell\u2019s text. Once the number of targets the spell has is determined, that number doesn\u2019t change, even if the information used to determine the number of targets does. The same target can\u2019t be chosen multiple times for any one instance of the word \u201ctarget\u201d on the spell. However, if the spell uses the word \u201ctarget\u201d in multiple places, the same new_start object or player new_end can be chosen once for each instance of the word \u201ctarget\u201d (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that they obey the maximum possible number of such effects without violating any rules or effects that say that an object or player can\u2019t be chosen as a target. The chosen new_start objects new_end and/or new_start players new_end each become a target of that spell. (Any abilities that trigger when those new_start objects new_end and/or new_start players new_end become the target of a spell trigger at this point; they\u2019ll wait to be put on the stack until the spell has finished being cast.)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.12.",
+            "ruleText": "A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them."
+        },
+        "new": {
+            "ruleNum": "603.12.",
+            "ruleText": "A resolving spell or ability may allow new_start or instruct new_end a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "612.6.",
+            "ruleText": "One card (Spy Kit) states that an object has \u201call names of nonlegendary creature cards.\u201d This changes the text that represents the object\u2019s name. That object has the name of each nonlegendary creature card in the Oracle card old_start reference that\u2019s legal in the format of the game it\u2019s in. old_end (See rule old_start 100.6.) old_end"
+        },
+        "new": {
+            "ruleNum": "612.6.",
+            "ruleText": "One card (Spy Kit) states that an object has \u201call names of nonlegendary creature cards.\u201d This changes the text that represents the object\u2019s name. That object has the name of each nonlegendary creature card in the Oracle card new_start reference. new_end (See rule new_start 108.1.) new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "700.7.",
+            "ruleText": "If an ability of an object uses a phrase such as \u201cthis [something]\u201d to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn\u2019t the appropriate characteristic at the time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.6b",
+            "ruleText": "If a replacement effect applies to a token being created, that effect applies before considering any continuous effects that will modify the characteristics of that token. If a replacement effect applies to a token entering the battlefield, that effect applies after considering any continuous effects that will modify the characteristics of that token."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.17a",
+            "ruleText": "To \u201cscry N\u201d means to look at the top N cards of your library, put any number of them on the bottom of your library in any order and the rest on top of your library in any order."
+        },
+        "new": {
+            "ruleNum": "701.17a",
+            "ruleText": "To \u201cscry N\u201d means to look at the top N cards of your library, new_start then new_end put any number of them on the bottom of your library in any order and the rest on top of your library in any order."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.21a",
+            "ruleText": "To \u201cfateseal N\u201d means to look at the top N cards of an opponent\u2019s library, put any number of them on the bottom of that library in any order and the rest on top of that library in any order."
+        },
+        "new": {
+            "ruleNum": "701.21a",
+            "ruleText": "To \u201cfateseal N\u201d means to look at the top N cards of an opponent\u2019s library, new_start then new_end put any number of them on the bottom of that library in any order and the rest on top of that library in any order."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.33e",
+            "ruleText": "If an effect instructs a player to manifest a card and a rule or effect prohibits the face-down object from entering the battlefield, that card isn\u2019t manifested. Its characteristics remain unmodified and it remains in its previous zone. If it was face up, it remains face up."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.41a",
+            "ruleText": "To \u201csurveil N\u201d means to look at the top N cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.41b",
+            "ruleText": "If an effect allows you to look at additional cards while you surveil, those cards are included among the cards you may put into your graveyard and on top of your library in any order."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.43a",
+            "ruleText": "Sunburst is a static ability that functions as an object is entering the old_start battlefield from the stack. old_end \u201cSunburst\u201d means \u201cIf this object is entering the battlefield old_start from the stack old_end as a creature, it enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. old_start If this object is entering the battlefield from the stack and isn\u2019t entering the battlefield as a creature, old_end it enters the battlefield with a charge counter on it for each color of mana spent to cast it.\u201d"
+        },
+        "new": {
+            "ruleNum": "702.43a",
+            "ruleText": "Sunburst is a static ability that functions as an object is entering the new_start battlefield. new_end \u201cSunburst\u201d means \u201cIf this object is entering the battlefield as a creature, new_start ignoring any type-changing effects that would affect it, new_end it enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it. new_start Otherwise, new_end it enters the battlefield with a charge counter on it for each color of mana spent to cast it.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.43b",
+            "ruleText": "Sunburst old_start applies old_end only as old_start the old_end spell old_start is resolving old_end and only if one or more colored mana was spent on its old_start costs. Mana paid for old_end additional or alternative old_start costs applies. old_end"
+        },
+        "new": {
+            "ruleNum": "702.43b",
+            "ruleText": "Sunburst new_start adds counters new_end only new_start if the object with sunburst is entering the battlefield from the stack new_end as new_start a resolving new_end spell and only if one or more colored mana was spent on its new_start costs, including new_end additional or alternative new_start costs. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.48d",
+            "ruleText": "Commander ninjutsu is a variant of the ninjutsu ability that also functions while the card with commander ninjutsu is in the command zone. \u201cCommander ninjutsu [cost]\u201d means \u201c[Cost], Reveal this card from your hand or from the command zone, Return an unblocked attacking creature you control to its owner\u2019s hand: Put this card onto the battlefield tapped and attacking.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.50c",
+            "ruleText": "A creature tapped to pay for mana in a spell\u2019s total cost this way is said to have \u201cconvoked\u201d that spell."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.132a",
+            "ruleText": "Jump-start appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player\u2019s graveyard and another that functions while the card is on the stack. \u201cJump-start\u201d means \u201cYou may cast this card from your graveyard by discarding a card as an additional cost to cast it\u201d and \u201cIf this spell was cast using its jump-start ability, exile this card instead of putting it anywhere else any time it would leave the stack.\u201d Casting a spell using its jump-start ability follows the rules for paying additional costs in rules 601.2b and 601.2f\u2013h."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.133a",
+            "ruleText": "Mentor is a triggered ability. \u201cMentor\u201d means \u201cWhenever this creature attacks, put a +1/+1 counter on target attacking creature with power less than this creature\u2019s power.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.133b",
+            "ruleText": "If a creature has multiple instances of mentor, each triggers separately."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "706.10e",
+            "ruleText": "Some effects copy a spell or ability and specify a new target for the copy. If the spell or ability has more than one target, each of the copy\u2019s targets must be that player or object. If that player or object isn\u2019t a legal target for each instance of the word \u201ctarget,\u201d the copy isn\u2019t created."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "711.1a",
+            "ruleText": "A double-faced card\u2019s front face is marked by a front-face symbol in its upper left corner. On Magic Origins double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On Ixalan cards, the front-face symbol is a compass rose."
+        },
+        "new": {
+            "ruleNum": "711.1a",
+            "ruleText": "A double-faced card\u2019s front face is marked by a front-face symbol in its upper left corner. On Magic Origins new_start and Core Set 2019 new_end double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On Ixalan cards, the front-face symbol is a compass rose."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "711.1b",
+            "ruleText": "A double-faced card\u2019s back face is marked by a back-face symbol in its upper left corner. On Magic Origins double-faced cards, the back-face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back-face symbol is a crescent moon. On other Eldritch Moon double-faced cards, the back-face symbol is a stylized image of Emrakul. On Ixalan cards, the back-face symbol is a land icon."
+        },
+        "new": {
+            "ruleNum": "711.1b",
+            "ruleText": "A double-faced card\u2019s back face is marked by a back-face symbol in its upper left corner. On Magic Origins new_start and Core Set 2019 new_end double-faced cards, the back-face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back-face symbol is a crescent moon. On other Eldritch Moon double-faced cards, the back-face symbol is a stylized image of Emrakul. On Ixalan cards, the back-face symbol is a land icon."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "719.5.",
+            "ruleText": "At the end of a subgame, each player takes all cards they own that are in the subgame other than those in the subgame command zone, puts them into their main-game library, then shuffles them. This includes cards in the subgame\u2019s exile zone. Except as specified in rules old_start 719.5a\u2013c, old_end all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that\u2019s no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack."
+        },
+        "new": {
+            "ruleNum": "719.5.",
+            "ruleText": "At the end of a subgame, each player takes all cards they own that are in the subgame other than those in the subgame command zone, puts them into their main-game library, then shuffles them. This includes cards in the subgame\u2019s exile zone. Except as specified in rules new_start 719.5a\u2013d, new_end all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that\u2019s no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "903.8.",
+            "ruleText": "A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game."
+        },
+        "new": {
+            "ruleNum": "903.8.",
+            "ruleText": "A player may cast a commander they own from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game. new_start This additional cost is informally known as the \u201ccommander tax.\u201d new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "905.1.",
+            "ruleText": "The Conspiracy Draft variant consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Conspiracy Draft variant uses Magic: The Gathering\u2014Conspiracy\u2122 booster packs by default."
+        },
+        "new": {
+            "ruleNum": "905.1.",
+            "ruleText": "The Conspiracy Draft variant consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Conspiracy Draft variant uses Magic: The Gathering\u2014Conspiracy\u2122 new_start and/or Conspiracy: Take the Crown\u2122 new_end booster packs by default."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "905.2.",
+            "ruleText": "old_start Several old_end cards old_start in the Magic: The Gathering\u2014Conspiracy set old_end have abilities that function during the draft."
+        },
+        "new": {
+            "ruleNum": "905.2.",
+            "ruleText": "new_start Some new_end cards have abilities that function during the draft."
+        }
+    }
+]

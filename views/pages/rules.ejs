@@ -2,22 +2,31 @@
   <head>
     <% include ../partials/head %>
   </head>
-
   <header>
     <% include ../partials/header %>
     <link href="/public/assets/stylesheets/rules.css" rel="stylesheet"/>
-    <script type="text/javascript" src="/public/assets/scripts/rules.js" charset="utf-8"></script>
   </header>
-
-  <body onload="getDiffedRules()">
+  <body>
     <div class='container-fluid'>
       <table>
         <tr>
-          <th id="oldHeader">
-          </th>
-          <th id="newHeader">
-          </th>
+          <th id='oldHeader'><%- rules[0].names.old_full %></th>
+          <th id='newHeader'><%- rules[0].names.new_full %></th>
         </tr>
+        <% for(var i=1; i < rules.length; i++) { %>
+          <tr>
+          <% if(!rules[i].new) { %>
+            <td class='remove'><b><%= rules[i].old.ruleNum %></b><br><%= rules[i].old.ruleText %></td>
+            <td></td>
+          <% } else if(!rules[i].old) { %>
+            <td></td>
+            <td class='add'><b><%= rules[i].new.ruleNum %></b><br><%= rules[i].new.ruleText %></td>
+          <% } else { %>
+            <td><b><%- rules[i].old.ruleNum %></b><br><%- rules[i].old.ruleText %></td>
+            <td><b><%- rules[i].new.ruleNum %></b><br><%- rules[i].new.ruleText %></td>
+          <% } %>
+          </tr>
+        <% } %>
       </table>
     </div>
   </body>

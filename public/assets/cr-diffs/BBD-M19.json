@@ -1,0 +1,302 @@
+[
+    {
+        "names": {
+            "old_full": "Battlebond",
+            "old_setcode": "BBD",
+            "new_full": "Magic Core 2019",
+            "new_setcode": "M19"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "103.3d",
+            "ruleText": "In a two-player Brawl game, each player\u2019s starting life total is 25. In a multiplayer Brawl game, each player\u2019s starting life total is 30."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "103.4c",
+            "ruleText": "In a multiplayer game, the first time a player takes a mulligan, they draw a new hand of as many cards as had before. Subsequent hands decrease by one card as normal."
+        },
+        "new": {
+            "ruleNum": "103.4c",
+            "ruleText": "In a multiplayer new_start game and in any Brawl new_end game, the first time a player takes a mulligan, they draw a new hand of as many cards new_start they new_end as had before. Subsequent hands decrease by one card as normal."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "110.5a",
+            "ruleText": "old_start A old_end token is old_start both owned and controlled by old_end the old_start player old_end under old_start whose control it entered the battlefield. old_end"
+        },
+        "new": {
+            "ruleNum": "110.5a",
+            "ruleText": "new_start The player who creates a new_end token is new_start its owner. The token enters new_end the new_start battlefield new_end under new_start that player\u2019s control. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "112.1a",
+            "ruleText": "An ability is a characteristic an object has that lets it affect the game. An object\u2019s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that old_start do so old_end use the words \u201chas,\u201d \u201chave,\u201d \u201cgains,\u201d or \u201cgain.\u201d) Abilities generate effects. (See rule 609, \u201cEffects.\u201d)"
+        },
+        "new": {
+            "ruleNum": "112.1a",
+            "ruleText": "An ability is a characteristic an object has that lets it affect the game. An object\u2019s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that new_start grant abilities usually new_end use the words \u201chas,\u201d \u201chave,\u201d \u201cgains,\u201d or \u201cgain.\u201d) Abilities generate effects. (See rule 609, \u201cEffects.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "112.6k",
+            "ruleText": "An ability whose cost or effect specifies that it moves the object it\u2019s on out of a particular zone functions only in that zone, unless old_start that ability\u2019s old_end trigger old_start condition, old_end or a previous part of old_start that ability\u2019s old_end cost or old_start effect, old_end specifies that the object is put into that old_start zone. old_end The same is true if the effect of that ability creates a delayed triggered ability whose effect moves the object out of a particular zone."
+        },
+        "new": {
+            "ruleNum": "112.6k",
+            "ruleText": "An ability whose cost or effect specifies that it moves the object it\u2019s on out of a particular zone functions only in that zone, unless new_start its new_end trigger new_start condition new_end or a previous part of new_start its new_end cost or new_start effect new_end specifies that the object is put into that new_start zone or, if the object is an Aura, that the object it enchants leaves the battlefield. new_end The same is true if the effect of that ability creates a delayed triggered ability whose effect moves the object out of a particular zone."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "112.10.",
+            "ruleText": "Effects can add or remove abilities of objects. An effect that adds an ability will state that the object \u201cgains\u201d or \u201chas\u201d that old_start ability. old_end An effect that removes an ability will state that the object \u201closes\u201d that ability."
+        },
+        "new": {
+            "ruleNum": "112.10.",
+            "ruleText": "Effects can add or remove abilities of objects. An effect that adds an ability will state that the object \u201cgains\u201d or \u201chas\u201d that new_start ability, or similar. new_end An effect that removes an ability will state that the object \u201closes\u201d that ability."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "117.8.",
+            "ruleText": "Some spells and abilities have additional costs. An additional cost is a cost listed in a spell\u2019s rules text, or applied to a spell or ability from another effect, that its controller must pay at the same time old_start that player pays old_end the spell\u2019s mana cost or the ability\u2019s activation cost. old_start A cost is an additional cost only if it\u2019s phrased using the word \u201cadditional.\u201d old_end Note that some additional costs are listed in keywords; see rule 702."
+        },
+        "new": {
+            "ruleNum": "117.8.",
+            "ruleText": "Some spells and abilities have additional costs. An additional cost is a cost listed in a spell\u2019s rules text, or applied to a spell or ability from another effect, that its controller must pay at the same time new_start they pay new_end the spell\u2019s mana cost or the ability\u2019s activation cost. Note that some additional costs are listed in keywords; see rule 702."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "117.8e",
+            "ruleText": "Some effects increase the cost to cast a spell or activate an ability without using the word \u201cadditional.\u201d Those are not additional costs, and are not considered until determining the total cost of a spell or ability as described in rule 601.2f."
+        },
+        "new": null
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "118.1d.",
+            "ruleText": "In a two-player Brawl game, each player\u2019s starting life total is 25. In a multiplayer Brawl game, each player\u2019s starting life total is 30. See rule 903.11, \u201cBrawl Option.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, Will, Xenagos, Yanggu, and Yanling."
+        },
+        "new": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, new_start Vivien, new_end Vraska, Will, Xenagos, Yanggu, and Yanling."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        },
+        "new": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, new_start Egg, new_end Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "212.1.",
+            "ruleText": "Each card features text printed below the text box that has no effect on game play."
+        },
+        "new": {
+            "ruleNum": "212.1.",
+            "ruleText": "Each card features text printed below the text box that has no effect on game play. new_start Not all card sets were printed with all of the information listed below on each card. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "212.1a",
+            "ruleText": "Most card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the set]. Some cards, such as unique cards in Planeswalker Decks, have card numbers that exceed the listed total number of cards."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "212.1b",
+            "ruleText": "A card\u2019s rarity is indicated with a single letter following the collector number."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "212.1c",
+            "ruleText": "Some card old_start sets feature collector numbers. This information old_end is old_start printed in the form [card number]/[total cards in the set], immediately following the legal text. old_end"
+        },
+        "new": {
+            "ruleNum": "212.1c",
+            "ruleText": "Some new_start promotional cards include information to indicate the specific promotion the new_end card is new_start associated with. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "212.1d",
+            "ruleText": "The three-character code representing the set in which a card is printed and the two-character code representing the language in which a card is printed are separated by a bullet point. If a card is premium, these codes are instead separated by a star."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "212.1a",
+            "ruleText": "The illustration credit for a card old_start is printed on the first line below the text box. It old_end follows the paintbrush icon or, on older cards, the abbreviation \u201cIllus.\u201d"
+        },
+        "new": {
+            "ruleNum": "212.1e",
+            "ruleText": "The illustration credit for a card follows the paintbrush icon or, on older cards, the abbreviation \u201cIllus.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "212.1b",
+            "ruleText": "Legal text (the fine print at the bottom of the card) lists the trademark and copyright information."
+        },
+        "new": {
+            "ruleNum": "212.1f",
+            "ruleText": "Legal text (the fine print at the bottom new_start or bottom-right new_end of the card) lists the trademark and copyright information."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.12.",
+            "ruleText": "A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that old_start action. old_end These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them."
+        },
+        "new": {
+            "ruleNum": "603.12.",
+            "ruleText": "A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that new_start action or \u201cwhen [something happens] this way.\u201d new_end These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.18h",
+            "ruleText": "If multiple players search at once, each of those players looks at the appropriate cards at the same time, then those players decide in APNAP order (see rule 101.4) which card to find."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.16a",
+            "ruleText": "Protection is a static ability, written \u201cProtection from [quality].\u201d This quality is usually a color (as in \u201cprotection from black\u201d) but can be any characteristic old_start value. old_end If the quality happens to be a card name, it is treated as such only if the protection ability specifies that the quality is a name. If the quality is a card type, subtype, or supertype, the ability applies to sources that are permanents with that card type, subtype, or supertype and to any sources not on the battlefield that are of that card type, subtype, or supertype. This is an exception to rule 109.2."
+        },
+        "new": {
+            "ruleNum": "702.16a",
+            "ruleText": "Protection is a static ability, written \u201cProtection from [quality].\u201d This quality is usually a color (as in \u201cprotection from black\u201d) but can be any characteristic new_start value or information. new_end If the quality happens to be a card name, it is treated as such only if the protection ability specifies that the quality is a name. If the quality is a card type, subtype, or supertype, the ability applies to sources that are permanents with that card type, subtype, or supertype and to any sources not on the battlefield that are of that card type, subtype, or supertype. This is an exception to rule 109.2."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "706.2c",
+            "ruleText": "If a static ability generates a continuous effect that\u2019s a copy effect, the copiable values that effect grants are determined only at the time that effect first starts to apply."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "706.9b",
+            "ruleText": "Some copy effects specifically state that they don\u2019t copy certain characteristics and instead retain their original values. old_start These effects use the phrase \u201cexcept its [characteristic] is still [value]\u201d or \u201cexcept it\u2019s still [value(s)].\u201d old_end They may also simply state that certain characteristics are not copied."
+        },
+        "new": {
+            "ruleNum": "706.9b",
+            "ruleText": "Some copy effects specifically state that they don\u2019t copy certain characteristics and instead retain their original values. They may also simply state that certain characteristics are not copied."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "707.2a",
+            "ruleText": "If a face-up permanent is turned face down by a spell or old_start ability, old_end it becomes a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost. A permanent that enters the battlefield face down old_start that wasn\u2019t cast as a face-down spell old_end also has these old_start characteristics. old_end These values are the copiable values of that object\u2019s characteristics."
+        },
+        "new": {
+            "ruleNum": "707.2a",
+            "ruleText": "If a face-up permanent is turned face down by a spell or new_start ability that doesn\u2019t list any characteristics for that object, new_end it becomes a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost. A permanent that enters the battlefield face down also has these new_start characteristics unless otherwise specified by the effect that put it onto the battlefield face down or allowed it to be cast face down. new_end These values are the copiable values of that object\u2019s characteristics."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "720.1c",
+            "ruleText": "Tournaments use a modified version of the rules governing shortcuts and loops. These rules are covered in the Magic: The Gathering Tournament Rules (found at WPN.Wizards.com/en/resources/rules-documents). Whenever the Tournament Rules contradict these rules during a tournament, the Tournament Rules take precedence."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "721.1.",
+            "ruleText": "If a player takes an illegal action or starts to take an action but can\u2019t legally complete it, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. old_start The old_end player may also reverse any legal mana abilities activated while making the illegal play, unless mana from old_start them old_end or from any triggered mana abilities they old_start triggered old_end was spent on another mana ability that wasn\u2019t reversed. Players may not reverse actions that moved cards to a library, moved cards from a library to any zone other than the stack, caused a library to be shuffled, or caused cards from a library to be revealed."
+        },
+        "new": {
+            "ruleNum": "721.1.",
+            "ruleText": "If a player takes an illegal action or starts to take an action but can\u2019t legally complete it, the entire action is reversed and any payments already made are canceled. No abilities trigger and no effects apply as a result of an undone action. If the action was casting a spell, the spell returns to the zone it came from. new_start Each new_end player may also reverse any legal mana abilities new_start that player new_end activated while making the illegal play, unless mana from new_start those abilities new_end or from any triggered mana abilities they new_start caused to trigger new_end was spent on another mana ability that wasn\u2019t reversed. Players may not reverse actions that moved cards to a library, moved cards from a library to any zone other than the stack, caused a library to be shuffled, or caused cards from a library to be revealed."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "805.10c",
+            "ruleText": "Any rule, object, or effect that refers to an \u201cattacking player\u201d refers to one specific attacking player, not to all old_start of the old_end attacking players. If an ability of a blocking creature refers to an attacking player, or a spell or ability refers to both a blocking creature and an attacking player, then unless otherwise specified, the attacking player it\u2019s referring to is the player who controls that old_start attacking creature. old_end If a spell or ability could apply to multiple blocking creatures, the appropriate attacking player is individually determined for each of those blocking creatures. If there are multiple attacking players that could be chosen, the controller of the spell or ability chooses one."
+        },
+        "new": {
+            "ruleNum": "805.10c",
+            "ruleText": "Any rule, object, or effect that refers to an \u201cattacking player\u201d refers to one specific attacking player, not to all attacking players. If an ability of a blocking creature refers to an attacking player, or a spell or ability refers to both a blocking creature and an attacking player, then unless otherwise specified, the attacking player it\u2019s referring to is the player who controls new_start the attacking creature new_end that new_start blocking creature is blocking. new_end If a spell or ability could apply to multiple blocking creatures, the appropriate attacking player is individually determined for each of those blocking creatures. If there are multiple attacking players that could be chosen, the controller of the spell or ability chooses one."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11a",
+            "ruleText": "Brawl is an option for a different style of Commander game. Brawl games use the normal rules for the Commander variant with the following modifications."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11b",
+            "ruleText": "Brawl decks are usually constructed using cards from the Standard format."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11c",
+            "ruleText": "A player designates either a legendary planeswalker or a legendary creature as their commander."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11d",
+            "ruleText": "A player\u2019s deck must contain exactly 60 cards, including its commander."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11e",
+            "ruleText": "In a two-player Brawl game, each player\u2019s starting life total is 25. In a multiplayer Brawl game, each player\u2019s starting life total is 30."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11f",
+            "ruleText": "In any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards they as had before. Subsequent hands decrease by one card as normal."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.11g",
+            "ruleText": "Brawl games do not use the state-based action described in rule 704.5v, which causes a player to lose the game if they\u2019ve been dealt 21 or more combat damage by a commander."
+        }
+    }
+]

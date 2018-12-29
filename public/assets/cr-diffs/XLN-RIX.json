@@ -1,0 +1,126 @@
+[
+    {
+        "names": {
+            "old_full": "Ixalan",
+            "old_setcode": "XLN",
+            "new_full": "Rivals of Ixalan",
+            "new_setcode": "RIX"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "100.7.",
+            "ruleText": "Certain promotional cards and cards in the Unglued, Unhinged, and Unstable sets are printed with a silver border. These cards are intended for casual play and may have features and text that aren\u2019t covered by these rules."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "112.6d",
+            "ruleText": "An object\u2019s ability that restricts or modifies how that particular object can be played or cast functions in any zone from which it could be played or old_start cast. old_end"
+        },
+        "new": {
+            "ruleNum": "112.6d",
+            "ruleText": "An object\u2019s ability that restricts or modifies how that particular object can be played or cast functions in any zone from which it could be played or new_start cast and also on the stack. An object\u2019s ability that grants it another ability that restricts or modifies how that particular object can be played or cast functions only on the stack. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.3b",
+            "ruleText": "If a player wants to choose the name of a split card, the player must choose the name of one of its halves, but not both. (See rule 708.) If a player is instructed to choose a card name with certain characteristics, use old_start the old_end only that half\u2019s characteristics to determine if this name can be chosen."
+        },
+        "new": {
+            "ruleNum": "201.3b",
+            "ruleText": "If a player wants to choose the name of a split card, the player must choose the name of one of its halves, but not both. (See rule 708.) If a player is instructed to choose a card name with certain characteristics, use only that half\u2019s characteristics to determine if this name can be chosen."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos."
+        },
+        "new": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, new_start Angrath, new_end Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "208.3.",
+            "ruleText": "A noncreature permanent has no power or toughness, even if it\u2019s a card with a power and toughness printed on it (such as a Vehicle)."
+        },
+        "new": {
+            "ruleNum": "208.3.",
+            "ruleText": "A noncreature permanent has no power or toughness, even if it\u2019s a card with a power and toughness printed on it (such as a Vehicle). new_start A noncreature object not on the battlefield has power or toughness only if it has a power and toughness printed on it. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "407.3.",
+            "ruleText": "A few cards have the text \u201cRemove [this card] from your deck before playing if you\u2019re not playing for ante.\u201d These are the only cards that can add or remove cards from the ante zone or change a card\u2019s owner."
+        },
+        "new": {
+            "ruleNum": "407.3.",
+            "ruleText": "A few cards have the text \u201cRemove [this card] from your deck before playing if you\u2019re not playing for ante.\u201d These are the only cards that can add or remove cards from the ante zone or change a card\u2019s owner. new_start When not playing for ante, players can\u2019t include these cards in their decks or sideboards, and these cards can\u2019t be brought into the game from outside the game. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "601.3c",
+            "ruleText": "If a spell would have flash only if certain conditions are met, its controller may begin to cast that spell if those conditions are met."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "607.1a",
+            "ruleText": "An ability printed on an object within another ability that grants that ability to that object is old_start still old_end considered to be \u201cprinted on\u201d that object for these purposes."
+        },
+        "new": {
+            "ruleNum": "607.1a",
+            "ruleText": "An ability printed on an object within another ability that grants that ability to that object is considered to be \u201cprinted on\u201d that object for these purposes."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "607.1b",
+            "ruleText": "An ability printed on either face of a double-faced card (see rule 711) is considered to be \u201cprinted on\u201d that object for these purposes, regardless of which face is up."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.39a",
+            "ruleText": "Assemble is a keyword action in the Unstable set that puts Contraptions onto the battlefield. Outside of silver-bordered cards, only one card (Steamflogger Boss) refers to assembling a Contraption. Cards and mechanics from the Unstable set aren\u2019t included in these rules. See the Unstable FAQ for more information."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.130a",
+            "ruleText": "Ascend on an instant or sorcery spell represents a spell ability. It means \u201cIf you control ten or more permanents and you don\u2019t have the city\u2019s blessing, you get the city\u2019s blessing for the rest of the game.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.130b",
+            "ruleText": "Ascend on a permanent represents a static ability. It means \u201cAny time you control ten or more permanents and you don\u2019t have the city\u2019s blessing, you get the city\u2019s blessing for the rest of the game.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.130c",
+            "ruleText": "The city\u2019s blessing is a designation that has no rules meaning other than to act as a marker that other rules and effects can identify. Any number of players may have the city\u2019s blessing at the same time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.130d",
+            "ruleText": "After a player gets the city\u2019s blessing, continuous effects are reapplied before the game checks to see if the game state or preceding events have matched any trigger conditions."
+        }
+    }
+]

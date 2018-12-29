@@ -1,0 +1,119 @@
+[
+    {
+        "names": {
+            "old_full": "Dominaria",
+            "old_setcode": "DOM",
+            "new_full": "Battlebond",
+            "new_setcode": "BBD"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "102.4.",
+            "ruleText": "A spell or ability may use the term \u201cyour team\u201d as shorthand for \u201cyou and/or your teammates.\u201d In a game that isn\u2019t a multiplayer game between teams, \u201cyour team\u201d means the same thing as \u201cyou.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and old_start Xenagos. old_end"
+        },
+        "new": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, new_start Rowan, new_end Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, new_start Will, Xenagos, Yanggu, new_end and new_start Yanling. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        },
+        "new": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, new_start Azra, new_end Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, new_start Pangolin, new_end Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.2.",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a\u2013d) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule old_start 601.3), ignoring any effect that would prohibit that spell from being cast based on information determined during that spell\u2019s proposal. (Such effects are considered during the check detailed in rule 601.2e.) old_end If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 721, \u201cHandling Illegal Actions\u201d)."
+        },
+        "new": {
+            "ruleNum": "601.2.",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a\u2013d) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule new_start 601.3). new_end If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 721, \u201cHandling Illegal Actions\u201d)."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "601.3a",
+            "ruleText": "If an effect prohibits a player from casting a spell with certain qualities, that player may consider any choices to be made during that spell\u2019s proposal that may cause those qualities to change. If any such choices could cause that effect to no longer prohibit that player from casting that spell, the player may begin to cast the spell, ignoring the effect."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.3b",
+            "ruleText": "If an effect allows a player to cast a spell with certain old_start characteristics old_end as though it had flash, that player may consider any choices to be made during that spell\u2019s proposal that may cause old_start it old_end to old_start have those characteristics. old_end If any such choices could cause old_start it old_end to old_start match these characteristics, old_end that player may begin to cast that spell as though it had flash."
+        },
+        "new": {
+            "ruleNum": "601.3b",
+            "ruleText": "If an effect allows a player to cast a spell with certain new_start qualities new_end as though it had flash, that player may consider any choices to be made during that spell\u2019s proposal that may cause new_start that spell\u2019s qualities new_end to new_start change. new_end If any such choices could cause new_start that effect new_end to new_start apply, new_end that player may begin to cast that spell as though it had flash."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.17c",
+            "ruleText": "If multiple players scry at once, each of those players looks at the top cards of their library at the same time. Those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.22c",
+            "ruleText": "Each clashing player reveals the top card of their library at the same time. Then those players decide in APNAP order (see rule 101.4) where to put those cards, then those cards move at the same time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.25m",
+            "ruleText": "In a multiplayer game, game rules may cause a phased-out permanent to leave the game or to be exiled once a player leaves the game. (See rules 800.4a and 800.4c.) If a phased-out permanent phased out under the control of a player who has left the game, that permanent phases in during the next untap step after that player\u2019s next turn would have begun."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.123f",
+            "ruleText": "\u201cPartner with [name]\u201d is a variant of the partner ability. \u201cPartner with [name]\u201d represents two abilities. One is a static ability that modifies the rules for deck construction. Rather than a single legendary creature card, you may designate two legendary creature cards as your commander if each has a \u201cpartner with [name]\u201d ability with the other\u2019s name. You can\u2019t designate two legendary cards as your commander if one has a \u201cpartner with [name]\u201d ability and the other isn\u2019t the named card. The other ability represented by \u201cpartner with [name]\u201d is a triggered ability that means \u201cWhen this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.131a",
+            "ruleText": "Assist is a static ability that modifies the rules of paying for the spell with assist (see rules 601.2g-h). If the total cost to cast a spell with assist includes a generic mana component, before you activate mana abilities while casting it, you may choose another player. That player has a chance to activate mana abilities. Once that player chooses not to activate any more mana abilities, you have a chance to activate mana abilities. Before you begin to pay the total cost of the spell, the player you chose may pay for any amount of the generic mana in the spell\u2019s total cost."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "705.1.",
+            "ruleText": "To flip a coin for an old_start object that cares whether a player wins or loses old_end the old_start flip, the affected old_end player flips the coin and calls \u201cheads\u201d or \u201ctails.\u201d If the call matches the result, old_start that old_end player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved."
+        },
+        "new": {
+            "ruleNum": "705.1.",
+            "ruleText": "new_start An effect that instructs a player to flip a coin may care whether that player wins or loses the flip. new_end To flip a coin for new_start such new_end an new_start effect, new_end the player flips the coin and calls \u201cheads\u201d or \u201ctails.\u201d If the call matches the result, new_start the new_end player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "705.2.",
+            "ruleText": "old_start To old_end flip a coin old_start for an object old_end that cares whether the coin comes up heads or old_start tails, each affected old_end player flips a coin without making a call. No player wins or loses this kind of flip."
+        },
+        "new": {
+            "ruleNum": "705.2.",
+            "ruleText": "new_start If an effect instructs a player to new_end flip a coin new_start and new_end that new_start effect new_end cares new_start only new_end whether the coin comes up heads or new_start tails without specifying a winner or loser of the flip, that new_end player flips a coin without making a call. No player wins or loses this kind of flip."
+        }
+    }
+]

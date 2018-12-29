@@ -1,5 +1,6 @@
 'use strict';
 
+var assist = require('./static/res/assist')
 var express = require('express');
 var helpers = require('./static/res/helpers')
 var fs = require('fs');
@@ -23,12 +24,19 @@ app.get('/', function(req, res) {
   res.render('pages/landing');
 })
 
-app.get(['/rules', '/cr'], function(req, res) {
-  res.render('pages/rules');
-})
-
-app.get(/^\/[\w]{3}-[\w]{3}$/, function(req, res) {
-  res.render('pages/rules')
+app.get('/:diff([\\w]{3}\\-[\\w]{3})', function(req, res) {
+  var rules;
+  fs.readFile('public/assets/cr-diffs/'
+              + req.params.diff
+              + '.json', 'utf8',
+              (err, data) => {
+                if (err) {
+                  throw err
+                } else {
+                  rules = assist.getRules(data);
+                  res.render('pages/rules', {rules: rules})
+                }
+              });
 })
 
 app.get('/mtr', function(req, res) {
@@ -57,6 +65,7 @@ app.use(function(req, res, next){
 });
 
 app.use(function(err, req, res, next) {
+  console.log(err);
   res.status(500).render('pages/error_template', {status: res.statusCode + ': unknown file'})
 });
 
