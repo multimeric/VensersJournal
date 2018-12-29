@@ -1,6 +1,6 @@
 <div class='col-md-4'>
   <h3>MTR</h3>
   <% mtr.forEach(function(each) { %>
-    <p><a href='/static/mtr/<%= each.filepath %>'><%- each.date %></a></p>
+    <p><a href='/static/mtr/<%= each.filepath %>' target='_blank'><%- each.date %></a></p>
   <% }); %>
 </div>

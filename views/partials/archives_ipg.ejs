@@ -1,6 +1,6 @@
 <div class='col-md-4'>
   <h3>IPG</h3>
   <% ipg.forEach(function(each) { %>
-    <p><a href='/static/ipg/<%= each.filepath %>'><%- each.date %></a></p>
+    <p><a href='/static/ipg/<%= each.filepath %>' target='_blank'><%- each.date %></a></p>
   <% }); %>
 </div>
