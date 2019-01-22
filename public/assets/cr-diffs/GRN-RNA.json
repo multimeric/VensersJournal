@@ -1,0 +1,156 @@
+[
+    {
+        "names": {
+            "old_full": "Guilds of Ravnica",
+            "new_full": "Ravnica Allegiance",
+            "old_setcode": "GRN",
+            "new_setcode": "RNA"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start Spells and abilities old_end that old_start can have old_end zero or old_start more targets are old_end targeted only if one or more targets have been chosen for old_start them. old_end",
+            "ruleNum": "114.6."
+        },
+        "new": {
+            "ruleText": "new_start A spell or ability new_end that new_start requires targets may allow new_end zero new_start targets to be chosen. Such a spell new_end or new_start ability is still said to require targets, but that spell or ability is new_end targeted only if one or more targets have been chosen for new_start it. new_end",
+            "ruleNum": "114.6."
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council's dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.",
+            "ruleNum": "207.2c"
+        },
+        "new": {
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are new_start addendum, new_end battalion, bloodrush, channel, chroma, cohort, constellation, converge, council's dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.",
+            "ruleNum": "207.2c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode old_start can be old_end chosen, the ability is removed from the stack. (See rule 700.2.)",
+            "ruleNum": "603.3c"
+        },
+        "new": {
+            "ruleText": "If a triggered ability is modal, its controller announces the mode choice when putting the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode new_start is new_end chosen, the ability is removed from the stack. (See rule 700.2.)",
+            "ruleNum": "603.3c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An activated ability is a mana ability if it meets all of the following criteria: it doesn't old_start have old_end a old_start target, old_end it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, \"Loyalty Abilities.\")",
+            "ruleNum": "605.1a"
+        },
+        "new": {
+            "ruleText": "An activated ability is a mana ability if it meets all of the following criteria: it doesn't new_start require new_end a new_start target (see rule 114.6), new_end it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, \"Loyalty Abilities.\")",
+            "ruleNum": "605.1a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A triggered ability is a mana ability if it meets all of the following criteria: it doesn't old_start have old_end a old_start target, old_end it triggers from the resolution of an activated mana ability (see rule 106.11a) or from mana being added to a player's mana pool, and it could add mana to a player's mana pool when it resolves.",
+            "ruleNum": "605.1b"
+        },
+        "new": {
+            "ruleText": "A triggered ability is a mana ability if it meets all of the following criteria: it doesn't new_start require new_end a new_start target (see rule 114.6), new_end it triggers from the resolution of an activated mana ability (see rule 106.11a) or from mana being added to a player's mana pool, and it could add mana to a player's mana pool when it resolves.",
+            "ruleNum": "605.1b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as \"Choose one -.\" Each of those options is a mode. Modal cards printed prior to the Khans of old_start Tarkir old_end set didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.",
+            "ruleNum": "700.2."
+        },
+        "new": {
+            "ruleText": "A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as \"Choose one -.\" Each of those options is a mode. Modal cards printed prior to the Khans of new_start Tarkir(r) new_end set didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.",
+            "ruleNum": "700.2."
+        }
+    },
+    {
+        "old": {
+            "ruleText": "The controller of a modal triggered ability chooses the mode(s) as part of putting that ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode old_start can be old_end chosen, the ability is removed from the stack. (See rule 603.3c.)",
+            "ruleNum": "700.2b"
+        },
+        "new": {
+            "ruleText": "The controller of a modal triggered ability chooses the mode(s) as part of putting that ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode new_start is new_end chosen, the ability is removed from the stack. (See rule 603.3c.)",
+            "ruleNum": "700.2b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "\"Adapt N\" means \"If this permanent has no +1/+1 counters on it, put N +1/+1 counters on it.\"",
+            "ruleNum": "701.42a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Afterlife is a triggered ability. \"Afterlife N\" means \"When this permanent is put into a graveyard from the battlefield, create N 1/1 white and black Spirit creature tokens with flying.\"",
+            "ruleNum": "702.134a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a permanent has multiple instances of afterlife, each triggers separately.",
+            "ruleNum": "702.134b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Riot is a static ability. \"Riot\" means \"You may have this permanent enter the battlefield with an additional +1/+1 counter on it. If you don't, it gains haste.\"",
+            "ruleNum": "702.135a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a permanent has multiple instances of riot, each works separately.",
+            "ruleNum": "702.135b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Spectacle is a static ability that functions on the stack. \"Spectacle [cost]\" means \"You may pay [cost] rather than pay this spell's mana cost if an opponent lost life this turn.\" Paying a spell's spectacle cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.",
+            "ruleNum": "702.136a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Once an object has been copied, changing the copiable values of the original object won't cause the copy to change.",
+            "ruleNum": "706.2b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A double-faced card's front face is marked by a front-face symbol in its upper left corner. On Magic old_start Origins old_end and Core Set 2019 double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the old_start Innistrad old_end block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch old_start Moon old_end set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On old_start Ixalan old_end cards, the front-face symbol is a compass rose.",
+            "ruleNum": "711.1a"
+        },
+        "new": {
+            "ruleText": "A double-faced card's front face is marked by a front-face symbol in its upper left corner. On Magic new_start Origins(r) new_end and Core Set 2019 double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the new_start Innistrad(tm) new_end block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch new_start Moon(tm) new_end set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon. On new_start Ixalan(tm) new_end cards, the front-face symbol is a compass rose.",
+            "ruleNum": "711.1a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player's commander has no colors in its color identity, that player's deck may contain any number of basic lands of one basic land type of their choice. This is an exception to rule 903.5d.",
+            "ruleNum": "903.11e"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "In any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards they old_start as old_end had before. Subsequent hands decrease by one card as normal.",
+            "ruleNum": "903.11f"
+        },
+        "new": {
+            "ruleText": "In any Brawl game, the first time a player takes a mulligan, they draw a new hand of as many cards new_start as new_end they had before. Subsequent hands decrease by one card as normal.",
+            "ruleNum": "903.11g"
+        }
+    }
+]
