@@ -21,6 +21,7 @@ module.exports = {
 
     for (var each of fileList.reverse()) {
       var date = dateFormat(each.slice(3,-8), 'dd mmm, yyyy');
+      console.log(fileList, date);
       crArr.push({filepath: each, setName: setDict[each.slice(-7,-4)]});
     }
 
