@@ -15,7 +15,7 @@ def extract_rules(input_file):
     """
     with open(input_file, 'r') as rules_doc:
         entire_doc = rules_doc.read()
-        extracted_rules = re.findall('^\d{3}[^a-zA-Z]{2,}.*[\”|\.|\)|\:]$',
+        extracted_rules = re.findall('^\d{3}[^a-zA-Z]{2,}.*["”.):]$',
                                      entire_doc, re.MULTILINE)
 
     rules_list = []
