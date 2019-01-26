@@ -5,7 +5,9 @@ import diff_utils
 import rules_manip
 
 
-# Takes commandline input since I'm only ever running this through bash
+# Arg list looks like this:
+# old CR file, old file set name (e.g. "Guilds of Ravnica"),
+# new CR file, new file set name
 orig_cr, dest_cr = sys.argv[1], sys.argv[3]
 
 old_rules = rules_manip.extract_rules(orig_cr)
