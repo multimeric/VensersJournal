@@ -15,9 +15,20 @@ def extract_rules(input_file):
     """
     with open(input_file, 'r') as rules_doc:
         entire_doc = rules_doc.read()
-        extracted_rules = re.findall('^\d{3}[^a-zA-Z]{2,}.*["”.):]$',
-                                     entire_doc, re.MULTILINE)
+        # Handle editorial snafus on WotC's end
+        entire_doc = entire_doc.replace(" \"", " “")
+        entire_doc = entire_doc.replace("(\"", "(“")
+        entire_doc = entire_doc.replace("\"", "”")
+        entire_doc = entire_doc.replace("'", "’")
+        entire_doc = entire_doc.replace(" ’", " ‘")
+        entire_doc = entire_doc.replace("-", "—")
+        entire_doc = re.sub(r"(\w)—(\w)", r"\1–\2", entire_doc)
+        entire_doc = entire_doc.replace("(tm)", "™")
+        entire_doc = entire_doc.replace("(r)", "®")
+        entire_doc = re.sub(r"\n\s{4,}(\w)", r" \1", entire_doc)
 
+        extracted_rules = re.findall('^\d{3}[^a-zA-Z]{2,}.*[“"”.):]$',
+                                     entire_doc, re.MULTILINE)
     rules_list = []
 
     for rule in extracted_rules[1:]:

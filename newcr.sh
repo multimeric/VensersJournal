@@ -1,5 +1,5 @@
 #!/bin/bash
-# Arg list: Wizards media, new_path, new_setname, old_setname
+# Arg list: Wizards media, new_path, full_new_setname, full_old_setname
 
 # the current string to the path on WotC media servers. Might change.
 wotc_prefix="http://media.wizards.com/2019/downloads/MagicCompRules "
@@ -14,12 +14,13 @@ old_path=$rules_path$(ls $rules_path | tail -1)
 old_diff=$(ls -t $diffs | head -n1 | cut -d '.' -f 1)
 
 # snag the new CR
-wget -O temp "$wotc_prefix$1" ;
+wget -O "$rules_path$2" "$wotc_prefix$1" ;
 
 # convert the temp file to UTF-8 so we can actually use it
-iconv -f 850 -t UTF-8 -o "$rules_path$2" temp;
+# UPDATE WITH WAR: This seeeeems to be served directly as UTF-8 now!!
+# iconv -f 850 -t UTF-8 -o "$rules_path$2" temp;
 # Dump the temp file
-rm temp
+#rm temp
 # Diff 'em away boys
 python3 difftool/diff_rules.py $old_path "$4" "$rules_path$2" "$3";
 
