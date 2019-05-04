@@ -1,6 +1,6 @@
 function findNewStuff() {
   $('div').each(function () {
-    if ($(this).find('.new').length !== 0 || $(this).hasClass('new-section')) {
+    if ($(this).find('.new').length !== 0 || $(this).find('.removed').length !== 0 || $(this).hasClass('new-section')){
       $(this).addClass('show');
     } else {
       $(this).prev('h3').addClass('collapsed');

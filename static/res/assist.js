@@ -18,7 +18,7 @@ function replaceTags(someJSON) {
         /new_start/g, '<span class=\'new\'>');
 
     stringifiedJSON = stringifiedJSON.replace(
-        /old_end|new_end/g, '</span>');
+        / old_end| new_end/g, '</span> ');
 
     return JSON.parse(stringifiedJSON);
 }

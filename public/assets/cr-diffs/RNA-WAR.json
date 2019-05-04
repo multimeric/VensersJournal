@@ -1,0 +1,195 @@
+[
+    {
+        "names": {
+            "old_setcode": "RNA",
+            "old_full": "Ravnica Allegiance",
+            "new_setcode": "WAR",
+            "new_full": "War of the Spark"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a player would make more than one choice at the same time, the player makes the choices in the order specified. If no order is specified, new_start the new_end player chooses the order.",
+            "ruleNum": "101.4c"
+        },
+        "old": {
+            "ruleText": "If a player would make more than one choice at the same time, the player makes the choices in the order specified. If no order is specified, old_start they old_end player chooses the order.",
+            "ruleNum": "101.4c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect refers to a color pair, it means exactly two of the five colors. There are ten color pairs: white and blue, white and black, blue and black, blue and red, black and red, black and green, red and green, red and white, green and white, and green and blue.",
+            "ruleNum": "105.5."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "An object that looks for a \u201c[spell or ability] with a single target\u201d checks the number of times any new_start object new_end or new_start player was chosen as new_end the target of that spell or ability when it was put on the stack, not the number of its targets that are currently legal. If the same object or player became a target more than once, each of those instances is counted separately.",
+            "ruleNum": "114.9a"
+        },
+        "old": {
+            "ruleText": "An object that looks for a \u201c[spell or ability] with a single target\u201d checks the number of times any old_start objects old_end or old_start players became old_end the target of that spell or ability when it was put on the stack, not the number of its targets that are currently legal. If the same object or player became a target more than once, each of those instances is counted separately.",
+            "ruleNum": "114.9a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "An object that looks for a \u201c[spell or ability] that targets only [something]\u201d checks the number of different objects or players that new_start were chosen as targets new_end of that spell or ability when it was put on the stack (as modified by effects that changed those targets), not the number of those objects or players that are currently legal targets. If that number is one (even if the spell or ability targets that object or player multiple times), the current state of that spell or ability\u2019s target is checked as described in rule 114.9b.",
+            "ruleNum": "114.9c"
+        },
+        "old": {
+            "ruleText": "An object that looks for a \u201c[spell or ability] that targets only [something]\u201d checks the number of different objects or players that old_start became the target old_end of that spell or ability when it was put on the stack (as modified by effects that changed those targets), not the number of those objects or players that are currently legal targets. If that number is one (even if the spell or ability targets that object or player multiple times), the current state of that spell or ability\u2019s target is checked as described in rule 114.9b.",
+            "ruleNum": "114.9c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Alternative costs are new_start generally new_end optional. new_start An effect that allows you to cast a spell may require a certain alternative cost to be paid. new_end",
+            "ruleNum": "117.9b"
+        },
+        "old": {
+            "ruleText": "Alternative costs are old_start always old_end optional.",
+            "ruleNum": "117.9b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If new_start a rule or new_end effect instructs more than one player to draw cards in a game that\u2019s using the shared team turns option (such as a Two\u2013Headed Giant game), first each player on the active team, in whatever order that team likes, performs their draws, then each player on each nonactive team in turn order does the same.",
+            "ruleNum": "120.2d"
+        },
+        "old": {
+            "ruleText": "If old_start an old_end effect instructs more than one player to draw cards in a game that\u2019s using the shared team turns option (such as a Two\u2013Headed Giant game), first each player on the active team, in whatever order that team likes, performs their draws, then each player on each nonactive team in turn order does the same.",
+            "ruleNum": "120.2d"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect gives a player the option to reveal a card as they draw it, that player may look at that card as they draw it before choosing whether to reveal it.",
+            "ruleNum": "120.9."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an effect says to \u201cmove\u201d a counter, it means to new_start remove new_end that counter from the object it\u2019s currently on and put it onto a second object. If new_start either of these actions isn\u2019t possible, it\u2019s not possible to move a counter, and no counter is removed from or put onto anything. This may occur if new_end the first and second objects are the same new_start object; if new_end the first object new_start doesn\u2019t have the appropriate kind of counter on it; if new_end the second object new_start can\u2019t have counters new_end put new_start onto it; or if either new_end object is no longer in the correct new_start zone. new_end",
+            "ruleNum": "121.5."
+        },
+        "old": {
+            "ruleText": "If an effect says to \u201cmove\u201d a counter, it means to old_start take old_end that counter from the object it\u2019s currently on and put it onto a second object. If the first and second objects are the same old_start object, nothing happens. If old_end the first object old_start has no counters, nothing happens; old_end the second object old_start doesn\u2019t get a counter old_end put old_start on it. If the second old_end object old_start (or any possible second objects) old_end is no longer in the correct old_start zone when the effect would move the counter, nothing happens; a counter isn\u2019t removed from the first object. old_end",
+            "ruleNum": "121.5."
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, new_start Davriel, new_end Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, new_start Kasmina, new_end Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, new_start Teyo, new_end Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        },
+        "old": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, new_start Army, new_end Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A delayed triggered ability will trigger only once\u2013the next time its trigger event occurs\u2013unless it has a stated duration, such as \u201cthis turn.\u201d new_start If its trigger event occurs more than once simultaneously and the ability doesn\u2019t have a stated duration, the controller of the delayed triggered ability chooses which event causes the ability to trigger. new_end",
+            "ruleNum": "603.7b"
+        },
+        "old": {
+            "ruleText": "A delayed triggered ability will trigger only once\u2013the next time its trigger event occurs\u2013unless it has a stated duration, such as \u201cthis turn.\u201d",
+            "ruleNum": "603.7b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "One card (Awakening of Vitu\u2013Ghazi) creates a continuous effect that sets the name of an object. This changes the text that represents the object\u2019s name. That object loses any names it had and has only the specified name.",
+            "ruleNum": "612.7."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, the card remains revealed from the time the spell or ability is announced until the time it leaves the stack. new_start If revealing a card causes a triggered ability to trigger, the card remains revealed until that triggered ability leaves the stack. If that ability isn\u2019t put onto the stack the next time a player would receive priority, the card ceases to be revealed. new_end",
+            "ruleNum": "701.15a"
+        },
+        "old": {
+            "ruleText": "To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, the card remains revealed from the time the spell or ability is announced until the time it leaves the stack.",
+            "ruleNum": "701.15a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "To proliferate means to choose any number of permanents and/or players that have a counter, then give each one additional counter of new_start each new_end kind that permanent or player already has.",
+            "ruleNum": "701.26a"
+        },
+        "old": {
+            "ruleText": "To proliferate means to choose any number of permanents and/or players that have a counter, then give each old_start exactly old_end one additional counter of old_start a old_end kind that permanent or player already has.",
+            "ruleNum": "701.26a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "In a Two\u2013Headed Giant game, poison counters are shared by the team. If more than one player on a team is chosen this way, only one of those players can be given an additional poison counter. new_start The player who proliferates chooses which player that is. new_end See rule 810, \u201cTwo\u2013Headed Giant Variant.\u201d",
+            "ruleNum": "701.26b"
+        },
+        "old": {
+            "ruleText": "In a Two\u2013Headed Giant game, poison counters are shared by the team. If more than one player on a team is chosen this way, only one of those players can be given an additional poison counter. See rule 810, \u201cTwo\u2013Headed Giant Variant.\u201d",
+            "ruleNum": "701.26c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "To amass N means \u201cIf you don\u2019t control an Army creature, create a 0/0 black Zombie Army creature token. Choose an Army creature you control. Put N +1/+1 counters on that creature.\u201d",
+            "ruleNum": "701.43a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "The phrase \u201cthe [subtype] you amassed\u201d refers to the creature you chose, whether or not it received counters.",
+            "ruleNum": "701.43b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a player chooses to reveal a card using its miracle ability, they play with that card revealed until that card leaves their hand, that ability resolves, or that ability otherwise leaves the stack. new_start (See rule 701.15a.) new_end",
+            "ruleNum": "702.93b"
+        },
+        "old": {
+            "ruleText": "If a player chooses to reveal a card using its miracle ability, they play with that card revealed until that card leaves their hand, that ability resolves, or that ability otherwise leaves the stack.",
+            "ruleNum": "702.93b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. On Magic Origins\u00ae and Core Set 2019 double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. On cards in the Innistrad\u2122 block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon\u2122 set, the front\u2013face symbol is a sun. On other Eldritch Moon double\u2013faced cards, the front\u2013face symbol is a full moon. On Ixalan\u2122 new_start and Rivals of Ixalan\u2122 new_end cards, the front\u2013face symbol is a compass rose.",
+            "ruleNum": "711.1a"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. On Magic Origins\u00ae and Core Set 2019 double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. On cards in the Innistrad\u2122 block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon\u2122 set, the front\u2013face symbol is a sun. On other Eldritch Moon double\u2013faced cards, the front\u2013face symbol is a full moon. On Ixalan\u2122 cards, the front\u2013face symbol is a compass rose.",
+            "ruleNum": "711.1a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. On Magic Origins and Core Set 2019 double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back\u2013face symbol is a crescent moon. On other Eldritch Moon double\u2013faced cards, the back\u2013face symbol is a stylized image of Emrakul. On Ixalan new_start and Rivals of Ixalan new_end cards, the back\u2013face symbol is a land icon.",
+            "ruleNum": "711.1b"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. On Magic Origins and Core Set 2019 double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back\u2013face symbol is a crescent moon. On other Eldritch Moon double\u2013faced cards, the back\u2013face symbol is a stylized image of Emrakul. On Ixalan cards, the back\u2013face symbol is a land icon.",
+            "ruleNum": "711.1b"
+        }
+    }
+]

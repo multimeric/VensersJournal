@@ -197,5 +197,6 @@ var setDict = {
     "SK1": "Spellslinger Starter Kit",
     "GNT": "Game Night",
     "UMA": "Ultimate Masters",
-    "RNA": "Ravnica Allegiance"
+    "RNA": "Ravnica Allegiance",
+    "WAR": "War of the Spark"
 }

@@ -20,6 +20,10 @@ app.get('/about', function(req, res) {
   res.render('pages/about');
 })
 
+app.get('/changelog', function(req, res) {
+  res.render('pages/changelog');
+})
+
 app.get('/', function(req, res) {
   res.render('pages/landing');
 })
