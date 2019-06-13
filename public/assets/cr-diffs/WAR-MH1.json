@@ -1,0 +1,115 @@
+[
+    {
+        "names": {
+            "old_full": "War of the Spark",
+            "new_setcode": "MH1",
+            "new_full": "Modern Horizons",
+            "old_setcode": "WAR"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "106.11.",
+            "ruleText": "If an effect would add mana represented by one or more snow mana symbols to a player\u2019s mana pool, that much colorless mana is added to that player\u2019s mana pool."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.4h",
+            "ruleText": "The snow mana symbol {S} represents one old_start generic old_end mana in a cost. This old_start generic old_end mana can be paid with one mana of any type produced by a snow permanent (see rule 205.4g). Effects that reduce the amount of generic mana you pay don\u2019t affect {S} costs. old_start (There old_end is old_start no such thing as \u201csnow mana\u201d; \u201csnow\u201d is not old_end a type of old_start mana.) old_end"
+        },
+        "new": {
+            "ruleNum": "107.4h",
+            "ruleText": "The snow mana symbol {S} represents one mana in a cost. This mana can be paid with one mana of any type produced by a snow permanent (see rule 205.4g). Effects that reduce the amount of generic mana you pay don\u2019t affect {S} costs. new_start Snow new_end is new_start neither a color nor new_end a type of new_start mana. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "117.7g",
+            "ruleText": "If a cost is reduced by an amount of mana represented by one or more snow mana symbols, the cost is reduced by that much generic mana."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "605.1b",
+            "ruleText": "A triggered ability is a mana ability if it meets all of the following criteria: it doesn\u2019t require a target (see rule 114.6), it triggers from the resolution of an activated mana ability (see rule old_start 106.11a) old_end or from mana being added to a player\u2019s mana pool, and it could add mana to a player\u2019s mana pool when it resolves."
+        },
+        "new": {
+            "ruleNum": "605.1b",
+            "ruleText": "A triggered ability is a mana ability if it meets all of the following criteria: it doesn\u2019t require a target (see rule 114.6), it triggers from the resolution of an activated mana ability (see rule new_start 605.1a) new_end or from mana being added to a player\u2019s mana pool, and it could add mana to a player\u2019s mana pool when it resolves."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "612.8.",
+            "ruleText": "A splice ability changes a spell\u2019s text by adding the rules text of the card with splice to the spell, following that spell\u2019s own rules text. It doesn\u2019t modify or replace any of that spell\u2019s own text. (See rule 702.46, \u201cSplice.\u201d)"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.18h",
+            "ruleText": "An effect may instruct a player to search a library for one or more cards more than once before instructing a player to shuffle that library. This is the same as a single instruction for that player to search that library for all those cards. The player searches that library only once."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.41a",
+            "ruleText": "Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. \u201cEntwine [cost]\u201d means \u201cYou may choose all modes of this spell instead of just old_start one. old_end If you do, you pay an additional [cost].\u201d Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2f\u2013h."
+        },
+        "new": {
+            "ruleNum": "702.41a",
+            "ruleText": "Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. \u201cEntwine [cost]\u201d means \u201cYou may choose all modes of this spell instead of just new_start the number specified. new_end If you do, you pay an additional [cost].\u201d Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2f\u2013h."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.46a",
+            "ruleText": "Splice is a static ability that functions while a card is in your hand. \u201cSplice onto old_start [subtype] old_end [cost]\u201d means \u201cYou may reveal this card from your hand as you cast a old_start [subtype] old_end spell. If you do, old_start copy old_end this card\u2019s text old_start box onto that spell old_end and pay [cost] as an additional cost to cast that spell.\u201d Paying a card\u2019s splice cost follows the rules for paying additional costs in rules 601.2b and 601.2f\u2013h."
+        },
+        "new": {
+            "ruleNum": "702.46a",
+            "ruleText": "Splice is a static ability that functions while a card is in your hand. \u201cSplice onto new_start [quality] new_end [cost]\u201d means \u201cYou may reveal this card from your hand as you cast a new_start [quality] new_end spell. If you do, new_start that spell gains the text of new_end this card\u2019s new_start rules new_end text and new_start you new_end pay [cost] as an additional cost to cast that spell.\u201d Paying a card\u2019s splice cost follows the rules for paying additional costs in rules 601.2b and 601.2f\u2013h."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.46b",
+            "ruleText": "You can\u2019t choose to use a splice ability if you can\u2019t make the required choices (targets, etc.) for that card\u2019s old_start instructions. old_end You can\u2019t splice any one card onto the same spell more than once. If you\u2019re splicing more than one card onto a spell, reveal them all at once and choose the order in which their old_start instructions old_end will old_start be followed. old_end The old_start instructions on old_end the main spell old_start have to be followed old_end first."
+        },
+        "new": {
+            "ruleNum": "702.46b",
+            "ruleText": "You can\u2019t choose to use a splice ability if you can\u2019t make the required choices (targets, etc.) for that card\u2019s new_start rules text. new_end You can\u2019t splice any one card onto the same spell more than once. If you\u2019re splicing more than one card onto a spell, reveal them all at once and choose the order in which their new_start effects new_end will new_start happen. new_end The new_start effects of new_end the main spell new_start must happen new_end first."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.46c",
+            "ruleText": "The spell has the characteristics of the main spell, plus the text old_start boxes old_end of each of the spliced cards. The spell doesn\u2019t gain any other characteristics (name, mana cost, color, supertypes, card types, subtypes, etc.) of the spliced cards. Text old_start copied onto old_end the spell that refers to a card by name refers to the spell on the stack, not the card from which the text was copied."
+        },
+        "new": {
+            "ruleNum": "702.46c",
+            "ruleText": "The spell has the characteristics of the main spell, plus the new_start rules new_end text of each of the spliced cards. new_start This is a text\u2013changing effect (see rule 612, \u201cText\u2013Changing Effects\u201d). new_end The spell doesn\u2019t gain any other characteristics (name, mana cost, color, supertypes, card types, subtypes, etc.) of the spliced cards. Text new_start gained by new_end the spell that refers to a card by name refers to the spell on the stack, not the card from which the text was copied."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.47c",
+            "ruleText": "Generic mana in the sacrificed permanent\u2019s mana cost reduces generic mana in the spell\u2019s total cost. Colored and colorless mana in the sacrificed permanent\u2019s mana cost reduces mana of the same type in spell\u2019s total cost, and any excess reduces that much generic mana in spell\u2019s total cost."
+        },
+        "new": {
+            "ruleNum": "702.47c",
+            "ruleText": "Generic mana in the sacrificed permanent\u2019s mana cost reduces generic mana in the spell\u2019s total cost. Colored and colorless mana in the sacrificed permanent\u2019s mana cost reduces mana of the same type in spell\u2019s total cost, and any excess reduces that much generic mana in spell\u2019s total cost. new_start (See rule 117.7.) new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "706.9e",
+            "ruleText": "Some replacement effects that generate copy effects include an exception that\u2019s an additional effect rather than a modification of the affected object\u2019s characteristics. If another copy effect is applied to that object after applying the copy effect with that exception, the exception\u2019s effect doesn\u2019t happen."
+        }
+    }
+]
