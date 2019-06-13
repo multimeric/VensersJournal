@@ -27,7 +27,7 @@ def extract_rules(input_file):
         entire_doc = entire_doc.replace("(r)", "®")
         entire_doc = re.sub(r"\n\s{4,}(\w)", r" \1", entire_doc)
 
-        extracted_rules = re.findall('^\d{3}[^a-zA-Z]{2,}.*[“"”.):]$',
+        extracted_rules = re.findall('^\d{3}[^a-zA-Z\n]{2}.*[“"”.) :]$',
                                      entire_doc, re.MULTILINE)
     rules_list = []
 
