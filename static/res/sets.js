@@ -198,5 +198,6 @@ var setDict = {
     "GNT": "Game Night",
     "UMA": "Ultimate Masters",
     "RNA": "Ravnica Allegiance",
-    "WAR": "War of the Spark"
+    "WAR": "War of the Spark",
+    "MH1": "Modern Horizons"
 }
