@@ -199,5 +199,7 @@ var setDict = {
     "UMA": "Ultimate Masters",
     "RNA": "Ravnica Allegiance",
     "WAR": "War of the Spark",
-    "MH1": "Modern Horizons"
+    "MH1": "Modern Horizons",
+    "M20": "Core Set 2020",
+    "ELD": "Throne of Eldraine"
 }

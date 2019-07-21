@@ -11,7 +11,7 @@
 
   <body onload='findNewStuff()'>
     <div class='container-fluid'>
-      <h2 class='text-center'>IPG - 3 May, 2019 - War of the Spark</h2>
+      <h2 class='text-center'>IPG - 12 July, 2019 - Core Set 2020</h2>
       
       <h3 id='1-header' data-toggle='collapse' data-target='#1'>1. General Philosophy</h3>
 
@@ -78,8 +78,8 @@
               the tournament uses them) for the first game they play.</p>
 
         <p>Game Losses are applied immediately if the game is still ongoing, or to the player’s next game if 
-              it is not, unless otherwise specified. <span class='new'>If a player would receive two or more
-              Game Losses at the same time, they only receive one.</span> If simultaneous Game Loss penalties are issued to each 
+              it is not, unless otherwise specified. If a player would receive two or more
+              Game Losses at the same time, they only receive one. If simultaneous Game Loss penalties are issued to each 
               player, they are recorded, but do not affect the match score.</p>
 
         <h5>Match Loss</h5> 
@@ -345,8 +345,8 @@
 
         <p>If the triggered ability is an enters-the-battlefield trigger of an Aura that affects only the enchanted permanent and causes a visible change to that permanent, resolve the ability immediately.</p>
 
-        <p>If the triggered ability is a delayed triggered ability that undoes a zone change (including token creation) caused by the spell or ability that created the delayed triggered ability, the opponent
-              chooses whether to resolve the ability the next time a player would get priority or when a player would get priority at the start of the next phase.</p>
+        <p>If the triggered ability is a delayed triggered ability that undoes a zone change (including token creation) caused by the <span class='removed'>spell or ability</span> <span class='new'>effect</span> that created the delayed triggered ability, the opponent
+              chooses whether to resolve the ability the next time a player would get priority or when a player would get priority at the start of the next phase. <span class='new'>The new zone does not need to be the same as the one the card was originally moved from.</span></p>
  
         <p>For all other triggered abilities if the ability was missed prior to the current phase in the previous turn, instruct the players to 
               continue playing. If the triggered ability created an effect whose duration has already expired, 
@@ -375,7 +375,7 @@
 
         <h5>Definition</h5>
 
-        <p>A player takes an action that may have enabled them to see the faces of cards <span class='removed'>in a deck</span> that they 
+        <p>A player takes an action that may have enabled them to see the faces of cards that they 
               were not entitled to see.</p>
 
         <p>This penalty is applied only once if one or more cards are seen in the same action or sequence of 
@@ -392,8 +392,8 @@
         <h5>Philosophy</h5>
 
         <p>A player can accidentally look at extra cards easily and this infraction handles situations where a 
-              dexterity or rules error has led to a player seeing cards <span class='removed'>in a library</span> that they shouldn’t have. 
-              Cards <span class='new'>in a library</span> are considered to be <span class='removed'>in a library</span> <span class='new'>there</span> until they touch cards in another hidden set. Once those 
+              dexterity or rules error has led to a player seeing cards  that they shouldn’t have. 
+              Cards in a library are considered to be there until they touch cards in another hidden set. Once those 
               cards have joined another hidden set, the infraction is handled as a 
               <a href='#23-header' onclick="linkAndExpand('#23')">Hidden Card Error</a> 
               or 
@@ -407,7 +407,7 @@
 
         <h5>Additional Remedy</h5> 
 
-        <p>Shuffle any previously unknown cards <span class='new'>from a deck back</span> into the random portion of the deck, then put any known 
+        <p><span class='new'>If the cards were in the library, </span> shuffle any previously unknown cards from a deck back into the random portion of the <span class='removed'>deck</span> <span class='new'>library</span>, then put any <span class='new'>previously</span> known 
               cards back in their correct locations.</p>
       </div>
 
@@ -421,9 +421,7 @@
         <h5>Definition</h5>
 
         <p>A player commits an error in the game that cannot be corrected by only publicly available 
-              information and does so without their opponent’s permission.</p>
-
-        <p>This infraction only applies when a card whose identity is known to only one player is in a 
+              information. <span class='removed'>and does so without their opponent’s permission.</span> <span class='new'>It is not a Hidden Card Error if the opponent acknowledges the action or controls the continuous effect modifying the game rule that was violated. This infraction only applies when a card whose identity is known to only one player is in a 
               hidden set of cards both before and after the error.</p>
 
         <p>If an additional card is seen but not added to the set, the infraction is <a href='#22-header' onclick='linkAndExpand('#22')">Game Play Error — Looking at Extra Cards</a></p>
@@ -507,9 +505,9 @@
 
         <h5>Definition</h5>
 
-        <p>A player makes an error as part of the mulligan process. This infraction does not apply to errors 
-              made once pre-game procedures are complete. “Scrying” for more than one card after taking a 
-              mulligan is treated as a <a href='#23-header' onclick="linkAndExpand('#23')">Hidden Card Error</a>.</p> 
+        <p>A player makes an error as part of the mulligan process. <span class='removed'>This infraction does not apply to errors 
+                      made once pre-game procedures are complete. “Scrying” for more than one card after taking a 
+                      mulligan is treated as a </span> <span class='new'>Once the mulligan process is complete and the game begins, any excess cards arising from an improper mulligan should be treated as Game Rule Violation - <a href='#23-header' onclick="linkAndExpand('#23')">Hidden Card Error</a>.</p> 
 
         <p>Trivial process errors that provide no advantage, such as declaring an intent to mulligan early, 
               are not an infraction. </p>
@@ -518,37 +516,39 @@
 
         <ol> 
           <li>A player draws eight cards at the start of the game (instead of seven). </li>
-          <li>A player draws seven cards at the start of the game (instead of six) after taking a 
+          <li class='new'>A player chooses to not take a mulligan then takes a mulligan after seeing their opponent choose to take a mulligan.
+          <li class='removed'>A player draws seven cards at the start of the game (instead of six) after taking a 
                   mulligan. </li>
-          <li>A player keeps their hand, scries, then mulligans again.</li> 
-          <li>A player chooses to not take a mulligan then takes a mulligan after seeing their opponent 
+          <li class='removed'>A player keeps their hand, scries, then mulligans again.</li> 
+          <li class='removed'>A player chooses to not take a mulligan then takes a mulligan after seeing their opponent 
                   choose to take a mulligan.</li> 
         </ol>
 
         <h5>Philosophy</h5>
 
         <p>Errors prior to the beginning of the game have a less disruptive option—a forced mulligan—that 
-              is not available at any other point during the game. However, players should not be incentivized 
+              is not available at any other point during the game. <span class='removed'>However, players should not be incentivized 
               to sit on the infraction until mulligan procedures are completed so that they can ‘discover’ the 
               error at a point where it becomes a <a href='#23-header' onclick="linkAndExpand('#23')">Hidden Card Error</a> 
               if they believe that is to their advantage. To encourage the offending player to report their error as early 
-            as possible, they are given their choice of remedy before the game begins.</p>
+            as possible, they are given their choice of remedy before the game begins.</span></p>
 
-        <p>If a player looks at the top card of their library after taking a mulligan, it is assumed that they 
+        <p class='removed'>If a player looks at the top card of their library after taking a mulligan, it is assumed that they 
               have chosen to keep their hand unless they make it very clear that they intend to mulligan again, 
               either verbally before looking or by picking up multiple cards from the top of their library.</p>
 
         <h5>Additional Remedy</h5>
 
-        <p>If the player has too many cards in hand, they may choose to reveal their hand, and their 
-              opponent chooses a card from it to be shuffled back into the library. If more than one excess card 
-              was drawn (for example, eight cards drawn during a mulligan to 6) their opponent continues 
-              removing cards until the correct number has been reached.</p> 
-
-        <p>If cards are not removed from the hand this way (either due to an error that didn't lead to too 
-              many cards, or by the player choosing not to reveal), that player takes an additional mulligan.</p>
-
-        <p>Players may continue taking mulligans after the remedy has been completed.</p>
+        <span class='removed'><p>If the player has too many cards in hand, they may choose to reveal their hand, and their 
+                      opponent chooses a card from it to be shuffled back into the library. If more than one excess card 
+                      was drawn (for example, eight cards drawn during a mulligan to 6) their opponent continues 
+                      removing cards until the correct number has been reached.</p> 
+        
+                <p>If cards are not removed from the hand this way (either due to an error that didn't lead to too 
+                      many cards, or by the player choosing not to reveal), that player takes an additional mulligan.</p>
+        
+                <p>Players may continue taking mulligans after the remedy has been completed.</p></span>
+        <span class='new'>The player takes an additional mulligan.</span>
       </div>
 
       <hr>
@@ -612,7 +612,7 @@
               to notice, opponents receive a 
               <a href='#26-header' onclick="linkAndExpand('#26')">Game Play Error — Failure to Maintain Game State</a>
               penalty. If the judge believes that both players were responsible for a Game Rule Violation, 
-              such as due to the existence of replacement effects or a player taking action based on another 
+              such as due to the <span class='removed'>existence of replacement effects</span> <span class='new'>opponent controlling the continuous effect modifying the rules of the game that let to the Game Rule Violation</span> or a player taking action based on another 
               players instruction, both players receive a Game Play Error — Game Rule Violation. For example, 
               if a player casts Path to Exile on an opponent’s creature and the opponent puts the creature into 
               the graveyard, both players have committed this infraction.</p>
@@ -715,6 +715,9 @@
         <p>A player not in their seat 10 minutes into the round will receive a Match Loss and will 
               be dropped from the tournament unless they report to the Head Judge or Scorekeeper before the 
               end of the round.</p>
+
+        <h5 class='new'>Downgrade</h5>
+        <p class='new'>A player who arrives at their seat before 1 minute has elapsed in the round receives a Warning.</p></span>
       </div>
 
       <hr>
@@ -860,7 +863,7 @@
               other cards begin with the same name.</p>
 
         <p>The Head Judge may choose to not issue this penalty if they believe that what the player wrote 
-              on their decklist is obvious and unambiguous, even if it is not the full, accurate name of the card. 
+              on their decklist is obvious and unambiguous, even if <span class='removed'>it is not the full, accurate name of the card</span> <span class='new'>not entirely accurate</span>. 
               In Limited tournaments, the Head Judge may choose not to issue this penalty for incorrectly 
               marked basic land counts if they believe the correct land count is obvious. This should be 
               determined solely by what is written on the decklist, and not based on intent or the actual 
@@ -926,24 +929,25 @@
                 advantage from having the cards in their deck.</p>
 
         <p>The most common forms of deck error are failure to desideboard and having a card in the wrong 
-              deck. Both of these are difficult to gain advantage from without obvious cheating. Denying them 
-              the card that they would otherwise be working with is sufficient to compensate for the easily 
+              deck. Both of these are difficult to gain advantage from without obvious cheating. <span class='removed'>Denying them 
+                            the card that</span> <span class='new'>Allowing the opponent to choose which card</span> they would otherwise be working with is sufficient to compensate for the easily 
               discovered situations. Duplicates of cards that begin in the main deck are more problematic, as 
               they are not as easy to realize and catch, and thus mandate an upgraded penalty.</p>
 
-        <p>A window in which the error is a Game Loss is necessary to discourage intentional abuse. Once 
+        <p>A window in which the error is a Game Loss is necessary to discourage intentional abuse <span class='new'>of the minimum number of cards in the deck</span>. Once 
               that point has passed, the opponent agrees that the deck is valid. Judges should always be 
               mindful of the abuse possibilities when investigating these infractions.</p>
 
         <h5>Additional Remedy</h5>
 
-        <p>Remove any incorrect cards from the deck, including any sideboard cards that could not yet 
+        <p class='removed'>Remove any incorrect cards from the deck, including any sideboard cards that could not yet 
               legally have been added. Locate any cards missing from the deck and shuffle them into the 
               randomized portion of the deck. If the missing card(s) are with the sideboard and it isn’t the first 
               game, choose the ones to be shuffled into the deck at random from main deck cards in the sideboard. If the 
               error is discovered during opening hands, instruct the player to mulligan. Otherwise, do not 
               replace discovered erroneous cards in hands or other sets (such as a group of cards being scried 
               or drawn).</p>
+        <p class='new'>Locate any cards missing from the deck and any incorrect cards in any game zone. The opponent chooses which of the missing cards replaces each incorrect card; any extras are shuffled into the random portion of the library. If more cards are being removed than added, prioritize ones not in the library first. If there are still additional cards not in the library that need replacing, they are replaced by random cards from the library. If the missing card(s) are with the sideboard and it isn't the first game, choose the ones to be returned to the deck at random from main deck cards in the sideboard.</p>
 
         <p>If the missing card(s) were in a previous or current opponent’s deck, issue penalties to both 
               players.</p>
@@ -951,13 +955,14 @@
         <h5>Upgrade</h5>
 
         <ul>
-          <li>If the deck or sideboard is discovered to be incorrect while presented to the opponent 
-                  for pre-game shuffling, and the missing cards are not in the opponent’s deck, the penalty is a 
+          <li>If the deck or sideboard is discovered to be <span class='removed'>incorrect</span> <span class='new'>missing cards</span> while presented to the opponent 
+                  for pre-game shuffling, <span class='new'>or during a deckcheck,</span> and the missing cards are not in the opponent’s deck, the penalty is a 
                   Game Loss.</li> 
-          <li>If an incorrect card in the deck or hand becomes visible to an opponent (for example 
+          <li class='removed'>If an incorrect card in the deck or hand becomes visible to an opponent (for example 
                   due to it being revealed or put into a graveyard) or is discovered by a judge during a deckcheck, 
                   the penalty is a Game Loss. This upgrade still applies if the player calls a judge with an effect on 
                   the stack or resolving that might cause the card to become visible.</li>
+          <li class='new'>If an opponent may have made strategic decisions based on the presence of a sideboard card (such as having seen it in the library during a search effect), the penalty is a Game Loss.
           <li>If an error resulted in more copies of a main deck card being played than were 
                   registered and this was discovered after the game had begun, the penalty is a Game Loss unless 
                   all copies of the card are still in the random portion of the library. For example if the decklist has 
@@ -1004,7 +1009,7 @@
         <h5>Definition</h5>
 
         <p>A player violates the Communication policies detailed in section 4 of the Magic Tournament 
-              Rules and the judge believes their opponent has <span class='removed'>acted</span> <span class='new'>taken an in-game action</span> or clearly chosen not to act based on the 
+              Rules and the judge believes their opponent has taken an in-game action or clearly chosen not to act based on the 
               erroneous information. This infraction only applies to violations of that policy and not to general 
               communication confusion.</p>
 
@@ -1029,7 +1034,7 @@
               ambiguous board state is not automatically a penalty, but judges are encouraged to tell players to 
               fix ambiguous placements before they might become problematic.</p>
 
-        <p>Misapplication of a shortcut is usually not a Player Communication Violation, as the default 
+        <p>Misapplication of a shortcut is usually not a <span class='removed'>Player</span> Communication <span class='new'>Policy</span> Violation, as the default 
               interpretation applies in ambiguous situations and the opponent is able to act on that shortcut. 
               Any deviation from a tournament shortcut requires a clear explanation.</p>
 
@@ -1049,7 +1054,7 @@
 
         <p>Cards or sleeves in a player’s deck have inconsistencies on them that might allow them to be 
               differentiated from each other while in the library. This includes scuff marks, nail marks, 
-              discoloration, bent corners and curving from foils.</p>
+              discoloration, bent corners<span class='new'>,</span> and curving from foils.</p>
 
         <h5>Examples</h5>
 

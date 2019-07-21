@@ -6,11 +6,11 @@ http://i.imgur.com/dMjPOq0.png */
 	--gray: #A6A99D;
 	--black: #150b00;
 	--light-green: #C4D3CA;
-	--green: #009B3E;
+	--green: #00572B;
 	--light-blue: #B3CEEA;
 	--blue: #0E68AB;
 	--light-red: #EB9F82;
-	--red: #D3202A;
+	--red: #8A151A;
 	--cream: #F8E7B9;
 	--white: #F9FAF4;
 }
@@ -56,6 +56,12 @@ h5 {font-size: 1.2rem;}
   border-color: var(--white);
   line-height: 3rem;
 }
+
+a {
+  color: #004ba1;
+}
+
+
 
 /* get the dirty, 'noisy' background */
 body {

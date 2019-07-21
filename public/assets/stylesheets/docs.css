@@ -79,20 +79,21 @@ ol > .fix::before {
 
 .removed {
 	text-decoration: line-through;
+	color:var(--red);
 }
 
 .new {
 	font-weight: bold;
 	background: var(--green);
-	color: var(--cream);
+	color: var(--white);
 }
 
 .new-section {
 	background-color: var(--green);
-	color: var(--cream);
+	color: var(--white);
 	font-weight: bold;
 }
 
 .new-section > ol > li::before {
-	color: var(--cream);
+	color: var(--white);
 }

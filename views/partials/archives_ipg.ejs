@@ -1,6 +1,11 @@
-<div class='col-md-4'>
-  <h3>IPG</h3>
-  <% ipg.forEach(function(each) { %>
+<div class='row' style='margin-top:20px'>
+  <div class='col-md-4'>
+  <% ipg.forEach(function(each, index) { %>
+  <% if (index == Math.ceil(ipg.length / 3) || index == Math.ceil(2 * ipg.length / 3)) { %>
+      </div>
+      <div class='col-md-4'>
+    <% } %>
     <p><a href='/static/ipg/<%= each.filepath %>' target='_blank'><%- each.date %></a></p>
   <% }); %>
+  </div>
 </div>

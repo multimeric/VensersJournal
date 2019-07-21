@@ -10,6 +10,16 @@
     <div class='container-fluid'>
       <div class='offset'>
         <h2 class='text-center'>Change Log</h2>
+        <h3>21 July 2019</h3>
+        <p><b>3:52am CST</b> - Fiddled with the CR diff algorithm for a bit. First, the range on "oh you're the same rule, just moved" is now significantly larger, which means it takes a little longer to parse but also that it's really, 
+          <i>really</i> good at figuring out where a rule is supposed to live. This handles all the new token stuff exceptionally well.</p>
+        <p>Second, I hammered out a way to tell if the only change is "this rule reference got changed to another rule reference." If that's all that happened, the rule is ignored by the diff.</p>
+        <h3>21 July, 2019</h3>
+        <p><b>2:48am CST</b> - So, I picked up all these new files in the archive, but the old layout was getting Real Bad. I rearranged things.</p>
+        <h3>20 July, 2019</h3>
+        <p><b>10:54pm CST</b> - So, a bit ago Joe Klopchic sent me a link to Petr Hudeček's personal site, which archived a lot -- and I mean a <i>lot</i> -- of old docs. I've ported them over to here!</p>
+        <h3>8 July, 2019</h3>
+        <p><b>6:47pm CST</b> - M20 docs! The M20 rules have made it abundantly clear that I should probably rewrite my rules diff algorithm a bit to handle things that just... moved numbers. I mean, it's already there, kinda, but not for when things move far away from where they used to be. I'll add it to the list of Stuff I Have To Do.</p>
         <h3>13 June, 2019</h3>
         <p><b>6:20am CST</b> - Another set, another minor editorial bug I had to hunt down! Without delving into too much detail, basically 612.8 has something I've never had to account for before, but now
         I'm accounting for it, so it's showing up like it should be. Yay!</p>

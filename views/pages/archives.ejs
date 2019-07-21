@@ -7,6 +7,7 @@
   <header>
     <% include ../partials/header %>
     <link href="/public/assets/stylesheets/supportpages.css" rel="stylesheet"/>
+    <link href="//cdn.jsdelivr.net/npm/keyrune@latest/css/keyrune.css" rel="stylesheet" type="text/css" /> 
   </header>
   <body>
     <div class='container-fluid text-center'>
@@ -17,10 +18,14 @@
           <div class='col-md-4'>
             <h3>CR</h3>
             <p>
-              <a href='/WAR-MH1'>Modern Horizons
+              <a href='MH1-M20'>Core Set 2020</a>
+              [<a href='https://magic.wizards.com/en/articles/archive/news/core-set-2020-update-bulletin-2019-07-03'>update bulletin</a>]
             </p>
             <p>
-              <a href='/RNA-WAR'>War of the Spark
+              <a href='/WAR-MH1'>Modern Horizons</a>
+            </p>
+            <p>
+              <a href='/RNA-WAR'>War of the Spark</a>
               [<a href='https://magic.wizards.com/en/articles/archive/news/war-spark-update-bulletin-2019-04-25'>update bulletin</a>]
             </p>
             <p>
@@ -69,11 +74,30 @@
         <p>Not interested in the changes and just want the docs in their pure, unadulterated forms? Look no further.</p>
 
         <div class='row'>
-          <% include ../partials/archives_cr %>
-          
-          <% include ../partials/archives_ipg %>
-            
-          <% include ../partials/archives_mtr %>
+          <div class='col-md-12 text-center'>
+            <ul class='nav nav-tabs nav-justified' role='tablist'>
+          <li class='nav-item'>
+            <a class='nav-link active' data-toggle='tab' href='#CR'>CR</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' data-toggle='tab' href='#IPG'>IPG</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' data-toggle='tab' href='#MTR'>MTR</a>
+          </li>
+        </ul>
+        <div class='tab-content'>
+          <div id='CR' class='container tab-pane active'>
+            <% include ../partials/archives_cr %>
+          </div>
+          <div id='IPG' class='container tab-pane fade'>
+            <% include ../partials/archives_ipg %>
+          </div>
+          <div id='MTR' class='container tab-pane fade'>
+            <% include ../partials/archives_mtr %>
+          </div>
+        </div>
+          </div>
         </div>
       </div>
     </div>

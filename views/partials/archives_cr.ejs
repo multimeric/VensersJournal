@@ -1,6 +1,16 @@
-<div class='col-md-4'>
-  <h3>CR</h3>
-  <% mcr.forEach(function(each) { %>
-    <p><a href='/static/rules/<%= each.filepath %>' target='_blank'><%- each.setName %></a></p>
+<div class='row' style='margin-top:20px'>
+  <div class='col-md-4'>
+  <% mcr.forEach(function(each, index) { %>
+    <% if (index == Math.ceil(mcr.length / 3) || index == Math.ceil(2 * mcr.length / 3)) { %>
+      </div>
+      <div class='col-md-4'>
+    <% } %>
+      <div style="clear: both; width:80%"> 
+        <a href='/static/rules/<%= each.filepath %>' target='_blank'>
+          <i class='ss ss-<%- each.filepath.substr(-7, 3).toLowerCase() %>' style='font-size:1.75em; float:left;'></i> 
+          <span style='float:right;'><%- each.setName %></span>
+        </a>
+      </div>
   <% }); %>
+  </div>
 </div>

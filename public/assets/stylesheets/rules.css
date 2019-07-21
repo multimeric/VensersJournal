@@ -30,15 +30,13 @@ td {
 }
 
 .old {
-  font-weight: bold;
-  color: var(--cream);
-  background: var(--red);
+  text-decoration: line-through;
+  color:var(--red);
 }
 
 .new {
   font-weight: bold;
-  background: var(--green);
-  color: var(--cream);
+  color: var(--white);
   background: var(--green);
 }
 

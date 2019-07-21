@@ -1,6 +1,11 @@
+<div class='row' style='margin-top:20px'>
 <div class='col-md-4'>
-  <h3>MTR</h3>
-  <% mtr.forEach(function(each) { %>
+  <% mtr.forEach(function(each,index ) { %>
+  <% if (index == Math.ceil(mtr.length / 3) || index == Math.ceil(2 * mtr.length / 3)) { %>
+      </div>
+      <div class='col-md-4'>
+    <% } %>
     <p><a href='/static/mtr/<%= each.filepath %>' target='_blank'><%- each.date %></a></p>
   <% }); %>
+  </div>
 </div>
