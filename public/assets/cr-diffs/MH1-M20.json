@@ -1,0 +1,219 @@
+[
+    {
+        "names": {
+            "old_full": "Modern Horizons",
+            "new_setcode": "new",
+            "new_full": "Core Set 2020",
+            "old_setcode": "old"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "103.4.",
+            "ruleText": "Each player draws a number of cards equal to their starting hand size, which is normally seven. (Some effects can modify a player\u2019s starting hand size.) A player who is dissatisfied with their initial hand may take a mulligan. First, the starting player declares whether they will take a mulligan. Then each other player in turn order does the same. Once each player has made a declaration, all players who decided to take mulligans do so at the same time. To take a mulligan, a player shuffles their hand back into their library, old_start then old_end draws a new hand of old_start one fewer old_end cards old_start than they had before. If old_end a player old_start kept their hand of cards, those old_end cards become old_start the old_end player\u2019s opening hand, and that player may not take any further mulligans. This process is then repeated until no player takes a mulligan. old_start (Note that if a player\u2019s old_end hand old_start size reaches old_end zero cards, old_start that player must keep that hand.) After all players have kept an opening hand, each player in turn order whose hand contains fewer cards than that player\u2019s starting hand size old_end may old_start look at the top card of their library. If a player does, that player may put that card on the bottom of their library. old_end"
+        },
+        "new": {
+            "ruleNum": "103.4.",
+            "ruleText": "Each player draws a number of cards equal to their starting hand size, which is normally seven. (Some effects can modify a player\u2019s starting hand size.) A player who is dissatisfied with their initial hand may take a mulligan. First, the starting player declares whether they will take a mulligan. Then each other player in turn order does the same. Once each player has made a declaration, all players who decided to take mulligans do so at the same time. To take a mulligan, a player shuffles new_start the cards in new_end their hand back into their library, draws a new hand of cards new_start equal to their starting hand size, then puts a number of those cards equal to the number of times that player has taken a mulligan on the bottom of their library in any order. Once new_end a player new_start chooses not to take a mulligan, the remaining new_end cards become new_start that new_end player\u2019s opening hand, and that player may not take any further mulligans. This process is then repeated until no player takes a mulligan. new_start A player can take mulligans until their opening new_end hand new_start would be new_end zero cards, new_start after which they new_end may new_start not take further mulligans. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "103.4c",
+            "ruleText": "In a multiplayer game and in any Brawl game, the first old_start time old_end a player takes old_start a mulligan, they draw a new hand old_end of old_start as many old_end cards old_start as they had before. old_end Subsequent old_start hands decrease by one card old_end as normal."
+        },
+        "new": {
+            "ruleNum": "103.4c",
+            "ruleText": "In a multiplayer game and in any Brawl game, the first new_start mulligan new_end a player takes new_start doesn\u2019t count toward the number new_end of cards new_start that player will put on the bottom of their library or the number of mulligans that player may take. new_end Subsequent new_start mulligans are counted toward these numbers new_end as normal."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.1c",
+            "ruleText": "If a rule or ability instructs a player to choose \u201cany number,\u201d that player may choose any positive number or old_start zero, unless something (such as damage or counters) is being divided or distributed among \u201cany number\u201d of players and/or objects. In that case, a nonzero number of players and/or objects must be chosen if possible. old_end"
+        },
+        "new": {
+            "ruleNum": "107.1c",
+            "ruleText": "If a rule or ability instructs a player to choose \u201cany number,\u201d that player may choose any positive number or new_start zero. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "110.5c",
+            "ruleText": "A spell or ability that creates a token sets both its name and its old_start subtype. old_end If the spell or ability doesn\u2019t specify the name of the token, its name is the same as its subtype(s). A \u201cGoblin Scout creature token,\u201d for example, is named \u201cGoblin Scout\u201d and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn\u2019t change its subtype, and vice versa."
+        },
+        "new": {
+            "ruleNum": "111.4.",
+            "ruleText": "A spell or ability that creates a token sets both its name and its new_start subtype(s). new_end If the spell or ability doesn\u2019t specify the name of the token, its name is the same as its subtype(s). A \u201cGoblin Scout creature token,\u201d for example, is named \u201cGoblin Scout\u201d and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn\u2019t change its subtype, and vice versa."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "111.9.",
+            "ruleText": "Some effects instruct a player to create a legendary token. These may be written \u201ccreate [name], a . . .\u201d and list characteristics for the token. This is the same as an instruction to create a token with the listed characteristics that has the given name."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "111.10.",
+            "ruleText": "Some effects instruct a player to create a predefined token. These effects use the definition below to determine the characteristics the token is created with. The effect that creates a predefined token may also modify or add to the predefined characteristics."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "111.10a",
+            "ruleText": "A Treasure token is a colorless Treasure artifact token with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "115.7f",
+            "ruleText": "A spell or ability may \u201cdivide\u201d or \u201cdistribute\u201d an effect (such as damage or counters) among one or more targets. When changing targets or choosing new targets for that spell or ability, the original division can\u2019t be changed."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "119.10.",
+            "ruleText": "Some replacement effects are written, \u201cIf [a player] would gain life, . . . .\u201d Such abilities are treated as though they are written, \u201cIf a source would cause [a player] to gain life, . . . .\u201d If a player gains 0 life, no life gain event would occur, and these effects won\u2019t apply."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "306.5b",
+            "ruleText": "A planeswalker old_start is treated as if its text box included, old_end \u201cThis permanent enters the battlefield with a number of loyalty counters on it equal to its printed loyalty number.\u201d This ability creates a replacement effect (see rule 614.1c)."
+        },
+        "new": {
+            "ruleNum": "306.5b",
+            "ruleText": "A planeswalker new_start has the intrinsic ability new_end \u201cThis permanent enters the battlefield with a number of loyalty counters on it equal to its printed loyalty number.\u201d This ability creates a replacement effect (see rule 614.1c)."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.2.",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a\u2013d) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). old_start If, at any point during the casting of a spell, old_end a player is unable to comply with old_start any old_end of old_start the steps old_end listed old_start below, old_end the casting of the spell is old_start illegal; old_end the game returns to the moment before the casting of that spell was proposed (see rule 721, \u201cHandling Illegal Actions\u201d)."
+        },
+        "new": {
+            "ruleNum": "601.2.",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a\u2013d) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). new_start If new_end a player is unable to comply with new_start the requirements new_end of new_start a step new_end listed new_start below while performing that step, new_end the casting of the spell is new_start illegal ; new_end the game returns to the moment before the casting of that spell was proposed (see rule 721, \u201cHandling Illegal Actions\u201d)."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "608.2d",
+            "ruleText": "If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can\u2019t choose an option that\u2019s illegal or impossible, with the exception that having a library with no cards in it doesn\u2019t make drawing a card an impossible action (see rule 120.3). If an effect divides or distributes something, such as damage or counters, as a player chooses among any number of untargeted players and/or objects, the player chooses the amount and division such that old_start at least one player or object is chosen if able, and old_end each chosen player or object receives at least one of whatever is being divided. (Note that if an effect divides or distributes something, such as damage or counters, as a player chooses among some number of target objects and/or players, the amount and division were determined as the spell or ability was put onto the stack rather than at this time; see rule 601.2d.)"
+        },
+        "new": {
+            "ruleNum": "608.2d",
+            "ruleText": "If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can\u2019t choose an option that\u2019s illegal or impossible, with the exception that having a library with no cards in it doesn\u2019t make drawing a card an impossible action (see rule 121.3). If an effect divides or distributes something, such as damage or counters, as a player chooses among any number of untargeted players and/or objects, the player chooses the amount and division such that each chosen player or object receives at least one of whatever is being divided. (Note that if an effect divides or distributes something, such as damage or counters, as a player chooses among some number of target objects and/or players, the amount and division were determined as the spell or ability was put onto the stack rather than at this time; see rule 601.2d.)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.3a",
+            "ruleText": "To attach an Aura, Equipment, or Fortification to an object means to take it from where it currently is and put it onto that old_start object. old_end If something is attached to a permanent on the battlefield, it\u2019s customary to place it so that it\u2019s physically touching the permanent. An Aura, Equipment, or Fortification can\u2019t be attached to an object it couldn\u2019t enchant, equip, or fortify, respectively."
+        },
+        "new": {
+            "ruleNum": "701.3a",
+            "ruleText": "To attach an Aura, Equipment, or Fortification to an object new_start or player new_end means to take it from where it currently is and put it onto that new_start object or player. new_end If something is attached to a permanent on the battlefield, it\u2019s customary to place it so that it\u2019s physically touching the permanent. An Aura, Equipment, or Fortification can\u2019t be attached to an object new_start or player new_end it couldn\u2019t enchant, equip, or fortify, respectively."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.3b",
+            "ruleText": "If an effect tries to attach an Aura, Equipment, or Fortification to an object it can\u2019t be attached to, the Aura, Equipment, or Fortification doesn\u2019t move. If an effect tries to attach an Aura, Equipment, or Fortification to the object it\u2019s already attached to, the effect does nothing. If an effect tries to attach an object that isn\u2019t an Aura, Equipment, or Fortification to another object or player, the effect does nothing and the first object doesn\u2019t move."
+        },
+        "new": {
+            "ruleNum": "701.3b",
+            "ruleText": "If an effect tries to attach an Aura, Equipment, or Fortification to an object new_start or player new_end it can\u2019t be attached to, the Aura, Equipment, or Fortification doesn\u2019t move. If an effect tries to attach an Aura, Equipment, or Fortification to the object new_start or player new_end it\u2019s already attached to, the effect does nothing. If an effect tries to attach an object that isn\u2019t an Aura, Equipment, or Fortification to another object or player, the effect does nothing and the first object doesn\u2019t move."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.3c",
+            "ruleText": "Attaching an Aura, Equipment, or Fortification on the battlefield to a different object causes the Aura, Equipment, or Fortification to receive a new timestamp."
+        },
+        "new": {
+            "ruleNum": "701.3c",
+            "ruleText": "Attaching an Aura, Equipment, or Fortification on the battlefield to a different object new_start or player new_end causes the Aura, Equipment, or Fortification to receive a new timestamp."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.11f",
+            "ruleText": "\u201cHexproof from [quality A] and from [quality B]\u201d is shorthand for \u201chexproof from [quality A]\u201d and \u201chexproof from [quality B]\u201d; it behaves as two separate hexproof abilities. If an effect causes an object with such an ability to lose hexproof from [quality A], for example, that object would still have hexproof from [quality B]."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.21j",
+            "ruleText": "During the combat damage step, if an attacking creature is being blocked by a creature with banding, or by both a [quality] creature with \u201cbands with other [quality]\u201d and another [quality] creature, the defending player (rather than the active player) chooses how the attacking creature\u2019s damage is assigned. That player can divide that creature\u2019s combat damage as they choose among any old_start number of old_end creatures blocking it. This is an exception to the procedure described in rule 510.1c."
+        },
+        "new": {
+            "ruleNum": "702.21j",
+            "ruleText": "During the combat damage step, if an attacking creature is being blocked by a creature with banding, or by both a [quality] creature with \u201cbands with other [quality]\u201d and another [quality] creature, the defending player (rather than the active player) chooses how the attacking creature\u2019s damage is assigned. That player can divide that creature\u2019s combat damage as they choose among any creatures blocking it. This is an exception to the procedure described in rule 510.1c."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.21k",
+            "ruleText": "During the combat damage step, if a blocking creature is blocking a creature with banding, or both a [quality] creature with \u201cbands with other [quality]\u201d and another [quality] creature, the active player (rather than the defending player) chooses how the blocking creature\u2019s damage is assigned. That player can divide that creature\u2019s combat damage as they choose among any old_start number of old_end creatures it\u2019s blocking. This is an exception to the procedure described in rule 510.1d."
+        },
+        "new": {
+            "ruleNum": "702.21k",
+            "ruleText": "During the combat damage step, if a blocking creature is blocking a creature with banding, or both a [quality] creature with \u201cbands with other [quality]\u201d and another [quality] creature, the active player (rather than the defending player) chooses how the blocking creature\u2019s damage is assigned. That player can divide that creature\u2019s combat damage as they choose among any creatures it\u2019s blocking. This is an exception to the procedure described in rule 510.1d."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.102f",
+            "ruleText": "If an Aura with bestow phases in unattached, the effects of casting it with its bestow ability end. See rule 702.25, \u201cPhasing.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "800.5.",
+            "ruleText": "In a multiplayer game, the first old_start time old_end a player takes old_start a mulligan, they draw a new hand old_end of old_start as many old_end cards old_start as they had before. old_end Subsequent old_start hands decrease by one card old_end as normal."
+        },
+        "new": {
+            "ruleNum": "800.5.",
+            "ruleText": "In a multiplayer game, the first new_start mulligan new_end a player takes new_start doesn\u2019t count toward the number new_end of cards new_start that player will put on the bottom of their library or the number of mulligans that player may take. new_end Subsequent new_start mulligans are counted toward these numbers new_end as normal."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "805.3a",
+            "ruleText": "The process for handling mulligans is altered accordingly. First, each player on the starting team, in whatever order that team likes, declares whether that player will take a mulligan. Then the players on each other team in turn order do the same. Teammates may consult while making their decisions. Then all mulligans are taken at the same time. A player may take a mulligan even after a teammate has decided to keep their opening hand. old_start After all players have kept an opening hand, any player on the starting team whose hand contains fewer cards than that player\u2019s starting hand size may look at the top card of their library. That player\u2019s teammates may also look at that card. The player may put that card on the bottom of their library. This process is repeated for each other team in turn order. old_end See rule 103.4."
+        },
+        "new": {
+            "ruleNum": "805.3a",
+            "ruleText": "The process for handling mulligans is altered accordingly. First, each player on the starting team, in whatever order that team likes, declares whether that player will take a mulligan. Then the players on each other team in turn order do the same. Teammates may consult while making their decisions. Then all mulligans are taken at the same time. new_start Teammates may consult while choosing which cards, if any, to put on the bottom of their library. new_end A player may take a mulligan even after a teammate has decided to keep their opening hand. See rule 103.4."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "902.5a",
+            "ruleText": "If a player takes a mulligan in a Vanguard game, just like in a normal game, that player shuffles their hand back into their library, then draws a new hand old_start of one fewer cards than they had before. old_end (In a multiplayer game, a player\u2019s first mulligan is for the same number of cards as they had before.) See rule 103.4."
+        },
+        "new": {
+            "ruleNum": "902.5a",
+            "ruleText": "If a player takes a mulligan in a Vanguard game, just like in a normal game, that player shuffles their hand back into their library, then draws a new hand new_start equal to their starting hand size. new_end (In a multiplayer game, a player\u2019s first mulligan is for the same number of cards as they had before.) See rule 103.4."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "903.11g",
+            "ruleText": "In any Brawl game, the first old_start time old_end a player takes old_start a mulligan, they draw a new hand old_end of old_start as many old_end cards old_start as they had before. old_end Subsequent old_start hands decrease by one card old_end as normal."
+        },
+        "new": {
+            "ruleNum": "903.11g",
+            "ruleText": "In any Brawl game, the first new_start mulligan new_end a player takes new_start doesn\u2019t count toward the number new_end of cards new_start that player will put on the bottom of their library or the number of mulligans that player may take. new_end Subsequent new_start mulligans are counted toward these numbers new_end as normal."
+        }
+    }
+]
