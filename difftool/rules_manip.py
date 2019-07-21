@@ -90,7 +90,7 @@ def align_matches(some_list, match_list):
     for index, rule in enumerate(some_list):
         best = difflib.get_close_matches(
             rule,
-            match_list[(index-5):(index+5)])  # 5 is likely too wide
+            match_list[index-50:index+50])
         try:
             swap_index = match_list.index(best[0])
         except IndexError:

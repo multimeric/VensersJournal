@@ -1,6 +1,8 @@
 import difflib
+import re
 
 from pathlib import Path
+
 
 def get_readable_header(first_file, second_file):
     """Get the readable names from input files.
@@ -36,6 +38,9 @@ def wrap_slice(rule_slice, status):
     """
     if not rule_slice:
         return ''
+    if re.match('^^(?:rules? )?\d{3}(?:\.\d+[a-z]*)*(?:–\d{3}(?:\.\d+[a-z]?)?)?\)?\.?', ' '.join(rule_slice)):
+        print(rule_slice)
+        return rule_slice
     if status == 'old':
         return ['old_start', *rule_slice, 'old_end']
     else:
@@ -68,7 +73,6 @@ def diff_rules(old_rule, new_rule):
 
     modded_old, modded_new = [], []
     old_offset, new_offset = 0, 0
-
     # via difflib docs: matching blocks come in a tuple such that
     # old_rule[o:o+i] == new_rule[n:n+i].
     for o, n, i in matches:
@@ -104,6 +108,8 @@ def diff_rules(old_rule, new_rule):
             modded_new.extend(new_rule_text[n:n+i])
             new_offset = n + i
 
+    if 'old_start' not in ' '.join(modded_old) and 'new_start' not in ' '.join(modded_new):
+        return None
     rules_comparison['old'] = {'ruleNum': old_rule_num,
                                'ruleText': ' '.join(modded_old)}
     rules_comparison['new'] = {'ruleNum': new_rule_num,

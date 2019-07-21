@@ -30,7 +30,7 @@ rules = [{ 'names' : {
             }
         }]
 
-out_path = 'public/assets/cr-diffs/'
+out_path = ''
 output_rules_file = '%s%s-%s.json' % (out_path, orig_cr_set_code, dest_cr_set_code)
 
 with open(output_rules_file, 'w', encoding='utf-8') as out_json:
