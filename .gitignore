@@ -12,6 +12,7 @@ yarn-error.log*
 
 #Python build stuff
 **/__pycache__/
+difftool/_pycache_/
 
 # Runtime data
 pids
