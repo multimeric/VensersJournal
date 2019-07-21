@@ -19,7 +19,7 @@ def get_readable_header(first_file, second_file):
     from_name = Path(first_file).stem
     to_name = Path(second_file).stem
 
-    return { 'old': from_name, 'new': to_name }
+    return {'old': from_name, 'new': to_name}
 
 
 def wrap_slice(rule_slice, status):
@@ -38,9 +38,12 @@ def wrap_slice(rule_slice, status):
     """
     if not rule_slice:
         return ''
-    if re.match('^^(?:rules? )?\d{3}(?:\.\d+[a-z]*)*(?:–\d{3}(?:\.\d+[a-z]?)?)?\)?\.?', ' '.join(rule_slice)):
-        print(rule_slice)
+    if re.match('^^(?:rules? )?'
+                '\d{3}(?:\.\d+[a-z]*)*'
+                '(?:–\d{3}(?:\.\d+[a-z]?)?)?\)?\.?',
+                ' '.join(rule_slice)):
         return rule_slice
+
     if status == 'old':
         return ['old_start', *rule_slice, 'old_end']
     else:
@@ -101,15 +104,18 @@ def diff_rules(old_rule, new_rule):
             return None
         else:
             modded_old.extend(wrap_slice(old_rule_text[old_offset:o], 'old'))
-            modded_old.extend(old_rule_text[o:o+i])
+            modded_old.extend(old_rule_text[o:o + i])
             old_offset = o + i
 
             modded_new.extend(wrap_slice(new_rule_text[new_offset:n], 'new'))
-            modded_new.extend(new_rule_text[n:n+i])
+            modded_new.extend(new_rule_text[n:n + i])
             new_offset = n + i
 
-    if 'old_start' not in ' '.join(modded_old) and 'new_start' not in ' '.join(modded_new):
+    if ('old_start' not in ' '.join(modded_old) 
+        and 'new_start' not in ' '.join(modded_new)):
+        # the only changes were to rule numbers, so we can get out
         return None
+
     rules_comparison['old'] = {'ruleNum': old_rule_num,
                                'ruleText': ' '.join(modded_old)}
     rules_comparison['new'] = {'ruleNum': new_rule_num,
