@@ -8,5 +8,5 @@ For the time being, Infraction Procedure Guide and Magic Tournament Rules diffs 
 
 The archives aren't totally complete yet, but I'm working on it. We have a *massive* chunk of the previous rules docs, and the IPG and MTR are complete-ish for the last few years. There are also some weird, far distant outliers in the mix.
 
-#How to use
+# How to use
 It's... it's a website. Just go to it. Click the things. Read the things.
