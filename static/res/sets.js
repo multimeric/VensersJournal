@@ -201,5 +201,6 @@ var setDict = {
     "WAR": "War of the Spark",
     "MH1": "Modern Horizons",
     "M20": "Core Set 2020",
+    "C19": "Commander 2019",
     "ELD": "Throne of Eldraine"
 }

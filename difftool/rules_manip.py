@@ -4,6 +4,18 @@ import re
 import sort_utils
 
 
+def ensure_real_match(rule, some_list):
+    keyword_list = ['attacking', 'attackers.',
+                    'blocking', 'blockers.']
+    for i in some_list:
+        if len(rule) == len(i):
+            difference = list(set(rule[1:]).symmetric_difference(set(i[1:])))
+            if (len(difference) > 0 and
+                    all(word in keyword_list for word in difference)):
+                return some_list[1]
+    return some_list[0]
+
+
 def extract_rules(input_file):
     """Get rules out of an input Comprehensive Rules doc.
 
@@ -68,8 +80,8 @@ def aggregate_rule_nums(first_rules, second_rules):
     sort_utils.insertion_sort(first_rules)
     sort_utils.insertion_sort(second_rules)
 
-    completerules_list = [word for word in first_rules]
-    return completerules_list
+    complete_rules_list = [word for word in first_rules]
+    return complete_rules_list
 
 
 def align_matches(some_list, match_list):
@@ -90,13 +102,16 @@ def align_matches(some_list, match_list):
     for index, rule in enumerate(some_list):
         best = difflib.get_close_matches(
             rule,
-            match_list[index-50:index+50])
+            match_list[index - 50:index + 50])
         try:
-            swap_index = match_list.index(best[0])
+            if len(best) == 0:
+                raise IndexError
+            match = ensure_real_match(rule, best)
+            swap_index = match_list.index(match)
         except IndexError:
             continue
         else:
-            if(swap_index != index):
+            if swap_index != index:
                 # Can't swap in place because it might alienate
                 # rules later in the list
                 homeless_rules.append((swap_index, rule))

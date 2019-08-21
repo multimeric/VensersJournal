@@ -34,7 +34,7 @@ def wrap_slice(rule_slice, status):
 
     Keyword arguments:
     rule_slice -- the chunk of the rule that indicates a change
-    status -- whether the slice belongs to an 'old' rule or a 'new' rule. 
+    status -- whether the slice belongs to an 'old' rule or a 'new' rule.
     """
     if not rule_slice:
         return ''
@@ -111,8 +111,8 @@ def diff_rules(old_rule, new_rule):
             modded_new.extend(new_rule_text[n:n + i])
             new_offset = n + i
 
-    if ('old_start' not in ' '.join(modded_old) 
-        and 'new_start' not in ' '.join(modded_new)):
+    if ('old_start' not in ' '.join(modded_old)
+            and 'new_start' not in ' '.join(modded_new)):
         # the only changes were to rule numbers, so we can get out
         return None
 

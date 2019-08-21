@@ -22,16 +22,15 @@ rules_manip.align_matches(old_rules, new_rules)
 orig_cr_set_code = orig_cr[-7:-4]
 dest_cr_set_code = dest_cr[-7:-4]
 
-rules = [{ 'names' : {
-                'old_full': sys.argv[2],
-                'old_setcode': orig_cr_set_code,
-                'new_full': sys.argv[4],
-                'new_setcode': dest_cr_set_code
-            }
-        }]
+rules = [{'names': {'old_full': sys.argv[2],
+                    'old_setcode': orig_cr_set_code,
+                    'new_full': sys.argv[4],
+                    'new_setcode': dest_cr_set_code}}]
 
-out_path = ''
-output_rules_file = '%s%s-%s.json' % (out_path, orig_cr_set_code, dest_cr_set_code)
+out_path = 'public/assets/cr-diffs/'
+output_rules_file = '%s%s-%s.json' % (out_path,
+                                      orig_cr_set_code,
+                                      dest_cr_set_code)
 
 with open(output_rules_file, 'w', encoding='utf-8') as out_json:
     for i, (old, new) in enumerate(zip(old_rules, new_rules)):
