@@ -10,7 +10,10 @@
     <div class='container-fluid'>
       <div class='offset'>
         <h2 class='text-center'>Change Log</h2>
-        <h3>21 July 2019</h3>
+        <h3>20 August, 2019</h3>
+        <p><b>9:21pm CST</b> - Had the updates up earlier this afternoon, but then had to fiddle with the rule-matching algorithm to cover Yet Another Edge Case (tm). Luckily,
+        this new setup should be pretty extensible to cover other similar edge cases, so maybe I can go one new Comprehensive Rules update without needing to rewrite something.</p>
+        <h3>21 July, 2019</h3>
         <p><b>3:52am CST</b> - Fiddled with the CR diff algorithm for a bit. First, the range on "oh you're the same rule, just moved" is now significantly larger, which means it takes a little longer to parse but also that it's really, 
           <i>really</i> good at figuring out where a rule is supposed to live. This handles all the new token stuff exceptionally well.</p>
         <p>Second, I hammered out a way to tell if the only change is "this rule reference got changed to another rule reference." If that's all that happened, the rule is ignored by the diff.</p>
