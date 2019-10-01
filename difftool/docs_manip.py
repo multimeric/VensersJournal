@@ -4,25 +4,6 @@ import re
 import sort_utils
 
 
-def ensure_real_match(rule, some_list):
-    keyword_list = ['attacking', 'attackers.',
-                    'blocking', 'blockers.']
-    problem_children = ['716.1a', '716.1b', '716.1c', '716.1d', '716.1e',
-                        '716.1f', '716.2a', '716.2b', '716.2c', '716.2d',
-                        '716.2e', '716.2f']
-    for index, comparison in enumerate(some_list):
-        if len(rule) == len(comparison):
-            difference = list(set(rule[1:])
-                              .symmetric_difference(set(comparison[1:])))
-            if (len(difference) > 0 and
-                    all(word in keyword_list for word in difference)):
-                return some_list[1]
-            if (rule[0] in problem_children):
-                if (rule[0][3:] == comparison[0][3:]):
-                    return some_list[index]
-    return some_list[0]
-
-
 def extract_rules(input_file):
     """Get rules out of an input Comprehensive Rules doc.
 
@@ -87,43 +68,5 @@ def aggregate_rule_nums(first_rules, second_rules):
     sort_utils.insertion_sort(first_rules)
     sort_utils.insertion_sort(second_rules)
 
-    complete_rules_list = [word for word in first_rules]
-    return complete_rules_list
-
-
-def align_matches(some_list, match_list):
-    """Find most likely match from old rule -> new rule
-
-    Compares rules in the first list to its close neighbors
-    to determine if there's a better rule it should actually be
-    compared to.
-    For instance, if the new rules insert a new 202.3d, which pushes
-    old!202.3d 'down' a space, old!202.3d should actually be diffed
-    against new!202.3e
-
-    Keyword arguments:
-    some_list -- the older list of rules
-    match_list -- the newer list of rules
-    """
-    homeless_rules = []
-    for index, rule in enumerate(some_list):
-        best = difflib.get_close_matches(
-            rule,
-            match_list[index - 50:index + 50])
-        try:
-            if len(best) == 0:
-                raise IndexError
-            match = ensure_real_match(rule, best)
-            swap_index = match_list.index(match)
-        except IndexError:
-            continue
-        else:
-            if swap_index != index:
-                # Can't swap in place because it might alienate
-                # rules later in the list
-                homeless_rules.append((swap_index, rule))
-                placeholder = [rule[0], '']
-                some_list[some_list.index(rule)] = placeholder
-
-    for index, rule in homeless_rules:
-        some_list[index] = list(rule)
+    completerules_list = [word for word in first_rules]
+    return completerules_list

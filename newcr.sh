@@ -1,30 +1,27 @@
 #!/bin/bash
-# Arg list: Wizards media, new_path, full_new_setname, full_old_setname
+# Arg list: output file (cr-YYYY-MM-DD-SET.txt), rules file (WotC media)
 
-# the current string to the path on WotC media servers. Might change.
-wotc_prefix="http://media.wizards.com/2019/downloads/MagicCompRules "
 # path to rules folder
 rules_path="static/rules/"
 # path to diffs folder
 diffs="public/assets/cr-diffs"
-
-# Get the path for the previous CR
-old_path=$rules_path$(ls $rules_path | tail -1)
-# And also get the old diff
-old_diff=$(ls -t $diffs | head -n1 | cut -d '.' -f 1)
+#set codes
+sets_file="static/res/sets.js"
 
 # snag the new CR
-wget -O "$rules_path$2" "$wotc_prefix$1" ;
+wget -O "$rules_path$2" "$1"
 
-# convert the temp file to UTF-8 so we can actually use it
-# UPDATE WITH WAR: This seeeeems to be served directly as UTF-8 now!!
-# iconv -f 850 -t UTF-8 -o "$rules_path$2" temp;
-# Dump the temp file
-#rm temp
+old_rules_file=$(ls $rules_path -t | head -2 | tail -1)
+old_set_abbr=$(echo $old_rules_file | cut -d"-" -f5 | cut -d"." -f1)
+old_set_name=$(grep -oP "\"$old_set_abbr\": \"\K[^\"]+" $sets_file)
+
+new_rules_file=$(ls $rules_path -t | head -1)
+new_set_abbr=$(echo $new_rules_file | cut -d"-" -f5 | cut -d"." -f1)
+new_set_name=$(grep -oP "\"$new_set_abbr\": \"\K[^\"]+" $sets_file)
+
+echo $old_rules_file, $old_set_abbr, $old_set_name
+echo $new_rules_file, $new_set_abbr, $new_set_name
+
 # Diff 'em away boys
-python3 difftool/diff_rules.py $old_path "$4" "$rules_path$2" "$3";
-
-# ... now get the new diff
-new_diff=$(ls -t $diffs | head -n1 | cut -d '.' -f 1)
-
-sed -i -s "s/$old_diff/$new_diff/" views/partials/header.ejs
+python3 difftool/diff_rules.py "$rules_path$old_rules_file" "$old_set_name" "$rules_path$new_rules_file" "$new_set_name"
+python3 /home/vill/Southfall/grab_rules.py "$rules_path$2"

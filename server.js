@@ -35,10 +35,15 @@ app.get('/:diff([\\w]{3}\\-[\\w]{3})', function(req, res) {
               + '.json', 'utf8',
               (err, data) => {
                 if (err) {
-                  throw err
+		  res.status(500).render('pages/error_template', {status: res.statusCode + ': The CR route you tried doesn\'t exist. At all. And never will.'})
+		  console.log(err)
                 } else {
                   rules = assist.getRules(data);
-                  res.render('pages/rules', {rules: rules})
+		  if (rules.length === 2) {
+		    res.render('pages/gief')
+                  } else {
+                    res.render('pages/rules', {rules: rules})
+                  }
                 }
               });
 })

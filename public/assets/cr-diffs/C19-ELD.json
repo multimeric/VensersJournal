@@ -1,0 +1,303 @@
+[
+    {
+        "names": {
+            "old_full": "Commander 2019",
+            "old_setcode": "C19",
+            "new_setcode": "ELD",
+            "new_full": "Throne of Eldraine"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If an object gains an ability, the value of X within that ability is the value defined by that ability, or 0 if that ability doesn\u2019t define a value of X. This is an exception to rule 107.3h.",
+            "ruleNum": "107.3i"
+        },
+        "new": {
+            "ruleText": "If an object gains an ability, the value of X within that ability is the value defined by that ability, or 0 if that ability doesn\u2019t define a value of X. This is an exception to rule 107.3h. new_start This may occur with ability\u2013adding effects, text\u2013changing effects, or copy effects. new_end",
+            "ruleNum": "107.3i"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an object\u2019s enters\u2013the\u2013battlefield triggered ability or replacement effect refers to X, and the spell that became that object as it resolved had a value of X chosen for any of its costs, the value of X for that ability is the same as the value of X for that spell, although the value of X for that permanent is 0. This is an exception to rule 107.3h.",
+            "ruleNum": "107.3k"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A Food token is a colorless Food artifact token with \u201c{2}, {T}, Sacrifice this artifact: You gain 3 life.\u201d",
+            "ruleNum": "111.10b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won\u2019t affect the ability. Note that some abilities cause a source to do something (for example, \u201cProdigal Pyromancer deals 1 damage to old_start target creature or player\u201d) old_end rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source old_start because old_end the old_start effect needs to be divided old_end checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it\u2019s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.",
+            "ruleNum": "113.7a"
+        },
+        "new": {
+            "ruleText": "Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won\u2019t affect the ability. Note that some abilities cause a source to do something (for example, \u201cProdigal Pyromancer deals 1 damage to new_start any target\u201d) new_end rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source new_start for use while announcing an activated ability or putting a triggered ability on new_end the new_start stack new_end checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it\u2019s expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.",
+            "ruleNum": "113.7a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "An ability that triggers \u201cWhen/Whenever the Nth [kind] counter\u201d is put on an object triggers when one or more counters of the appropriate kind are put on the object such that the object had fewer than N counters on it before the counters were put on it and N or more counters on it after.",
+            "ruleNum": "122.7."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player wants to choose an adventurer card\u2019s alternative name, the player may do so. (See rule 715.) If a player is instructed to choose a card name with certain characteristics, use the card\u2019s characteristics as modified by its alternative characteristics to determine if this name can be chosen.",
+            "ruleNum": "201.3f"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some effects change an object\u2019s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object\u2019s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase \u201cin addition to its types\u201d or that state that something is \u201cstill a [type, supertype, or subtype].\u201d Some effects state that an object becomes an \u201cartifact creature\u201d; these effects also allow the object to retain all of its prior card types and subtypes.",
+            "ruleNum": "205.1b"
+        },
+        "new": {
+            "ruleText": "Some effects change an object\u2019s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the object\u2019s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase \u201cin addition to its types\u201d or that state that something is \u201cstill a [type, supertype, or subtype].\u201d Some effects state that an object becomes an \u201cartifact creature\u201d; these effects also allow the object to retain all of its prior card types and subtypes. new_start Some effects state that an object becomes a \u201c[creature type or types] artifact creature\u201d; these effects also allow the object to retain all of its prior card types and subtypes other than creature types, but replace any existing creature types. new_end",
+            "ruleNum": "205.1b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Fortification (see rule 301.6), Treasure, and Vehicle (see rule 301.7).",
+            "ruleNum": "205.3g"
+        },
+        "new": {
+            "ruleText": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), new_start Food, new_end Fortification (see rule 301.6), Treasure, and Vehicle (see rule 301.7).",
+            "ruleNum": "205.3g"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        },
+        "new": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, new_start Oko, new_end Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are old_start Arcane old_end and Trap.",
+            "ruleNum": "205.3k"
+        },
+        "new": {
+            "ruleText": "Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are new_start Adventure, Arcane, new_end and Trap.",
+            "ruleNum": "205.3k"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, new_start Mouse, new_end Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, new_start Noble, new_end Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, new_start Peasant, new_end Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, new_start Warlock, new_end Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are addendum, battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.",
+            "ruleNum": "207.2c"
+        },
+        "new": {
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are new_start adamant, new_end addendum, battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, eminence, enrage, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, undergrowth, and will of the council.",
+            "ruleNum": "207.2c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Most card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the old_start set]. old_end Some cards, such as unique cards in Planeswalker Decks, have card numbers that exceed the listed total number of cards.",
+            "ruleNum": "212.1a"
+        },
+        "new": {
+            "ruleText": "Most card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the new_start set] or simply [card number]. new_end Some cards, such as unique cards in Planeswalker Decks, have card numbers that exceed the listed total number of cards.",
+            "ruleNum": "212.1a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some artifacts have the subtype \u201cEquipment.\u201d An Equipment can be attached to a creature. It can\u2019t legally be attached to old_start an object old_end that isn\u2019t a creature.",
+            "ruleNum": "301.5."
+        },
+        "new": {
+            "ruleText": "Some artifacts have the subtype \u201cEquipment.\u201d An Equipment can be attached to a creature. It can\u2019t legally be attached to new_start anything new_end that isn\u2019t a creature.",
+            "ruleNum": "301.5."
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An ability of a permanent can reference information about the spell that became that old_start permanent, old_end including what costs were paid to cast that spell or what mana was spent to pay those costs.",
+            "ruleNum": "400.7c"
+        },
+        "new": {
+            "ruleText": "An ability of a permanent can reference information about the spell that became that new_start permanent as it resolved, new_end including what costs were paid to cast that spell or what mana was spent to pay those costs.",
+            "ruleNum": "400.7c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn\u2019t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 721, \u201cHandling Illegal old_start Actions\u201d). old_end",
+            "ruleNum": "510.1e"
+        },
+        "new": {
+            "ruleText": "Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesn\u2019t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 722, \u201cHandling Illegal new_start Actions.\u201d) new_end",
+            "ruleNum": "510.1e"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A player old_start can\u2019t old_end begin to cast a spell old_start unless old_end a rule or effect allows that player to cast old_start it. If old_end that player old_start is no longer allowed to cast that spell after completing its proposal, the old_end casting old_start of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 721, \u201cHandling Illegal Actions\u201d). old_end",
+            "ruleNum": "601.3."
+        },
+        "new": {
+            "ruleText": "A player new_start can new_end begin to cast a spell new_start only if new_end a rule or effect allows that player to cast new_start it and no rule or effect prohibits new_end that player new_start from new_end casting new_start it. new_end",
+            "ruleNum": "601.3."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a rule or effect states that only an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to cast, those alternative characteristics replace the object\u2019s characteristics prior to determining whether the player may begin to cast it.",
+            "ruleNum": "601.3e"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player is no longer allowed to cast a spell after completing its proposal (see rules 601.2a\u2013d), the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 722, \u201cHandling Illegal Actions\u201d). It doesn\u2019t matter if a rule or effect would make the casting of the spell illegal while determining and paying that spell\u2019s costs (see rules 601.2f\u2013h) or any time after the spell has been cast.",
+            "ruleNum": "601.4."
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them.",
+            "ruleNum": "603.12."
+        },
+        "new": {
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event new_start or events new_end occurred earlier during the resolution of the spell or ability that created them.",
+            "ruleNum": "603.12."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an effect allows a player to spend mana \u201cas though it were mana of any [type or color],\u201d this affects only how the player may pay a cost. It doesn\u2019t change that cost, and it doesn\u2019t change what mana was actually spent to pay that cost.",
+            "ruleNum": "609.4b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If an Equipment or Fortification is attached to an illegal old_start permanent, old_end it becomes unattached from that old_start permanent. old_end It remains on the battlefield.",
+            "ruleNum": "704.5n"
+        },
+        "new": {
+            "ruleText": "If an Equipment or Fortification is attached to an illegal new_start permanent or to a player, new_end it becomes unattached from that new_start permanent or player. new_end It remains on the battlefield.",
+            "ruleNum": "704.5n"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some replacement effects that generate copy effects are linked to triggered abilities written in the same paragraph. (See rule 603.11.) old_start The triggered ability will only trigger if the resulting old_end object after applying old_start all continuous effects has that ability. old_end",
+            "ruleNum": "706.9f"
+        },
+        "new": {
+            "ruleText": "Some replacement effects that generate copy effects are linked to triggered abilities written in the same paragraph. (See rule 603.11.) new_start If another copy effect is applied to that new_end object after applying new_start the copy effect with the linked triggered ability, the ability doesn\u2019t trigger. new_end",
+            "ruleNum": "706.9f"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Adventurer cards have a two\u2013part card frame, with a smaller frame inset within their text box.",
+            "ruleNum": "715.1."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "The text that appears in the inset frame on the left defines alternative characteristics that the object may have while it\u2019s a spell. The card\u2019s normal characteristics appear as usual, although with a smaller text box on the right.",
+            "ruleNum": "715.2."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an effect refers to a card, spell, or permanent that \u201chas an Adventure,\u201d it refers to an object for which these alternative characteristics exist, even if the object currently doesn\u2019t use them.",
+            "ruleNum": "715.2a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "The existence and values of these alternative characteristics is part of the object\u2019s copiable values.",
+            "ruleNum": "715.2b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Although adventurer cards are printed with multiple sets of characteristics, each adventurer card is only one card. For example, a player who has drawn or discarded an adventurer card has drawn or discarded one card, not two.",
+            "ruleNum": "715.2c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "As a player casts an adventurer card, the player chooses whether they cast the card normally or as an Adventure.",
+            "ruleNum": "715.3."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "When casting an adventurer card as an Adventure, only the alternative characteristics are evaluated to see if it can be cast.",
+            "ruleNum": "715.3a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "While on the stack as an Adventure, the spell has only its alternative characteristics.",
+            "ruleNum": "715.3b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an Adventure spell is copied, the copy is also an Adventure. It has the alternative characteristics of the spell and not the normal characteristics of the card that represents the Adventure spell. Any rule or effect that refers to a spell cast as an Adventure refers to the copy as well.",
+            "ruleNum": "715.3c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Instead of putting a spell that was cast as an Adventure into its owner\u2019s graveyard as it resolves, its controller exiles it. For as long as that card remains exiled, that player may cast it. It can\u2019t be cast as an Adventure this way, although other effects that allow a player to cast it may allow a player to cast it as an Adventure.",
+            "ruleNum": "715.3d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "In every zone except the stack, and while on the stack not as an Adventure, an adventurer card has only its normal characteristics.",
+            "ruleNum": "715.4."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an effect instructs a player to choose a card name and the player wants to choose an adventurer card\u2019s alternative name, the player may do so.",
+            "ruleNum": "715.5."
+        }
+    }
+]

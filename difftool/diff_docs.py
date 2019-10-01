@@ -1,5 +1,6 @@
+import doc_diff_utils
 import re
-import sys
+from tika import parser
 
 
 def find_phrase(phrase, lines):
@@ -19,6 +20,42 @@ def find_phrase(phrase, lines):
     return found_phrase
 
 
+def massage_text(some_text):
+    """Substitute various parts of the full text to make it easier to digest
+
+    The raw text that comes back from tika is... pretty ugly. Lots of line
+    breaks in places they shouldn't be, etc. This attempts to process the
+    text via a series of re.sub calls to make the resulting text easier to
+    diff.
+    """
+    fixed_text = re.sub(r'\s+\d{1,2}\s+', r'\n\n', some_text)
+
+    # HEY IDIOT THIS IS NOT ROBUST EVEN A LITTLE. Talk to Me-Me and
+    # see if you can make it not suck shit. Literally only hits
+    # Example D in Missed Trigger.
+    fixed_text = re.sub(r'(?<=[D]\.)(.+\.)\s+(They.+)', r'\1 \2', fixed_text)
+
+    fixed_text = re.sub(r'([a-z,])\s?\n+\s?([a-zA-Z][^\.])',
+                        r'\1 \2',
+                        fixed_text)
+
+    fixed_text = re.sub(r'(\.)\s+([A-Z]\.)', r'\1\n\2', fixed_text)
+
+    fixed_text = re.sub(r'Philosophy (.)', r'Philosophy\n\1', fixed_text)
+
+    fixed_text = re.sub(r'Additional Remedy (.)',
+                        r'Additional Remedy\n\1',
+                        fixed_text)
+
+    fixed_text = re.sub(r'(\d\.\d\..*)'
+                        r'(Match Loss|Warning|Disqualification|No Penalty)'
+                        r'(Definition)',
+                        r'\1\n\2\n\3\n',
+                        fixed_text)
+
+    return fixed_text
+
+
 def extract_lines(some_file, doc_flag):
     """Get lines from a file.
 
@@ -29,10 +66,12 @@ def extract_lines(some_file, doc_flag):
     some_file -- the file to parse
     doc_flag -- 'ipg' or 'mtr', the two flavors of docs we're using this for
     """
-    with open(some_file, 'r') as raw:
-        doc = raw.read()
+    parsedPDF = parser.from_file(some_file)
+    text = parsedPDF['content']
+    text = massage_text(text)
 
-    lines = re.findall(r'\S+|\n', doc)
+    lines = re.findall(r'\S+|\n', text)
+
     lines = ' '.join(lines).split('\n \n')
 
     if doc_flag is 'ipg':
@@ -47,7 +86,8 @@ def extract_lines(some_file, doc_flag):
     starting_index, _ = starting_section[0]
     ending_index, _ = ending_section[0]
 
-    return lines[starting_index:ending_index+1]
+    lines = trim_excess_text(lines[starting_index:ending_index + 1], 'ipg')
+    return lines
 
 
 def trim_excess_text(some_list, doc_flag):
@@ -72,21 +112,10 @@ def trim_excess_text(some_list, doc_flag):
     return some_list
 
 
-old_doc, new_doc = sys.argv[1], sys.argv[2]
+old_lines = extract_lines('oldipg', 'ipg')
+new_lines = extract_lines('newipg', 'ipg')
 
-with open(old_doc, 'r', encoding='utf-16') as ugh:
-    old_doc = ugh.read()
-
-lines = re.findall(r'\S+|\n', old_doc)
-lines = ' '.join(lines).split('\n \n')
-
-for idx, line in enumerate(lines):
-    print(idx, '--', line, '\n')
-# old_doc = extract_lines(old_doc, 'ipg')
-# new_doc = extract_lines(new_doc, 'ipg')
-
-# old_doc = trim_excess_text(old_doc, 'ipg')
-# new_doc = trim_excess_text(new_doc, 'ipg')
-
-# for idx, line in enumerate(old_doc):
-#     print(idx, '--', line)
+# for idx, line in enumerate(lines):
+#     print(line, '\n')
+for x in zip(old_lines, new_lines):
+    doc_diff_utils.diff_docs(x, x)

@@ -97,3 +97,7 @@ ol > .fix::before {
 .new-section > ol > li::before {
 	color: var(--white);
 }
+
+.new a {
+	color: var(--white);
+}
