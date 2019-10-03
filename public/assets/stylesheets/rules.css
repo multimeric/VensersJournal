@@ -47,3 +47,8 @@ td {
 .add {
   color: var(--green);
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

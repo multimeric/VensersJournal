@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+
+  <header>
+    <% include ../partials/header %>
+    <link href="/public/assets/stylesheets/supportpages.css" rel="stylesheet"/>
+  </header>
+
+  <body>
+    <div class='container-fluid'>
+      <div class='offset'>
+        <h2><%= rule.ruleNumber %></h2>
+        <p><%= rule.ruleText %></h2>
+        <%if (examples.exampleText != "Example not found") { %>
+          <h3>Examples</h3>
+          <% example_list = examples.exampleText.replace(/Example: /g, '').split('\n') %>
+          <% for (var i=0; i < example_list.length; i++) { %>
+            <li><%- example_list[i] %></li>
+          <% } %>
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,7 +1,5 @@
 'use strict'
 
-var sets = require('./sets')
-
 /**
  * Replaces the 'dummy' values in the JSON with proper
  * HTML tags for display.
@@ -25,12 +23,10 @@ function replaceTags(someJSON) {
 
 module.exports = {
   getRules: function(JSONfile) {
-    
+
     var usableJSON = JSON.parse(JSONfile);
-    var usableNames = usableJSON[0].names;
-    
     var taggedJSON = replaceTags(usableJSON);
-    
+
     return taggedJSON
   }
 }

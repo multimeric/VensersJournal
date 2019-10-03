@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
   <head>
     <% include ../partials/head %>
@@ -5,24 +6,41 @@
   <header>
     <% include ../partials/header %>
     <link href="/public/assets/stylesheets/rules.css" rel="stylesheet"/>
+    <script src="/public/assets/scripts/rules.js" type="text/javascript" charset="utf-8"></script>
   </header>
-  <body>
+  <body onload='onLoad()'>
     <div class='container-fluid'>
       <table>
         <tr>
-          <th id='oldHeader'><%- rules[0].names.old_full %></th>
-          <th id='newHeader'><%- rules[0].names.new_full %></th>
+          <th id='oldHeader' style="width: 50%"><%- rules[0].names.old_full %></th>
+          <th id='newHeader' style="width: 50%"><%- rules[0].names.new_full %></th>
         </tr>
         <% for(var i=1; i < rules.length; i++) { %>
           <tr>
           <% if(!rules[i].new) { %>
-            <td class='remove'><b><%= rules[i].old.ruleNum %></b><br><%= rules[i].old.ruleText %></td>
+            <td class='remove'><b><%- rules[i].old.ruleNum %></b><br><%= rules[i].old.ruleText %></td>
             <td></td>
           <% } else if(!rules[i].old) { %>
             <td></td>
-            <td class='add'><b><%= rules[i].new.ruleNum %></b><br><%= rules[i].new.ruleText %></td>
+            <td class='add'><b><%- rules[i].new.ruleNum %></b><br><%= rules[i].new.ruleText %></td>
           <% } else { %>
+            <% let oldMatches = rules[i].old.ruleText.match(/^.+these subtypes are called (.+ types)\./) %>
+            <% if (oldMatches) { %>
+              <% let oldStuff = rules[i].old.ruleText.match(/<span class='remove'>[^\\s]+<\/span>/g) %>
+              <% if (!oldStuff) { %>
+                <% rules[i].old.ruleText = oldMatches[0] + '<br>No ' + oldMatches[1] + ' were removed in this update' %>
+              <% } else { %>
+                <% oldStuff.forEach(function(el, index, arr) { arr[index] = el.substring(0, el.length-8) + el.substring(el.length-7, el.length)}) %>
+                <% rules[i].old.ruleText = oldMatches[0] + '<br>The old ' + oldMatches[1] +  ' this set are: ' +  oldStuff.join(',') %>
+              <% } %>
+            <% } %>
             <td><b><%- rules[i].old.ruleNum %></b><br><%- rules[i].old.ruleText %></td>
+            <% let newMatches = rules[i].new.ruleText.match(/^.+these subtypes are called (.+ types)\./) %>
+            <% if (newMatches) { %>
+              <% let newStuff = rules[i].new.ruleText.match(/<span class='new'>[^\\s]+<\/span>/g) %>
+              <% newStuff.forEach(function(el, index, arr) { arr[index] = el.substring(0, el.length-8) + el.substring(el.length-7, el.length)}) %>
+              <% rules[i].new.ruleText = newMatches[0] + '<br>The new ' + newMatches[1] +  ' this set are: ' +  newStuff.join(',') + '<br><i>(Click the rule number to see the full list of ' + newMatches[1] + '.)' %>
+            <% } %>
             <td><b><%- rules[i].new.ruleNum %></b><br><%- rules[i].new.ruleText %></td>
           <% } %>
           </tr>
