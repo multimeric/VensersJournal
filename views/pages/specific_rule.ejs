@@ -9,7 +9,7 @@
     <script src="/public/assets/scripts/rules.js" type="text/javascript"></script>
   </header>
 
-  <body>
+  <body onload='findRules()'>
     <div class='container-fluid'>
       <div class='offset'>
         <h2><%= rule.ruleNumber %></h2>
@@ -18,7 +18,7 @@
           <h3>Examples</h3>
           <% example_list = examples.exampleText.replace(/Example: /g, '').split('\n') %>
           <% for (let i=0; i < example_list.length; i++) { %>
-            <li><%- example_list[i] %></li>
+            <p><%- example_list[i] %></p>
           <% } %>
         <% } %>
         <%if (cards) { %>
