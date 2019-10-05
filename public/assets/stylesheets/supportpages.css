@@ -41,3 +41,24 @@ li a:hover {
   flex-basis: 33%;
   margin: 5px 0px;
 }
+
+.flex-image-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.img-fluid {
+  display: flex;
+  padding: 10px;
+  width: 280px;
+  height: auto;
+}
+
+.flipped {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

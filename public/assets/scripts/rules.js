@@ -1,4 +1,4 @@
-function onLoad() {
+function findRules() {
   $('td:odd').each(function() {
     let link;
     if($(this).html().match(/\d{1,3}\.\w{1,4}/)) {

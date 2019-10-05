@@ -11,6 +11,9 @@ var app = express();
 var https = require('https');
 var request = require('request-promise');
 
+var masterCardList = require('./static/res/cardlist')
+var cardList = require('./static/res/cardlist').getCardList();
+
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.set('view engine', 'ejs');
 
@@ -51,32 +54,18 @@ app.get('/:diff([\\w]{3}\\-[\\w]{3})', function(req, res) {
 })
 
 app.get('/:rule(\\d{1,3}[\\.]\\w{1,4})', function (req, res) {
-  var ruleNum = req.params.rule;
+  let ruleNum = req.params.rule;
   console.log(date.toLocaleDateString(), ": Requested STANDALONE RULE: ", ruleNum);
-//  var rule = get('https://slack.vensersjournal.com/rule/'+ruleNum);
-//  var examples = get('https://slack.vensersjournal.com/example/'+ruleNum);
-//  console.log(rule, '??');
-//  console.log(examples, '?!');
-//  res.render('pages/specific_rule', {rule: rule, examples: examples});
   const urls = ['https://slack.vensersjournal.com/rule/'+ruleNum, 'https://slack.vensersjournal.com/example/'+ruleNum]
   const promises = urls.map(url => request(url));
   Promise.all(promises).then((data) => {
-    var rule = JSON.parse(data[0]);
-    var examples = JSON.parse(data[1]);
-    res.render('pages/specific_rule', {rule: rule, examples: examples});
+    let rule = JSON.parse(data[0]);
+    let examples = JSON.parse(data[1]);
+    let foundCards = findCards(examples.exampleText);
+    res.render('pages/specific_rule', {rule: rule, examples: examples, cards: foundCards });
+  }).catch(err => {
+    res.render('pages/error_template', {status: '400: Rule not found: ' + ruleNum});
   });
-
-//  https.get('https://slack.vensersjournal.com/rule/'+ruleNum, (resp) => {
-//      resp.on('data', (ruleData) => {
-//          https.get('https://slack.vensersjournal.com/example/'+ruleNum, (re) => {
-//            re.on('data', (exData) => {
-//              examples = JSON.parse(exData)
-//            });
-//	  });
-//          rule = JSON.parse(ruleData);
-//      });
-//      resp.on('end', () =>  res.render('pages/specific_rule', {rule: rule, examples: examples}));
-//  });
 })
 
 app.get('/mtr', function(req, res) {
@@ -111,10 +100,33 @@ app.use(function(err, req, res, next) {
 
 app.listen(3000);
 
-function get(url) {
-  https.get(url, (res) => {
-    res.on('data', (data) => {
-      return JSON.parse(data)
-    });
-  });
+function findCards(str) {
+  let cardname_regex = new RegExp(/(?<!^)[A-Z][A-Za-z]{4,}(?:(?:[ \-]| \w{2,4} )[A-Z][A-Za-z]*)*/g);
+  let cardnames = []
+  let alreadyMatched = {}
+  let outputCardList = []
+  let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer']
+
+  while ((cardnames = cardname_regex.exec(str)) !== null) {
+    let card = cardnames[0];
+    if (cardList[card]) {
+      if (card == 'Exile') continue;
+
+      if (!alreadyMatched[card]) {
+        let status = flippedCards.indexOf(card) >= 0 ? 'flipped' : 'regular';
+        console.log(card, status)
+        let newCard = new CardObject(cardList[card], status)
+        outputCardList.push(newCard)
+        alreadyMatched[card] = '1';
+      }
+    }
+  }
+  return outputCardList
+}
+
+class CardObject {
+  constructor(uri, status) {
+    this.imageUri = uri;
+    this.status = status;
+  }
 }

@@ -6,6 +6,7 @@
   <header>
     <% include ../partials/header %>
     <link href="/public/assets/stylesheets/supportpages.css" rel="stylesheet"/>
+    <script src="/public/assets/scripts/rules.js" type="text/javascript"></script>
   </header>
 
   <body>
@@ -16,9 +17,18 @@
         <%if (examples.exampleText != "Example not found") { %>
           <h3>Examples</h3>
           <% example_list = examples.exampleText.replace(/Example: /g, '').split('\n') %>
-          <% for (var i=0; i < example_list.length; i++) { %>
+          <% for (let i=0; i < example_list.length; i++) { %>
             <li><%- example_list[i] %></li>
           <% } %>
+        <% } %>
+        <%if (cards) { %>
+          <div class="flex-image-container flex-row flex-wrap">
+          <% for (let i=0; i < cards.length; i++) { %>
+            <div>
+              <img src="<%= cards[i].imageUri %>" class="<%= cards[i].status %> img-fluid">
+            </div>
+          <% } %>
+          </div>
         <% } %>
       </div>
     </div>
