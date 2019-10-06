@@ -101,7 +101,7 @@ app.use(function(err, req, res, next) {
 app.listen(3000);
 
 function findCards(str) {
-  let cardname_regex = new RegExp(/(?<!^)[A-Z][A-Za-z]{4,}(?:(?:[ \-]| \w{2,4} )[A-Z][A-Za-z]*)*/g);
+  let cardname_regex = new RegExp(/[A-Z][A-Za-z]{2,}(?:(?:[ \-]| \w{2,3}(?:\s\w{2,3})? )[A-Z][A-Za-z]*)*/g);
   let cardnames = []
   let alreadyMatched = {}
   let outputCardList = []
