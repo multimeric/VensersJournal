@@ -103,26 +103,26 @@ app.listen(3000);
 function findCards(str) {
   console.log(str)
   let cardname_regex = new RegExp(/[A-Z][a-z]{2,}(?:(?:[ ,'\-](?:s| )? ?| \w{2,3}?(?:\s\w{2,3})? ?)[A-Z][a-z]*)*/g);
-  let cardnames = []
-  let alreadyMatched = {}
-  let outputCardList = []
-  let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer']
-  let adventures = new BidirectionalAdventureMap({ "Giant Killer" : "Chop Down" })
+  let cardnames = [];
+  let alreadyMatched = new Set();
+  let outputCardList = [];
+  let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer'];
+  let adventures = new BidirectionalAdventureMap({ "Giant Killer" : "Chop Down" });
 
   while ((cardnames = cardname_regex.exec(str)) !== null) {
-    console.log(cardnames[0])
+    console.log(cardnames[0]);
     let card = cardnames[0];
     if (cardList[card]) {
       if (card == 'Exile') continue;
 
-      if (!alreadyMatched[card]) {
+      if (!alreadyMatched.has(card)) {
         let status = flippedCards.indexOf(card) >= 0 ? 'flipped' : 'regular';
         let newCard = new CardObject(cardList[card], status)
-        outputCardList.push(newCard)
-        alreadyMatched[card] = '1';
+        outputCardList.push(newCard);
+        alreadyMatched.add(card);
         if(adventures.get(card) || adventures.revGet(card)) {
-          alreadyMatched[adventures.get(card)] = '1';
-          alreadyMatched[adventures.revGet(card)] = '1';
+          alreadyMatched.add(adventures.get(card));
+          alreadyMatched.add(adventures.revGet(card));
         }
       }
     }

@@ -45,17 +45,17 @@ with open(LATEST_CR, 'r') as file:
     for card in matched_card_names:
         if card in touched_names:
             continue
-        req = requests.get(url=CARD_URL + card)
-        if req.status_code == 404:
+        res = requests.get(url=CARD_URL + card)
+        if res.status_code == 404:
             continue
-        if req.status_code == 200:
+        if res.status_code == 200:
             try:
-                card_image_dict[card] = req.json()['image_uris']['normal']
+                card_image_dict[card] = res.json()['image_uris']['normal']
             except KeyError:
                 face = 1 if card in back_faces else 0
-                dfc_image = req.json()['card_faces'][face]['image_uris']['normal']
+                dfc_image = res.json()['card_faces'][face]['image_uris']['normal']
                 card_image_dict[card] = dfc_image
-        touched_names[card] = '1'
+        touched_names.add(card)
 
 cardlist_location = '/home/vill/VensersJournal/static/res/cardlist.js'
 with open(cardlist_location, 'w', encoding='utf-8') as out_cardlist:
