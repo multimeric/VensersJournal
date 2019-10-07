@@ -15,14 +15,15 @@ card_image_dict = {}
 
 with open(LATEST_CR, 'r') as file:
     rules_doc = file.read()
+    rules_doc = re.sub("’", "'",  rules_doc)
 
     # Get all the Examples out of the CR first
     examples = re.findall('^Example:.*', rules_doc, re.MULTILINE)
 
     # then extract card names from THAT
-    matched_card_names = re.findall('[A-Z][A-Za-z]{2,}'
-                                    '(?:(?:[ \-]| \w{2,3}(?:\s\w{2,3})? )'
-                                    '[A-Z][A-Za-z]*)*',
+    matched_card_names = re.findall('[A-Z][a-z]{2,}'
+                                    '(?:(?:[ ,\'\-](?:s| )? ?| \w{2,3}?'
+                                    '(?:\s\w{2,3})? ?)[A-Z][a-z]*)*',
                                     ''.join(examples), re.MULTILINE)
 
     touched_names = {}

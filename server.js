@@ -101,23 +101,29 @@ app.use(function(err, req, res, next) {
 app.listen(3000);
 
 function findCards(str) {
-  let cardname_regex = new RegExp(/[A-Z][A-Za-z]{2,}(?:(?:[ \-]| \w{2,3}(?:\s\w{2,3})? )[A-Z][A-Za-z]*)*/g);
+  console.log(str)
+  let cardname_regex = new RegExp(/[A-Z][a-z]{2,}(?:(?:[ ,'\-](?:s| )? ?| \w{2,3}?(?:\s\w{2,3})? ?)[A-Z][a-z]*)*/g);
   let cardnames = []
   let alreadyMatched = {}
   let outputCardList = []
   let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer']
+  let adventures = new BidirectionalAdventureMap({ "Giant Killer" : "Chop Down" })
 
   while ((cardnames = cardname_regex.exec(str)) !== null) {
+    console.log(cardnames[0])
     let card = cardnames[0];
     if (cardList[card]) {
       if (card == 'Exile') continue;
 
       if (!alreadyMatched[card]) {
         let status = flippedCards.indexOf(card) >= 0 ? 'flipped' : 'regular';
-        console.log(card, status)
         let newCard = new CardObject(cardList[card], status)
         outputCardList.push(newCard)
         alreadyMatched[card] = '1';
+        if(adventures.get(card) || adventures.revGet(card)) {
+          alreadyMatched[adventures.get(card)] = '1';
+          alreadyMatched[adventures.revGet(card)] = '1';
+        }
       }
     }
   }
@@ -130,3 +136,16 @@ class CardObject {
     this.status = status;
   }
 }
+
+function BidirectionalAdventureMap(map) {
+  this.map = map;
+  this.reverseMap = {};
+  for (var k in map) {
+    var v = map[k];
+    this.reverseMap[v] = k;
+  }
+}
+
+BidirectionalAdventureMap.prototype.get = function(k){ return this.map[k]; };
+BidirectionalAdventureMap.prototype.revGet = function(k){ return this.reverseMap[k]; };
+
