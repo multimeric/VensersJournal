@@ -26,35 +26,34 @@ with open(LATEST_CR, 'r') as file:
                                     '(?:\s\w{2,3})? ?)[A-Z][a-z]*)*',
                                     ''.join(examples), re.MULTILINE)
 
-    touched_names = {}
+    touched_names = set()
 
     # Let's axe the things that are super not relevant
     trash = ['Copy',  # copy tokens are never referenced
              'Horror',  # same for horror tokens
              'Example']  # obviously.
-    matched_card_names[:] = [x for x in matched_card_names if x not in trash]
-
-    # I hate this, so if someone has a better solution, lemme know
-    back_faces = ['Saproling',
-                  'Insectile Aberration',
-                  'Wildblood Pack',
-                  'Ironfang',
-                  'Homicidal Brute',
-                  'Ravager of the Fells']
+    matched_card_names = [x for x in matched_card_names if x not in trash]
 
     for card in matched_card_names:
         if card in touched_names:
             continue
         res = requests.get(url=CARD_URL + card)
+        json = res.json()
         if res.status_code == 404:
             continue
         if res.status_code == 200:
             try:
-                card_image_dict[card] = res.json()['image_uris']['normal']
+                card_image_dict[card] = json['image_uris']['normal']
+
             except KeyError:
-                face = 1 if card in back_faces else 0
-                dfc_image = res.json()['card_faces'][face]['image_uris']['normal']
-                card_image_dict[card] = dfc_image
+                front_face = json['card_faces'][0]
+                back_face = json['card_faces'][1]
+
+                if json['layout'] == 'transform':
+                    dfc = front_face['image_uris']['normal']
+                    if back_face['name'] == card:
+                        dfc = back_face['image_uris']['normal']
+                    card_image_dict[card] = dfc
         touched_names.add(card)
 
 cardlist_location = '/home/vill/VensersJournal/static/res/cardlist.js'
@@ -67,6 +66,6 @@ with open(cardlist_location, 'w', encoding='utf-8') as out_cardlist:
     out_cardlist.write('var cardList = {\n')
     for card in card_image_dict:
         out_cardlist.write(
-            '"' + card + '": "' + card_image_dict[card] + '",\n')
+            '"{}": "{}\n"'.format(card, card_image_dict[card]))
     out_cardlist.write('}\n')
 print(datetime.now() - start)

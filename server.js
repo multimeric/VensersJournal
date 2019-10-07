@@ -106,7 +106,7 @@ function findCards(str) {
   let cardnames = [];
   let alreadyMatched = new Set();
   let outputCardList = [];
-  let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer'];
+  let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer', 'Tok-Tok, Volcano Born'];
   let adventures = new BidirectionalAdventureMap({ "Giant Killer" : "Chop Down" });
 
   while ((cardnames = cardname_regex.exec(str)) !== null) {
