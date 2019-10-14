@@ -66,6 +66,6 @@ with open(cardlist_location, 'w', encoding='utf-8') as out_cardlist:
     out_cardlist.write('var cardList = {\n')
     for card in card_image_dict:
         out_cardlist.write(
-            '"{}": "{}"\n'.format(card, card_image_dict[card]))
+            '"{}": "{}",\n'.format(card, card_image_dict[card]))
     out_cardlist.write('}\n')
 print(datetime.now() - start)

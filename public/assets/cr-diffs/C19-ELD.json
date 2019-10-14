@@ -91,7 +91,7 @@
             "ruleNum": "205.3k"
         },
         "new": {
-            "ruleText": "Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are new_start Adventure, Arcane, new_end and Trap.",
+            "ruleText": "Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are new_start Adventure  new_end and Trap.",
             "ruleNum": "205.3k"
         }
     },

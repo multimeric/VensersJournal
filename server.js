@@ -1,8 +1,10 @@
 'use strict';
 
-var assist = require('./static/res/assist')
+var assist = require('./static/res/assist');
+var helpers = require('./static/res/helpers');
+var cardList = require('./static/res/cardlist').getCardList();
+
 var express = require('express');
-var helpers = require('./static/res/helpers')
 var fs = require('fs');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -11,8 +13,11 @@ var app = express();
 var https = require('https');
 var request = require('request-promise');
 
-var masterCardList = require('./static/res/cardlist')
-var cardList = require('./static/res/cardlist').getCardList();
+//Swagger / OpenAPI documentation
+const swaggerUi = require('swagger-ui-express');
+const swaggerDoc = require('./swagger.json');
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.set('view engine', 'ejs');
@@ -58,12 +63,16 @@ app.get('/:rule(\\d{1,3}[\\.]\\w{1,4})', function (req, res) {
   console.log(date.toLocaleDateString(), ": Requested STANDALONE RULE: ", ruleNum);
   const urls = ['https://slack.vensersjournal.com/rule/'+ruleNum, 'https://slack.vensersjournal.com/example/'+ruleNum]
   const promises = urls.map(url => request(url));
+
   Promise.all(promises).then((data) => {
+    console.log(data);
     let rule = JSON.parse(data[0]);
+
     let examples = JSON.parse(data[1]);
     let foundCards = findCards(examples.exampleText);
     res.render('pages/specific_rule', {rule: rule, examples: examples, cards: foundCards });
   }).catch(err => {
+    // console.log(err);
     res.render('pages/error_template', {status: '400: Rule not found: ' + ruleNum});
   });
 })
@@ -101,6 +110,8 @@ app.use(function(err, req, res, next) {
 app.listen(3000);
 
 function findCards(str) {
+  if (str === null) return "";
+
   console.log(str)
   let cardname_regex = new RegExp(/[A-Z][a-z]{2,}(?:(?:[ ,'\-](?:s| )? ?| \w{2,3}?(?:\s\w{2,3})? ?)[A-Z][a-z]*)*/g);
   let cardnames = [];
