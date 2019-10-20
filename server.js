@@ -13,12 +13,6 @@ var app = express();
 var https = require('https');
 var request = require('request-promise');
 
-//Swagger / OpenAPI documentation
-const swaggerUi = require('swagger-ui-express');
-const swaggerDoc = require('./swagger.json');
-
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
-
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.set('view engine', 'ejs');
 
