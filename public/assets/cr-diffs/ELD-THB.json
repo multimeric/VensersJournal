@@ -1,0 +1,255 @@
+[
+    {
+        "names": {
+            "new_full": "Theros Beyond Death",
+            "new_setcode": "THB",
+            "old_full": "Throne of Eldraine",
+            "old_setcode": "ELD"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A Gold token is a colorless Gold artifact token with \u201cSacrifice this artifact: Add one mana of any color.\u201d",
+            "ruleNum": "111.10c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Food, Fortification (see rule 301.6), new_start Gold, new_end Treasure, and Vehicle (see rule 301.7).",
+            "ruleNum": "205.3g"
+        },
+        "old": {
+            "ruleText": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Food, Fortification (see rule 301.6), Treasure, and Vehicle (see rule 301.7).",
+            "ruleNum": "205.3g"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, new_start Calix, new_end Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        },
+        "old": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, new_start Demigod, new_end Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, new_start Tentacle, new_end Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start Some rules and effects state new_end that an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to new_start cast. These new_end alternative characteristics replace the object\u2019s characteristics new_start for this determination. Continuous effects that would apply new_end to new_start that object once it has those characteristics are also considered. new_end",
+            "ruleNum": "601.3e"
+        },
+        "old": {
+            "ruleText": "old_start If a rule or effect states old_end that old_start only old_end an alternative set of characteristics or a subset of characteristics are considered to determine if a card or copy of a card is legal to old_start cast, those old_end alternative characteristics replace the object\u2019s characteristics old_start prior old_end to old_start determining whether the player may begin to cast it. old_end",
+            "ruleNum": "601.3e"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. \u201cEvoke [cost]\u201d means \u201cYou may cast this card by paying [cost] rather than paying its mana cost\u201d and \u201cWhen this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it.\u201d new_start Casting new_end a new_start spell for its new_end evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.73a"
+        },
+        "old": {
+            "ruleText": "Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. \u201cEvoke [cost]\u201d means \u201cYou may cast this card by paying [cost] rather than paying its mana cost\u201d and \u201cWhen this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it.\u201d old_start Paying old_end a old_start card\u2019s old_end evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.73a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Prowl is a static ability that functions on the stack. \u201cProwl [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost if a player was dealt combat damage this turn by a source that, at the time it dealt that damage, was under your control and had any of this spell\u2019s creature types.\u201d new_start Casting new_end a new_start spell for its new_end prowl cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.75a"
+        },
+        "old": {
+            "ruleText": "Prowl is a static ability that functions on the stack. \u201cProwl [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost if a player was dealt combat damage this turn by a source that, at the time it dealt that damage, was under your control and had any of this spell\u2019s creature types.\u201d old_start Paying old_end a old_start spell\u2019s old_end prowl cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.75a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Casting a new_start spell as an effect of new_end its rebound ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.87b"
+        },
+        "old": {
+            "ruleText": "Casting a old_start card without paying old_end its old_start mana cost as the result of a old_end rebound ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.87b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Miracle is a static ability linked to a triggered new_start ability. (See new_end rule 603.11.) \u201cMiracle [cost]\u201d means \u201cYou may reveal this card from your hand as you draw it if it\u2019s the first card you\u2019ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.\u201d",
+            "ruleNum": "702.93a"
+        },
+        "old": {
+            "ruleText": "Miracle is a static ability linked to a triggered old_start ability (see old_end rule 603.11). \u201cMiracle [cost]\u201d means \u201cYou may reveal this card from your hand as you draw it if it\u2019s the first card you\u2019ve drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost.\u201d",
+            "ruleNum": "702.93a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Overload is a keyword that represents two static abilities that function while the spell with overload is on the stack. Overload [cost] means \u201cYou may choose to pay [cost] rather than pay this spell\u2019s mana cost\u201d and \u201cIf you chose to pay this spell\u2019s overload cost, change its text by replacing all instances of the word \u2018target\u2019 with the word \u2018each.\u2019\u201d new_start Casting a spell using its new_end overload ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.95a"
+        },
+        "old": {
+            "ruleText": "Overload is a keyword that represents two static abilities that function while the spell with overload is on the stack. Overload [cost] means \u201cYou may choose to pay [cost] rather than pay this spell\u2019s mana cost\u201d and \u201cIf you chose to pay this spell\u2019s overload cost, change its text by replacing all instances of the word \u2018target\u2019 with the word \u2018each.\u2019\u201d old_start Using the old_end overload ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.95a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Bestow represents new_start a new_end static new_start ability new_end that functions new_start in any zone from which you could play new_end the card it\u2019s new_start on. new_end \u201cBestow [cost]\u201d means new_start \u201cAs you new_end cast this new_start spell, you may choose to cast it bestowed. If you do, you pay new_end [cost] rather than its mana cost.\u201d new_start Casting a spell using its new_end bestow new_start ability new_end follows the rules for paying alternative costs new_start (see new_end 601.2b and 601.2f\u2013h).",
+            "ruleNum": "702.102a"
+        },
+        "old": {
+            "ruleText": "Bestow represents old_start two old_end static old_start abilities, one old_end that functions old_start while old_end the card old_start with bestow is on the stack and another that functions both while old_end it\u2019s old_start on the stack and while it\u2019s on the battlefield. old_end \u201cBestow [cost]\u201d means old_start \u201cYou may old_end cast this old_start card by paying old_end [cost] rather than its mana cost.\u201d old_start and \u201cIf you chose to pay this spell\u2019s old_end bestow old_start cost, it becomes an Aura enchantment and gains enchant creature. These effects last until one of two things happens: this spell has an illegal target as it resolves or the permanent this spell becomes, becomes unattached.\u201d Paying a card\u2019s bestow cost old_end follows the rules for paying alternative costs old_start in rules old_end 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.102a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start As new_end a new_start spell cast bestowed is put onto the stack, it becomes an Aura enchantment and gains enchant creature. It is a bestowed Aura spell, and the permanent it becomes as it resolves will be a bestowed Aura. These effects last until the spell or the permanent it becomes ceases to be bestowed (see rules 702.102d\u2013f). Because the spell is an Aura spell, its new_end controller new_start must choose new_end a legal target for that spell as defined by its enchant creature ability and rule 601.2c. See also rule 303.4.",
+            "ruleNum": "702.102b"
+        },
+        "old": {
+            "ruleText": "old_start If old_end a old_start spell\u2019s old_end controller old_start chooses to pay its bestow cost, that player chooses old_end a legal target for that old_start Aura old_end spell as defined by its enchant creature ability and rule 601.2c. See also rule 303.4.",
+            "ruleNum": "702.102b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start When casting new_end a spell new_start bestowed, only its characteristics as modified by the bestow ability are evaluated to determine if it new_end can be new_start cast. new_end",
+            "ruleNum": "702.102c"
+        },
+        "old": {
+            "ruleText": "old_start The check for whether old_end a spell can old_start legally old_end be old_start cast happens after its controller has chosen whether to pay its bestow cost; see rule 601.2e. old_end",
+            "ruleNum": "702.102c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "As new_start a bestowed new_end Aura spell begins resolving, if its target is illegal, new_start it ceases to be bestowed and new_end the effect making it an Aura spell ends. It continues resolving as a creature spell and will be put onto the battlefield under the control of the spell\u2019s controller. This is an exception to rule 608.3a.",
+            "ruleNum": "702.102d"
+        },
+        "old": {
+            "ruleText": "As old_start an old_end Aura spell old_start with bestow old_end begins resolving, if its target is illegal, the effect making it an Aura spell ends. It continues resolving as a creature spell and will be put onto the battlefield under the control of the spell\u2019s controller. This is an exception to rule 608.3a.",
+            "ruleNum": "702.102d"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If new_start a bestowed new_end Aura new_start becomes unattached, it ceases to be bestowed. If a bestowed Aura new_end is attached to an illegal object or player, it becomes new_start unattached and ceases to be bestowed. new_end This is an exception to rule 704.5m.",
+            "ruleNum": "702.102e"
+        },
+        "old": {
+            "ruleText": "If old_start an old_end Aura old_start with bestow old_end is attached to an illegal object or player, it becomes old_start unattached. old_end This is an exception to rule 704.5m.",
+            "ruleNum": "702.102e"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If new_start a bestowed new_end Aura phases in unattached, it new_start ceases to be bestowed. new_end See rule 702.25, \u201cPhasing.\u201d",
+            "ruleNum": "702.102f"
+        },
+        "old": {
+            "ruleText": "If old_start an old_end Aura old_start with bestow old_end phases in unattached, old_start the effects of casting old_end it old_start with its bestow ability end. old_end See rule 702.25, \u201cPhasing.\u201d",
+            "ruleNum": "702.102f"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. \u201cDash [cost]\u201d means \u201cYou may cast this card by paying [cost] rather than its mana cost,\u201d \u201cIf this spell\u2019s dash cost was paid, return the permanent this spell becomes to its owner\u2019s hand at the beginning of the next end step,\u201d and \u201cAs long as this permanent\u2019s dash cost was paid, it has haste.\u201d new_start Casting new_end a new_start spell for its new_end dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.108a"
+        },
+        "old": {
+            "ruleText": "Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. \u201cDash [cost]\u201d means \u201cYou may cast this card by paying [cost] rather than its mana cost,\u201d \u201cIf this spell\u2019s dash cost was paid, return the permanent this spell becomes to its owner\u2019s hand at the beginning of the next end step,\u201d and \u201cAs long as this permanent\u2019s dash cost was paid, it has haste.\u201d old_start Paying old_end a old_start card\u2019s old_end dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.108a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Awaken appears on some instants and sorceries. It represents two abilities: a static ability that functions while the spell with awaken is on the stack and a spell ability. \u201cAwaken N\u2014[cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost as you cast this spell\u201d and \u201cIf this spell\u2019s awaken cost was paid, put N +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It\u2019s still a land.\u201d new_start Casting new_end a new_start spell using its new_end awaken new_start ability new_end follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.112a"
+        },
+        "old": {
+            "ruleText": "Awaken appears on some instants and sorceries. It represents two abilities: a static ability that functions while the spell with awaken is on the stack and a spell ability. \u201cAwaken N\u2014[cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost as you cast this spell\u201d and \u201cIf this spell\u2019s awaken cost was paid, put N +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature with haste. It\u2019s still a land.\u201d old_start Paying old_end a old_start spell\u2019s old_end awaken old_start cost old_end follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.112a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Surge is a static ability that functions while the spell with surge is on the stack. \u201cSurge [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost as you cast this spell if you or one of your teammates has cast another spell this turn.\u201d new_start Casting new_end a new_start spell for its new_end surge cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.116a"
+        },
+        "old": {
+            "ruleText": "Surge is a static ability that functions while the spell with surge is on the stack. \u201cSurge [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost as you cast this spell if you or one of your teammates has cast another spell this turn.\u201d old_start Paying old_end a old_start spell\u2019s old_end surge cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.116a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Emerge represents two static abilities that function while the spell with emerge is on the stack. \u201cEmerge [cost]\u201d means \u201cYou may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost\u201d and \u201cIf you chose to pay this spell\u2019s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature\u2019s converted mana cost.\u201d new_start Casting new_end a new_start spell using its new_end emerge new_start ability new_end follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.118a"
+        },
+        "old": {
+            "ruleText": "Emerge represents two static abilities that function while the spell with emerge is on the stack. \u201cEmerge [cost]\u201d means \u201cYou may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost\u201d and \u201cIf you chose to pay this spell\u2019s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature\u2019s converted mana cost.\u201d old_start Paying old_end a old_start card\u2019s old_end emerge old_start cost old_end follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.118a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Spectacle is a static ability that functions on the stack. \u201cSpectacle [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost if an opponent lost life this turn.\u201d new_start Casting new_end a new_start spell for its new_end spectacle cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.136a"
+        },
+        "old": {
+            "ruleText": "Spectacle is a static ability that functions on the stack. \u201cSpectacle [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost if an opponent lost life this turn.\u201d old_start Paying old_end a old_start spell\u2019s old_end spectacle cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.136a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Escape represents a static ability that functions while the card with escape is in a player\u2019s graveyard. \u201cEscape [cost]\u201d means \u201cYou may cast this card from your graveyard by paying [cost] rather than paying its mana cost.\u201d Casting a spell using its escape ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h.",
+            "ruleNum": "702.137a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A spell or permanent \u201cescaped\u201d if that spell or the spell that became that permanent as it resolved was cast from a graveyard with an escape ability.",
+            "ruleNum": "702.137b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "An ability that reads \u201c[This permanent] escapes with . . .\u201d means \u201cIf this permanent escaped, it enters the battlefield with . . .\u201d That ability may have a triggered ability linked to it that triggers \u201cWhen it enters the battlefield this way.\u201d (See rule 603.11.) Such a triggered ability triggers when that permanent enters the battlefield after its replacement effect was applied, even if that replacement effect had no effect.",
+            "ruleNum": "702.137c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "As a Saga enters the battlefield, its controller puts a lore counter new_start on new_end it.",
+            "ruleNum": "714.3a"
+        },
+        "old": {
+            "ruleText": "As a Saga enters the battlefield, its controller puts a lore counter it.",
+            "ruleNum": "714.3a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "An ability that triggers at the beginning of a step or phase may trigger multiple times if it triggers at the beginning of \u201ceach player\u2019s\u201d or \u201ceach opponent\u2019s\u201d step or phase. These abilities trigger once for each appropriate player if the ability\u2019s trigger condition, effect, or intervening \u201cif\u201d clause refers to \u201cthat player,\u201d \u201cthat opponent,\u201d or similar.",
+            "ruleNum": "805.4d"
+        },
+        "old": null
+    }
+]
