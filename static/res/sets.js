@@ -202,5 +202,7 @@ var setDict = {
     "MH1": "Modern Horizons",
     "M20": "Core Set 2020",
     "C19": "Commander 2019",
-    "ELD": "Throne of Eldraine"
+    "ELD": "Throne of Eldraine",
+    "THB": "Theros Beyond Death",
+    "IKO": "Ikoria"
 }

@@ -36,6 +36,6 @@ else
   new_set_name=$(grep -oP "\"$new_set_abbr\": \"\K[^\"]+" $sets_file)
 
   # Diff 'em away boys
-  python3 difftool/diff_rules.py "$rules_path$old_rules_file" "$old_set_name" "$rules_path$new_rules_file" "$new_set_name"
+  python3 difftool/diff_rules.py "$rules_path$old_rules_file" "$old_set_name" "$new_rules_file" "$rules_path$new_set_name"
   python3 /home/vill/Southfall/grab_rules.py "$new_rules_file"
 fi

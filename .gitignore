@@ -92,3 +92,4 @@ typings/
 #temp static files
 /static/res/*.html
 /static/add_to_slack.html
+twittertest.py

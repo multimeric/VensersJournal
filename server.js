@@ -39,12 +39,11 @@ app.get('/:diff([\\w]{3}\\-[\\w]{3})', function(req, res) {
               + '.json', 'utf8',
               (err, data) => {
                 if (err) {
-            		  res.status(500).render('pages/error_template', {status: res.statusCode + ': The CR route you tried doesn\'t exist. At all. And never will.'})
-            		  console.log(err)
+            		  res.status(500).render('pages/error_template', {status: res.statusCode + ': The CR route you tried doesn\'t exist. At all. And never will.'});
                 } else {
                   rules = assist.getRules(data);
-		  if (rules.length === 2) {
-		    res.render('pages/gief')
+		              if (rules.length < 2) {
+		              res.render('pages/gief')
                   } else {
                     res.render('pages/rules', {rules: rules})
                   }
@@ -53,7 +52,7 @@ app.get('/:diff([\\w]{3}\\-[\\w]{3})', function(req, res) {
 })
 
 app.get('/:rule(\\d{1,3}[\\.]\\w{1,4})', function (req, res) {
-  let ruleNum = req.params.rule;
+  let ruleNum = req.params.rule.toLowerCase();
   console.log(date.toLocaleDateString(), ": Requested STANDALONE RULE: ", ruleNum);
   const urls = ['https://slack.vensersjournal.com/rule/'+ruleNum, 'https://slack.vensersjournal.com/example/'+ruleNum]
   const promises = urls.map(url => request(url));

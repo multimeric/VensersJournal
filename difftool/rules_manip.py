@@ -49,9 +49,10 @@ def extract_rules(input_file):
         extracted_rules = re.findall('^\d{3}[^a-zA-Z\n]{2}.*[“"”.) :]$',
                                      entire_doc, re.MULTILINE)
     rules_list = []
-
-    for rule in extracted_rules[1:]:
-        rules_list.append(rule.split())
+    for rule in extracted_rules:
+        rule_normalized = rule.split()
+        rule_normalized[0] = rule_normalized[0].rstrip('.')
+        rules_list.append(rule_normalized)
 
     return rules_list
 

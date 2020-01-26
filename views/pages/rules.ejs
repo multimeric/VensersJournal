@@ -38,6 +38,7 @@
             <% let newMatches = rules[i].new.ruleText.match(/^.+these subtypes are called (.+ types)\./) %>
             <% if (newMatches) { %>
               <% let newStuff = rules[i].new.ruleText.match(/<span class='new'>[^\\s]+<\/span>/g) %>
+              <% if (!newStuff) continue %>
               <% newStuff.forEach(function(el, index, arr) { arr[index] = el.substring(0, el.length-8) + el.substring(el.length-7, el.length)}) %>
               <% rules[i].new.ruleText = newMatches[0] + '<br>The new ' + newMatches[1] +  ' this set are: ' +  newStuff.join(',') + '<br><i>(Click the rule number to see the full list of ' + newMatches[1] + '.)' %>
             <% } %>

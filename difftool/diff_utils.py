@@ -111,8 +111,8 @@ def diff_rules(old_rule, new_rule):
             modded_new.extend(new_rule_text[n:n + i])
             new_offset = n + i
 
-    if ('old_start' not in ' '.join(modded_old)
-            and 'new_start' not in ' '.join(modded_new)):
+    if ('old_start' not in ' '.join(modded_old) and
+            'new_start' not in ' '.join(modded_new)):
         # the only changes were to rule numbers, so we can get out
         return None
 
