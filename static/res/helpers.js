@@ -17,9 +17,20 @@ module.exports = {
      * I added the space there.
      * Yes, I realize this comment is twice the length of the thing I'm commenting.
      */
-    for (var each of fileList.reverse()) {
-      var date = dateFormat(each.slice(4,-4) + " ", 'dd mmm, yyyy');
-      docsArr.push({filepath: each, date: date});
+    for (var currentFile of fileList.reverse()) {
+      var date;
+      /* Stupid sexy special case because we got an IPG revision almost *immediately*
+       * after it came out.
+       */
+      if (currentFile == 'ipg-2017-09-29a.pdf') {
+        date = dateFormat(currentFile.slice(4,-5) + " ", 'dd mmm, yyyy');
+        docsArr.push({filepath: currentFile, date: date + ' (rev a)'});
+      }
+      else {
+        var date = dateFormat(currentFile.slice(4,-4) + " ", 'dd mmm, yyyy');  
+        docsArr.push({filepath: currentFile, date: date});
+      }
+      
     }
 
     return docsArr;
