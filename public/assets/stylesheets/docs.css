@@ -80,6 +80,7 @@ ol > .fix::before {
 .removed {
 	text-decoration: line-through;
 	color:var(--red);
+	font-weight: bold;
 }
 
 .new {
