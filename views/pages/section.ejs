@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <head>
+    <% include ../partials/head %>
+    <link href="/public/assets/stylesheets/supportpages.css" rel="stylesheet"/>
+    <link href="/public/assets/stylesheets/symbols.css" rel="stylesheet"/>
+    <script src="/public/assets/scripts/rules.js" type="text/javascript"></script>
+    <script src="/public/assets/scripts/prettify.js" type="text/javascript"></script>
+  </head>
+
+  <header>
+    <% include ../partials/header %>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        if("<%= anchor %>" !== "") {
+          document.getElementById("<%=anchor %>").scrollIntoView();
+        }
+      });
+    </script>
+  </header>
+
+  <body onload='findRules(); makeItPretty()'>
+    <div class='container-fluid'>
+      <div class='offset'>
+        <div>
+        <% if (section.previousSection != null) { %>
+          <span class='float-left'><a href="<%=section.previousSection['id'] %>"><i class="fas fa-chevron-left"></i> <b><%= section.previousSection['name'] %></b></a></span>
+        <% } %>
+        <% if (section.nextSection != null) { %>
+          <span class='float-right'><a href="<%=section.nextSection['id'] %>"><b><%= section.nextSection['name'] %></b> <i class="fas fa-chevron-right"></i></a></span>
+        <% } %>
+        </div>
+        <br><br>
+        <h2><%= section.section %>. <%= section.name %></h2>
+        <% for (let rule in section.rules) { %>
+          <p id="_<%- section.rules[rule]['fragment'] %>" 
+            <% if(anchor) { %>
+              <%- section.rules[rule]['fragment'] === anchor.slice(1) ? 'class="specified"' : null %>
+            <% } %>><b><%= section.rules[rule]['ruleNumber'] %></b><br>
+          <%= section.rules[rule]['ruleText'] %>
+          <%if (section.rules[rule]['examples'] != null) { %>
+            <br><b>Examples</b><br>
+            <% example_list = section.rules[rule]['examples'].replace(/Example: /g, '').split('\n') %>
+            <% for (let i=0; i < example_list.length; i++) { %>
+              - <%- example_list[i] %><br>
+            <% } %>
+          <% } %>
+          </p>
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>

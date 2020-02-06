@@ -155,6 +155,7 @@
       "resolved": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.8.0.tgz",
       "version": "1.8.0"
     },
+    "mana-font": "^1.6.0",
     "matchmedia": "^0.1.2",
     "media-typer": {
       "integrity": "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=",

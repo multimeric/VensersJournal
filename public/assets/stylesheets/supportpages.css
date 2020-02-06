@@ -62,3 +62,9 @@ li a:hover {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
+
+.specified {
+  padding: .5em 0;
+  border-radius: 4px;
+  background-color: #D3F985;
+}
