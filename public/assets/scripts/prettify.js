@@ -1,8 +1,8 @@
 function makeItPretty() {
-  findCards();
+  makeAutoCards();
 }
 
-function findCards() {
+function makeAutoCards() {
   $('p, li').each(function() {
     if($(this).html().match(/[A-Z][a-z]{2,}(?:(?:[ ,'\-](?:s| )? ?| \w{2,3}?(?:\s\w{2,3})? ?)[A-Z][a-z]*)*/)) {
                               // I am going to assume that anybody who plays this game knows what lands do.

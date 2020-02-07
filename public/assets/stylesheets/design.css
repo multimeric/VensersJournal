@@ -15,6 +15,10 @@ http://i.imgur.com/dMjPOq0.png */
 	--white: #F9FAF4;
 }
 
+.offset {
+  margin: 12%;
+}
+
 hr {
   border: 0; 
   height: 1px; 
@@ -60,7 +64,6 @@ h5 {font-size: 1.2rem;}
 a {
   color: #004ba1;
 }
-
 
 
 /* get the dirty, 'noisy' background */

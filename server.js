@@ -59,13 +59,13 @@ app.get('/:section(\\d{3,})(\.:anchor(\\w{1,4}))?', function (req, res) {
   var options = { uri: 'https://slack.vensersjournal.com/section/'+section,
                   json: true  }
   request(options).then(function (data) {
-    console.log(anchor);
     if (anchor) {
       anchor = '_' + anchor;
     } else {
       anchor = null
     }
-    res.render('pages/section', { section: data, anchor: anchor });
+    let getExampleCards = require('./public/assets/scripts/exampleCards');
+    res.render('pages/section', { section: data, anchor: anchor, helpers: getExampleCards });
   })
   .catch(function (err) {
     console.log(err);
@@ -104,55 +104,3 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(3000);
-
-function findCards(str) {
-  if (str === null) return "";
-
-  console.log(str)
-  let cardname_regex = new RegExp(/[A-Z][a-z]{2,}(?:(?:[ ,'\-](?:s| )? ?| \w{2,3}?(?:\s\w{2,3})? ?)[A-Z][a-z]*)*/g);
-  let cardnames = [];
-  let alreadyMatched = new Set();
-  let outputCardList = [];
-  let flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer', 'Tok-Tok, Volcano Born'];
-  let adventures = new BidirectionalAdventureMap({ "Giant Killer" : "Chop Down" });
-
-  while ((cardnames = cardname_regex.exec(str)) !== null) {
-    console.log(cardnames[0]);
-    let card = cardnames[0];
-    if (cardList[card]) {
-      if (card == 'Exile') continue;
-
-      if (!alreadyMatched.has(card)) {
-        let status = flippedCards.indexOf(card) >= 0 ? 'flipped' : 'regular';
-        let newCard = new CardObject(cardList[card], status)
-        outputCardList.push(newCard);
-        alreadyMatched.add(card);
-        if(adventures.get(card) || adventures.revGet(card)) {
-          alreadyMatched.add(adventures.get(card));
-          alreadyMatched.add(adventures.revGet(card));
-        }
-      }
-    }
-  }
-  return outputCardList
-}
-
-class CardObject {
-  constructor(uri, status) {
-    this.imageUri = uri;
-    this.status = status;
-  }
-}
-
-function BidirectionalAdventureMap(map) {
-  this.map = map;
-  this.reverseMap = {};
-  for (var k in map) {
-    var v = map[k];
-    this.reverseMap[v] = k;
-  }
-}
-
-BidirectionalAdventureMap.prototype.get = function(k){ return this.map[k]; };
-BidirectionalAdventureMap.prototype.revGet = function(k){ return this.reverseMap[k]; };
-

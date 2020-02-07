@@ -1,19 +1,17 @@
-import glob
-import os
 import requests
 import re
+import sys
+
 
 from datetime import datetime
 
 
 start = datetime.now()
-RULES_FILES = glob.glob('/home/vill/VensersJournal/static/rules/*.txt')
-LATEST_CR = max(RULES_FILES, key=os.path.getctime)
 CARD_URL = "https://api.scryfall.com//cards/named?exact="
 
 card_image_dict = {}
 
-with open(LATEST_CR, 'r') as file:
+with open(sys.argv[1], 'r', encoding='utf-8') as file:
     rules_doc = file.read()
     rules_doc = re.sub("’", "'",  rules_doc)
 
@@ -29,9 +27,21 @@ with open(LATEST_CR, 'r') as file:
     touched_names = set()
 
     # Let's axe the things that are super not relevant
-    trash = ['Copy',  # copy tokens are never referenced
-             'Horror',  # same for horror tokens
-             'Example']  # obviously.
+    trash = ['Copy',          # tokens
+             'Ape',
+             'Myr',
+             'Horror',
+             'Ooze',
+             'Cleric',
+             'Bear',
+             'Plains',        # lands
+             'Island',
+             'Swamp',
+             'Mountain',
+             'Forest',
+             'Exile',         # verbs,not being used as cards
+             'Sacrifice',
+             'Goblin Wizard'] # only used for creature types, not the card
     matched_card_names = [x for x in matched_card_names if x not in trash]
 
     for card in matched_card_names:
