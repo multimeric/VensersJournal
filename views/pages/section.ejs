@@ -32,21 +32,25 @@
         <br><br>
         <h2><%= section.section %>. <%= section.name %></h2>
         <% for (let rule in section.rules) { %>
-          <p id="_<%- section.rules[rule]['fragment'] %>" 
-            <% if(anchor) { %>
-              <%- section.rules[rule]['fragment'] === anchor.slice(1) ? 'class="specified"' : null %>
-            <% } %>><b><%= section.rules[rule]['ruleNumber'] %></b><br>
-          <%= section.rules[rule]['ruleText'] %>
-          <%if (section.rules[rule]['examples'] != null) { %>
-            <br><b>Examples</b><br>
-            <% example_list = section.rules[rule]['examples'].replace(/Example: /g, '').split('\n') %>
-            <% for (let i=0; i < example_list.length; i++) { %>
-              - <%- example_list[i] %><br>
-            <% } %>
+          <p id="_<%- section.rules[rule]['fragment'] %>" class="
+          <% if (anchor !== null) { %>
+            <%- section.rules[rule]['fragment'] === anchor.slice(1) ? 'specified' : null %>
           <% } %>
+          <% if (new RegExp('[a-z]$').test(section.rules[rule]['fragment'])) { %>
+            subrule
+          <% } %>">
+          <b><%= section.rules[rule]['ruleNumber'] %></b><br>
+          <%= section.rules[rule]['ruleText'] %>
+          <% if (section.rules[rule]['examples'] != null) { %>
+            <% example_list = section.rules[rule]['examples'].replace(/Example: /g, '<br><i><b>Example: </b>').split('\n') %>
+            <% for (let i=0; i < example_list.length; i++) { %>
+              <%- example_list[i] %></i>
+            <% } %>
+          <% } %>  
           </p>
         <% } %>
       </div>
     </div>
   </body>
+  
 </html>

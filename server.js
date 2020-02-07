@@ -78,8 +78,11 @@ app.get('/:section(\\d{3,})(\.:anchor(\\w{1,4}))?', function (req, res) {
   var options = { uri: 'https://slack.vensersjournal.com/section/'+section,
                   json: true  }
   request(options).then(function (data) {
+    console.log(anchor);
     if (anchor) {
       anchor = '_' + anchor;
+    } else {
+      anchor = null
     }
     res.render('pages/section', { section: data, anchor: anchor });
   })
