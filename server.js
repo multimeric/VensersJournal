@@ -52,25 +52,6 @@ app.get('/:diff([\\w]{3}\\-[\\w]{3})', function(req, res) {
               });
 })
 
-//app.get('/:rule(\\d{3,}[\\.]\\w{1,4})', function (req, res) {
-//  let ruleNum = req.params.rule.toLowerCase();
-//  console.log(date.toLocaleDateString(), ": Requested STANDALONE RULE: ", ruleNum);
-// const urls = ['https://slack.vensersjournal.com/rule/'+ruleNum, 'https://slack.vensersjournal.com/example/'+ruleNum]
-//  const promises = urls.map(url => request(url));
-//
-//  Promise.all(promises).then((data) => {
-//    console.log(data);
-//    let rule = JSON.parse(data[0]);
-//
-//    let examples = JSON.parse(data[1]);
-//    let foundCards = findCards(examples.exampleText);
-//    res.render('pages/specific_rule', { rule: rule, examples: examples, cards: foundCards });
-//  }).catch(err => {
-//    // console.log(err);
-//    res.render('pages/error_template', { status: '400: Rule not found: ' + ruleNum });
-//  });
-//})
-
 app.get('/:section(\\d{3,})(\.:anchor(\\w{1,4}))?', function (req, res) {
   let anchor = req.params.anchor;
   let section= req.params.section;
