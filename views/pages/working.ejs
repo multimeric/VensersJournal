@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <head>
+    <% include ../partials/head %>
+  </head>
+
+  <header>
+    <% include ../partials/header %>
+    <link href="//cdn.jsdelivr.net/npm/keyrune@latest/css/keyrune.css" rel="stylesheet" type="text/css" /> 
+    <link href="/public/assets/stylesheets/supportpages.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/static/resources/set-information.js" charset="utf-8"></script>
+  </header>
+  
+  <body>
+    <div class="table-responsive offset container-fluid">
+      <table class="table">
+        <thead>
+          <th scope="col">Set</th>
+          <th colspan="3">Diffs</th>
+          <th colspan="3">Raw Docs</th>
+        </thead>
+        <% for (let x of sets.children) { console.log(x.name)} %>
+        <% sets.children.sort((a, b) => (setInfo.getSetInformation(b.name).releaseDate > setInfo.getSetInformation(a.name).releaseDate) ? 1 : -1); %>
+        <% sets.children.forEach(function(set) { %>
+          <% set.Info = setInfo.getSetInformation(set.name) %>
+          <tr>
+            <th><i class="ss ss-<%= set.Info["setcode"].toLowerCase() %>"></i> <%= set.Info["fullname"] %></th>
+            <% set.children.forEach(function(doctype) { %>
+              <% let cr = doctype.children.filter(function(file) { return file.name.includes("cr") }) %>
+              <% if (cr[0]) { %>
+                <td>
+                  <% let crPath = (doctype.name == "diffs") ? cr[0].path.slice(0,-5) : cr[0].path; %>
+                  <a href="<%= crPath %>">CR</a>
+                  <% if (set.Info.updateBulletin) { %>
+                    [<a href="<%= set.Info.updateBulletin %>"<i class="fa fa-microphone" aria-hidden="true"></i></a>]
+                  <% } %>
+                </td>
+              <% } else { %>
+                <td></td>
+              <% } %>
+              <% let ipg = doctype.children.filter(function(file) { return file.name.includes("ipg") }) %>
+              <% if (ipg[0]) { %>
+                <td>
+                  <% let ipgPath = (doctype.name == "diffs") ? ipg[0].path.slice(0,-4) : ipg[0].path; %>
+                  <a href="<%= ipgPath %>">IPG</a>
+                  <% if (set.Info.policyPerspectives) { %>
+                    [<a href="<%= set.Info.policyPerspectives %>"<i class="fa fa-microphone" aria-hidden="true"></i></a>]
+                  <% } %>
+                </td>
+              <% } else { %>
+                <td></td>
+              <% } %>
+              <% let mtr = doctype.children.filter(function(file) { return file.name.includes("mtr") }) %>
+              <% if (mtr[0]) { %>
+                <% let mtrPath = (doctype.name == "diffs") ? mtr[0].path.slice(0,-4) : mtr[0].path; %>
+                <td><a href="<%= mtrPath %>">MTR</a></td>
+              <% } else { %>
+                <td></td>
+              <% } %>
+            <% }) %>
+          </tr>
+        <% }) %>
+      </table>
+    </div>
+  </body>
+</html>

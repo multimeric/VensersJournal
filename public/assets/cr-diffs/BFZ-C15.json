@@ -1,0 +1,78 @@
+[
+    {
+        "names": {
+            "old_setcode": "BFZ",
+            "new_full": "Commander 2015",
+            "new_setcode": "C15",
+            "old_full": "Battle for Zendikar"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "103.4e",
+            "ruleText": "The Commander casual variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library. old_start After all players have kept an opening hand, each player in turn order whose hand contains fewer cards than that player\u2019s starting hand size may look at the top card of his or her library. If a player does, that player may put that card on the bottom of his or her library. old_end"
+        },
+        "new": {
+            "ruleNum": "103.4e",
+            "ruleText": "The Commander casual variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. new_start That player may look at all cards exiled this way while taking mulligans. new_end Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "106.6",
+            "ruleText": "Some spells or abilities that produce mana restrict how that mana can be spent, old_start or old_end have an additional effect that affects the spell or ability that mana is spent old_start on. old_end This doesn\u2019t affect the mana\u2019s type."
+        },
+        "new": {
+            "ruleNum": "106.6",
+            "ruleText": "Some spells or abilities that produce mana restrict how that mana can be spent, have an additional effect that affects the spell or ability that mana is spent new_start on, or create a delayed triggered ability (see rule 603.7a) that triggers when that mana is spent. new_end This doesn\u2019t affect the mana\u2019s type."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "106.6a",
+            "ruleText": "Some replacement effects increase the amount of mana produced by a spell or ability. In these cases, any restrictions or additional effects created by the spell or ability will apply to all mana produced. If the spell or ability creates a delayed triggered ability that triggers when the mana is spent, a separate delayed triggered ability is created for each mana produced."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "700.2",
+            "ruleText": "A spell or ability is modal if it has two or more options in a bulleted list preceded by \u201cChoose one old_start \u2014,\u201d \u201cChoose two \u2014,\u201d \u201cChoose one or both \u2014,\u201d \u201cChoose one or more \u2014,\u201d \u201c[A specified player] chooses one \u2014,\u201d or similar. old_end Each of those options is a mode."
+        },
+        "new": {
+            "ruleNum": "700.2",
+            "ruleText": "A spell or ability is modal if it has two or more options in a bulleted list preceded by new_start instructions for a player to choose a number of those options, such as new_end \u201cChoose one new_start \u2014.\u201d new_end Each of those options is a mode. new_start Modal cards printed prior to the Khans of Tarkir set didn\u2019t use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "700.2d",
+            "ruleText": "If an effect allows a particular mode to be chosen more than once and that mode requires a target, the same player or object may be chosen as the target for each of those modes, or different targets may be chosen."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.115a",
+            "ruleText": "Myriad is a triggered ability that may also create a delayed triggered ability. \u201cMyriad\u201d means \u201cWhenever this creature attacks, for each opponent other than defending player, you may put a token that\u2019s a copy of this creature onto the battlefield tapped and attacking that player or a planeswalker he or she controls. If you put one or more tokens onto the battlefield this way, exile the tokens at end of combat.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.115b",
+            "ruleText": "If a creature has multiple instances of myriad, each triggers separately."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "903.8",
+            "ruleText": "The Commander variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library. old_start After all players have kept an opening hand, each player in turn order whose hand contains fewer cards than that player\u2019s starting hand size may look at the top card of his or her library. If a player does, that player may put that card on the bottom of his or her library. old_end"
+        },
+        "new": {
+            "ruleNum": "903.8",
+            "ruleText": "The Commander variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library."
+        }
+    }
+]

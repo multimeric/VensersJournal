@@ -41,17 +41,17 @@ td {
   background: var(--green);
 }
 
+.new a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 .remove {
   color: var(--red);
 }
 
 .add {
   color: var(--green);
-}
-
-.new.a {
-  color: inherit;
-  text-decoration: none;
 }
 
 .img-container {
@@ -79,7 +79,7 @@ td {
   transform: rotate(180deg);
 }
 
-.plane {
+.sideways {
   -webkit-transform:rotate(90deg);
   -moz-transform: rotate(90deg);
   -ms-transform: rotate(90deg);

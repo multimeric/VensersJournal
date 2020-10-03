@@ -1,0 +1,8 @@
+<label for="sections">Jump to Section</label>
+
+<select id="sections" onchange="location = this.value">
+  <% for (x in sectionJson) { %>
+    <option value="<%= x %>"><%= sectionJson[x]["section"] + '. ' + sectionJson[x]["name"] %></option>
+  <% } %>
+</select>
+<p><i>Friendly URLs: try <a href="https://vensersjournal.com/613">https://vensersjournal.com/613</a> or 104.3a</i></p>

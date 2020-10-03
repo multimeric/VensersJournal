@@ -1,0 +1,265 @@
+[
+    {
+        "names": {
+            "old_full": "Hour of Devastation",
+            "old_setcode": "HOU",
+            "new_setcode": "C17",
+            "new_full": "Commander 2017"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "110.5f",
+            "ruleText": "A token that\u2019s in a zone other than the new_start battlefield new_end ceases to exist. This is a state\u2013based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)"
+        },
+        "old": {
+            "ruleNum": "110.5f",
+            "ruleText": "A token old_start that\u2019s phased out, or old_end that\u2019s in a zone other than the old_start battlefield, old_end ceases to exist. This is a state\u2013based action; see rule 704. (Note that if a token changes zones, applicable triggered abilities will trigger before the token ceases to exist.)"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "120.2a",
+            "ruleText": "An instruction to draw multiple cards can be modified by replacement effects that refer to the number of cards drawn. This modification occurs before considering any of the individual card draws. See rule 616.1f."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "120.2b",
+            "ruleText": "Some effects say that a player can\u2019t draw more than one card each turn. Such an effect applies to individual card draws. Instructions to draw multiple cards may still be partially carried out. However, if an effect offers the player a choice to draw multiple cards, the affected player can\u2019t choose to do so. Similarly, the player can\u2019t pay a cost that includes drawing multiple cards."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, new_start eminence, new_end fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, and will of the council."
+        },
+        "old": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, revolt, spell mastery, strive, sweep, tempting offer, threshold, and will of the council."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "508.3",
+            "ruleText": "Triggered abilities that trigger on attackers being declared may have different trigger conditions."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.3a",
+            "ruleText": "An ability that reads \u201cWhenever [a creature] attacks, . . .\u201d triggers if that creature is declared as an attacker. Similarly, \u201cWhenever [a creature] attacks [a player or planeswalker], . . .\u201d triggers if that creature is declared as an attacker attacking that player or planeswalker. Such abilities won\u2019t trigger if a creature is put onto the battlefield attacking."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.3b",
+            "ruleText": "An ability that reads \u201cWhenever [a player or planeswalker] is attacked, . . .\u201d triggers if one or more creatures are declared as attackers attacking that player or planeswalker. It won\u2019t trigger if a creature is put onto the battlefield attacking that player or planeswalker."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.3c",
+            "ruleText": "An ability that reads \u201cWhenever [a player] attacks with [a creature], . . .\u201d triggers whenever a creature that player controls is declared as an attacker."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.3d",
+            "ruleText": "An ability that reads \u201cWhenever [a creature] attacks and isn\u2019t blocked, . . .\u201d triggers during the declare blockers step, not the declare attackers step. See rule 509.5g."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.4b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start attacking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start attackers. new_end"
+        },
+        "old": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start blocking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start blockers. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "508.5",
+            "ruleText": "If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature new_start is attacking, or the controller of the planeswalker that creature is attacking. If that creature is no longer attacking, the defending player it\u2019s referring to is the player that creature new_end was attacking new_start before new_end it new_start was removed from combat new_end or the controller of the planeswalker that creature was attacking new_start before new_end it new_start was removed from new_end combat."
+        },
+        "old": {
+            "ruleNum": "508.4",
+            "ruleText": "If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature was attacking old_start at the time old_end it old_start became an attacking creature that combat, old_end or the controller of the planeswalker that creature was attacking old_start at the time old_end it old_start became an attacking creature that old_end combat."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "508.6",
+            "ruleText": "A player is \u201cattacking [a player]\u201d if the first player controls a creature that is attacking the second player. A player has \u201cattacked [a player]\u201d if the first player declared one or more creatures as attackers attacking the second player."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7",
+            "ruleText": "One card (Portal Mage) allows a player to reselect which player or planeswalker a creature is attacking."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7a",
+            "ruleText": "The attacking creature isn\u2019t removed from combat and it isn\u2019t considered to have attacked a second time. That creature is attacking the reselected player or planeswalker, but it\u2019s still considered to have attacked the player or planeswalker chosen as it was declared as an attacker."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7b",
+            "ruleText": "While reselecting which player or planeswalker a creature is attacking, that creature isn\u2019t affected by requirements or restrictions that apply to the declaration of attackers."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7c",
+            "ruleText": "The reselected player or planeswalker must be an opponent of the attacking creature\u2019s controller, or a planeswalker controlled by an opponent of the attacking creature\u2019s controller."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7d",
+            "ruleText": "In a multiplayer game not using the attack multiple players option (see rule 802), the reselected player or planeswalker must be the chosen defending player or a planeswalker controlled by that player."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7e",
+            "ruleText": "In a multiplayer game using the limited range of influence option (see rule 801), the reselected player or planeswalker must be within the range of influence of the attacking creature\u2019s controller."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "508.7f",
+            "ruleText": "In a Two\u2013Headed Giant game, the team or planeswalker the creature is attacking is reselected rather than the player or planeswalker. A team reselected this way must be an opposing team of the attacking creature\u2019s controller."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "509.5",
+            "ruleText": "Triggered abilities that trigger new_start on new_end blockers new_start being declared new_end may have different trigger conditions."
+        },
+        "old": {
+            "ruleNum": "509.5",
+            "ruleText": "Triggered abilities that trigger old_start during the declare old_end blockers old_start step old_end may have different trigger conditions."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "509.5a",
+            "ruleText": "An ability that reads \u201cWhenever new_start [a new_end creature] blocks, . . .\u201d generally triggers only once each combat for that creature, even if it blocks multiple creatures. It triggers if the creature is declared as a blocker. It will also trigger if that creature becomes a blocker as the result of an effect, but only if it wasn\u2019t a blocking creature at that time. (See rule 509.1g.) It won\u2019t trigger if the creature is put onto the battlefield blocking."
+        },
+        "old": {
+            "ruleNum": "509.5a",
+            "ruleText": "An ability that reads \u201cWhenever old_start [this old_end creature] blocks, . . .\u201d generally triggers only once each combat for that creature, even if it blocks multiple creatures. It triggers if the creature is declared as a blocker. It will also trigger if that creature becomes a blocker as the result of an effect, but only if it wasn\u2019t a blocking creature at that time. (See rule 509.1g.) It won\u2019t trigger if the creature is put onto the battlefield blocking."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "509.5b",
+            "ruleText": "An ability that reads \u201cWhenever new_start [a new_end creature] blocks a creature, . . .\u201d triggers once for each attacking creature the creature with the ability blocks. It triggers if the creature is declared as a blocker. It will also trigger if an effect causes that creature to block an attacking creature, but only if it wasn\u2019t already blocking that attacking creature at that time. It won\u2019t trigger if the creature is put onto the battlefield blocking."
+        },
+        "old": {
+            "ruleNum": "509.5b",
+            "ruleText": "An ability that reads \u201cWhenever old_start [this old_end creature] blocks a creature, . . .\u201d triggers once for each attacking creature the creature with the ability blocks. It triggers if the creature is declared as a blocker. It will also trigger if an effect causes that creature to block an attacking creature, but only if it wasn\u2019t already blocking that attacking creature at that time. It won\u2019t trigger if the creature is put onto the battlefield blocking."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "509.5c",
+            "ruleText": "An ability that reads \u201cWhenever new_start [a new_end creature] becomes blocked, . . .\u201d generally triggers only once each combat for that creature, even if it\u2019s blocked by multiple creatures. It will trigger if that creature becomes blocked by at least one creature declared as a blocker. It will also trigger if that creature becomes blocked by an effect or by a creature that\u2019s put onto the battlefield as a blocker, but only if the attacking creature was an unblocked creature at that time. (See rule 509.1h.)"
+        },
+        "old": {
+            "ruleNum": "509.5c",
+            "ruleText": "An ability that reads \u201cWhenever old_start [this old_end creature] becomes blocked, . . .\u201d generally triggers only once each combat for that creature, even if it\u2019s blocked by multiple creatures. It will trigger if that creature becomes blocked by at least one creature declared as a blocker. It will also trigger if that creature becomes blocked by an effect or by a creature that\u2019s put onto the battlefield as a blocker, but only if the attacking creature was an unblocked creature at that time. (See rule 509.1h.)"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "509.5d",
+            "ruleText": "An ability that reads \u201cWhenever new_start [a new_end creature] becomes blocked by a creature, . . .\u201d triggers once for each creature that blocks the named creature. It triggers if a creature is declared as a blocker for the attacking creature. It will also trigger if an effect causes a creature to block the attacking creature, but only if it wasn\u2019t already blocking that attacking creature at that time. In addition, it will trigger if a creature is put onto the battlefield blocking that creature. It won\u2019t trigger if the creature becomes blocked by an effect rather than a creature."
+        },
+        "old": {
+            "ruleNum": "509.5d",
+            "ruleText": "An ability that reads \u201cWhenever old_start [this old_end creature] becomes blocked by a creature, . . .\u201d triggers once for each creature that blocks the named creature. It triggers if a creature is declared as a blocker for the attacking creature. It will also trigger if an effect causes a creature to block the attacking creature, but only if it wasn\u2019t already blocking that attacking creature at that time. In addition, it will trigger if a creature is put onto the battlefield blocking that creature. It won\u2019t trigger if the creature becomes blocked by an effect rather than a creature."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "509.5g",
+            "ruleText": "An ability that reads \u201cWhenever new_start [a new_end creature] attacks and isn\u2019t blocked, . . .\u201d triggers if no creatures are declared as blockers for that creature. It will trigger even if the creature was never declared as an attacker (for example, if it entered the battlefield attacking). It won\u2019t trigger if the attacking creature is blocked and then all its blockers are removed from combat."
+        },
+        "old": {
+            "ruleNum": "509.5g",
+            "ruleText": "An ability that reads \u201cWhenever old_start [this old_end creature] attacks and isn\u2019t blocked, . . .\u201d triggers if no creatures are declared as blockers for that creature. It will trigger even if the creature was never declared as an attacker (for example, if it entered the battlefield attacking). It won\u2019t trigger if the attacking creature is blocked and then all its blockers are removed from combat."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start blocking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start blockers. new_end"
+        },
+        "old": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start attacking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start attackers. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.25d",
+            "ruleText": "The phasing event doesn\u2019t actually cause a permanent to change zones or control, even though it\u2019s treated as though it\u2019s not on the battlefield and not under its controller\u2019s control while it\u2019s phased out. Zone\u2013change triggers don\u2019t trigger when a permanent phases in or out. new_start Tokens continue to exist on the battlefield while phased out. new_end Counters remain on a permanent while it\u2019s phased out. Effects that check a phased\u2013in permanent\u2019s history won\u2019t treat the phasing event as having caused the permanent to leave or enter the battlefield or its controller\u2019s control."
+        },
+        "old": {
+            "ruleNum": "702.25d",
+            "ruleText": "The phasing event doesn\u2019t actually cause a permanent to change zones or control, even though it\u2019s treated as though it\u2019s not on the battlefield and not under its controller\u2019s control while it\u2019s phased out. Zone\u2013change triggers don\u2019t trigger when a permanent phases in or out. Counters remain on a permanent while it\u2019s phased out. Effects that check a phased\u2013in permanent\u2019s history won\u2019t treat the phasing event as having caused the permanent to leave or enter the battlefield or its controller\u2019s control."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "704.5d",
+            "ruleText": "If a token is in a zone other than the battlefield, it ceases to exist."
+        },
+        "old": {
+            "ruleNum": "704.5d",
+            "ruleText": "If a token old_start is phased out, or old_end is in a zone other than the battlefield, it ceases to exist."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "802.2a",
+            "ruleText": "Any rule, object, or effect that refers to a \u201cdefending player\u201d refers to one specific defending player, not to all of the defending players. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature new_start is attacking, or the controller of the planeswalker that creature is attacking. If that creature is no longer attacking, the defending player it\u2019s referring to is the player that creature new_end was attacking new_start before new_end it new_start was removed from combat new_end or the controller of the planeswalker that creature was attacking new_start before new_end it new_start was removed from new_end combat. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one."
+        },
+        "old": {
+            "ruleNum": "802.2a",
+            "ruleText": "Any rule, object, or effect that refers to a \u201cdefending player\u201d refers to one specific defending player, not to all of the defending players. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature was attacking old_start at the time old_end it old_start became an attacking creature that combat, old_end or the controller of the planeswalker that creature was attacking old_start at the time old_end it old_start became an attacking creature that old_end combat. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "805.10e",
+            "ruleText": "Any rule, object, or effect that refers to a \u201cdefending player\u201d refers to one specific defending player, not to all of the defending players. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature new_start is attacking, or the controller of the planeswalker that creature is attacking. If that creature is no longer attacking, the defending player it\u2019s referring to is the player that creature new_end was attacking new_start before new_end it new_start was removed from combat new_end or the controller of the planeswalker that creature was attacking new_start before new_end it new_start was removed from new_end combat. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one."
+        },
+        "old": {
+            "ruleNum": "805.10e",
+            "ruleText": "Any rule, object, or effect that refers to a \u201cdefending player\u201d refers to one specific defending player, not to all of the defending players. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature was attacking old_start at the time old_end it old_start became an attacking creature that combat, old_end or the controller of the planeswalker that creature was attacking old_start at the time old_end it old_start became an attacking creature that old_end combat. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one."
+        }
+    }
+]

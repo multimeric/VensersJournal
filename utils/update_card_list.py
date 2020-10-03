@@ -11,6 +11,26 @@ CARD_URL = "https://api.scryfall.com//cards/named?exact="
 
 card_image_dict = {}
 
+# Let's axe the things that are super not relevant
+trash = ['Copy',          # tokens
+         'Ape',
+         'Myr',
+         'Horror',
+         'Ooze',
+         'Wizard',
+         'Merfolk',
+         'Merfolk Wizard',
+         'Cleric',
+         'Bear',
+         'Plains',        # lands
+         'Island',
+         'Swamp',
+         'Mountain',
+         'Forest',
+         'Exile',         # verbs,not being used as cards
+         'Sacrifice',
+         'Goblin Wizard'] # only used for creature types, not the card
+
 with open(sys.argv[1], 'r', encoding='utf-8') as file:
     rules_doc = file.read()
     rules_doc = re.sub("’", "'",  rules_doc)
@@ -26,22 +46,6 @@ with open(sys.argv[1], 'r', encoding='utf-8') as file:
 
     touched_names = set()
 
-    # Let's axe the things that are super not relevant
-    trash = ['Copy',          # tokens
-             'Ape',
-             'Myr',
-             'Horror',
-             'Ooze',
-             'Cleric',
-             'Bear',
-             'Plains',        # lands
-             'Island',
-             'Swamp',
-             'Mountain',
-             'Forest',
-             'Exile',         # verbs,not being used as cards
-             'Sacrifice',
-             'Goblin Wizard'] # only used for creature types, not the card
     matched_card_names = [x for x in matched_card_names if x not in trash]
 
     for card in matched_card_names:
@@ -69,10 +73,18 @@ with open(sys.argv[1], 'r', encoding='utf-8') as file:
 cardlist_location = '/home/vill/VensersJournal/static/res/cardlist.js'
 with open(cardlist_location, 'w', encoding='utf-8') as out_cardlist:
     out_cardlist.write('''module.exports = {
-                            getCardList: function() {
-                            return cardList;
-                            }
-                        }\n''')
+    getCardList: function() {
+      return cardList;
+    },
+    getIgnorableCards: function() {
+      return ignorableCards;
+    }
+}\n''')
+    out_cardlist.write('var ignorableCards = [\n')
+    for card in trash:
+      out_cardlist.write('"{}",\n'.format(card))
+    out_cardlist.write(']\n')
+
     out_cardlist.write('var cardList = {\n')
     for card in card_image_dict:
         out_cardlist.write(

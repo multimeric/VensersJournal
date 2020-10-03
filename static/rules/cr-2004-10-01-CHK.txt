@@ -709,7 +709,8 @@ Example: A creature has the ability "Whenever this creature becomes blocked by a
 
 310.2b An unblocked attacking creature will assign all its combat damage to the defending player.
 
-310.2c A blocked creature will assign combat damage, divided as its controller chooses, to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it will assign no combat damage.
+310.2c A blocked creature will assign combat damage, divided as its controller chooses, to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it will assign no combat damage.
+
 310.2d A blocking creature will assign combat damage, divided as its controller chooses, to the attacking creatures it's blocking. If it isn't currently blocking any creatures (if, for example, they were destroyed or removed from combat), it will assign no combat damage.
 
 310.2e An effect that states a creature deals its combat damage in a different manner than normal affects the assignment of combat damage.

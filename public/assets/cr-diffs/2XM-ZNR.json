@@ -1,0 +1,521 @@
+[
+    {
+        "names": {
+            "new_setcode": "ZNR",
+            "new_full": "Zendikar Rising",
+            "old_full": "Double Masters",
+            "old_setcode": "2XM"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a player is using a sideboard (see rule 100.4) or cards being represented by new_start substitute new_end cards (see rule 713), those cards are set aside before shuffling.",
+            "ruleNum": "103.2a"
+        },
+        "old": {
+            "ruleText": "If a player is using a sideboard (see rule 100.4) or cards being represented by old_start checklist old_end cards (see rule 713), those cards are set aside before shuffling.",
+            "ruleNum": "103.2a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Most of the time, the Magic game uses only positive numbers and zero. You can\u2019t choose a negative number, deal negative damage, gain negative life, and so on. However, it\u2019s possible for a game value, such as a creature\u2019s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player\u2019s life total or new_start the new_end power and/or new_start toughness of a creature or creature card. new_end",
+            "ruleNum": "107.1b"
+        },
+        "old": {
+            "ruleText": "Most of the time, the Magic game uses only positive numbers and zero. You can\u2019t choose a negative number, deal negative damage, gain negative life, and so on. However, it\u2019s possible for a game value, such as a creature\u2019s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player\u2019s life total or old_start a creature\u2019s old_end power and/or old_start toughness. old_end",
+            "ruleNum": "107.1b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a spell or ability refers to the {X} or X in the mana cost, alternative cost, additional cost, or activation cost of another object, any X in that spell or ability\u2019s text uses the value of X chosen or defined for the other object.",
+            "ruleNum": "107.3e"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A copy of a permanent spell becomes a token as it resolves. The token has the characteristics of the spell that became that token. The token is not \u201ccreated\u201d for the purposes of any replacement effects or triggered abilities that refer to creating a token.",
+            "ruleNum": "111.11"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an ability triggers on damage being dealt by a specific source or sources, and the effect refers to the \u201cdamage dealt,\u201d it refers only to the damage dealt by the specified sources and not to any damage dealt at the same time by other sources.",
+            "ruleNum": "120.9"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "The converted mana cost of an object with no mana cost is 0, unless that object is the back face of a new_start transforming new_end double\u2013faced permanent or is a melded permanent.",
+            "ruleNum": "202.3a"
+        },
+        "old": {
+            "ruleText": "The converted mana cost of an object with no mana cost is 0, unless that object is the back face of a double\u2013faced permanent or is a melded permanent.",
+            "ruleNum": "202.3a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "The converted mana cost of a new_start transforming new_end double\u2013faced permanent\u2019s back face is calculated as though it had the mana cost of its front face. If a permanent is a copy of the back face of a new_start transforming new_end double\u2013faced card (even if the card representing that copy is itself a double\u2013faced card), the converted mana cost of that permanent is 0.",
+            "ruleNum": "202.3b"
+        },
+        "old": {
+            "ruleText": "The converted mana cost of a double\u2013faced permanent\u2019s back face is calculated as though it had the mana cost of its front face. If a permanent is a copy of the back face of a double\u2013faced card (even if the card representing that copy is itself a double\u2013faced card), the converted mana cost of that permanent is 0.",
+            "ruleNum": "202.3b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Previously, a spell or ability that affected cards from a particular set checked for that set\u2019s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards \u201cwith a name originally printed\u201d in a particular set.",
+            "ruleNum": "206.3"
+        },
+        "old": {
+            "ruleText": "Previously, a spell or ability that affected cards from a particular set checked for that set\u2019s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards \u201cwith a name originally printed\u201d in a particular set. old_start See rule 700.8 for details. old_end",
+            "ruleNum": "206.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some static abilities are characteristic\u2013defining abilities. A characteristic\u2013defining ability conveys information about an object\u2019s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness new_start box). Characteristic\u2013defining abilities can add to new_end or new_start override new_end information found elsewhere on that object. Characteristic\u2013defining abilities function in all zones. They also function outside the game.",
+            "ruleNum": "604.3"
+        },
+        "old": {
+            "ruleText": "Some static abilities are characteristic\u2013defining abilities. A characteristic\u2013defining ability conveys information about an object\u2019s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness old_start box) old_end or old_start overrides old_end information found elsewhere on that object. Characteristic\u2013defining abilities function in all zones. They also function outside the game.",
+            "ruleNum": "604.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "An ability printed on either face of a new_start transforming new_end double\u2013faced card (see rule 711) is considered to be \u201cprinted on\u201d that object for these purposes, regardless of which face is up.",
+            "ruleNum": "607.1b"
+        },
+        "old": {
+            "ruleText": "An ability printed on either face of a double\u2013faced card (see rule 711) is considered to be \u201cprinted on\u201d that object for these purposes, regardless of which face is up.",
+            "ruleNum": "607.1b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If the object that\u2019s resolving is a copy of a permanent spell, that object becomes a token permanent and is put onto the battlefield under the control of the spell\u2019s controller. It is no longer a copy of a spell. The token put onto the battlefield this way is not \u201ccreated\u201d for the purposes of any replacement effects or triggered abilities that refer to creating a token.",
+            "ruleNum": "608.3b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A new_start transforming new_end double\u2013faced permanent receives a new timestamp each time it transforms.",
+            "ruleNum": "613.7g"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced permanent receives a new timestamp each time it transforms.",
+            "ruleNum": "613.7g"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some cards refer to new_start the number of creatures new_end in a new_start player\u2019s party. A player\u2019s party consists of up to one creature that player controls for each of the following four creature types: Cleric, Rogue, Warrior, and Wizard. new_end",
+            "ruleNum": "700.8"
+        },
+        "old": {
+            "ruleText": "Some cards refer to old_start cards with a name originally printed old_end in a old_start particular set. old_end",
+            "ruleNum": "700.8"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "The calculation of the number of creatures in a player\u2019s party is performed automatically by the game and results in a number between zero and four. Players don\u2019t declare which specific creatures they control are in their party.",
+            "ruleNum": "700.8a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a creature has multiple creature types for which it could be the party member, it is counted as the party member for only one of those types. If there are different ways to count such a creature that results in different numbers of creatures in a player\u2019s party, it is counted in such a way to get the highest result.",
+            "ruleNum": "700.8b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A player has a full party if there are four creatures in that player\u2019s party.",
+            "ruleNum": "700.8c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "To transform a permanent, turn it over so that its other face is up. Only permanents represented by new_start transforming new_end double\u2013faced cards can transform. (See rule 711, \u201cDouble\u2013Faced Cards.\u201d)",
+            "ruleNum": "701.28a"
+        },
+        "old": {
+            "ruleText": "To transform a permanent, turn it over so that its other face is up. Only permanents represented by double\u2013faced cards can transform. (See rule 711, \u201cDouble\u2013Faced Cards.\u201d)",
+            "ruleNum": "701.28a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a spell or ability instructs a player to transform a permanent that isn\u2019t represented by a new_start transforming new_end double\u2013faced card, nothing happens.",
+            "ruleNum": "701.28c"
+        },
+        "old": {
+            "ruleText": "If a spell or ability instructs a player to transform a permanent that isn\u2019t represented by a double\u2013faced card, nothing happens.",
+            "ruleNum": "701.28c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect instructs a player to meld new_start objects new_end that can\u2019t be melded, they stay in their current zone.",
+            "ruleNum": "701.37c"
+        },
+        "old": {
+            "ruleText": "If an effect instructs a player to meld old_start cards old_end that can\u2019t be melded, they stay in their current zone.",
+            "ruleNum": "701.37c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some effects copy a permanent spell. As that copy resolves, it ceases being a copy of a spell and becomes a token permanent. (See rule 608.3b.)",
+            "ruleNum": "706.10f"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A double\u2013faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. new_start There are two kinds of double\u2013faced cards. Transforming double\u2013faced cards include new_end abilities new_start on one or both of their faces new_end that allow the card to new_start \u201ctransform\u201d (turn new_end over to its other new_start face) or allow the card to enter the battlefield \u201ctransformed\u201d (with its back face up). Modal double\u2013faced cards have two faces that are independent from one another new_end and can\u2019t transform.",
+            "ruleNum": "711.1"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. old_start Each face may have old_end abilities that allow the card to old_start \u201ctransform,\u201d or turn old_end over to its other old_start face. Tokens old_end and old_start cards with a Magic card back old_end can\u2019t transform. old_start (See rule 701.28, \u201cTransform.\u201d) old_end",
+            "ruleNum": "711.1"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A new_start transforming new_end double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. On Magic Origins\u00ae and Core Set 2019 double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. On cards in the Innistrad\u2122 block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon\u2122 set, the front\u2013face symbol is a sun. On other Eldritch Moon double\u2013faced cards, the front\u2013face symbol is a full moon. On Ixalan\u2122 and Rivals of Ixalan\u2122 cards, the front\u2013face symbol is a compass rose.",
+            "ruleNum": "711.1a"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. On Magic Origins\u00ae and Core Set 2019 double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. On cards in the Innistrad\u2122 block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon\u2122 set, the front\u2013face symbol is a sun. On other Eldritch Moon double\u2013faced cards, the front\u2013face symbol is a full moon. On Ixalan\u2122 and Rivals of Ixalan\u2122 cards, the front\u2013face symbol is a compass rose.",
+            "ruleNum": "711.1a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A new_start transforming new_end double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. On Magic Origins and Core Set 2019 double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back\u2013face symbol is a crescent moon. On other Eldritch Moon double\u2013faced cards, the back\u2013face symbol is a stylized image of Emrakul. On Ixalan and Rivals of Ixalan cards, the back\u2013face symbol is a land icon.",
+            "ruleNum": "711.1b"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. On Magic Origins and Core Set 2019 double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back\u2013face symbol is a crescent moon. On other Eldritch Moon double\u2013faced cards, the back\u2013face symbol is a stylized image of Emrakul. On Ixalan and Rivals of Ixalan cards, the back\u2013face symbol is a land icon.",
+            "ruleNum": "711.1b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start The front new_end face of a new_start transforming new_end double\u2013faced card new_start whose back face new_end is a new_start creature has new_end the back face\u2019s power and toughness printed in gray above the power and toughness box. This is reminder text and has no effect on game play.",
+            "ruleNum": "711.1c"
+        },
+        "old": {
+            "ruleText": "old_start If the back old_end face of a double\u2013faced card is a old_start creature, the front face of that card will have old_end the back face\u2019s power and toughness printed in gray above the power and toughness box. This is reminder text and has no effect on game play.",
+            "ruleNum": "711.1c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A modal double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. The front\u2013face symbol is a single black triangle inside a sideways teardrop.",
+            "ruleNum": "711.1d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A modal double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. The back\u2013face symbol is two white triangles inside a sideways teardrop.",
+            "ruleNum": "711.1e"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Each face of a modal double\u2013faced card includes a hint bar in the lower left corner with information about the opposite face. This is reminder text and has no effect on game play.",
+            "ruleNum": "711.1f"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Players must ensure that double\u2013faced cards in hidden zones are indistinguishable from other cards in the same zone. To do this, the owner of a double\u2013faced card may use completely opaque card sleeves new_start and/or a new_end substitute card (see rule 713). Sanctioned tournaments have additional rules for playing with double\u2013faced cards. See rule 100.6.",
+            "ruleNum": "711.3"
+        },
+        "old": {
+            "ruleText": "Players must ensure that double\u2013faced cards in hidden zones are indistinguishable from other cards in the same zone. To do this, the owner of a double\u2013faced card may use completely opaque card sleeves old_start or old_end substitute old_start a checklist old_end card (see rule 713). Sanctioned tournaments have additional rules for playing with double\u2013faced cards. See rule 100.6.",
+            "ruleNum": "711.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "While a double\u2013faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.",
+            "ruleNum": "711.4a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "While a transforming double\u2013faced spell is on the stack or a transforming double\u2013faced permanent has its front face up, it has only the characteristics of its front face.",
+            "ruleNum": "711.4b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "While a new_start transforming new_end double\u2013faced new_start permanent has its new_end back face up, it has only the characteristics of its back face. However, its converted mana cost is calculated using the mana cost of its front face. If a permanent is copying the back face of a new_start transforming new_end double\u2013faced card (even if the card representing that copy is itself a double\u2013faced card), the converted mana cost of that permanent is 0.",
+            "ruleNum": "711.4c"
+        },
+        "old": {
+            "ruleText": "While a double\u2013faced old_start permanent\u2019s old_end back face old_start is old_end up, it has only the characteristics of its back face. However, its converted mana cost is calculated using the mana cost of its front face. If a permanent is copying the back face of a double\u2013faced card (even if the card representing that copy is itself a double\u2013faced card), the converted mana cost of that permanent is 0.",
+            "ruleNum": "711.4b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "While a modal double\u2013faced spell is on the stack or a modal double\u2013faced permanent is on the battlefield, it has only the characteristics of the face that\u2019s up.",
+            "ruleNum": "711.4d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Only permanents represented by new_start transforming new_end double\u2013faced cards can transform. (See rule 701.28, \u201cTransform.\u201d) If a spell or ability instructs a player to transform any permanent that isn\u2019t represented by a new_start transforming new_end double\u2013faced card, nothing happens.",
+            "ruleNum": "711.5"
+        },
+        "old": {
+            "ruleText": "Only permanents represented by double\u2013faced cards can transform. (See rule 701.28, \u201cTransform.\u201d) If a spell or ability instructs a player to transform any permanent that isn\u2019t represented by a double\u2013faced card, nothing happens.",
+            "ruleNum": "711.5"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a transforming double\u2013faced card is cast as a spell, it\u2019s put on the stack with its front face up. A player casting a modal double\u2013faced card as a spell chooses which face they are casting before putting it onto the stack. See rule 601, \u201cCasting Spells.\u201d",
+            "ruleNum": "711.7"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Only the face that will be face up on the stack is evaluated to determine if it can be cast. Only that face is considered to be put onto the stack.",
+            "ruleNum": "711.7a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A resolving transforming double\u2013faced spell is put onto the battlefield front face up. A resolving modal double\u2013faced spell that becomes a permanent is put onto the battlefield with the same face up that was face up on the stack.",
+            "ruleNum": "711.8"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A double\u2013faced card put onto the battlefield from a zone other than the stack enters the battlefield with its front face up by default.",
+            "ruleNum": "711.9"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a spell or ability puts a transforming double\u2013faced card onto the battlefield \u201ctransformed,\u201d it enters the battlefield with its back face up. If a player is instructed to put a card that isn\u2019t a transforming double\u2013faced card onto the battlefield transformed, that card stays in its current zone.",
+            "ruleNum": "711.9a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a player is instructed to put a new_start modal new_end double\u2013faced card onto the battlefield new_start and its front face isn\u2019t a permanent card, the new_end card stays in its current zone.",
+            "ruleNum": "711.9b"
+        },
+        "old": {
+            "ruleText": "If a player is instructed to put a old_start card that isn\u2019t a old_end double\u2013faced card onto the battlefield old_start transformed, that old_end card stays in its current zone.",
+            "ruleNum": "711.8a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect allows a player to cast a double\u2013faced card as a face\u2013down creature spell, or if a double\u2013faced card enters the battlefield face down, it will have the characteristics given to it by the rule or effect that caused it to be face down. That card remains hidden, using a face\u2013down substitute card (see rule 713) and/or opaque sleeves. See rule 707, \u201cFace\u2013Down Spells and Permanents.\u201d",
+            "ruleNum": "711.10"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "While face down, a new_start transforming new_end double\u2013faced permanent can\u2019t transform. If new_start it\u2019s new_end turned face up, it will have its front face up.",
+            "ruleNum": "711.10a"
+        },
+        "old": {
+            "ruleText": "While face down, a double\u2013faced permanent can\u2019t transform. If old_start it is old_end turned face up, it will have its front face up.",
+            "ruleNum": "711.9a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A double\u2013faced card that is exiled face down remains hidden, using a face\u2013down new_start substitute new_end card new_start and/or new_end opaque sleeves. See rule 713, new_start \u201cSubstitute new_end Cards.\u201d",
+            "ruleNum": "711.12"
+        },
+        "old": {
+            "ruleText": "A double\u2013faced card that is exiled face down remains hidden, using old_start either old_end a face\u2013down old_start checklist old_end card old_start or old_end opaque sleeves. See rule 713, old_start \u201cChecklist old_end Cards.\u201d",
+            "ruleNum": "711.11"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "When a new_start transforming new_end double\u2013faced permanent transforms, it doesn\u2019t become a new object. Any effects that applied to that permanent will continue to apply to it after it transforms.",
+            "ruleNum": "711.13"
+        },
+        "old": {
+            "ruleText": "When a double\u2013faced permanent transforms, it doesn\u2019t become a new object. Any effects that applied to that permanent will continue to apply to it after it transforms.",
+            "ruleNum": "711.12"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A meld card isn\u2019t a double\u2013faced card. new_start Its back face can\u2019t be cast or put onto the battlefield, and it new_end can\u2019t transform or enter the battlefield transformed. (See rule 711, \u201cDouble\u2013Faced Cards.\u201d)",
+            "ruleNum": "712.1b"
+        },
+        "old": {
+            "ruleText": "A meld card isn\u2019t a double\u2013faced card. old_start It old_end can\u2019t transform or enter the battlefield transformed. (See rule 711, \u201cDouble\u2013Faced Cards.\u201d)",
+            "ruleNum": "712.1b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "While a new_start meld new_end card is outside the game, in a zone other than the battlefield, or on the battlefield with its front face up, it has only the characteristics of its front face.",
+            "ruleNum": "712.3a"
+        },
+        "old": {
+            "ruleText": "While a old_start double\u2013faced old_end card is outside the game, in a zone other than the battlefield, or on the battlefield with its front face up, it has only the characteristics of its front face.",
+            "ruleNum": "711.4a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Meld cards in a player\u2019s deck may be represented by new_start substitute new_end cards. See rule 713, new_start \u201cSubstitute new_end Cards.\u201d",
+            "ruleNum": "712.6"
+        },
+        "old": {
+            "ruleText": "Meld cards in a player\u2019s deck may be represented by old_start checklist old_end cards. See rule 713, old_start \u201cChecklist old_end Cards.\u201d",
+            "ruleNum": "712.6"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a new_start meld new_end card is cast as a spell, it\u2019s put on the stack with its front face up. See rule 601, \u201cCasting Spells.\u201d",
+            "ruleNum": "712.7"
+        },
+        "old": {
+            "ruleText": "If a old_start double\u2013faced old_end card is cast as a spell, it\u2019s put on the stack with its front face up. See rule 601, \u201cCasting Spells.\u201d",
+            "ruleNum": "711.7"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A new_start meld new_end card enters the battlefield with its front face up new_start unless it\u2019s being melded new_end with its new_start counterpart. new_end",
+            "ruleNum": "712.8"
+        },
+        "old": {
+            "ruleText": "A old_start double\u2013faced old_end card enters the battlefield with its front face up old_start by default. If a spell or ability puts it onto the battlefield \u201ctransformed,\u201d it enters the battlefield old_end with its old_start back face up. old_end",
+            "ruleNum": "711.8"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect allows a player to cast a new_start meld new_end card as a face\u2013down spell, or if a new_start meld new_end card enters the battlefield face down, it will have the characteristics given to it by the rule or effect that caused it to be face down. That card remains hidden, using either a face\u2013down new_start substitute new_end card or opaque sleeves. See rule 707, \u201cFace\u2013Down Spells and Permanents.\u201d",
+            "ruleNum": "712.9"
+        },
+        "old": {
+            "ruleText": "If an effect allows a player to cast a old_start double\u2013faced old_end card as a face\u2013down old_start creature old_end spell, or if a old_start double\u2013faced old_end card enters the battlefield face down, it will have the characteristics given to it by the rule or effect that caused it to be face down. That card remains hidden, using either a face\u2013down old_start checklist old_end card or opaque sleeves. See rule 707, \u201cFace\u2013Down Spells and Permanents.\u201d",
+            "ruleNum": "711.9"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A new_start substitute new_end card is a game supplement that can be used to represent a double\u2013faced card or meld card. new_start A substitute card has a normal Magic card back. new_end",
+            "ruleNum": "713.1"
+        },
+        "old": {
+            "ruleText": "A old_start checklist old_end card is a game supplement that can be used to represent a double\u2013faced card or meld card.",
+            "ruleNum": "713.1"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start Each substitute new_end card new_start must clearly indicate the name of at least the front new_end face of new_start the new_end card new_start that it represents. Other information from new_end the new_start printed card (e.g. card type, mana cost, new_end and new_start power new_end and new_start toughness) may also new_end be new_start written on new_end the new_start substitute card. new_end",
+            "ruleNum": "713.2"
+        },
+        "old": {
+            "ruleText": "old_start A checklist old_end card old_start has a normal Magic card back. The old_end face of old_start a checklist old_end card old_start is divided into sections. Each section lists old_end the old_start name old_end and old_start mana cost of each double\u2013faced card or meld card it could represent old_end and old_start includes a fill\u2013in circle. Before a checklist card can old_end be old_start used, exactly one of old_end the old_start fill\u2013in circles must be marked to denote which card the checklist card represents. old_end",
+            "ruleNum": "713.2"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some substitute cards list the names and mana costs of the cards they can represent. Exactly one of the fill\u2013in circles must be marked to denote which card the substitute card represents. This style of substitute card was found in Magic products that released 2011\u20132018.",
+            "ruleNum": "713.2a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Some substitute cards represent one specific listed card. This style of substitute card was found in the Core Set 2019 release, and it represents the card Nicol Bolas, the Ravager.",
+            "ruleNum": "713.2b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Some substitute cards can represent any modal double\u2013faced card. These substitute cards include the front\u2013face and back\u2013face symbols on the front face of the card. To use one of them, write in the name of each face of the card it represents. This style of substitute card is found in the Zendikar Rising release.",
+            "ruleNum": "713.2c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a new_start substitute new_end card is used in a deck, the card it represents is set aside prior to the beginning of the game (see rule 103.2a) and must remain available throughout the game. A new_start substitute new_end card can\u2019t be included in a deck unless it is representing a double\u2013faced card or a meld card.",
+            "ruleNum": "713.3"
+        },
+        "old": {
+            "ruleText": "If a old_start checklist old_end card is used in a deck, the card it represents is set aside prior to the beginning of the game (see rule 103.2a) and must remain available throughout the game. A old_start checklist old_end card can\u2019t be included in a deck unless it is representing a double\u2013faced card or a meld card.",
+            "ruleNum": "713.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "For all game purposes, the new_start substitute new_end card is considered to be the card it\u2019s representing.",
+            "ruleNum": "713.4"
+        },
+        "old": {
+            "ruleText": "For all game purposes, the old_start checklist old_end card is considered to be the card it\u2019s representing.",
+            "ruleNum": "713.4"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If the new_start substitute new_end card is face up in a public zone, it should be set aside and the double\u2013faced card or meld card that it represents should be used instead.",
+            "ruleNum": "713.5"
+        },
+        "old": {
+            "ruleText": "If the old_start checklist old_end card is face up in a public zone, it should be set aside and the double\u2013faced card or meld card that it represents should be used instead.",
+            "ruleNum": "713.5"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a merged permanent contains one or more new_start transforming new_end double\u2013faced cards (see rule 711), transforming that permanent causes each of those double\u2013faced cards to turn so that its other face is up.",
+            "ruleNum": "721.2i"
+        },
+        "old": {
+            "ruleText": "If a merged permanent contains one or more double\u2013faced cards (see rule 711), transforming that permanent causes each of those double\u2013faced cards to turn so that its other face is up.",
+            "ruleNum": "721.2i"
+        }
+    }
+]

@@ -1,0 +1,610 @@
+[
+    {
+        "names": {
+            "old_setcode": "CN2",
+            "new_full": "Kaladesh",
+            "new_setcode": "KLD",
+            "old_full": "Conspiracy: Take the Crown"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "107.14",
+            "ruleText": "The energy symbol is {E}. It represents one energy counter. To pay {E}, a player removes one energy counter from himself or herself."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "119.7",
+            "ruleText": "The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a prevention or replacement effect that\u2019s waiting to apply, or by a delayed triggered ability that\u2019s waiting to trigger (even if that object is no longer in the zone it used to be in); old_start or, in certain casual variant games, old_end a face\u2013up old_start card old_end in the command zone. A source doesn\u2019t need to be capable of dealing damage to be a legal choice. See rule 609.7, \u201cSources of Damage.\u201d"
+        },
+        "new": {
+            "ruleNum": "119.7",
+            "ruleText": "The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a prevention or replacement effect that\u2019s waiting to apply, or by a delayed triggered ability that\u2019s waiting to trigger (even if that object is no longer in the zone it used to be in); new_start or new_end a face\u2013up new_start object new_end in the command zone. A source doesn\u2019t need to be capable of dealing damage to be a legal choice. See rule 609.7, \u201cSources of Damage.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3g",
+            "ruleText": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), old_start and old_end Fortification (see rule 301.6)."
+        },
+        "new": {
+            "ruleNum": "205.3g",
+            "ruleText": "Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Fortification (see rule 301.6), and Vehicle (see rule 301.7)."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Elspeth, Freyalise, Garruk, Gideon, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos. If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners\u2019 graveyards. This \u201cplaneswalker uniqueness rule\u201d is a state\u2013based action. See rule 704."
+        },
+        "new": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, new_start Dovin, new_end Elspeth, Freyalise, Garruk, Gideon, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, new_start Saheeli, new_end Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos. If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners\u2019 graveyards. This \u201cplaneswalker uniqueness rule\u201d is a state\u2013based action. See rule 704."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        },
+        "new": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, new_start Aetherborn, new_end Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, new_start Monkey, new_end Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, new_start Pilot, new_end Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, new_start Servo, new_end Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "208.3",
+            "ruleText": "A noncreature permanent has no power or toughness, even if it\u2019s a card with a power and toughness printed on it (such as a old_start Licid that\u2019s become an Aura). old_end"
+        },
+        "new": {
+            "ruleNum": "208.3",
+            "ruleText": "A noncreature permanent has no power or toughness, even if it\u2019s a card with a power and toughness printed on it (such as a new_start Vehicle). new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "208.3a",
+            "ruleText": "If an effect would be created that affects the power and/or toughness of a noncreature permanent, that effect is created even though it doesn\u2019t do anything unless that permanent becomes a creature."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "208.5",
+            "ruleText": "If a creature somehow has no value for its power, its power is 0. The same is true for toughness."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "301.7",
+            "ruleText": "Some artifacts have the subtype \u201cVehicle.\u201d Vehicles have a crew ability, which allows them to become artifact creatures. See rule 702.121, \u201cCrew.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "301.7a",
+            "ruleText": "Each Vehicle has a printed power and toughness, but it has these characteristics only if it\u2019s also a creature. See rule 208.3."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "301.7b",
+            "ruleText": "If a Vehicle becomes a creature, it immediately has its printed power and toughness. Other effects, including the effect that makes it a creature, may modify these values or set them to different values."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "400.6",
+            "ruleText": "If an object would move from one zone to another, determine what event is moving the object. If the object is moving to a public zone, old_start all players look old_end at it to see if it has any abilities that would affect the move. Then any appropriate replacement effects, whether they come from that object or from elsewhere, are applied to that event. If any effects or rules try to do two or more contradictory or mutually exclusive things to a particular object, that object\u2019s controller\u2013or its owner if it has no controller\u2013chooses which effect to apply, and what that effect does. (Note that multiple instances of the same thing may be mutually exclusive; for example, two simultaneous \u201cdestroy\u201d effects.) Then the event moves the object."
+        },
+        "new": {
+            "ruleNum": "400.6",
+            "ruleText": "If an object would move from one zone to another, determine what event is moving the object. If the object is moving to a public new_start zone and its owner will be able to look at it in that new_end zone, new_start its owner looks new_end at it to see if it has any abilities that would affect the move. new_start If the object is moving to the battlefield, each other player who will be able to look at it in that zone does so. new_end Then any appropriate replacement effects, whether they come from that object or from elsewhere, are applied to that event. If any effects or rules try to do two or more contradictory or mutually exclusive things to a particular object, that object\u2019s controller\u2013or its owner if it has no controller\u2013chooses which effect to apply, and what that effect does. (Note that multiple instances of the same thing may be mutually exclusive; for example, two simultaneous \u201cdestroy\u201d effects.) Then the event moves the object."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "500.6",
+            "ruleText": "When a phase or step begins, any abilities that trigger \u201cat the beginning of\u201d that phase or step trigger. They are put on the stack the next time a player would receive priority. (See rule 116, \u201cTiming and Priority.\u201d)"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "503.1",
+            "ruleText": "The upkeep step has no turn\u2013based actions. Once it begins, the active player gets priority. (See rule 116, \u201cTiming and Priority.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "507.2",
+            "ruleText": "old_start Second, old_end any abilities that old_start trigger old_end at the beginning of old_start combat go on old_end the old_start stack. old_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        },
+        "new": {
+            "ruleNum": "503.1a",
+            "ruleText": "new_start Any abilities that triggered during the untap step and new_end any abilities that new_start triggered new_end at the beginning of the new_start upkeep are put onto the stack before the active player gets priority; the order in which they triggered doesn\u2019t matter. new_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "504.2",
+            "ruleText": "Second, old_start any abilities that trigger at old_end the old_start beginning of the draw step old_end and old_start any other abilities that have triggered go on the stack. old_end"
+        },
+        "new": {
+            "ruleNum": "504.2",
+            "ruleText": "Second, the new_start active player gets priority. (See rule 116, \u201cTiming new_end and new_start Priority.\u201d) new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "505.4",
+            "ruleText": "Second, the active player gets priority. (See rule 116, \u201cTiming and Priority.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "505.5a",
+            "ruleText": "The main phase is the only phase in which a player can normally cast artifact, creature, enchantment, planeswalker, and sorcery spells. old_start Only the old_end active player may cast these spells."
+        },
+        "new": {
+            "ruleNum": "505.4a",
+            "ruleText": "The main phase is the only phase in which a player can normally cast artifact, creature, enchantment, planeswalker, and sorcery spells. new_start The new_end active player may cast these spells."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "507.2",
+            "ruleText": "Second, the active player gets priority. (See rule 116, \u201cTiming and Priority.\u201d)"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "508.1k",
+            "ruleText": "Any abilities that trigger on attackers being declared trigger."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "513.2",
+            "ruleText": "Second, the active player gets priority. old_start Players may cast spells old_end and old_start activate abilities. old_end"
+        },
+        "new": {
+            "ruleNum": "508.2",
+            "ruleText": "Second, the active player gets priority. new_start (See rule 116, \u201cTiming new_end and new_start Priority.\u201d) new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "508.2",
+            "ruleText": "old_start Second, any old_end abilities that triggered on attackers being declared old_start go on old_end the old_start stack. old_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        },
+        "new": {
+            "ruleNum": "508.2b",
+            "ruleText": "new_start Any new_end abilities that triggered on attackers being declared new_start or that triggered during new_end the new_start process described in rules 508.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn\u2019t matter. new_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start blocking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start blockers. old_end"
+        },
+        "new": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start attacking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start attackers. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "509.1i",
+            "ruleText": "Any abilities that trigger on blockers being declared trigger. See rule 509.4 for more information."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "510.4",
+            "ruleText": "Fourth, the active player gets priority. old_start Players may cast spells old_end and old_start activate abilities. old_end"
+        },
+        "new": {
+            "ruleNum": "509.4",
+            "ruleText": "Fourth, the active player gets priority. new_start (See rule 116, \u201cTiming new_end and new_start Priority.\u201d) new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "509.4",
+            "ruleText": "old_start Fourth, any old_end abilities that triggered on blockers being declared old_start go on old_end the old_start stack. old_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        },
+        "new": {
+            "ruleNum": "509.4a",
+            "ruleText": "new_start Any new_end abilities that triggered on blockers being declared new_start or that triggered during new_end the new_start process described in rules 509.1\u20133 are put onto the stack before the active player gets priority; the order in which they triggered doesn\u2019t matter. new_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "509.5",
+            "ruleText": "Triggered abilities that trigger during the declare blockers step may have different trigger conditions."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "508.4b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start attacking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start attackers. old_end"
+        },
+        "new": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start blocking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start blockers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "509.5",
+            "ruleText": "old_start Fifth, old_end the active player gets priority. old_start Players may cast spells old_end and old_start activate abilities. old_end"
+        },
+        "new": {
+            "ruleNum": "510.3",
+            "ruleText": "new_start Third, new_end the active player gets priority. new_start (See rule 116, \u201cTiming new_end and new_start Priority.\u201d) new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "510.3",
+            "ruleText": "old_start Third, any old_end abilities that triggered on damage being old_start assigned old_end or old_start dealt go on old_end the old_start stack. old_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        },
+        "new": {
+            "ruleNum": "510.3a",
+            "ruleText": "new_start Any new_end abilities that triggered on damage being new_start dealt new_end or new_start while state\u2013based actions are performed afterward are put onto new_end the new_start stack before the active player gets priority; the order in which they triggered doesn\u2019t matter. new_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "511.1",
+            "ruleText": "old_start First, all \u201cat old_end end of old_start combat\u201d abilities trigger and go on old_end the old_start stack. old_end (See rule 603, \u201cHandling Triggered Abilities.\u201d)"
+        },
+        "new": {
+            "ruleNum": "511.1",
+            "ruleText": "new_start The new_end end of new_start combat step has no turn\u2013based actions. Once it begins, new_end the new_start active player gets priority. new_end (See rule 116, \u201cTiming and Priority.\u201d)"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "511.2",
+            "ruleText": "Abilities that trigger \u201cat end of combat\u201d trigger as the end of combat damage step begins. Abilities that last \u201cuntil end of combat\u201d expire at the end of the combat phase."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "513.1",
+            "ruleText": "The end step has no turn\u2013based actions. Once it begins, the active player gets priority. (See rule 116, \u201cTiming and Priority.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "513.1",
+            "ruleText": "old_start First, all old_end abilities that trigger \u201cat the beginning of the end step\u201d or \u201cat the beginning of the next end old_start step\u201d go on the stack. (See rule 603, \u201cHandling Triggered Abilities.\u201d) old_end"
+        },
+        "new": {
+            "ruleNum": "513.1a",
+            "ruleText": "new_start Previously, new_end abilities that new_start triggered at the beginning of the end step were printed with the new_end trigger new_start condition \u201cat end of turn.\u201d Cards that were printed with that text have received errata in the Oracle card reference to say new_end \u201cat the beginning of the end step\u201d or \u201cat the beginning of the next end new_start step.\u201d new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.2b",
+            "ruleText": "If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it\u2019s being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). A player can\u2019t apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it\u2019s being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player\u2019s options when making these choices."
+        },
+        "new": {
+            "ruleNum": "601.2b",
+            "ruleText": "If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it\u2019s being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). A player can\u2019t apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it\u2019s being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. new_start If the value of that variable is defined in the text of the spell by a choice that player would make later in the announcement or resolution of the spell, that player makes that choice at this time instead of that later time. new_end If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player\u2019s options when making these choices."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.1",
+            "ruleText": "Triggered abilities have a trigger condition and an effect. They are written as old_start \u201c[Trigger condition], [effect],\u201d and begin with the word \u201cwhen,\u201d \u201cwhenever,\u201d or \u201cat.\u201d They can also be expressed as old_end \u201c[When/Whenever/At] [trigger event], [effect].\u201d"
+        },
+        "new": {
+            "ruleNum": "603.1",
+            "ruleText": "Triggered abilities have a trigger condition and an effect. They are written as \u201c[When/Whenever/At] [trigger new_start condition or new_end event], [effect].\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "500.6",
+            "ruleText": "When a phase or step begins, old_start any old_end abilities that trigger \u201cat the beginning of\u201d that phase or step old_start are added to the stack. old_end"
+        },
+        "new": {
+            "ruleNum": "603.2b",
+            "ruleText": "When a phase or step begins, new_start all new_end abilities that trigger \u201cat the beginning of\u201d that phase or step new_start trigger. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.2c",
+            "ruleText": "An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences. old_start See also rule 509.4. old_end"
+        },
+        "new": {
+            "ruleNum": "603.2c",
+            "ruleText": "An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.6a",
+            "ruleText": "Enters\u2013the\u2013battlefield abilities trigger when a permanent enters the battlefield. These are written, \u201cWhen [this object] enters the battlefield, . . . old_start \u201d old_end or \u201cWhenever a [type] enters the battlefield, . . .\u201d Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters\u2013the\u2013battlefield triggers that match the event."
+        },
+        "new": {
+            "ruleNum": "603.6a",
+            "ruleText": "Enters\u2013the\u2013battlefield abilities trigger when a permanent enters the battlefield. These are written, \u201cWhen [this object] enters the battlefield, . . . new_start \u201c new_end or \u201cWhenever a [type] enters the battlefield, . . .\u201d Each time an event puts one or more permanents onto the battlefield, all permanents on the battlefield (including the newcomers) are checked for any enters\u2013the\u2013battlefield triggers that match the event."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "607.2c",
+            "ruleText": "If an object has an activated or triggered ability printed on it that puts one or more objects onto the battlefield and an ability printed on it that refers to objects \u201cput onto the battlefield with [this object],\u201d those abilities are linked. The second can refer only to objects put onto the battlefield as a result of the first."
+        },
+        "new": {
+            "ruleNum": "607.2c",
+            "ruleText": "If an object has an activated or triggered ability printed on it that puts one or more objects onto the battlefield and an ability printed on it that refers to objects \u201cput onto the battlefield with [this new_start object]\u201d or \u201ccreated with [this new_end object],\u201d those abilities are linked. The second can refer only to objects put onto the battlefield as a result of the first."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "609.7a",
+            "ruleText": "If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a replacement or prevention effect that\u2019s waiting to apply, or by a delayed triggered ability that\u2019s waiting to trigger (even if that object is no longer in the zone it used to be in); old_start or, for certain casual variant games, old_end a face\u2013up old_start card old_end in the command zone. A source doesn\u2019t need to be capable of dealing damage to be a legal choice. The source is chosen when the effect is created. If the player chooses a permanent, the effect will apply to the next damage dealt by that permanent, regardless of whether it\u2019s combat damage or damage dealt as the result of a spell or ability. If the player chooses a permanent spell, the effect will apply to any damage dealt by that spell and any damage dealt by the permanent that spell becomes when it resolves."
+        },
+        "new": {
+            "ruleNum": "609.7a",
+            "ruleText": "If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a replacement or prevention effect that\u2019s waiting to apply, or by a delayed triggered ability that\u2019s waiting to trigger (even if that object is no longer in the zone it used to be in); new_start or new_end a face\u2013up new_start object new_end in the command zone. A source doesn\u2019t need to be capable of dealing damage to be a legal choice. The source is chosen when the effect is created. If the player chooses a permanent, the effect will apply to the next damage dealt by that permanent, regardless of whether it\u2019s combat damage or damage dealt as the result of a spell or ability. If the player chooses a permanent spell, the effect will apply to any damage dealt by that spell and any damage dealt by the permanent that spell becomes when it resolves."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "610.1",
+            "ruleText": "A one\u2013shot effect does something just once and doesn\u2019t have a duration. Examples include dealing damage, destroying a permanent, old_start putting old_end a old_start token onto the battlefield, old_end and moving an object from one zone to another."
+        },
+        "new": {
+            "ruleNum": "610.1",
+            "ruleText": "A one\u2013shot effect does something just once and doesn\u2019t have a duration. Examples include dealing damage, destroying a permanent, new_start creating new_end a new_start token, new_end and moving an object from one zone to another."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "610.3c",
+            "ruleText": "If multiple one\u2013shot effects are created this way immediately after one or more simultaneous events, those one\u2013shot effects are also simultaneous."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "614.1c",
+            "ruleText": "Effects that read \u201c[This permanent] enters the battlefield with . . . ,\u201d \u201cAs [this permanent] enters the battlefield . . . ,\u201d or \u201c[This permanent] enters the battlefield as . . . old_start \u201d old_end are replacement effects."
+        },
+        "new": {
+            "ruleNum": "614.1c",
+            "ruleText": "Effects that read \u201c[This permanent] enters the battlefield with . . . ,\u201d \u201cAs [this permanent] enters the battlefield . . . ,\u201d or \u201c[This permanent] enters the battlefield as . . . new_start \u201c new_end are replacement effects."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "700.6c",
+            "ruleText": "One card (Apocalypse Chime) refers to permanents with the same name as a card originally printed in the Homelands\u2122 expansion. Those cards are Abbey Gargoyles; Abbey Matron; old_start \u00c6ther old_end Storm; Aliban\u2019s Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An\u2013Havva Constable; An\u2013Havva Inn; An\u2013Havva Township; An\u2013Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki\u2019s Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz\u2019s Ban; Folk of An\u2013Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan\u2019s Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven\u2019s Ferrets; Joven\u2019s Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards\u2019 School."
+        },
+        "new": {
+            "ruleNum": "700.6c",
+            "ruleText": "One card (Apocalypse Chime) refers to permanents with the same name as a card originally printed in the Homelands\u2122 expansion. Those cards are Abbey Gargoyles; Abbey Matron; new_start Aether new_end Storm; Aliban\u2019s Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An\u2013Havva Constable; An\u2013Havva Inn; An\u2013Havva Township; An\u2013Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki\u2019s Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz\u2019s Ban; Folk of An\u2013Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan\u2019s Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven\u2019s Ferrets; Joven\u2019s Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards\u2019 School."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.6a",
+            "ruleText": "To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.6b",
+            "ruleText": "Previously, an effect that created tokens instructed a player to \u201cput [those tokens] onto the battlefield.\u201d Cards that were printed with that text have received errata in the Oracle card reference so they now \u201ccreate\u201d those tokens."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.14c",
+            "ruleText": "If cards in a player\u2019s library are shuffled or otherwise reordered, any revealed cards that are reordered stop being revealed and become new objects."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.14d",
+            "ruleText": "Some effects instruct a player to look at one or more cards. Looking at a card follows the same rules as revealing a card, except that the card is shown only to the specified player."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.22c",
+            "ruleText": "A player may planeswalk as the result of the \u201cplaneswalking ability\u201d (see rule 901.8), because the owner of a face\u2013up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon\u2019s triggered ability leaves the stack (see rule 704.5x). Abilities may also instruct a player to planeswalk."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.26d",
+            "ruleText": "If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is represented by an instant or sorcery card face, nothing happens."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.27a",
+            "ruleText": "To populate means to choose a creature token you control and old_start put old_end a token old_start onto the battlefield old_end that\u2019s a copy of that creature token."
+        },
+        "new": {
+            "ruleNum": "701.28a",
+            "ruleText": "To populate means to choose a creature token you control and new_start create new_end a token that\u2019s a copy of that creature token."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.27b",
+            "ruleText": "If you control no creature tokens when instructed to populate, you won\u2019t old_start put old_end a old_start token onto the battlefield. old_end"
+        },
+        "new": {
+            "ruleNum": "701.28b",
+            "ruleText": "If you control no creature tokens when instructed to populate, you won\u2019t new_start create new_end a new_start token. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.33a",
+            "ruleText": "\u201cInvestigate\u201d means old_start \u201cPut old_end a colorless Clue artifact token old_start onto the battlefield. It has old_end \u2018{2}, Sacrifice this artifact: Draw a card.\u2019\u201d"
+        },
+        "new": {
+            "ruleNum": "701.34a",
+            "ruleText": "\u201cInvestigate\u201d means new_start \u201cCreate new_end a colorless Clue artifact token new_start with new_end \u2018{2}, Sacrifice this artifact: Draw a card.\u2019\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.1a",
+            "ruleText": "If an effect refers to a \u201c[keyword ability] cost,\u201d it refers only to the variable costs for that keyword."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.36d",
+            "ruleText": "You can\u2019t cast a card face old_start down if it doesn\u2019t have a old_end morph old_start ability. old_end"
+        },
+        "new": {
+            "ruleNum": "702.36d",
+            "ruleText": "You can\u2019t new_start normally new_end cast a card face new_start down. A new_end morph new_start ability allows you to do so. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.61c",
+            "ruleText": "While determining if you could begin to cast a card with suspend, take into consideration any effects that would prohibit that card from being cast."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.91a",
+            "ruleText": "Living weapon is a triggered ability. \u201cLiving weapon\u201d means \u201cWhen this Equipment enters the battlefield, old_start put old_end a 0/0 black Germ creature old_start token onto the battlefield, old_end then attach this Equipment to it.\u201d"
+        },
+        "new": {
+            "ruleNum": "702.91a",
+            "ruleText": "Living weapon is a triggered ability. \u201cLiving weapon\u201d means \u201cWhen this Equipment enters the battlefield, new_start create new_end a 0/0 black Germ creature new_start token, new_end then attach this Equipment to it.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.115a",
+            "ruleText": "Myriad is a triggered ability that may also create a delayed triggered ability. \u201cMyriad\u201d means \u201cWhenever this creature attacks, for each opponent other than defending player, you may old_start put old_end a token that\u2019s a copy of this creature old_start onto the battlefield old_end tapped and attacking that player or a planeswalker he or she controls. If old_start you put old_end one or more tokens old_start onto the battlefield old_end this way, exile the tokens at end of combat.\u201d"
+        },
+        "new": {
+            "ruleNum": "702.115a",
+            "ruleText": "Myriad is a triggered ability that may also create a delayed triggered ability. \u201cMyriad\u201d means \u201cWhenever this creature attacks, for each opponent other than defending player, you may new_start create new_end a token that\u2019s a copy of this creature new_start that\u2019s new_end tapped and attacking that player or a planeswalker he or she controls. If one or more tokens new_start are created new_end this way, exile the tokens at end of combat.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.121a",
+            "ruleText": "Crew is an activated ability of Vehicle cards. \u201cCrew N\u201d means \u201cTap any number of untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.121b",
+            "ruleText": "A creature \u201ccrews a Vehicle\u201d when it\u2019s tapped to pay the cost to activate a Vehicle\u2019s crew ability."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.121c",
+            "ruleText": "If an effect states that a creature \u201ccan\u2019t crew Vehicles,\u201d that creature can\u2019t be tapped to pay the crew cost of a Vehicle."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.122a",
+            "ruleText": "Fabricate is a triggered ability. \u201cFabricate N\u201d means \u201cWhen this permanent enters the battlefield, you may put N +1/+1 counters on it. If you don\u2019t, create N 1/1 colorless Servo artifact creature tokens.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.122b",
+            "ruleText": "If a permanent has multiple instances of fabricate, each triggers separately."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "706.1",
+            "ruleText": "Some objects become or turn another object into a \u201ccopy\u201d of a spell, permanent, or card. Some effects old_start put old_end a token old_start onto the battlefield old_end that\u2019s a copy of another object. (Certain older cards were printed with the phrase \u201csearch for a copy.\u201d This section doesn\u2019t cover those cards, which have received new text in the Oracle card reference.)"
+        },
+        "new": {
+            "ruleNum": "706.1",
+            "ruleText": "Some objects become or turn another object into a \u201ccopy\u201d of a spell, permanent, or card. Some effects new_start create new_end a token that\u2019s a copy of another object. (Certain older cards were printed with the phrase \u201csearch for a copy.\u201d This section doesn\u2019t cover those cards, which have received new text in the Oracle card reference.)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "708.2b",
+            "ruleText": "If a player casts a split card with fuse from his or her hand, in addition to choosing either half as described above, the player may choose to cast both halves, resulting in a fused split old_start spell. Both halves are old_end evaluated to see if old_start the spell old_end can be cast. old_start If either half can\u2019t be cast, then both halves can\u2019t be cast as a single spell. old_end"
+        },
+        "new": {
+            "ruleNum": "708.2b",
+            "ruleText": "If a player casts a split card with fuse from his or her hand, in addition to choosing either half as described above, the player may choose to cast both halves, resulting in a fused split new_start spell with the combined characteristics of both halves. Only the fused split spell is new_end evaluated to see if new_start it new_end can be cast."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "712.4e",
+            "ruleText": "If an effect needs to know the number of objects that changed zones, a melded permanent among those objects counts as one object that moved. If the effect needs to know the number of cards that changed zones, that melded permanent counts as two cards that moved."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "716.4",
+            "ruleText": "If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the leaving old_start monarch old_end is old_start the old_end active player, the next player in turn order becomes the monarch."
+        },
+        "new": {
+            "ruleNum": "716.4",
+            "ruleText": "If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the new_start active player is new_end leaving new_start the game or if there new_end is new_start no new_end active player, the next player in turn order becomes the monarch."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "800.4b",
+            "ruleText": "If an object would change to the control of a player who has left the game, it doesn\u2019t. If a token would old_start enter the battlefield old_end under the control of a player who has left the game, no token is created. If a player would be controlled by a player who has left the game, he or she isn\u2019t."
+        },
+        "new": {
+            "ruleNum": "800.4b",
+            "ruleText": "If an object would change to the control of a player who has left the game, it doesn\u2019t. If a token would new_start be created new_end under the control of a player who has left the game, no token is created. new_start If an object would be put onto the battlefield or onto the stack under the control of a player who has left the game, that object remains in its current zone. new_end If a player would be controlled by a player who has left the game, he or she isn\u2019t."
+        }
+    }
+]

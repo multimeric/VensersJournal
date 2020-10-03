@@ -1,0 +1,37 @@
+[
+    {
+        "names": {
+            "old_setcode": "IKO",
+            "old_full": "Ikoria",
+            "new_full": "Companion Change",
+            "new_setcode": "IKO"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A player who has chosen a companion may pay {3} to put that card from outside the game into their hand. This is a special action. A player can take this action any time they have priority and the stack is empty during a main phase of their turn, but only if they haven\u2019t done so yet this game. (See rule 702.138, \u201cCompanion.\u201d)",
+            "ruleNum": "116.2g"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Companion is a keyword ability that functions outside the game. It\u2019s written as \u201cCompanion\u2014[Condition].\u201d Before the game begins, you may reveal one card you own from outside the game with a companion ability whose condition is fulfilled by your starting deck. (See rule 103.1b.) new_start Once during the game, any time new_end you new_start have priority and the stack is empty, but only new_end during new_start a main phase of your turn, new_end you may new_start pay {3} and put new_end that card new_start into your hand. This is a special action that doesn\u2019t use the stack (see rule 116.2g). This is a change new_end from new_start previous rules. new_end",
+            "ruleNum": "702.138a"
+        },
+        "old": {
+            "ruleText": "Companion is a keyword ability that functions outside the game. It\u2019s written as \u201cCompanion\u2014[Condition].\u201d Before the game begins, you may reveal one card you own from outside the game with a companion ability whose condition is fulfilled by your starting deck. (See rule 103.1b.) old_start If old_end you old_start do, once old_end during old_start that game, old_end you may old_start play old_end that card from old_start outside the game. old_end",
+            "ruleNum": "702.138a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Once you new_start take the special action and put new_end the card with new_start companion into your hand, new_end it remains in the game until the game ends.",
+            "ruleNum": "702.138c"
+        },
+        "old": {
+            "ruleText": "Once you old_start play old_end the card with old_start companion, old_end it remains in the game until the game ends.",
+            "ruleNum": "702.138c"
+        }
+    }
+]

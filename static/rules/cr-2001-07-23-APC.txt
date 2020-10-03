@@ -1,17 +1,17 @@
-Magic: The Gathering® Comprehensive Rules
+Magic: The GatheringÂ® Comprehensive Rules
 
 These rules are current as of July 23, 2001.
 
 Introduction
 
 This booklet is designed for people who've moved beyond the basics of the Magic: The Gathering 
-game. If you're a beginning Magic® player, you'll probably find these rules intimidating. They're 
+game. If you're a beginning MagicÂ® player, you'll probably find these rules intimidating. They're 
 intended to be the ultimate authority for the game, and you won't usually need to refer to them except 
 in specific cases or during competitive games.
 
 For casual play and most ordinary situations, you'll find what you need in the general rulebook 
-included in the Magic: The Gathering—Seventh Edition™ game box. (You can download a copy of that 
-rulebook from the Wizards of the Coast® website at 
+included in the Magic: The Gatheringâ€”Seventh Editionâ„¢ game box. (You can download a copy of that 
+rulebook from the Wizards of the CoastÂ® website at 
 www.wizards.com/magic/advanced/7e/welcome.asp.) If you're sure this is where you want to be, 
 keep reading.
 
@@ -132,7 +132,7 @@ deck can have any number of basic land cards and no more than four of any card w
 particular English name other than basic land cards. 
 
 100.3. For sealed deck or draft play, only forty cards are required in a deck, and a player may use as 
-many duplicates of a card as he or she has. See the most current Magic: The Gathering DCI™ 
+many duplicates of a card as he or she has. See the most current Magic: The Gathering DCIâ„¢ 
 Floor Rules for more information. They can be found at 
 www.wizards.com/DCI/UTR_MTG.asp.
 
@@ -209,7 +209,7 @@ See rule 407, "Adding and Removing Abilities."
 200. General
 
 200.1. When a rule or text on a card refers to a "card," it means a Magic card with a Magic card 
-front and the Magic card back. Tokens aren't considered cards—even an Unglued™ card that 
+front and the Magic card back. Tokens aren't considered cardsâ€”even an Ungluedâ„¢ card that 
 represents a token isn't considered a card for rules purposes.
 
 201. Parts of a Card
@@ -246,7 +246,7 @@ multicolored.
 
 203.3. The converted mana cost of a card is the total amount of mana in the mana cost, regardless of 
 color (For example, a mana cost of 3UU translates to a converted mana cost of 5). The converted 
-mana cost is a generic mana cost—it may be paid with any combination of colored and/or 
+mana cost is a generic mana costâ€”it may be paid with any combination of colored and/or 
 colorless mana, regardless of the colors in the spell's mana cost.
 
 203.4. Any additional cost listed in a card's rules text isn't part of the mana cost. (See rule 409, 
@@ -262,7 +262,7 @@ depicted as flying.
 205. Type
 
 205.1. The type (and subtype, if applicable) of a card is printed directly below the illustration. (See 
-rules 212–215.)
+rules 212â€“215.)
 
 206. Expansion Symbol
 
@@ -271,8 +271,8 @@ edge of the illustration.
 
 206.2. The color of the expansion symbol indicates the rarity of the card within its set. A gold 
 symbol signifies the card is rare; silver, uncommon; and black, common or basic land. (Prior to 
-the Exodus™ set, all expansion symbols were black, regardless of rarity. Also, prior to the 
-Classic™ (Sixth Edition) set, Magic basic sets didn't have expansion symbols at all.)
+the Exodusâ„¢ set, all expansion symbols were black, regardless of rarity. Also, prior to the 
+Classicâ„¢ (Sixth Edition) set, Magic basic sets didn't have expansion symbols at all.)
 
 206.3. A spell or ability that affects cards from a particular set "looks" only for that set's expansion 
 symbol. A card reprinted in the basic set receives the basic set's expansion symbol; any 
@@ -320,7 +320,7 @@ effect on game play.
 212. Card Type
 
 212.1. All cards have one or more card types: artifact, creature, enchantment, instant, land, or sorcery. 
-Only one multiple type—artifact creature—currently exists. The artifact creature type satisfies 
+Only one multiple typeâ€”artifact creatureâ€”currently exists. The artifact creature type satisfies 
 the criteria for any effect that applies to an artifact card or a creature card. A card's type 
 appears below its illustration.
 
@@ -331,11 +331,11 @@ creature" or "enchant artifact." Land subtypes are not printed on the card type 
 212.2c).
 
 212.2a Creature subtypes are always a single word and are listed after "Creature," separated by 
-a long dash: "Creature — Minotaur," "Artifact Creature — Golem Legend," etc. Creature 
+a long dash: "Creature â€” Minotaur," "Artifact Creature â€” Golem Legend," etc. Creature 
 subtypes are one word each and are also called "creature types." Creature cards may have 
 multiple creature types.
-Example: "Creature — Minotaur" means the card is a creature with the Minotaur subtype. 
-"Creature — Goblin Wizard" means the card is a creature with the creature types Goblin 
+Example: "Creature â€” Minotaur" means the card is a creature with the Minotaur subtype. 
+"Creature â€” Goblin Wizard" means the card is a creature with the creature types Goblin 
 and Wizard.
 
 212.2b Enchantment subtypes consist of the word "enchant" and the word(s) that follows it: 
@@ -357,7 +357,7 @@ subtypes; they're categories of lands.
 
 213. Spell Type
 
-213.1. Every nonland card is a spell while it's being played (see rules 409.1a–409.1f) and while it's 
+213.1. Every nonland card is a spell while it's being played (see rules 409.1aâ€“409.1f) and while it's 
 on the stack. Once it's played, a card remains a spell until it resolves or is countered. For more 
 information, see rule 401, "Spells."
 
@@ -380,7 +380,7 @@ card" is used to refer to cards that aren't in play and aren't land cards. For m
 see rule 217, "Zones."
 
 214.4. When a permanent's type or subtype changes, the new type(s) replaces any existing type(s). 
-This changes only the permanent type—the card type doesn't change. Counters, effects, and 
+This changes only the permanent typeâ€”the card type doesn't change. Counters, effects, and 
 damage affecting the permanent remain with it, even if they are meaningless to the new type.
 
 214.4a Some effects change a permanent's type or subtype but specify that the permanent 
@@ -428,7 +428,7 @@ Example: Merfolk or Wizard is acceptable, but not Merfolk Wizard. Words like "op
 "swamp," or "kindle" can't be chosen because they have other meanings in the game.
 
 214.7b Plurality and gender are ignored when determining creature types.
-Example: Ogre, Ogres, Ogress, and Ogresses all count as the same creature type—Ogre.
+Example: Ogre, Ogres, Ogress, and Ogresses all count as the same creature typeâ€”Ogre.
 
 214.8. Enchantments
 
@@ -594,7 +594,7 @@ in the zone it moved to when the ability triggered.
 217.1d If a card or permanent would move from one zone to another, first determine what event 
 is moving the card. Then apply any appropriate replacement effects to that event. If an effect 
 tries to do two or more contradictory or mutually exclusive things to a particular card or 
-permanent, that card or permanent's controller—or its owner if it has no controller—
+permanent, that card or permanent's controllerâ€”or its owner if it has no controllerâ€”
 chooses what the effect does to the card or permanent. Then the event moves the card or 
 permanent.
 
@@ -781,8 +781,8 @@ spells and abilities.
 
 304.1. As the draw step begins, any abilities that trigger at the beginning of the draw step go on the 
 stack. (Draw-step-triggered abilities use the phrase "At the beginning of your draw step" or a 
-similar wording; see rule 404, "Triggered Abilities.") Then the draw step action—the active 
-player drawing a card—goes on the stack. This action is a triggered ability, but it isn't 
+similar wording; see rule 404, "Triggered Abilities.") Then the draw step actionâ€”the active 
+player drawing a cardâ€”goes on the stack. This action is a triggered ability, but it isn't 
 controlled by either player. It simply goes on the stack on top of all abilities players control that 
 trigger at the beginning of the draw step. Then the active player gets priority, and players may 
 play spells and abilities.
@@ -1048,7 +1048,7 @@ black when it's in a library or graveyard.
 
 402.9. Some cards have abilities that can be played when the card is not in play. These are clearly 
 marked (for example, "Play this ability only if [this card] is in your graveyard"). These abilities 
-aren't of any particular permanent type—cards not in play aren't permanents. Some cards have 
+aren't of any particular permanent typeâ€”cards not in play aren't permanents. Some cards have 
 abilities that can trigger while the card is in a zone other than the in-play zone. Such abilities 
 specify the zone from which they trigger. They aren't abilities of any particular permanent type 
 because cards not in play aren't permanents.
@@ -1094,7 +1094,7 @@ trigger condition.
 405. Static Abilities
 
 405.1. A static ability does something all the time rather than being activated or triggered. The 
-ability isn't played—it just "is."
+ability isn't playedâ€”it just "is."
 
 406. Ability Subtypes
 
@@ -1150,8 +1150,8 @@ abilities that apply to a card in a particular zone will fail if the card leaves
 Example: An ability reading, "At end of turn, remove this creature from the game" won't 
 do anything if the creature leaves play before the end of turn step.
 
-406.2e A delayed triggered ability will trigger only once—the next time its trigger event 
-occurs—unless it has a stated duration, such as "this turn."
+406.2e A delayed triggered ability will trigger only onceâ€”the next time its trigger event 
+occursâ€”unless it has a stated duration, such as "this turn."
 
 407. Adding and Removing Abilities
 
@@ -1218,7 +1218,7 @@ priority and may play spells or abilities. (See rule 410, "Handling Triggered Ab
 408.1g Combat damage goes on the stack once it's been assigned. For more information, see rule 
 310, "Combat Damage Step."
 
-408.1h Static abilities aren't played—they continuously affect the game. Priority doesn't apply to 
+408.1h Static abilities aren't playedâ€”they continuously affect the game. Priority doesn't apply to 
 them. (See rule 418, "Continuous Effects," and rule 419, "Replacement and Prevention 
 Effects.")
 
@@ -1243,8 +1243,8 @@ Abilities.")
 408.2f Characteristic-setting text, such as "[This card] is a forest," is simply read and followed as 
 applicable. (See also rule 402.3.)
 
-408.2g Game actions—untapping during the untap step, declaring attacking or blocking 
-creatures, cleanup, and mana burn—don't use the stack. The two exceptions are combat 
+408.2g Game actionsâ€”untapping during the untap step, declaring attacking or blocking 
+creatures, cleanup, and mana burnâ€”don't use the stack. The two exceptions are combat 
 damage and the draw action of the draw step.
 
 408.2h The controller of a face-down creature or creature spell may turn it face up whenever he 
@@ -1273,8 +1273,8 @@ characteristics of the pseudospell depend on the characteristics of the ability'
 example, such a pseudospell's color would be continuously determined by the color of its 
 source, not just the source's color when the pseudospell went on the stack.
 
-409.1b If the spell or ability is modal (uses the phrase "Choose one —" or "[specified player] 
-chooses one — "), the player announces the mode choice. If the spell or ability has a 
+409.1b If the spell or ability is modal (uses the phrase "Choose one â€”" or "[specified player] 
+chooses one â€” "), the player announces the mode choice. If the spell or ability has a 
 variable mana cost (indicated by "X") or some other variable cost, the player announces 
 the value of that variable at this time. If the spell or ability has alternative, additional, or 
 other special costs (such as buyback or kicker costs), the player announces his or her 
@@ -1312,7 +1312,7 @@ creature. You sacrifice Thunderscape Familiar, whose effect makes your black spe
 less to play. Because a spell's total cost is "locked in" before payments are actually made, 
 Death Bomb costs 2B, not 3B, even though you're sacrificing the Familiar.
 
-409.1g Once the steps described in 409.1a–409.1f are completed, the spell or ability becomes 
+409.1g Once the steps described in 409.1aâ€“409.1f are completed, the spell or ability becomes 
 played. Its controller gains priority.
 
 409.2. Activated abilities that read "Play this ability only any time you could play [spell type]" 
@@ -1375,7 +1375,7 @@ again on resolution. If it's not satisfied, the ability does nothing. Note that 
 check for legal targets. Note that this rule doesn't apply to any triggered ability with a 
 condition elsewhere within its text.
 
-410.9. Some abilities trigger when creatures block or are blocked in combat. (See rules 306–311 and 
+410.9. Some abilities trigger when creatures block or are blocked in combat. (See rules 306â€“311 and 
 section 5, "Additional Rules.") They may trigger once or repeatedly, depending on the wording 
 of the ability.
 
@@ -1445,8 +1445,8 @@ play, they'll look for it only in the first zone that it went to after leaving p
 
 410.10e Some permanents have text that reads "[This permanent] comes into play with . . . ," 
 "As [this permanent] comes into play . . . ," "[This permanent] comes into play as . . . ," or 
-"[This permanent] comes into play tapped." Such text is a static ability—not a triggered 
-ability—whose effect occurs as part of the event that puts the permanent into play.
+"[This permanent] comes into play tapped." Such text is a static abilityâ€”not a triggered 
+abilityâ€”whose effect occurs as part of the event that puts the permanent into play.
 
 410.11. Some triggered abilities trigger on a game state, such as a player controlling no permanents 
 of a particular type, rather than triggering when an event occurs. These abilities trigger as soon 
@@ -1525,7 +1525,7 @@ However, replacement effects may modify these actions. In some cases, later text
 card may modify the meaning of earlier text (for example, "Destroy target creature. It can't 
 be regenerated" or "Counter target spell. Put it on top of its owner's library instead of into 
 its owner's graveyard.") Don't just apply effects step by step without thinking in these 
-cases—read the whole card and apply the rules of English to the text.
+casesâ€”read the whole card and apply the rules of English to the text.
 
 413.2c If an effect offers any choices other than choices already made as part of playing the spell 
 or ability, the player announces these while applying the effect. The player can't choose an 
@@ -1656,8 +1656,8 @@ modify characteristics of cards and/or permanents modify the rules of the game, 
 can affect cards and/or permanents that weren't affected when the continuous effect 
 began.
 Example: An effect that reads "All white creatures get +1/+1 until end of turn" gives the 
-bonus to all permanents that are white creatures when the spell or ability resolves—even if 
-they change color later—and doesn't affect those that come into play or turn white afterward.
+bonus to all permanents that are white creatures when the spell or ability resolvesâ€”even if 
+they change color laterâ€”and doesn't affect those that come into play or turn white afterward.
 Example: An effect that reads "Prevent all damage creatures would deal this turn" doesn't 
 modify any card's or permanent's characteristics, so it's modifying the rules of the game. 
 That means the effect will apply even to creatures that weren't in play when the continuous 
@@ -1669,12 +1669,12 @@ Example: A spell that reads "Target creature gets +X/+X until end of turn, where
 number of cards in your hand" counts the number of cards in the controller's hand when the 
 spell resolves and grants that bonus for the rest of the turn, even if the hand size changes.
 
-418.3d If an effect's duration is over before it would begin, the effect does nothing—it doesn't 
+418.3d If an effect's duration is over before it would begin, the effect does nothingâ€”it doesn't 
 start and immediately stop again, and it doesn't last forever.
 Example: Endoskeleton is an artifact with an activated ability that reads "2, T: Target 
 creature gets +0/+3 as long as Endoskeleton remains tapped." If you play this ability and 
 then Endoskeleton becomes untapped before the ability resolves, it does nothing, because its 
-duration—remaining tapped—was over before the effect began.
+durationâ€”remaining tappedâ€”was over before the effect began.
 
 418.4. Continuous Effects from Permanents
 
@@ -1733,13 +1733,13 @@ what events will be replaced with other events, and prevention effects use "prev
 indicate what events will not occur. Abilities that contain "instead" or "prevent" generate 
 replacement or prevention effects, respectively.
 
-419.2. Replacement and prevention effects apply continuously as events happen—they aren't 
+419.2. Replacement and prevention effects apply continuously as events happenâ€”they aren't 
 locked in ahead of time.
 
 419.3. There are no special restrictions on playing a spell or ability that generates a replacement or 
 prevention effect. Such effects last until they're used up or their duration has expired.
 
-419.4. Replacement or prevention effects must exist before the appropriate event occurs—they can't 
+419.4. Replacement or prevention effects must exist before the appropriate event occursâ€”they can't 
 "go back in time" and change something that's already happened. Usually spells and abilities 
 that generate these effects are played in response to whatever would produce the event and thus 
 resolve before that event would occur.
@@ -1760,7 +1760,7 @@ dealt, so they have no effect.
 each event.
 Example: A player controls two permanents, each with an ability that reads "Instead of 
 dealing their normal damage, creatures you control deal double that damage." A creature 
-that normally deals 1 damage will deal 4 damage—not just 2, and not an infinite amount.
+that normally deals 1 damage will deal 4 damageâ€”not just 2, and not an infinite amount.
 
 419.6b Regeneration is a destruction-replacement effect. The key word "instead" doesn't appear 
 on the card but is implicit in its definition. "Regenerate [permanent]" means "The next 
@@ -1783,14 +1783,14 @@ event, apply self-replacement effects first, then apply other replacement effect
 
 419.7a Prevention effects usually apply to damage that would be dealt.
 
-419.7b Some prevention effects refer to a specific amount of damage—for example, "Prevent the 
+419.7b Some prevention effects refer to a specific amount of damageâ€”for example, "Prevent the 
 next 3 damage to target creature or player this turn." These work like ablative shields. 
 Each 1 damage that would be dealt to the "shielded" creature or player instead reduces 
 the shield by 1. Once the shield has been reduced to 0, any remaining damage is dealt 
 normally. Such effects count only the amount of damage; the number of events or sources 
 dealing it doesn't matter.
 
-419.7c Some prevention effects apply to damage from a specified source—for example, "The 
+419.7c Some prevention effects apply to damage from a specified sourceâ€”for example, "The 
 next time a red source of your choice would deal damage to you this turn, prevent that 
 damage." The source is chosen when the spell or ability resolves. If an effect requires a 
 player to choose a source, he or she may choose either a permanent or a spell on the stack 
@@ -2172,7 +2172,7 @@ pay [cost] for each cumulative upkeep counter on the permanent."
 However, the cumulative upkeep counters are not linked to any particular ability; each 
 cumulative upkeep ability will count the total number of cumulative upkeep counters on 
 the permanent at the time that ability resolves.
-Example: A creature has two instances of "Cumulative upkeep—Pay 1 life." The creature 
+Example: A creature has two instances of "Cumulative upkeepâ€”Pay 1 life." The creature 
 currently has no counters but both cumulative upkeep abilities trigger. When the first ability 
 resolves, the controller adds a counter and then chooses to pay 1 life. When the second ability 
 resolves, the controller adds another counter and then chooses to pay an additional 2 life.
@@ -2277,7 +2277,7 @@ rules for paying additional costs in rules 409.1b and 409.1f.
 
 502.17. Horsemanship
 
-502.17a Horsemanship is an evasion ability that appeared in the Portal Three Kingdoms™ set.
+502.17a Horsemanship is an evasion ability that appeared in the Portal Three Kingdomsâ„¢ set.
 
 502.17b A creature with horsemanship can't be blocked by creatures without horsemanship. A 
 creature with horsemanship can block a creature with or without horsemanship.
@@ -2338,7 +2338,7 @@ the [B] kicker cost" as "if you paid the second kicker cost listed."
 
 503.1. A copy card is a card that creates or becomes a "copy" of another spell, permanent, or card. 
 (Certain older cards were printed with the phrase "search for a copy." These aren't copy cards; 
-they have received new text in the Oracle™ card reference.)
+they have received new text in the Oracleâ„¢ card reference.)
 
 503.2. When copying a permanent, the copy acquires the printed values of the name, mana cost, 
 color, type and subtype, expansion symbol, rules text, power, and toughness of the permanent 
@@ -2430,7 +2430,7 @@ targets, the value of X, and optional additional costs such as buyback. (See rul
 Spells and Activated Abilities.") Choices that are normally made on resolution are not copied.
 Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target 
 instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new 
-targets for the copy." Emerald Charm reads, "Choose one — Untap target permanent; or destroy 
+targets for the copy." Emerald Charm reads, "Choose one â€” Untap target permanent; or destroy 
 target global enchantment; or target creature loses flying until end of turn." When the Fork 
 resolves, it puts a pseudospell copy of the Emerald Charm on the stack. The copy has the same 
 mode that was chosen for the original Emerald Charm. It does not necessarily have the same 
@@ -2552,7 +2552,7 @@ his or her main phase when the stack is empty.
 Artifact Creature
 This permanent is a combination of artifact and creature, and it's subject to the rules for both. (See rule 
 214, "Permanent Type.") Some artifact creatures don't have a creature type. Those that do will say 
-"Artifact Creature — [creature type]"; for example, "Artifact Creature — Golem." "Artifact" isn't a 
+"Artifact Creature â€” [creature type]"; for example, "Artifact Creature â€” Golem." "Artifact" isn't a 
 creature type.
 
 "As though"
@@ -2609,7 +2609,7 @@ plains.
 
 Becomes
 Some trigger events use the word "becomes." (For example, "becomes tapped" or "becomes blocked.") 
-These trigger only at the time the named event happens—they don't trigger if that state already exists 
+These trigger only at the time the named event happensâ€”they don't trigger if that state already exists 
 or retrigger if it persists. For example, "becomes tapped" triggers only once, and only when a 
 permanent's status changes from untapped to tapped.
 
@@ -2700,7 +2700,7 @@ phase. See rule 310, "Combat Damage Step."
 
 Combat Phase
 Combat is the third phase of the turn. The combat phase has five steps: beginning of combat, declare 
-attackers, declare blockers, combat damage, and end of combat. See rules 306–311.
+attackers, declare blockers, combat damage, and end of combat. See rules 306â€“311.
 
 Comes into Play
 A permanent comes into play when the card or token representing it is moved into the in-play zone. A 
@@ -2843,7 +2843,7 @@ Ten "dual land" cards were printed in early Magic editions; each of these has tw
 addition to its inherent land type. For example, Taiga has the land types Taiga, forest, and mountain. 
 Dual land cards have the default abilities of both basic land types and are treated as both by all spells 
 and abilities that specifically refer to those types. However, they are not basic lands. A dual land card 
-doesn't count as two lands while in play—it's just one land with multiple land types. Changing one of 
+doesn't count as two lands while in playâ€”it's just one land with multiple land types. Changing one of 
 the land type words on a dual land also changes which mana ability it has. Thus, if you play a spell or 
 ability that edits Taiga to read, "Taiga is a plains and a forest in addition to its land type," it could then 
 be tapped for white or green mana.
@@ -2919,65 +2919,65 @@ The expansion symbols to date are:
 
 Expansions and Editions
 
-     Arabian Nights® [symbol]
+     Arabian NightsÂ® [symbol]
 
-     Antiquities® [symbol]
+     AntiquitiesÂ® [symbol]
 
-     Legends® [symbol]
+     LegendsÂ® [symbol]
 
-     The Dark® [symbol]
+     The DarkÂ® [symbol]
 
-     Fallen Empires™ [symbol]
+     Fallen Empiresâ„¢ [symbol]
 
-     Ice Age™ [symbol]
+     Ice Ageâ„¢ [symbol]
 
-     Homelands™ [symbol]
+     Homelandsâ„¢ [symbol]
 
-     Alliances™ [symbol]
+     Alliancesâ„¢ [symbol]
 
-     Mirage™ [symbol]
+     Mirageâ„¢ [symbol]
 
-     Visions™ [symbol]
+     Visionsâ„¢ [symbol]
 
-     Weatherlight™ [symbol]
+     Weatherlightâ„¢ [symbol]
 
-     Tempest™ [symbol]
+     Tempestâ„¢ [symbol]
 
-     Stronghold™ [symbol]
+     Strongholdâ„¢ [symbol]
 
-     Exodus™ [symbol]
+     Exodusâ„¢ [symbol]
 
-     Urza's Saga™ [symbol]
+     Urza's Sagaâ„¢ [symbol]
 
-     Urza's Legacy™ [symbol]
+     Urza's Legacyâ„¢ [symbol]
 
-     Urza's Destiny™ [symbol]
+     Urza's Destinyâ„¢ [symbol]
 
-     Classic™ (Sixth Edition) [symbol]
+     Classicâ„¢ (Sixth Edition) [symbol]
 
-     Mercadian Masques™ [symbol]
+     Mercadian Masquesâ„¢ [symbol]
 
-     Nemesis™ [symbol]
+     Nemesisâ„¢ [symbol]
 
-     Prophecy™ [symbol]
+     Prophecyâ„¢ [symbol]
 
-     Invasion™ [symbol]
+     Invasionâ„¢ [symbol]
 
-     Planeshift™ [symbol]
+     Planeshiftâ„¢ [symbol]
 
-     Apocalypse™ [symbol]
+     Apocalypseâ„¢ [symbol]
 
-     Seventh Edition™ [symbol]
+     Seventh Editionâ„¢ [symbol]
 
  Starter-Level Sets
 
-    Portal™ [symbol]
+    Portalâ„¢ [symbol]
 
-    Portal Second Age™ [symbol]
+    Portal Second Ageâ„¢ [symbol]
 
-    Portal Three Kingdoms™ [symbol]
+    Portal Three Kingdomsâ„¢ [symbol]
 
-    Starter™ [symbol]
+    Starterâ„¢ [symbol]
 
 Promotional Cards
 
@@ -2985,11 +2985,11 @@ Promotional Cards
 
      Magic novels [symbol]
 
-     Arena™ league cards [symbol]
+     Arenaâ„¢ league cards [symbol]
 
 Social-Play Sets
 
-     Unglued™ [symbol]
+     Ungluedâ„¢ [symbol]
 
 Fading
 Fading is a keyword ability that causes permanents to stay in play for a limited time. Cards with 
@@ -3190,7 +3190,7 @@ only to play creature spells, or to pay activation costs.
 
 Mana Ability
 This is an ability category. A mana ability is either activated or triggered. A mana ability doesn't go on 
-the stack—it resolves immediately.
+the stackâ€”it resolves immediately.
      A player may play a mana ability whenever he or she has priority and whenever a rule or effect asks 
 for a mana payment. This is the only type of ability that can be played in the middle of playing or 
 resolving a spell or ability. See rule 406.1, "Mana Abilities."
@@ -3237,8 +3237,8 @@ more than that). See rule 314, "Cleanup Step."
 
 Modal, Mode
 A spell is modal if it offers a choice of effects. Its controller must choose the mode as part of playing the 
-spell. On current cards, modal spells are always written "Choose one — " or "[a specified player] 
-chooses one— ." 
+spell. On current cards, modal spells are always written "Choose one â€” " or "[a specified player] 
+chooses oneâ€” ." 
 
 Mono Artifact (Obsolete)
 Earlier versions of the rules provided support for the "mono artifact" card type. All mono artifact cards 
@@ -3373,7 +3373,7 @@ and/or targets. See rule 409, "Playing Spells and Activated Abilities."
      Playing a land simply requires choosing a land card from the hand and putting it into play.
      Playing a mana ability requires paying any costs, then immediately resolving the ability. See rule 
 411, "Playing Mana Abilities."
-     Triggered abilities and static abilities aren't played—they happen automatically.
+     Triggered abilities and static abilities aren't playedâ€”they happen automatically.
 
 Play/Draw
 At the start of a game, one player gets to choose the order of play. Whoever plays first skips his or her 
@@ -3521,7 +3521,7 @@ shadow, and attacking creatures without shadow can't be blocked by creatures wit
 Skip
 To skip a step, phase, or turn is to proceed past it as though it didn't exist. Skipping is a replacement 
 effect. "Skip [something]" is the same as "Instead of doing [something], do nothing."
-     Once a step, phase, or turn has started, it can no longer be skipped—any skip effects will wait until 
+     Once a step, phase, or turn has started, it can no longer be skippedâ€”any skip effects will wait until 
 the next occurrence.
      Anything scheduled for a skipped step, phase, or turn won't happen. Anything scheduled for the 
 "next" occurrence of something waits for the first occurrence that isn't skipped. If two effects each 
@@ -3601,7 +3601,7 @@ and resolution of a spell or ability. In general, any ability that's written as 
 
 Summon (Obsolete)
 Older creature cards were printed with the type "Summon [creature subtype]." All "Summon [creature 
-subtype]" cards should be read as "Creature — [creature subtype]."
+subtype]" cards should be read as "Creature â€” [creature subtype]."
 
 Summoning Sickness (Obsolete)
 In earlier versions of the rules, the term "summoning sickness" was used to describe a creature's 
@@ -3613,7 +3613,7 @@ See Landwalk.
 
 Tap
 To tap a permanent is to turn it sideways. The tap symbol (T in these rules) in an activation cost means 
-"Tap this permanent"—a permanent that's already tapped can't be tapped again to pay the cost. 
+"Tap this permanent"â€”a permanent that's already tapped can't be tapped again to pay the cost. 
 Creatures that haven't been under a player's control continuously since the beginning of his or her 
 most recent turn can't use any ability with the tap symbol in the cost.
 
@@ -3674,8 +3674,8 @@ occurs, the ability goes on top of the stack the next time a player would receiv
 "Triggered Abilities."
 
 Type
-The word type by itself is ambiguous—it may mean the basic type of a card, spell, and so on, or the 
-subtype of a creature, enchantment, or land. See rules 212–215.
+The word type by itself is ambiguousâ€”it may mean the basic type of a card, spell, and so on, or the 
+subtype of a creature, enchantment, or land. See rules 212â€“215.
      A card's type (and subtype, if applicable) is printed directly below the illustration on the card. The 
 spell type for a nonland card is the same as its card type, even if its rules text states it can be played 
 "as" some other type (that is, following the timing rules for playing that other type). The permanent 
@@ -3721,7 +3721,7 @@ upkeep cost is usually written in the form "At the beginning of your upkeep, you
 you don't, sacrifice [this card]." See rule 303, "Upkeep Step."
 
 Vanguard Card
-The Vanguard™ supplements consist of oversized cards that modify the game. A Vanguard card is 
+The Vanguardâ„¢ supplements consist of oversized cards that modify the game. A Vanguard card is 
 selected before the game begins, adjusting a player's starting and maximum hand size and starting life 
 total. Any abilities printed on a Vanguard card are played exactly like those of an in-play Magic card; 
 however, these abilities have no color, and damage from them isn't damage from a permanent of any 
@@ -3791,7 +3791,7 @@ These rules are current as of July 23, 2001.
 
 Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. All trademarks, 
 including character names and their distinctive likenesses, and the WUBRGT symbols, are property of 
-Wizards. ©1993–2001 Wizards. U.S.A. patent 5662332.
+Wizards. Â©1993â€“2001 Wizards. U.S.A. patent 5662332.
 
 
 Questions?

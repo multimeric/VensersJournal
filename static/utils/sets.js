@@ -52,6 +52,7 @@ var setDict = {
     "JUD": "Judgment",
     "ONS": "Onslaught",
     "LGN": "Legions",
+    "SCG": "Scourge",
     "8ED": "Eighth Edition",
     "MRD": "Mirrodin",
     "DST": "Darksteel",
@@ -204,5 +205,9 @@ var setDict = {
     "C19": "Commander 2019",
     "ELD": "Throne of Eldraine",
     "THB": "Theros Beyond Death",
-    "IKO": "Ikoria"
+    "IKO": "Ikoria",
+    "M21": "Core Set 2021",
+    "JMP": "Jumpstart",
+    "2XM": "Double Masters",
+    "ZNR": "Zendikar Rising"
 }

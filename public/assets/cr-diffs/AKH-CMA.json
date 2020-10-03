@@ -1,0 +1,170 @@
+[
+    {
+        "names": {
+            "old_setcode": "AKH",
+            "new_full": "Commander Anthology",
+            "old_full": "Amonkhet",
+            "new_setcode": "CMA"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "312.6",
+            "ruleText": "If a non\u2013ongoing scheme card is face up in the command zone, and old_start it isn\u2019t old_end the old_start source of a triggered ability that has triggered but not yet left old_end the stack, that scheme card is turned face down and put on the bottom of its owner\u2019s scheme deck the next time a player would receive priority. (This is a state\u2013based action. See rule 704.)"
+        },
+        "new": {
+            "ruleNum": "312.6",
+            "ruleText": "If a non\u2013ongoing scheme card is face up in the command zone, and new_start no triggered abilities of any scheme are on new_end the new_start stack or waiting to be put on new_end the stack, that scheme card is turned face down and put on the bottom of its owner\u2019s scheme deck the next time a player would receive priority. (This is a state\u2013based action. See rule 704.)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start blocking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start blockers. old_end"
+        },
+        "new": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start attacking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start attackers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start attacking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start attackers. old_end"
+        },
+        "new": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start blocking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start blockers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.1",
+            "ruleText": "Triggered abilities have a trigger condition and an effect. They are written as \u201c[When/Whenever/At] [trigger condition or event], old_start [effect].\u201d old_end"
+        },
+        "new": {
+            "ruleNum": "603.1",
+            "ruleText": "Triggered abilities have a trigger condition and an effect. They are written as \u201c[When/Whenever/At] [trigger condition or event], new_start [effect]. [Instructions (if any).]\u201d new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.1a",
+            "ruleText": "A triggered ability may include instructions after its effects that limit what the ability may target or state that it can\u2019t be countered. This text is not part of the ability\u2019s effect. It functions while the ability is on the stack."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "700.6b",
+            "ruleText": "One card (Golgothian Sylex) refers to permanents a name originally printed in the Antiquities\u2122 expansion. Those names are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod\u2019s Altar, Ashnod\u2019s Battle Gear, Ashnod\u2019s Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna\u2019s Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon\u2019s Cane, Gaea\u2019s Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl\u2019s Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra\u2019s Factory, Mishra\u2019s War Machine, Mishra\u2019s Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat\u2013Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su\u2013Chi, Tablet of Epityr, Tawnos\u2019s Coffin, Tawnos\u2019s Wand, Tawnos\u2019s Weaponry, Tetravus, Titania\u2019s Song, Transmute Artifact, Triskelion, Urza\u2019s Avenger, Urza\u2019s Chalice, Urza\u2019s Mine, Urza\u2019s Miter, Urza\u2019s Power Plant, Urza\u2019s Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier."
+        },
+        "new": {
+            "ruleNum": "700.6b",
+            "ruleText": "One card (Golgothian Sylex) refers to permanents new_start with new_end a name originally printed in the Antiquities\u2122 expansion. Those names are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod\u2019s Altar, Ashnod\u2019s Battle Gear, Ashnod\u2019s Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna\u2019s Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon\u2019s Cane, Gaea\u2019s Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl\u2019s Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra\u2019s Factory, Mishra\u2019s War Machine, Mishra\u2019s Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat\u2013Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su\u2013Chi, Tablet of Epityr, Tawnos\u2019s Coffin, Tawnos\u2019s Wand, Tawnos\u2019s Weaponry, Tetravus, Titania\u2019s Song, Transmute Artifact, Triskelion, Urza\u2019s Avenger, Urza\u2019s Chalice, Urza\u2019s Mine, Urza\u2019s Miter, Urza\u2019s Power Plant, Urza\u2019s Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.23b",
+            "ruleText": "To set a scheme in motion, move it off the top of your scheme deck and turn it face up."
+        },
+        "new": {
+            "ruleNum": "701.23b",
+            "ruleText": "To set a scheme in motion, move it off the top of your scheme deck new_start if it\u2019s on top of your scheme deck new_end and turn it face new_start up if it isn\u2019t face new_end up. new_start That scheme is considered to have been set in motion even if neither of these actions was performed on it. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "704.5w",
+            "ruleText": "In an Archenemy game, if a non\u2013ongoing scheme card is face up in the command zone, and old_start it isn\u2019t old_end the old_start source of a triggered ability that has triggered but not yet left old_end the stack, that scheme card is turned face down and put on the bottom of its owner\u2019s scheme deck. See rule 904, \u201cArchenemy.\u201d"
+        },
+        "new": {
+            "ruleNum": "704.5w",
+            "ruleText": "In an Archenemy game, if a non\u2013ongoing scheme card is face up in the command zone, and new_start no triggered abilities of any scheme are on new_end the new_start stack or waiting to be put on new_end the stack, that scheme card is turned face down and put on the bottom of its owner\u2019s scheme deck. See rule 904, \u201cArchenemy.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "800.4g",
+            "ruleText": "If a rule requires a player who has left the game to make a choice, the next player in turn order makes that choice."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "810.7",
+            "ruleText": "The old_start Two\u2013Headed Giant variant old_end uses different combat rules than other multiplayer old_start variants. old_end"
+        },
+        "new": {
+            "ruleNum": "805.10",
+            "ruleText": "The new_start shared team turns option new_end uses different combat rules than other multiplayer new_start options. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10a",
+            "ruleText": "Each team\u2019s creatures attack the other team as a group. During the combat phase, the active team is the attacking team and each player on the active team is an attacking player. Likewise, the nonactive team is the defending team and each player on the nonactive team is a defending player."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10b",
+            "ruleText": "As the declare attackers step begins, the active team declares attackers. For each attacking creature, the attacking team announces which defending player or planeswalker that creature is attacking. The active team has one combined attack, and that set of attacking creatures must be legal as a whole. See rule 508.1."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10c",
+            "ruleText": "Any rule, object, or effect that refers to an \u201cattacking player\u201d refers to one specific attacking player, not to all of the attacking players. If an ability of a blocking creature refers to an attacking player, or a spell or ability refers to both a blocking creature and an attacking player, then unless otherwise specified, the attacking player it\u2019s referring to is the player who controls that attacking creature. If a spell or ability could apply to multiple blocking creatures, the appropriate attacking player is individually determined for each of those blocking creatures. If there are multiple attacking players that could be chosen, the controller of the spell or ability chooses one."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10d",
+            "ruleText": "As the declare blockers step begins, the defending team declares blockers. Creatures controlled by the defending players can block creatures attacking any player on the defending team. The defending team has one combined block, and that set of blocking creatures must be legal as a whole. See rule 509.1."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10e",
+            "ruleText": "Any rule, object, or effect that refers to a \u201cdefending player\u201d refers to one specific defending player, not to all of the defending players. If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it\u2019s referring to is the player that creature was attacking at the time it became an attacking creature that combat, or the controller of the planeswalker that creature was attacking at the time it became an attacking creature that combat. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10f",
+            "ruleText": "Once blockers have been declared, for each attacking creature that\u2019s become blocked by multiple creatures, the active team announces the damage assignment order among the blocking creatures. Then, for each creature that\u2019s blocking multiple creatures, the defending team announces the damage assignment order among the attacking creatures."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "805.10g",
+            "ruleText": "As the combat damage step begins, the active team announces how each attacking creature will assign its combat damage. Then the defending team announces how each blocking creature will assign its combat damage. See rule 510.1."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "810.7",
+            "ruleText": "The Two\u2013Headed Giant variant uses a modified version of the combat rules for the shared team turns option."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "904.10",
+            "ruleText": "If a non\u2013ongoing scheme card is face up in the command zone, and old_start it isn\u2019t old_end the old_start source of a triggered ability that has triggered but not yet left old_end the stack, that scheme card is turned face down and put on the bottom of its owner\u2019s scheme deck the next time a player would receive priority. (This is a state\u2013based action. See rule 704.)"
+        },
+        "new": {
+            "ruleNum": "904.10",
+            "ruleText": "If a non\u2013ongoing scheme card is face up in the command zone, and new_start no triggered abilities of any scheme are on new_end the new_start stack or waiting to be put on new_end the stack, that scheme card is turned face down and put on the bottom of its owner\u2019s scheme deck the next time a player would receive priority. (This is a state\u2013based action. See rule 704.)"
+        }
+    }
+]

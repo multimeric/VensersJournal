@@ -1,0 +1,249 @@
+[
+    {
+        "names": {
+            "old_setcode": "KLD",
+            "old_full": "Kaladesh",
+            "new_setcode": "C16",
+            "new_full": "Commander 2016"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.8a",
+            "ruleText": "\u201c{LEVEL N1\u2013N2} [Abilities] [P/T]\u201d means \u201cAs long as this creature has at least N1 level counters on it, but no more than N2 level counters on it, old_start it\u2019s old_end [P/T] and has [abilities].\u201d"
+        },
+        "new": {
+            "ruleNum": "107.8a",
+            "ruleText": "\u201c{LEVEL N1\u2013N2} [Abilities] [P/T]\u201d means \u201cAs long as this creature has at least N1 level counters on it, but no more than N2 level counters on it, new_start it has base power and toughness new_end [P/T] and has [abilities].\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.8b",
+            "ruleText": "\u201c{LEVEL N3+} [Abilities] [P/T]\u201d means \u201cAs long as this creature has N3 or more level counters on it, old_start it\u2019s old_end [P/T] and has [abilities].\u201d"
+        },
+        "new": {
+            "ruleNum": "107.8b",
+            "ruleText": "\u201c{LEVEL N3+} [Abilities] [P/T]\u201d means \u201cAs long as this creature has N3 or more level counters on it, new_start it has base power and toughness new_end [P/T] and has [abilities].\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start blocking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start blockers. old_end"
+        },
+        "new": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start attacking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start attackers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start attacking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start attackers. old_end"
+        },
+        "new": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start blocking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start blockers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "511.2",
+            "ruleText": "Abilities that trigger \u201cat end of combat\u201d trigger as the end of combat old_start damage old_end step begins. old_start Abilities old_end that last \u201cuntil end of combat\u201d expire at the end of the combat phase."
+        },
+        "new": {
+            "ruleNum": "511.2",
+            "ruleText": "Abilities that trigger \u201cat end of combat\u201d trigger as the end of combat step begins. new_start Effects new_end that last \u201cuntil end of combat\u201d expire at the end of the combat phase."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.2i",
+            "ruleText": "Once the steps described in 601.2a\u2013h are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell\u2019s controller had priority before casting it, he or she gets priority."
+        },
+        "new": {
+            "ruleNum": "601.2i",
+            "ruleText": "Once the steps described in 601.2a\u2013h are completed, new_start effects that modify the characteristics of the spell as it\u2019s cast are applied, then new_end the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell\u2019s controller had priority before casting it, he or she gets priority."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.6c",
+            "ruleText": "Leaves\u2013the\u2013battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased\u2013in permanent leaves the game because its owner leaves the game. These are written as, but aren\u2019t limited to, \u201cWhen [this object] leaves the battlefield, . . .\u201d or \u201cWhenever [something] is put into a graveyard from the battlefield, . . . .\u201d An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone \u201cfrom anywhere\u201d is never treated as a leaves\u2013the\u2013battlefield ability, even if an object is put into that zone from the battlefield."
+        },
+        "new": {
+            "ruleNum": "603.6c",
+            "ruleText": "Leaves\u2013the\u2013battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased\u2013in permanent leaves the game because its owner leaves the game. These are written as, but aren\u2019t limited to, \u201cWhen [this object] leaves the battlefield, . . .\u201d or \u201cWhenever [something] is put into a graveyard from the battlefield, . . . .\u201d new_start (See also rule 603.10.) new_end An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone \u201cfrom anywhere\u201d is never treated as a leaves\u2013the\u2013battlefield ability, even if an object is put into that zone from the battlefield."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.6d",
+            "ruleText": "Normally, objects that exist immediately after an event are checked to see if the event matched any trigger old_start conditions. Continuous old_end effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities old_start must be treated specially. Leaves\u2013the\u2013battlefield abilities, abilities that trigger when a card leaves a graveyard, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and old_end the old_start appearance of objects, prior to the event rather than afterward. The old_end game old_start has to \u201clook old_end back in time\u201d to determine if old_start these old_end abilities old_start trigger. old_end"
+        },
+        "new": {
+            "ruleNum": "603.10",
+            "ruleText": "Normally, objects that exist immediately after an event are checked to see if the event matched any trigger new_start conditions, and continuous new_end effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities new_start are exceptions to this rule; new_end the game new_start \u201clooks new_end back in time\u201d to determine if new_start those new_end abilities new_start trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows: new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10a",
+            "ruleText": "Some zone\u2013change triggers look back in time. These are leaves\u2013the\u2013battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10b",
+            "ruleText": "Abilities that trigger when a permanent phases out look back in time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10c",
+            "ruleText": "Abilities that trigger specifically when an object becomes unattached look back in time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10d",
+            "ruleText": "Abilities that trigger when a player loses control of an object look back in time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10e",
+            "ruleText": "Abilities that trigger when a spell is countered look back in time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10f",
+            "ruleText": "Abilities that trigger when a player loses the game look back in time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.10g",
+            "ruleText": "Abilities that trigger when a player planeswalks away from a plane look back in time."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "615.12",
+            "ruleText": "Some triggered abilities trigger when damage that would be dealt is prevented. Such an ability triggers each time a prevention effect is applied to one or more simultaneous damage events and prevents some or all of that damage."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.25c",
+            "ruleText": "To proliferate old_start in a Two\u2013Headed Giant game old_end means to choose any number of permanents and/or old_start teams old_end that have a counter, then give each exactly one additional counter of a kind that permanent or old_start team old_end already has. old_start See rule 810, \u201cTwo\u2013Headed Giant Variant.\u201d old_end"
+        },
+        "new": {
+            "ruleNum": "701.25a",
+            "ruleText": "To proliferate means to choose any number of permanents and/or new_start players new_end that have a counter, then give each exactly one additional counter of a kind that permanent or new_start player new_end already has."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "701.25c",
+            "ruleText": "In a Two\u2013Headed Giant game, poison counters are shared by the team. If more than one player on a team is chosen this way, only one of those players can be given an additional poison counter. See rule 810, \u201cTwo\u2013Headed Giant Variant.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.123a",
+            "ruleText": "Partner is an ability that modifies the rules for deck construction in the Commander variant (see rule 903), and it functions before the game begins. Rather than a single legendary creature card, you may designate two legendary creature cards as your commander if each has partner."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.123b",
+            "ruleText": "Your deck must contain exactly 100 cards, including its two commanders. Both commanders begin the game in the command zone."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.123c",
+            "ruleText": "A rule or effect that refers to your commander\u2019s color identity refers to the combined color identities of your two commanders. See rule 903.4."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.123d",
+            "ruleText": "Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been cast. When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders separately. See rule 903.11a."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.123e",
+            "ruleText": "If an effect refers to your commander while you have two commanders, it refers to either one. If an effect causes you to perform an action on your commander and it could affect both, you choose which it refers to at the time the effect is applied."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.124a",
+            "ruleText": "Undaunted is a static ability that functions while the spell with undaunted is on the stack. Undaunted means \u201cThis spell costs {1} less to cast for each opponent you have.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.124b",
+            "ruleText": "Players who have left the game are not counted when determining how many opponents you have."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.124c",
+            "ruleText": "If a spell has multiple instances of undaunted, each of them applies."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "710.2a",
+            "ruleText": "\u201c{LEVEL N1\u2013N2} [Abilities] [P/T]\u201d means \u201cAs long as this creature has at least N1 level counters on it, but no more than N2 level counters on it, old_start it\u2019s old_end [P/T] and has [abilities].\u201d"
+        },
+        "new": {
+            "ruleNum": "710.2a",
+            "ruleText": "\u201c{LEVEL N1\u2013N2} [Abilities] [P/T]\u201d means \u201cAs long as this creature has at least N1 level counters on it, but no more than N2 level counters on it, new_start it has base power and toughness new_end [P/T] and has [abilities].\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "710.2b",
+            "ruleText": "\u201c{LEVEL N3+} [Abilities] [P/T]\u201d means \u201cAs long as this creature has N3 or more level counters on it, old_start it\u2019s old_end [P/T] and has [abilities].\u201d"
+        },
+        "new": {
+            "ruleNum": "710.2b",
+            "ruleText": "\u201c{LEVEL N3+} [Abilities] [P/T]\u201d means \u201cAs long as this creature has N3 or more level counters on it, new_start it has base power and toughness new_end [P/T] and has [abilities].\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "810.10d",
+            "ruleText": "A player is \u201cpoisoned\u201d if his or her team has one or more poison counters."
+        },
+        "new": {
+            "ruleNum": "810.10d",
+            "ruleText": "new_start If a rule or effect needs to know what kinds of counters an individual player has, that effect uses the kinds of counters that player has and the kinds of counters that player\u2019s team has. new_end A player is \u201cpoisoned\u201d if his or her team has one or more poison counters."
+        }
+    }
+]

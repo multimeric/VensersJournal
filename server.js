@@ -4,6 +4,7 @@ var assist = require('./static/res/assist');
 var helpers = require('./static/res/helpers');
 var cardList = require('./static/res/cardlist').getCardList();
 
+
 var express = require('express');
 var fs = require('fs');
 var path = require('path');
@@ -12,6 +13,8 @@ var date = new Date();
 var app = express();
 var https = require('https');
 var request = require('request-promise');
+const sectionJson = require('../Southfall/testOutput.json');
+app.locals.sectionJson = sectionJson;
 
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.set('view engine', 'ejs');

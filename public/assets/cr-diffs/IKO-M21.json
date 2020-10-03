@@ -1,0 +1,315 @@
+[
+    {
+        "names": {
+            "new_full": "Core Set 2021",
+            "new_setcode": "M21",
+            "old_full": "Ikoria",
+            "old_setcode": "IKO"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If multiple players would make choices or take actions while starting the game, the starting player is considered the active player and each other player is considered a nonactive player.",
+            "ruleNum": "101.4e"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start After old_end the old_start decks have been shuffled, old_end the players determine which one of them will choose who takes the first turn. In the first game of a match (including a single\u2013game match), the players may use any mutually agreeable method (flipping a coin, rolling dice, etc.) to do so. In a match of several games, the loser of the previous game chooses who takes the first turn. If the previous game was a draw, the player who made the choice in that game makes the choice in this game. The player chosen to take the first turn is the starting player. The game\u2019s default turn order begins with the starting player and proceeds clockwise.",
+            "ruleNum": "103.2"
+        },
+        "new": {
+            "ruleText": "new_start At new_end the new_start start of a game, new_end the players determine which one of them will choose who takes the first turn. In the first game of a match (including a single\u2013game match), the players may use any mutually agreeable method (flipping a coin, rolling dice, etc.) to do so. In a match of several games, the loser of the previous game chooses who takes the first turn. If the previous game was a draw, the player who made the choice in that game makes the choice in this game. The player chosen to take the first turn is the starting player. The game\u2019s default turn order begins with the starting player and proceeds clockwise.",
+            "ruleNum": "103.1"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "One card (Power Play) states that its controller is the starting player. This effect supersedes these methods.",
+            "ruleNum": "103.2c"
+        },
+        "new": {
+            "ruleText": "One card (Power Play) states that its controller is the starting player. This effect new_start applies after this determination has happened and new_end supersedes these methods.",
+            "ruleNum": "103.1c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start At old_end the old_start start of a game, old_end each player shuffles their deck so that the cards are in a random order. Each player may then shuffle or cut their opponents\u2019 decks. The players\u2019 decks become their libraries.",
+            "ruleNum": "103.1"
+        },
+        "new": {
+            "ruleText": "new_start After new_end the new_start starting player has been determined, new_end each player shuffles their deck so that the cards are in a random order. Each player may then shuffle or cut their opponents\u2019 decks. The players\u2019 decks become their libraries.",
+            "ruleNum": "103.2"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a player wishes to reveal a card with a companion ability that they own from outside the game, they may do so after setting aside their sideboard. A player may reveal no more than one card this way, and may do so only if their deck fulfills the condition of that card\u2019s companion ability. (See rule 702.138, \u201cCompanion.\u201d)",
+            "ruleNum": "103.1b"
+        },
+        "new": {
+            "ruleText": "If a player wishes to reveal a card with a companion ability that they own from outside the game, they may do so after setting aside their sideboard. A player may reveal no more than one card this way, and new_start they new_end may do so only if their deck fulfills the condition of that card\u2019s companion ability. (See rule 702.138, \u201cCompanion.\u201d)",
+            "ruleNum": "103.2b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Only objects on the stack or on the battlefield have a controller. Objects that are neither on the stack nor on the battlefield aren\u2019t controlled by any player. See rule 108.4. There are old_start five old_end exceptions to this rule:",
+            "ruleNum": "109.4"
+        },
+        "new": {
+            "ruleText": "Only objects on the stack or on the battlefield have a controller. Objects that are neither on the stack nor on the battlefield aren\u2019t controlled by any player. See rule 108.4. There are new_start six new_end exceptions to this rule:",
+            "ruleNum": "109.4"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "The controller of a mana ability is determined as though it were on the stack. See rule 605, \u201cMana Abilities.\u201d",
+            "ruleNum": "109.4a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "There are old_start eight old_end special actions:",
+            "ruleNum": "116.2"
+        },
+        "new": {
+            "ruleText": "There are new_start nine new_end special actions:",
+            "ruleNum": "116.2"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "First, if an effect is causing damage to be dealt to a creature and that effect specifies that excess damage is dealt to another object or player instead, the damage event is modified to deal damage accordingly. Excess damage is damage greater than the creature\u2019s old_start toughness, taking into account old_end damage marked on that creature and other damage being dealt to it at the same time as this damage. Any damage greater than 1 is excess damage if the source dealing that damage has deathtouch.",
+            "ruleNum": "120.4a"
+        },
+        "new": {
+            "ruleText": "First, if an effect is causing damage to be dealt to a creature and that effect specifies that excess damage is dealt to another object or player instead, the damage event is modified to deal damage accordingly. Excess damage is damage greater than new_start lethal damage that would be dealt to a creature. Lethal damage is new_end the creature\u2019s new_start toughness minus new_end damage marked on that creature and other damage being dealt to it at the same time as this damage. Any damage greater than 1 is excess damage if the source dealing that damage has deathtouch.",
+            "ruleNum": "120.4a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Lukka, Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        },
+        "new": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, new_start Basri, new_end Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Lukka, Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, old_start Hound, old_end Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, new_start Dog, new_end Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "An ability may state that a triggered ability triggers additional times. In this case, rather than simply determining that such an ability has triggered, determine how many times it should trigger, then that ability triggers that many times. An effect that states that an ability triggers additional times doesn\u2019t invoke itself repeatedly and doesn\u2019t apply to other effects that affect how many times an ability triggers.",
+            "ruleNum": "603.2d"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If, within a pair of linked abilities, one ability refers to a single object as \u201cthe exiled card,\u201d \u201ca card exiled with [this card],\u201d or a similar phrase, and the other ability has exiled multiple cards (usually because it was copied), the ability refers to each of the exiled cards. If that ability asks for any information about the exiled card, such as a characteristic or converted mana cost, it gets multiple answers. If these answers are used to determine the value of a variable, the sum of the answers is used. If that ability performs any actions on old_start the exiled old_end card, it performs that action on each exiled card.",
+            "ruleNum": "607.3"
+        },
+        "new": {
+            "ruleText": "If, within a pair of linked abilities, one ability refers to a single object as \u201cthe exiled card,\u201d \u201ca card exiled with [this card],\u201d or a similar phrase, and the other ability has exiled multiple cards (usually because it was copied), the ability refers to each of the exiled cards. If that ability asks for any information about the exiled card, such as a characteristic or converted mana cost, it gets multiple answers. If these answers are used to determine the value of a variable, the sum of the answers is used. If that ability performs any actions on new_start \u201cthe\u201d new_end card, it performs that action on each exiled card. new_start If that ability performs any actions on \u201ca\u201d card, the controller of the ability chooses which card is affected. new_end",
+            "ruleNum": "607.3"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If the specified event has already occurred old_start when the initial old_end one\u2013shot effect would old_start cause old_end the old_start object to change zones, old_end the object doesn\u2019t move.",
+            "ruleNum": "610.3a"
+        },
+        "new": {
+            "ruleText": "If new_start a resolving spell or activated ability creates the initial one\u2013shot effect that causes the object to change zones, and new_end the specified event has already occurred new_start before that new_end one\u2013shot effect would new_start occur but after that spell or ability was put onto new_end the new_start stack, new_end the object doesn\u2019t move.",
+            "ruleNum": "610.3a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a resolving triggered ability creates the initial one\u2013shot effect that causes the object to change zones, and the specified event has already occurred before that one\u2013shot effect would occur but after that ability triggered, the object doesn\u2019t move.",
+            "ruleNum": "610.3b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 706, \u201cCopying Objects\u201d) and changes to an object\u2019s base characteristics determined by merging an object with a permanent (see rule 721, \u201cMerging with Permanents\u201d).",
+            "ruleNum": "613.2a"
+        },
+        "new": {
+            "ruleText": "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 706, \u201cCopying Objects\u201d) and changes to an object\u2019s base characteristics determined by merging an object with a permanent (see rule 721, \u201cMerging with Permanents\u201d). new_start \u201cAs . . . enters the battlefield\u201d and \u201cas . . . is turned face up\u201d abilities generate copiable effects if they set power and toughness, even if they also define other characteristics. new_end",
+            "ruleNum": "613.2a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A double\u2013faced permanent receives a new timestamp each it transforms.",
+            "ruleNum": "613.7g"
+        },
+        "new": {
+            "ruleText": "A double\u2013faced permanent receives a new timestamp each new_start time new_end it transforms.",
+            "ruleNum": "613.7g"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "For a player to mill a number of cards, that player puts that many cards from the top of their library into their graveyard.",
+            "ruleNum": "701.13a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A player can\u2019t mill a number of cards greater than the number of cards in their library. If given the choice to do so, they can\u2019t choose to take that action. If instructed to do so, they mill as many as possible. Similarly, the player can\u2019t pay a cost that includes milling a number of cards greater than the number of cards in their library.",
+            "ruleNum": "701.13b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "An effect that refers to the \u201cmilled card\u201d can find that card in the zone it moved to from the library, as long as that zone is a public zone.",
+            "ruleNum": "701.13c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an ability checks information about a single milled card but more than one card was milled, that ability refers to each of the milled cards. If that ability asks for any information about the milled card, such as a characteristic or converted mana cost, it gets multiple answers. If these answers are used to determine the value of a variable, the sum of the answers is used. If that ability performs any actions on \u201cthe\u201d card, it performs that action on each milled card. If that ability performs any actions on \u201ca\u201d card, the controller of the ability chooses which card is affected.",
+            "ruleNum": "701.13d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an effect would cause a player to shuffle a library at the same time that an object would be put into a certain position in that library, the result is a shuffled library that\u2019s randomized except that the object is in the specified position.",
+            "ruleNum": "701.20g"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Dredge is a static ability that functions only while the card with dredge is in a player\u2019s graveyard. \u201cDredge N\u201d means \u201cAs long as you have at least N cards in your library, if you would draw a card, you may instead old_start put old_end N cards old_start from the top of your library into your graveyard old_end and return this card from your graveyard to your hand.\u201d",
+            "ruleNum": "702.51a"
+        },
+        "new": {
+            "ruleText": "Dredge is a static ability that functions only while the card with dredge is in a player\u2019s graveyard. \u201cDredge N\u201d means \u201cAs long as you have at least N cards in your library, if you would draw a card, you may instead new_start mill new_end N cards and return this card from your graveyard to your hand.\u201d",
+            "ruleNum": "702.51a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A player with fewer cards in their library than the number required by a dredge ability can\u2019t old_start put old_end any of them old_start into their graveyard old_end this way.",
+            "ruleNum": "702.51b"
+        },
+        "new": {
+            "ruleText": "A player with fewer cards in their library than the number required by a dredge ability can\u2019t new_start mill new_end any of them this way.",
+            "ruleNum": "702.51b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Some variant games include additional state\u2013based actions that aren\u2019t normally applicable:",
+            "ruleNum": "704.6"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "In a Commander game, if a commander is in a graveyard or in exile and that card was put into that zone since the last time state\u2013based actions were checked, its owner may put it into the command zone. See rule 903, \u201cCommander.\u201d",
+            "ruleNum": "704.6d"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a face\u2013down permanent moves from the battlefield to any other zone, its owner must reveal it to all players as they move it. If a face\u2013down spell moves from the stack to any zone other than the battlefield, its owner must reveal it to all players as they move it. If a player leaves the game, all face\u2013down old_start permanents old_end and spells owned by that player must be revealed to all players. At the end of each game, all face\u2013down old_start permanents old_end and spells must be revealed to all players.",
+            "ruleNum": "707.9"
+        },
+        "new": {
+            "ruleText": "If a face\u2013down new_start permanent or a face\u2013down component of a merged new_end permanent moves from the battlefield to any other zone, its owner must reveal it to all players as they move it. If a face\u2013down spell moves from the stack to any zone other than the battlefield, its owner must reveal it to all players as they move it. If a player leaves the game, all face\u2013down new_start permanents, face\u2013down components of merged permanents, new_end and new_start face\u2013down new_end spells owned by that player must be revealed to all players. At the end of each game, all face\u2013down new_start permanents, face\u2013down components of merged permanents, new_end and new_start face\u2013down new_end spells must be revealed to all players.",
+            "ruleNum": "707.9"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A chapter symbol includes a Roman numeral, indicated here as \u201c{rN}.\u201d The numeral I represents 1, II represents 2, old_start and old_end III represents old_start 3. old_end",
+            "ruleNum": "714.2a"
+        },
+        "new": {
+            "ruleText": "A chapter symbol includes a Roman numeral, indicated here as \u201c{rN}.\u201d The numeral I represents 1, II represents 2, III represents new_start 3, and so on. new_end",
+            "ruleNum": "714.2a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If multiple replacement effects could be applied to the event of a merged permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to old_start one old_end of the old_start objects affects all of the objects. old_end If the merged permanent is a commander, it may be exempt from this rule; see rule 903.9a.",
+            "ruleNum": "721.3d"
+        },
+        "new": {
+            "ruleText": "If multiple replacement effects could be applied to the event of a merged permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to new_start the object applies it to all components new_end of the new_start object. new_end If the merged permanent is a commander, it may be exempt from this rule; see rule 903.9a.",
+            "ruleNum": "721.3d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a replacement effect applies to a \u201ccard\u201d being put into a zone without also including tokens, that effect applies to all components of the merged permanent if it\u2019s not a token, including components that are tokens. If the merged permanent is a token but some of its components are cards, the merged permanent and its token components are put into the appropriate zone, and the components that are cards are moved by the replacement effect.",
+            "ruleNum": "721.3e"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an effect refers to controlling a commander, it refers to a permanent on the battlefield that is a commander. If an effect refers to casting a commander, it refers to a spell that is a commander. If an effect refers to a commander in a specific zone, it refers to a card in that zone that is a commander.",
+            "ruleNum": "903.3d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A commander may return to the command zone during a Commander game.",
+            "ruleNum": "903.9"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a commander is in a graveyard or in exile and that card was put into that zone since the last time state\u2013based actions were checked, its owner may put it into the command zone. This is a state\u2013based action. See rule 704.",
+            "ruleNum": "903.9a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a commander would be old_start exiled from anywhere or old_end put into its owner\u2019s old_start hand, graveyard, old_end or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.",
+            "ruleNum": "903.9"
+        },
+        "new": {
+            "ruleText": "If a commander would be put into its owner\u2019s new_start hand new_end or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.",
+            "ruleNum": "903.9b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a commander is a melded permanent or a merged permanent and its owner chooses to put it into the command zone old_start this way, old_end that permanent and each component representing it that isn\u2019t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone.",
+            "ruleNum": "903.9a"
+        },
+        "new": {
+            "ruleText": "If a commander is a melded permanent or a merged permanent and its owner chooses to put it into the command zone new_start using the replacement effect described in rule 903.9b, new_end that permanent and each component representing it that isn\u2019t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone.",
+            "ruleNum": "903.9c"
+        }
+    }
+]

@@ -1,0 +1,757 @@
+[
+    {
+        "names": {
+            "old_full": "Aether Revolt",
+            "new_setcode": "AKH",
+            "old_setcode": "AER",
+            "new_full": "Amonkhet"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "An effect may state that a player wins the game.",
+            "ruleNum": "104.2b"
+        },
+        "old": {
+            "ruleText": "An effect may state that a player wins the game. old_start (In multiplayer games, this may not cause the game to end; see rule 104.3h.) old_end",
+            "ruleNum": "104.2b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "In a multiplayer game using the limited range of influence option (see rule 801), an effect new_start that new_end states that a player wins the new_start game instead causes new_end all of that player\u2019s opponents new_start within the player\u2019s range of influence to new_end lose the new_start game. This may not cause the new_end game new_start to end. new_end",
+            "ruleNum": "104.3h"
+        },
+        "old": {
+            "ruleText": "In a multiplayer game old_start not old_end using the limited range of influence option (see rule 801), old_start if old_end an effect states that a player wins the old_start game, old_end all of that player\u2019s opponents lose the game old_start instead. old_end",
+            "ruleNum": "800.7"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "When a rule or text on a card refers to a \u201ccard,\u201d it means only a Magic card or an object represented by a Magic card.",
+            "ruleNum": "108.2"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs.",
+            "ruleNum": "108.2a"
+        },
+        "old": {
+            "ruleText": "old_start When a rule or text on a card refers to a \u201ccard,\u201d it means only a Magic card. old_end Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs. old_start Tokens aren\u2019t considered cards\u2013even a card that represents a token isn\u2019t considered a card for rules purposes. old_end",
+            "ruleNum": "108.2"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Tokens aren\u2019t considered cards\u2013even a card\u2013sized game supplement that represents a token isn\u2019t considered a card for rules purposes.",
+            "ruleNum": "108.2b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "An object\u2019s ability that states counters can\u2019t be new_start put new_end on that object functions as that object is entering the battlefield in addition to functioning while that object is on the battlefield.",
+            "ruleNum": "112.6h"
+        },
+        "old": {
+            "ruleText": "An object\u2019s ability that states counters can\u2019t be old_start placed old_end on that object functions as that object is entering the battlefield in addition to functioning while that object is on the battlefield.",
+            "ruleNum": "112.6h"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "There are new_start eight new_end special actions:",
+            "ruleNum": "115.2"
+        },
+        "old": {
+            "ruleText": "There are old_start seven old_end special actions:",
+            "ruleNum": "115.2"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some effects allow a player to take an action at a later time, usually to end a continuous effect or to stop a delayed triggered ability from triggering. Doing so is a special action. A player can take such an action any time he or she has priority, new_start unless that effect specifies another timing restriction, for as long as new_end the effect allows it.",
+            "ruleNum": "115.2c"
+        },
+        "old": {
+            "ruleText": "Some effects allow a player to take an action at a later time, usually to end a continuous effect or to stop a delayed triggered ability from triggering. Doing so is a special action. A player can take such an action any time he or she has priority, old_start but only if old_end the old_start ability or old_end effect allows it.",
+            "ruleNum": "115.2c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "One card (Circling Vultures) has the ability \u201cYou may discard Circling Vultures any time you could cast an instant.\u201d Doing so is a special action. A player can take such an action any time he or she has priority.",
+            "ruleNum": "115.2e"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Damage dealt to a player by a source with infect causes that new_start source\u2019s controller to give the new_end player that many poison counters.",
+            "ruleNum": "119.3b"
+        },
+        "old": {
+            "ruleText": "Damage dealt to a player by a source with infect causes that player old_start to get old_end that many poison counters.",
+            "ruleNum": "119.3b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Damage dealt to a creature by a source with wither and/or infect causes that new_start source\u2019s controller to put that new_end many \u20141/\u20141 counters on that creature.",
+            "ruleNum": "119.3d"
+        },
+        "old": {
+            "ruleText": "Damage dealt to a creature by a source with wither and/or infect causes that many \u20141/\u20141 counters old_start to be put old_end on that creature.",
+            "ruleNum": "119.3d"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some spells and abilities refer to counters being new_start put new_end on an object. This refers to putting counters on that object while it\u2019s on the battlefield and also to an object that\u2019s given counters as it enters the battlefield.",
+            "ruleNum": "121.6"
+        },
+        "old": {
+            "ruleText": "Some spells and abilities refer to counters being old_start \u201cplaced\u201d old_end on an object. This refers to putting counters on that object while it\u2019s on the battlefield and also to an object that\u2019s given counters as it enters the battlefield.",
+            "ruleNum": "121.6"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an object enters the battlefield with counters on it, the effect causing the object to be given counters may specify which player puts those counters on it. If the effect doesn\u2019t specify a player, the object\u2019s controller puts those counters on it.",
+            "ruleNum": "121.6a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an effect instructs a player to new_start choose new_end a new_start card name, new_end the player must choose the name of a card that is legal in the format of the game the player is playing. (See rule 100.6.) A player may not choose the name of a token unless it\u2019s also the name of a card.",
+            "ruleNum": "201.3"
+        },
+        "old": {
+            "ruleText": "If an effect instructs a player to old_start name old_end a old_start card, old_end the player must choose the name of a card that is legal in the format of the game the player is playing. (See rule 100.6.) A player may not choose the name of a token unless it\u2019s also the name of a card.",
+            "ruleNum": "201.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a player is instructed to choose a card name with certain characteristics, the player must choose the name of a card whose Oracle text matches those characteristics. (See rule 108.1.)",
+            "ruleNum": "201.3a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a player wants to new_start choose the new_end name new_start of new_end a split card, the player must choose the name of one of its halves, but not both. (See rule 708.) new_start If a player is instructed to choose a card name with certain characteristics, use the only that half\u2019s characteristics to determine if this name can be chosen. new_end",
+            "ruleNum": "201.3b"
+        },
+        "old": {
+            "ruleText": "If a player wants to name a split card, the player must choose the name of one of its halves, but not both. (See rule 708.)",
+            "ruleNum": "201.3a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a player wants to choose a flip card\u2019s alternative name, the player may do so. (See rule 709.) If a player is instructed to choose a card name with certain characteristics, use the card\u2019s characteristics as modified by its alternative characteristics to determine if this name can be chosen.",
+            "ruleNum": "201.3c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If a player wants to new_start choose the new_end name new_start of new_end the back face of a double\u2013faced card, the player may do so. (See rule 711.) new_start If a player is instructed to choose a card name with certain characteristics, use only the characteristics of the back face to determine if this name can be chosen. new_end",
+            "ruleNum": "201.3d"
+        },
+        "old": {
+            "ruleText": "If a player wants to name the back face of a double\u2013faced card, the player may do so. (See rule 711.)",
+            "ruleNum": "201.3c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If a player wants to new_start choose the new_end name new_start of new_end the combined back face of a meld pair, the player may do so. (See rule 712.) new_start If a player is instructed to choose a card name with certain characteristics, use only the characteristics of the combined back face to determine if this name can be chosen. new_end",
+            "ruleNum": "201.3e"
+        },
+        "old": {
+            "ruleText": "If a player wants to name the combined back face of a meld pair, the player may do so. (See rule 712.)",
+            "ruleNum": "201.3d"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "The converted mana cost of new_start an object new_end is a number equal to the total amount of mana in its mana new_start cost, new_end regardless of color.",
+            "ruleNum": "202.3"
+        },
+        "old": {
+            "ruleText": "old_start A fused split spell has two sets of characteristics and one converted mana cost. old_end The converted mana cost of old_start the spell old_end is a number equal to the total amount of mana in its old_start two old_end mana old_start costs, old_end regardless of color.",
+            "ruleNum": "702.101b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), new_start Cartouche, new_end Curse, and Shrine.",
+            "ruleNum": "205.3h"
+        },
+        "old": {
+            "ruleText": "Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Curse, and Shrine.",
+            "ruleNum": "205.3h"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, new_start Jackal, new_end Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Previously, a spell or ability that affected cards from a particular set checked for that set\u2019s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards new_start \u201cwith a name originally new_end printed\u201d in a particular set. See rule 700.6 for details.",
+            "ruleNum": "206.3"
+        },
+        "old": {
+            "ruleText": "Previously, a spell or ability that affected cards from a particular set checked for that set\u2019s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards old_start \u201coriginally old_end printed\u201d in a particular set. See rule 700.6 for details.",
+            "ruleNum": "206.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are new_start nine new_end exceptions to this rule:",
+            "ruleNum": "400.7"
+        },
+        "old": {
+            "ruleText": "An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are old_start eight old_end exceptions to this rule:",
+            "ruleNum": "400.7"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "After resolving a madness triggered ability (see rule 702.34), if the exiled card wasn\u2019t cast and was moved to a public zone, effects referencing the discarded card can find that object.",
+            "ruleNum": "400.7i"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If there are any optional costs to attack with the chosen creatures (expressed as costs a player may pay \u201cas\u201d a creature attacks), the active player chooses which, if any, he or she will pay.",
+            "ruleNum": "508.1g"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If any of the chosen creatures require paying costs to attack, or if any optional costs to attack were chosen, the active player determines the total cost to attack. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes \u201clocked in.\u201d If effects would change the total cost after this time, ignore this change.",
+            "ruleNum": "508.1h"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Once the player has enough mana in his or her mana pool, he or she pays all costs in any order. Partial payments are not allowed.",
+            "ruleNum": "508.1j"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start attacking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start attackers. new_end",
+            "ruleNum": "508.3b"
+        },
+        "old": {
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start blocking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start blockers. old_end",
+            "ruleNum": "509.7b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If any of the chosen creatures require paying costs to new_start block, new_end the new_start defending new_end player determines the total cost to new_start block. new_end Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes \u201clocked in.\u201d If effects would change the total cost after this time, ignore this change.",
+            "ruleNum": "509.1d"
+        },
+        "old": {
+            "ruleText": "If any of the chosen creatures require paying costs to old_start attack, old_end the old_start active old_end player determines the total cost to old_start attack. old_end Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes \u201clocked in.\u201d If effects would change the total cost after this time, ignore this change.",
+            "ruleNum": "508.1g"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start blocking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start blockers. new_end",
+            "ruleNum": "509.7b"
+        },
+        "old": {
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start attacking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start attackers. old_end",
+            "ruleNum": "508.3b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action. These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them.",
+            "ruleNum": "603.12"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an object has an ability printed on it that causes a player to \u201cchoose a [value]\u201d and an ability printed on it that refers to \u201cthe chosen [value],\u201d \u201cthe last chosen [value],\u201d or new_start similar, new_end those abilities are linked. The second ability refers only to a choice made as a result of the first ability.",
+            "ruleNum": "607.2d"
+        },
+        "old": {
+            "ruleText": "If an object has an ability printed on it that causes a player to \u201cchoose a [value]\u201d old_start or \u201cname a card\u201d old_end and an ability printed on it that refers to \u201cthe chosen [value],\u201d \u201cthe last chosen [value],\u201d or old_start \u201cthe named card,\u201d old_end those abilities are linked. The second ability refers only to a choice made as a result of the first ability.",
+            "ruleNum": "607.2d"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some effects state that something can\u2019t happen. These effects aren\u2019t replacement effects, but follow similar rules.",
+            "ruleNum": "614.16"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "\u201cCan\u2019t\u201d effects must exist before the appropriate event occurs\u2013they can\u2019t \u201cgo back in time\u201d and change something that\u2019s already happened.",
+            "ruleNum": "614.16a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an event can\u2019t happen, a player can\u2019t choose to pay a cost that includes that event.",
+            "ruleNum": "614.16b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an event can\u2019t happen, it can only be replaced by a self\u2013replacement effect (see rule 614.15). Other replacement and/or prevention effects can\u2019t modify or replace it.",
+            "ruleNum": "614.16c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Some \u201ccan\u2019t\u201d effects modify how a permanent enters the battlefield or whether it can enter the battlefield. Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which \u201ccan\u2019t\u201d effects apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects generated by the resolution of spells or abilities that changed the permanent\u2019s characteristics on the stack (see rule 400.7a), and continuous effects from the permanent\u2019s own static abilities, but ignoring continuous effects from any other source that would affect it.",
+            "ruleNum": "614.16d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "While following the steps in 616.1a\u2013d, one replacement or prevention effect may apply to an event, and another may apply to an event contained within the first event. In this case, the second effect can\u2019t be chosen until after the first effect has been chosen.",
+            "ruleNum": "616.1f"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Some cards refer to cards new_start with a name new_end originally printed in a particular set.",
+            "ruleNum": "700.6"
+        },
+        "old": {
+            "ruleText": "Some cards refer to cards originally printed in a particular set.",
+            "ruleNum": "700.6"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "One card (City in a Bottle) refers to permanents and cards with new_start a new_end name originally printed in the Arabian Nights\u2122 expansion. Those new_start names new_end are Abu Ja\u2019far, Aladdin, Aladdin\u2019s Lamp, Aladdin\u2019s Ring, Ali Baba, Ali from Cairo, Army of Allah, Bazaar of Baghdad, Bird Maiden, Bottle of Suleiman, Brass Man, Camel, City in a Bottle, City of Brass, Cuombajj Witches, Cyclone, Dancing Scimitar, Dand\u00e2n, Desert, Desert Nomads, Desert Twister, Diamond Valley, Drop of Honey, Ebony Horse, Elephant Graveyard, El\u2013Hajj\u00e2j, Erg Raiders, Erhnam Djinn, Eye for an Eye, Fishliver Oil, Flying Carpet, Flying Men, Ghazb\u00e1n Ogre, Giant Tortoise, Guardian Beast, Hasran Ogress, Hurr Jackal, Ifh\u2013Biff Efreet, Island Fish Jasconius, Island of Wak\u2013Wak, Jandor\u2019s Ring, Jandor\u2019s Saddlebags, Jeweled Bird, Jihad, Jun\u00fan Efreet, Juz\u00e1m Djinn, Khab\u00e1l Ghoul, King Suleiman, Kird Ape, Library of Alexandria, Magnetic Mountain, Merchant Ship, Metamorphosis, Mijae Djinn, Moorish Cavalry, Nafs Asp, Oasis, Old Man of the Sea, Oubliette, Piety, Pyramids, Repentant Blacksmith, Ring of Ma\u2019r\u00fbf, Rukh Egg, Sandals of Abdallah, Sandstorm, Serendib Djinn, Serendib Efreet, Shahrazad, Sindbad, Singing Tree, Sorceress Queen, Stone\u2013Throwing Devils, Unstable Mutation, War Elephant, Wyluli Wolf, and Ydwen Efreet.",
+            "ruleNum": "700.6a"
+        },
+        "old": {
+            "ruleText": "One card (City in a Bottle) refers to permanents and cards with old_start the same old_end name old_start as a card old_end originally printed in the Arabian Nights\u2122 expansion. Those old_start cards old_end are Abu Ja\u2019far, Aladdin, Aladdin\u2019s Lamp, Aladdin\u2019s Ring, Ali Baba, Ali from Cairo, Army of Allah, Bazaar of Baghdad, Bird Maiden, Bottle of Suleiman, Brass Man, Camel, City in a Bottle, City of Brass, Cuombajj Witches, Cyclone, Dancing Scimitar, Dand\u00e2n, Desert, Desert Nomads, Desert Twister, Diamond Valley, Drop of Honey, Ebony Horse, Elephant Graveyard, El\u2013Hajj\u00e2j, Erg Raiders, Erhnam Djinn, Eye for an Eye, Fishliver Oil, Flying Carpet, Flying Men, Ghazb\u00e1n Ogre, Giant Tortoise, Guardian Beast, Hasran Ogress, Hurr Jackal, Ifh\u2013Biff Efreet, Island Fish Jasconius, Island of Wak\u2013Wak, Jandor\u2019s Ring, Jandor\u2019s Saddlebags, Jeweled Bird, Jihad, Jun\u00fan Efreet, Juz\u00e1m Djinn, Khab\u00e1l Ghoul, King Suleiman, Kird Ape, Library of Alexandria, Magnetic Mountain, Merchant Ship, Metamorphosis, Mijae Djinn, Moorish Cavalry, Nafs Asp, Oasis, Old Man of the Sea, Oubliette, Piety, Pyramids, Repentant Blacksmith, Ring of Ma\u2019r\u00fbf, Rukh Egg, Sandals of Abdallah, Sandstorm, Serendib Djinn, Serendib Efreet, Shahrazad, Sindbad, Singing Tree, Sorceress Queen, Stone\u2013Throwing Devils, Unstable Mutation, War Elephant, Wyluli Wolf, and Ydwen Efreet.",
+            "ruleNum": "700.6a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "One card (Golgothian Sylex) refers to permanents new_start a new_end name originally printed in the Antiquities\u2122 expansion. Those new_start names new_end are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod\u2019s Altar, Ashnod\u2019s Battle Gear, Ashnod\u2019s Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna\u2019s Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon\u2019s Cane, Gaea\u2019s Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl\u2019s Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra\u2019s Factory, Mishra\u2019s War Machine, Mishra\u2019s Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat\u2013Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su\u2013Chi, Tablet of Epityr, Tawnos\u2019s Coffin, Tawnos\u2019s Wand, Tawnos\u2019s Weaponry, Tetravus, Titania\u2019s Song, Transmute Artifact, Triskelion, Urza\u2019s Avenger, Urza\u2019s Chalice, Urza\u2019s Mine, Urza\u2019s Miter, Urza\u2019s Power Plant, Urza\u2019s Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier.",
+            "ruleNum": "700.6b"
+        },
+        "old": {
+            "ruleText": "One card (Golgothian Sylex) refers to permanents old_start with the same old_end name old_start as a card old_end originally printed in the Antiquities\u2122 expansion. Those old_start cards old_end are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod\u2019s Altar, Ashnod\u2019s Battle Gear, Ashnod\u2019s Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna\u2019s Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon\u2019s Cane, Gaea\u2019s Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl\u2019s Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra\u2019s Factory, Mishra\u2019s War Machine, Mishra\u2019s Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat\u2013Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su\u2013Chi, Tablet of Epityr, Tawnos\u2019s Coffin, Tawnos\u2019s Wand, Tawnos\u2019s Weaponry, Tetravus, Titania\u2019s Song, Transmute Artifact, Triskelion, Urza\u2019s Avenger, Urza\u2019s Chalice, Urza\u2019s Mine, Urza\u2019s Miter, Urza\u2019s Power Plant, Urza\u2019s Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier.",
+            "ruleNum": "700.6b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "One card (Apocalypse Chime) refers to permanents with new_start a new_end name originally printed in the Homelands\u2122 expansion. Those new_start names new_end are Abbey Gargoyles; Abbey Matron; Aether Storm; Aliban\u2019s Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An\u2013Havva Constable; An\u2013Havva Inn; An\u2013Havva Township; An\u2013Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki\u2019s Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz\u2019s Ban; Folk of An\u2013Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan\u2019s Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven\u2019s Ferrets; Joven\u2019s Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards\u2019 School.",
+            "ruleNum": "700.6c"
+        },
+        "old": {
+            "ruleText": "One card (Apocalypse Chime) refers to permanents with old_start the same old_end name old_start as a card old_end originally printed in the Homelands\u2122 expansion. Those old_start cards old_end are Abbey Gargoyles; Abbey Matron; Aether Storm; Aliban\u2019s Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An\u2013Havva Constable; An\u2013Havva Inn; An\u2013Havva Township; An\u2013Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki\u2019s Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz\u2019s Ban; Folk of An\u2013Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan\u2019s Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven\u2019s Ferrets; Joven\u2019s Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards\u2019 School.",
+            "ruleNum": "700.6c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "To exert a permanent, you choose to have it not untap during your next untap step.",
+            "ruleNum": "701.37a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A permanent can be exerted even if it\u2019s not tapped or has already been exerted in a turn. If you exert a permanent more than once before your next untap step, each effect causing it not to untap expires during the same untap step.",
+            "ruleNum": "701.37b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "An object that isn\u2019t on the battlefield can\u2019t be exerted.",
+            "ruleNum": "701.37c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "\u201cYou may exert [this creature] as it attacks\u201d is an optional cost to attack (see rule 508.1g). Some objects with this static ability have a triggered ability that triggers \u201cwhen you do\u201d printed in the same paragraph. These abilities are linked. (See rule 607.2g.)",
+            "ruleNum": "701.37d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "An effect that grants an object a keyword ability may define a variable in that ability based on characteristics of that object or other information about the game state. For these abilities, the value of that variable is constantly reevaluated.",
+            "ruleNum": "702.1b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Some cards with cycling have abilities that trigger when they\u2019re cycled. \u201cWhen you cycle [this card]\u201d means \u201cWhen you discard [this card] to pay new_start an activation cost of new_end a cycling new_start ability.\u201d new_end These abilities trigger from whatever zone the card winds up in after it\u2019s cycled.",
+            "ruleNum": "702.28c"
+        },
+        "old": {
+            "ruleText": "Some cards with cycling have abilities that trigger when they\u2019re cycled. \u201cWhen you cycle [this card]\u201d means \u201cWhen you discard [this card] to pay a cycling old_start cost.\u201d old_end These abilities trigger from whatever zone the card winds up in after it\u2019s cycled.",
+            "ruleNum": "702.28c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Some cards have abilities that trigger whenever a player \u201ccycles or discards\u201d a card. These abilities trigger only once when a card is cycled.",
+            "ruleNum": "702.28d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Typecycling abilities are cycling abilities, and typecycling costs are cycling costs. Any cards that trigger when a player cycles a card will trigger when a card is discarded to pay new_start an activation cost of new_end a typecycling new_start ability. new_end Any effect that stops players from cycling cards will stop players from activating cards\u2019 typecycling abilities. Any effect that increases or reduces a cycling cost will increase or reduce a typecycling cost. new_start Any effect that looks for a card with cycling will find a card with typecycling. new_end",
+            "ruleNum": "702.28f"
+        },
+        "old": {
+            "ruleText": "Typecycling abilities are cycling abilities, and typecycling costs are cycling costs. Any cards that trigger when a player cycles a card will trigger when a card is discarded to pay a typecycling old_start cost. old_end Any effect that stops players from cycling cards will stop players from activating cards\u2019 typecycling abilities. Any effect that increases or reduces a cycling cost will increase or reduce a typecycling cost.",
+            "ruleNum": "702.28e"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "After resolving a madness triggered ability, if the exiled card wasn\u2019t cast and was moved to a public zone, effects referencing the discarded card can find that card. See rule 400.7i.",
+            "ruleNum": "702.34c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Wither is a static ability. Damage dealt to a creature by a source with wither isn\u2019t marked on that creature. Rather, it causes that new_start source\u2019s controller to put that new_end many \u20141/\u20141 counters on that creature. See rule 119.3.",
+            "ruleNum": "702.79a"
+        },
+        "old": {
+            "ruleText": "Wither is a static ability. Damage dealt to a creature by a source with wither isn\u2019t marked on that creature. Rather, it causes that many \u20141/\u20141 counters old_start to be put old_end on that creature. See rule 119.3.",
+            "ruleNum": "702.79a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Damage dealt to a player by a source with infect doesn\u2019t cause that player to lose life. Rather, it causes new_start that source\u2019s controller to give new_end the player that many poison counters. See rule 119.3.",
+            "ruleNum": "702.89b"
+        },
+        "old": {
+            "ruleText": "Damage dealt to a player by a source with infect doesn\u2019t cause that player to lose life. Rather, it causes the player old_start to get old_end that many poison counters. See rule 119.3.",
+            "ruleNum": "702.89b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Damage dealt to a creature by a source with infect isn\u2019t marked on that creature. Rather, it causes that new_start source\u2019s controller to put that new_end many \u20141/\u20141 counters on that creature. See rule 119.3.",
+            "ruleNum": "702.89c"
+        },
+        "old": {
+            "ruleText": "Damage dealt to a creature by a source with infect isn\u2019t marked on that creature. Rather, it causes that many \u20141/\u20141 counters old_start to be put old_end on that creature. See rule 119.3.",
+            "ruleNum": "702.89c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Fuse is a static ability found on some split cards (see rule 708, \u201cSplit Cards\u201d) that applies while the card with fuse is in a player\u2019s hand. If a player casts a split card with fuse from his or her hand, the player may choose to cast both halves of that split new_start card rather than choose one half. new_end This choice is made before putting the split card with fuse onto the stack. The resulting spell is a fused split spell.",
+            "ruleNum": "702.101a"
+        },
+        "old": {
+            "ruleText": "Fuse is a static ability found on some split cards (see rule 708, \u201cSplit Cards\u201d) that applies while the card with fuse is in a player\u2019s hand. If a player casts a split card with fuse from his or her hand, the player may choose to cast both halves of that split old_start card. old_end This choice is made before putting the split card with fuse onto the stack. The resulting spell is a fused split spell.",
+            "ruleNum": "702.101a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "A fused split spell has the combined characteristics of its two halves. (See rule 708.4.)",
+            "ruleNum": "702.101b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "The total cost of a fused split spell includes the mana cost of each half.",
+            "ruleNum": "702.101c"
+        },
+        "old": {
+            "ruleText": "The total cost of a fused split spell includes the mana cost of each half. old_start (See rule 601.2f.) old_end",
+            "ruleNum": "702.101c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Tribute is a static ability that functions as the creature with tribute is entering the battlefield. \u201cTribute N\u201d means \u201cAs this creature enters the battlefield, choose an opponent. That player may new_start put new_end an additional N +1/+1 counters on new_start it as it enters the battlefield.\u201d new_end",
+            "ruleNum": "702.103a"
+        },
+        "old": {
+            "ruleText": "Tribute is a static ability that functions as the creature with tribute is entering the battlefield. \u201cTribute N\u201d means \u201cAs this creature enters the battlefield, choose an opponent. That player may old_start have this creature enter the battlefield with old_end an additional N +1/+1 counters on old_start it.\u201d old_end",
+            "ruleNum": "702.103a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Hidden agenda is a static ability that functions as a conspiracy card with hidden agenda is put into the command zone. \u201cHidden agenda\u201d means \u201cAs you put this conspiracy card into the command zone, turn it face down and secretly new_start choose new_end a new_start card name.\u201d new_end",
+            "ruleNum": "702.105a"
+        },
+        "old": {
+            "ruleText": "Hidden agenda is a static ability that functions as a conspiracy card with hidden agenda is put into the command zone. \u201cHidden agenda\u201d means \u201cAs you put this conspiracy card into the command zone, turn it face down and secretly old_start name old_end a old_start card.\u201d old_end",
+            "ruleNum": "702.105a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "To secretly new_start choose new_end a new_start card name, new_end note that name on a piece of paper kept with the face\u2013down conspiracy card.",
+            "ruleNum": "702.105b"
+        },
+        "old": {
+            "ruleText": "To secretly old_start name old_end a old_start card, old_end note that name on a piece of paper kept with the face\u2013down conspiracy card.",
+            "ruleNum": "702.105b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Double agenda is a variant of the hidden agenda ability. As you put a conspiracy card with double agenda into the command zone, you secretly name two different cards rather than one. You don\u2019t reveal new_start that more than one name was new_end secretly new_start chosen new_end until you reveal the chosen names.",
+            "ruleNum": "702.105f"
+        },
+        "old": {
+            "ruleText": "Double agenda is a variant of the hidden agenda ability. As you put a conspiracy card with double agenda into the command zone, you secretly name two different cards rather than one. You don\u2019t reveal old_start the number of cards old_end secretly old_start named old_end until you reveal the chosen names.",
+            "ruleNum": "702.105f"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Aftermath is an ability found on some split cards (see rule 708, \u201cSplit Cards\u201d). It represents three static abilities. \u201cAftermath\u201d means \u201cYou may cast this half of this split card from your graveyard,\u201d \u201cThis half of this split card can\u2019t be cast from any zone other than a graveyard,\u201d and \u201cIf this spell was cast from a graveyard, exile it instead of putting it anywhere else any time it would leave the stack.\u201d",
+            "ruleNum": "702.126a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Embalm is an activated ability that functions while the card with embalm is in a graveyard. \u201cEmbalm [cost]\u201d means \u201c[Cost], Exile this card from your graveyard: Create a token that\u2019s a copy of this card, except it\u2019s white, it has no mana cost, and it\u2019s a Zombie in addition to its other types. Activate this ability only any time you could cast a sorcery.\u201d",
+            "ruleNum": "702.127a"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A token is \u201cembalmed\u201d if it\u2019s created by a resolving embalm ability.",
+            "ruleNum": "702.127b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "If an ability causes a player to \u201cchoose a [value]\u201d and a second, linked ability refers to that choice, the second ability is the only ability that can refer to that choice. An object doesn\u2019t \u201cremember\u201d that choice and use it for other abilities it may copy later. If an object copies an ability that refers to a choice, but either (a) doesn\u2019t copy that ability\u2019s linked ability or (b) does copy the linked ability but no choice is made for it, then the choice is considered to be \u201cundefined.\u201d If an ability refers to an undefined choice, that part of the ability won\u2019t do anything.",
+            "ruleNum": "706.7a"
+        },
+        "old": {
+            "ruleText": "If an ability causes a player to \u201cchoose a [value]\u201d old_start or \u201cname a card,\u201d old_end and a second, linked ability refers to that choice, the second ability is the only ability that can refer to that choice. An object doesn\u2019t \u201cremember\u201d that choice and use it for other abilities it may copy later. If an object copies an ability that refers to a choice, but either (a) doesn\u2019t copy that ability\u2019s linked ability or (b) does copy the linked ability but no choice is made for it, then the choice is considered to be \u201cundefined.\u201d If an ability refers to an undefined choice, that part of the ability won\u2019t do anything.",
+            "ruleNum": "706.7a"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "If a player casts a split card with fuse from his or her hand, in addition to choosing either half as described above, the player may choose to cast both halves, resulting in a fused split spell with the combined characteristics of both halves. Only the fused split spell is evaluated to see if it can be cast.",
+            "ruleNum": "708.2b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start A player chooses which half of a new_end split card new_start he or she new_end is new_start casting before putting it onto new_end the stack.",
+            "ruleNum": "708.3"
+        },
+        "old": {
+            "ruleText": "old_start Each old_end split card old_start that consists of two halves with different colored mana symbols in their mana costs old_end is old_start a multicolored card while it\u2019s not a spell on old_end the stack. old_start While it\u2019s a spell on the stack, it\u2019s only the color or colors of the half or halves being cast. old_end",
+            "ruleNum": "708.3"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start Only new_end the new_start chosen new_end half is evaluated to see if it can be cast. Only that half is considered to be put onto the stack.",
+            "ruleNum": "708.3a"
+        },
+        "old": {
+            "ruleText": "old_start If a player casts a split card without using fuse, that player chooses which half of that split card he or she is casting before putting it onto old_end the old_start stack. Only that old_end half is evaluated to see if it can be cast. Only that half is considered to be put onto the stack.",
+            "ruleNum": "708.2a"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "While on the stack, only the characteristics of the half being cast exist. The other half\u2019s characteristics are treated as though they didn\u2019t exist.",
+            "ruleNum": "708.3b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "An effect may create a copy of a split card and allow a player to cast the copy. That copy retains the characteristics of the two halves separated into the same two halves as the original card. (See rule 706.12.)",
+            "ruleNum": "708.3c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "In every zone except the stack, the characteristics of a split card are those of its two halves combined. This is a change from previous rules.",
+            "ruleNum": "708.4"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "Each split card has two names. If an effect instructs a player to new_start choose new_end a card new_start name new_end and the player wants to new_start choose new_end a split new_start card\u2019s name, new_end the player must new_start choose new_end one of those names and not both. An object has the chosen name if one of its names is the chosen name.",
+            "ruleNum": "708.4a"
+        },
+        "old": {
+            "ruleText": "Each split card has two names. If an effect instructs a player to old_start name old_end a card and the player wants to old_start name old_end a split old_start card, old_end the player must old_start name old_end one of those names and not both. An object has the chosen name if one of its names is the chosen name.",
+            "ruleNum": "708.7"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "The mana cost of a split card is the combined mana costs of its two halves. A split card\u2019s colors and converted mana cost are determined from its combined mana cost.",
+            "ruleNum": "708.4b"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "A split card has each card type specified on either of its halves and each ability in the text box of each half.",
+            "ruleNum": "708.4c"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleText": "The characteristics of a fused split spell on the stack are also those of its two halves combined (see rule 702.101, \u201cFuse\u201d).",
+            "ruleNum": "708.4d"
+        },
+        "old": null
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "Anything that asks for a particular characteristic of a split card while it\u2019s in a zone other than the stack gets two answers (one for each of the split card\u2019s two halves). Anything that asks for a particular characteristic of a fused split spell gets two answers. Anything that asks for a particular characteristic of a split card while it\u2019s a spell on the stack or that asks for the converted mana cost of a fused split spell gets one answer.",
+            "ruleNum": "708.5"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "If a spell or ability uses the converted mana cost of a split card not on the stack to determine part of its effect, but it doesn\u2019t perform a comparison using those values, it uses the sum of the two converted mana costs.",
+            "ruleNum": "708.5a"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "Some effects perform comparisons involving one or more split cards in a zone other than the stack or involving one or more fused split spells.",
+            "ruleNum": "708.6"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "Anything that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card\u2019s converted mana cost is 3 or less) involving one or more split cards in any zone other than the stack or involving one or more fused split spells gets only one answer. This answer is \u201cyes\u201d if either side of each split card in the comparison would return a \u201cyes\u201d answer if compared individually.",
+            "ruleNum": "708.6a"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "Anything that performs a negative comparison (such as asking if cards have different names) involving one or more split cards in any zone other than the stack or involving one or more fused split spells also gets only one answer. This answer is \u201cyes\u201d if performing the analogous positive comparison would return a \u201cno\u201d answer.",
+            "ruleNum": "708.6b"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleText": "If anything performs a comparison involving multiple characteristics or values of one or more split cards in any zone other than the stack or involving multiple characteristics or values of one or more fused split spells, each characteristic or value is compared separately. If each of the individual comparisons would return a \u201cyes\u201d answer, the whole comparison returns a \u201cyes\u201d answer. The individual comparisons may involve different halves of the same split card.",
+            "ruleNum": "708.6c"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If new_start an effect instructs new_end a new_start player to choose a card name and the new_end player wants to new_start choose new_end a flip card\u2019s alternative name, the player may do so.",
+            "ruleNum": "709.5"
+        },
+        "old": {
+            "ruleText": "If a player wants to old_start name old_end a flip card\u2019s alternative name, the player may do so. old_start (See rule 709.) old_end",
+            "ruleNum": "201.3b"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect instructs a player to new_start choose new_end a new_start card name, new_end the player may name either face of a double\u2013faced card but not both.",
+            "ruleNum": "711.13"
+        },
+        "old": {
+            "ruleText": "If an effect instructs a player to old_start name old_end a old_start card, old_end the player may name either face of a double\u2013faced card but not both.",
+            "ruleNum": "711.13"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "If an effect instructs a player to new_start choose new_end a new_start card name, new_end the player may new_start choose the new_end name new_start of a new_end front face of a meld card or the combined back face of a meld pair.",
+            "ruleNum": "712.11"
+        },
+        "old": {
+            "ruleText": "If an effect instructs a player to old_start name old_end a old_start card, old_end the player may name old_start the old_end front face of a meld card or the combined back face of a meld pair.",
+            "ruleNum": "712.11"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "new_start Some new_end cards end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, \u201cResolving Spells and Abilities\u201d).",
+            "ruleNum": "715.1"
+        },
+        "old": {
+            "ruleText": "old_start Three old_end cards old_start (Time Stop, Sundial of the Infinite, and Day\u2019s Undoing) old_end end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, \u201cResolving Spells and Abilities\u201d).",
+            "ruleNum": "715.1"
+        }
+    },
+    {
+        "new": {
+            "ruleText": "Any one\u2013shot effect that refers to the \u201cdefending player\u201d refers to one specific defending player, not to both of the defending players. The controller of the effect chooses which one the spell or ability refers to at the time the effect is applied. The same is true for any one\u2013shot effect that refers to the \u201cattacking player.\u201d Any characteristic\u2013defining ability that refers to the \u201cdefending player\u201d refers to one specific defending player, not to both of the defending players. The controller of the object with the characteristic\u2013defining ability chooses which one the ability refers to at the time the nonactive players become defending players. new_start If that time has already occurred, that player makes that choice as the object enters the battlefield or gains the ability. new_end All other cases in which the \u201cdefending player\u201d is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is \u201cyes\u201d if either defending player in the comparison would return a \u201cyes\u201d answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is \u201cyes\u201d if performing the analogous positive comparison would return a \u201cno\u201d answer. The same is true for all other cases that refer to the \u201cattacking player.\u201d",
+            "ruleNum": "810.7b"
+        },
+        "old": {
+            "ruleText": "Any one\u2013shot effect that refers to the \u201cdefending player\u201d refers to one specific defending player, not to both of the defending players. The controller of the effect chooses which one the spell or ability refers to at the time the effect is applied. The same is true for any one\u2013shot effect that refers to the \u201cattacking player.\u201d Any characteristic\u2013defining ability that refers to the \u201cdefending player\u201d refers to one specific defending player, not to both of the defending players. The controller of the object with the characteristic\u2013defining ability chooses which one the ability refers to at the time the nonactive players become defending players. All other cases in which the \u201cdefending player\u201d is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is \u201cyes\u201d if either defending player in the comparison would return a \u201cyes\u201d answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is \u201cyes\u201d if performing the analogous positive comparison would return a \u201cno\u201d answer. The same is true for all other cases that refer to the \u201cattacking player.\u201d",
+            "ruleNum": "810.7b"
+        }
+    }
+]

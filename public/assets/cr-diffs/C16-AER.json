@@ -1,0 +1,172 @@
+[
+    {
+        "names": {
+            "old_full": "Commander 2016",
+            "old_setcode": "C16",
+            "new_full": "Aether Revolt",
+            "new_setcode": "AER"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "117.12",
+            "ruleText": "Some spells, activated abilities, and triggered abilities read, \u201c[Do something]. If [a player] old_start [does old_end or old_start doesn\u2019t], old_end [effect].\u201d or \u201c[A player] may [do something]. If [that player] old_start [does old_end or old_start doesn\u2019t], old_end [effect].\u201d The action [do something] is a cost, paid when the spell or ability resolves. The \u201cIf [a player] old_start [does old_end or old_start doesn\u2019t]\u201d old_end clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred."
+        },
+        "new": {
+            "ruleNum": "117.12",
+            "ruleText": "Some spells, activated abilities, and triggered abilities read, \u201c[Do something]. If [a player] new_start [does, doesn\u2019t, new_end or new_start can\u2019t], new_end [effect].\u201d or \u201c[A player] may [do something]. If [that player] new_start [does, doesn\u2019t, new_end or new_start can\u2019t], new_end [effect].\u201d The action [do something] is a cost, paid when the spell or ability resolves. The \u201cIf [a player] new_start [does, doesn\u2019t, new_end or new_start can\u2019t]\u201d new_end clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "118.7",
+            "ruleText": "If an effect says that a player can\u2019t gain life, that player can\u2019t make an exchange such that the player\u2019s life total would become higher; in that case, the exchange won\u2019t happen. In addition, a cost that involves having that player gain life can\u2019t be paid, and a replacement effect that would replace a life gain event affecting that player won\u2019t do anything."
+        },
+        "new": {
+            "ruleNum": "118.7",
+            "ruleText": "If an effect says that a player can\u2019t gain life, that player can\u2019t make an exchange such that the player\u2019s life total would become higher; in that case, the exchange won\u2019t happen. new_start Similarly, if an effect redistributes life totals, a player can\u2019t receive a new life total such that the player\u2019s life total would become higher. new_end In addition, a cost that involves having that player gain life can\u2019t be paid, and a replacement effect that would replace a life gain event affecting that player won\u2019t do anything."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "118.8",
+            "ruleText": "If an effect says that a player can\u2019t lose life, that player can\u2019t make an exchange such that the player\u2019s life total would become lower; in that case, the exchange won\u2019t happen. In addition, a cost that involves having that player pay life can\u2019t be paid."
+        },
+        "new": {
+            "ruleNum": "118.8",
+            "ruleText": "If an effect says that a player can\u2019t lose life, that player can\u2019t make an exchange such that the player\u2019s life total would become lower; in that case, the exchange won\u2019t happen. new_start Similarly, if an effect redistributes life totals, a player can\u2019t receive a new life total such that the player\u2019s life total would become lower. new_end In addition, a cost that involves having that player pay life can\u2019t be paid."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, spell mastery, strive, sweep, tempting offer, threshold, and will of the council."
+        },
+        "new": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, council\u2019s dilemma, delirium, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, new_start revolt, new_end spell mastery, strive, sweep, tempting offer, threshold, and will of the council."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start blocking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start blockers. old_end"
+        },
+        "new": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start attacking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start attackers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "508.3b",
+            "ruleText": "A creature that\u2019s put onto the battlefield old_start attacking old_end isn\u2019t affected by requirements or restrictions that apply to the declaration of old_start attackers. old_end"
+        },
+        "new": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield new_start blocking new_end isn\u2019t affected by requirements or restrictions that apply to the declaration of new_start blockers. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.7a",
+            "ruleText": "Delayed triggered abilities old_start come from old_end spells or old_start other abilities that create them on resolution, or are created old_end as the result of a replacement effect being old_start applied. That means old_end a delayed triggered ability won\u2019t trigger until it has actually been created, even if its trigger event occurred just beforehand. Other events that happen earlier may make the trigger event impossible."
+        },
+        "new": {
+            "ruleNum": "603.7a",
+            "ruleText": "Delayed triggered abilities new_start are created during the resolution of new_end spells or new_start abilities, new_end as the result of a replacement effect being new_start applied, or as new_end a new_start result of a static ability that allows a player to take an action. A new_end delayed triggered ability won\u2019t trigger until it has actually been created, even if its trigger event occurred just beforehand. Other events that happen earlier may make the trigger event impossible."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "603.7g",
+            "ruleText": "If a static ability allows a player to take an action and creates a delayed triggered ability if that player does so, the source of that delayed triggered ability is the object with that static ability. The controller of that delayed triggered ability is the same as the controller of that object at the time the action was taken."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.9c",
+            "ruleText": "When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player\u2019s previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them."
+        },
+        "new": {
+            "ruleNum": "701.9c",
+            "ruleText": "When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player\u2019s previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them. new_start A player who can\u2019t gain life can\u2019t be given a higher life total this way, and a player who can\u2019t lose life can\u2019t be given a lower life total this way (see rules 118.7\u20138). new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.9g",
+            "ruleText": "A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature\u2019s power and toughness."
+        },
+        "new": {
+            "ruleNum": "701.9g",
+            "ruleText": "A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. new_start A player who can\u2019t gain life can\u2019t be given a higher life total this way, and a player who can\u2019t lose life can\u2019t be given a lower life total this way (see rules 118.7\u20138). new_end If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature\u2019s power and toughness."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.2b",
+            "ruleText": "Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal old_start damage, old_end regardless of that creature\u2019s toughness. See rules 510.1c\u2013d."
+        },
+        "new": {
+            "ruleNum": "702.2c",
+            "ruleText": "Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal new_start damage for the purposes of determining if a proposed combat damage assignment is valid, new_end regardless of that creature\u2019s toughness. See rules 510.1c\u2013d."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.50a",
+            "ruleText": "Convoke is a static ability that functions while the spell with convoke is on the stack. \u201cConvoke\u201d means \u201cFor each colored mana in this spell\u2019s total cost, you may tap an untapped creature of that color you control rather than pay that mana. For each generic mana in this spell\u2019s total cost, you may tap an untapped creature you control rather than pay that mana.\u201d old_start The convoke ability isn\u2019t an additional or alternative cost and applies only after the total cost of the spell with convoke is determined. old_end"
+        },
+        "new": {
+            "ruleNum": "702.50a",
+            "ruleText": "Convoke is a static ability that functions while the spell with convoke is on the stack. \u201cConvoke\u201d means \u201cFor each colored mana in this spell\u2019s total cost, you may tap an untapped creature of that color you control rather than pay that mana. For each generic mana in this spell\u2019s total cost, you may tap an untapped creature you control rather than pay that mana.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.50b",
+            "ruleText": "The convoke ability isn\u2019t an additional or alternative cost and applies only after the total cost of the spell with convoke is determined."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.65a",
+            "ruleText": "Delve is a static ability that functions while the spell with delve is on the stack. \u201cDelve\u201d means \u201cFor each generic mana in this spell\u2019s total cost, you may exile a card from your graveyard rather than pay that mana.\u201d old_start The delve ability isn\u2019t an additional or alternative cost and applies only after the total cost of the spell with delve is determined. old_end"
+        },
+        "new": {
+            "ruleNum": "702.65a",
+            "ruleText": "Delve is a static ability that functions while the spell with delve is on the stack. \u201cDelve\u201d means \u201cFor each generic mana in this spell\u2019s total cost, you may exile a card from your graveyard rather than pay that mana.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.65b",
+            "ruleText": "The delve ability isn\u2019t an additional or alternative cost and applies only after the total cost of the spell with delve is determined."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.125a",
+            "ruleText": "Improvise is a static ability that functions while the spell with improvise is on the stack. \u201cImprovise\u201d means \u201cFor each generic mana in this spell\u2019s total cost, you may tap an untapped artifact you control rather than pay that mana.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.125b",
+            "ruleText": "The improvise ability isn\u2019t an additional or alternative cost and applies only after the total cost of the spell with improvise is determined."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.125c",
+            "ruleText": "Multiple instances of improvise on the same spell are redundant."
+        }
+    }
+]

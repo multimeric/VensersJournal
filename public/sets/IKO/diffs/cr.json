@@ -1,0 +1,647 @@
+[
+    {
+        "names": {
+            "old_full": "Theros Beyond Death",
+            "old_setcode": "THB",
+            "new_full": "Ikoria",
+            "new_setcode": "IKO"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "In constructed play (a way of playing in which each player creates their own deck ahead of time), each deck old_start must contain at least sixty old_end cards. A constructed deck may contain any number of basic land cards and no more than four of any card with a particular English name other than basic land cards.",
+            "ruleNum": "100.2a"
+        },
+        "new": {
+            "ruleText": "In constructed play (a way of playing in which each player creates their own deck ahead of time), each deck new_start has a minimum deck size of 60 new_end cards. A constructed deck may contain any number of basic land cards and no more than four of any card with a particular English name other than basic land cards.",
+            "ruleNum": "100.2a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "In limited play (a way of playing in which each player gets the same quantity of unopened Magic product such as booster packs and creates their own deck using only this product and basic land cards), each deck old_start must contain at least forty old_end cards. A limited deck may contain as many duplicates of a card as are included with the product.",
+            "ruleNum": "100.2b"
+        },
+        "new": {
+            "ruleText": "In limited play (a way of playing in which each player gets the same quantity of unopened Magic product such as booster packs and creates their own deck using only this product and basic land cards), each deck new_start has a minimum deck size of 40 new_end cards. A limited deck may contain as many duplicates of a card as are included with the product.",
+            "ruleNum": "100.2b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Commander decks are subject to additional deckbuilding restrictions and requirements. See rule 903, \u201cCommander,\u201d for details.",
+            "ruleNum": "100.2c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "There is no maximum deck old_start size. old_end",
+            "ruleNum": "100.5"
+        },
+        "new": {
+            "ruleText": "new_start If a deck must contain at least a certain number of cards, that number is referred to as a minimum deck size. new_end There is no maximum deck new_start size for non\u2013Commander decks. new_end",
+            "ruleNum": "100.5"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player wishes to reveal a card with a companion ability that they own from outside the game, they may do so after setting aside their sideboard. A player may reveal no more than one card this way, and may do so only if their deck fulfills the condition of that card\u2019s companion ability. (See rule 702.138, \u201cCompanion.\u201d)",
+            "ruleNum": "103.1b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "In a Commander game, each player puts their commander from their deck face up into the command zone before shuffling. See rule 903.6.",
+            "ruleNum": "103.1b"
+        },
+        "new": {
+            "ruleText": "In a Commander game, each player puts their commander from their deck face up into the command zone new_start after having the opportunity to reveal a card with a companion ability and new_end before shuffling. See rule 903.6.",
+            "ruleNum": "103.1c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Aura spells are always targeted. old_start These are the only permanent spells with targets. old_end An Aura\u2019s target is specified by its enchant keyword ability (see rule 702.5, \u201cEnchant\u201d). The old_start target(s) are old_end chosen as the spell is cast; see rule 601.2c. An Aura permanent doesn\u2019t target anything; only the spell is targeted. (An activated or triggered ability of an Aura permanent can also be targeted.)",
+            "ruleNum": "115.1b"
+        },
+        "new": {
+            "ruleText": "Aura spells are always targeted. An Aura\u2019s target is specified by its enchant keyword ability (see rule 702.5, \u201cEnchant\u201d). The new_start target is new_end chosen as the spell is cast; see rule 601.2c. An Aura permanent doesn\u2019t target anything; only the spell is targeted. (An activated or triggered ability of an Aura permanent can also be targeted.)",
+            "ruleNum": "115.1b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some keyword abilities, such as equip and old_start provoke, old_end represent targeted activated or triggered old_start abilities. old_end In those cases, the phrase \u201ctarget [something]\u201d appears in the rule for that keyword ability rather than in the ability itself. (The keyword\u2019s reminder text will often contain the word \u201ctarget.\u201d) See rule 702, \u201cKeyword Abilities.\u201d",
+            "ruleNum": "115.1e"
+        },
+        "new": {
+            "ruleText": "Some keyword abilities, such as equip and new_start modular, new_end represent targeted activated or triggered new_start abilities, and some keyword abilities, such as mutate, cause spells to have targets. new_end In those cases, the phrase \u201ctarget [something]\u201d appears in the rule for that keyword ability rather than in the ability itself. (The keyword\u2019s reminder text will often contain the word \u201ctarget.\u201d) See rule 702, \u201cKeyword Abilities.\u201d",
+            "ruleNum": "115.1e"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Damage is processed in a old_start three\u2013part old_end sequence.",
+            "ruleNum": "120.4"
+        },
+        "new": {
+            "ruleText": "Damage is processed in a new_start four\u2013part new_end sequence.",
+            "ruleNum": "120.4"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "First, if an effect is causing damage to be dealt to a creature and that effect specifies that excess damage is dealt to another object or player instead, the damage event is modified to deal damage accordingly. Excess damage is damage greater than the creature\u2019s toughness, taking into account damage marked on that creature and other damage being dealt to it at the same time as this damage. Any damage greater than 1 is excess damage if the source dealing that damage has deathtouch.",
+            "ruleNum": "120.4a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start First, old_end damage is dealt, as modified by replacement and prevention effects that interact with damage. (See rule 614, \u201cReplacement Effects,\u201d and rule 615, \u201cPrevention Effects.\u201d) Abilities that trigger when damage is dealt trigger now and wait to be put on the stack.",
+            "ruleNum": "120.4a"
+        },
+        "new": {
+            "ruleText": "new_start Second, new_end damage is dealt, as modified by replacement and prevention effects that interact with damage. (See rule 614, \u201cReplacement Effects,\u201d and rule 615, \u201cPrevention Effects.\u201d) Abilities that trigger when damage is dealt trigger now and wait to be put on the stack.",
+            "ruleNum": "120.4b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start Next, old_end damage that\u2019s been dealt is processed into its results, as modified by replacement effects that interact with those results (such as life loss or counters).",
+            "ruleNum": "120.4b"
+        },
+        "new": {
+            "ruleText": "new_start Third, new_end damage that\u2019s been dealt is processed into its results, as modified by replacement effects that interact with those results (such as life loss or counters).",
+            "ruleNum": "120.4c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A keyword counter on a permanent or on a card in a zone other than the battlefield causes that object to gain that keyword. The keywords that a keyword counter can be are flying, first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance, as well as any variants of those keywords. See rule 613.1f.",
+            "ruleNum": "122.1b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a triggered ability instructs a player to \u201cput those counters\u201d or to \u201cput [an object\u2019s] counters\u201d on another object and that ability\u2019s trigger condition or effect checks that the object with those counters left the battlefield, that player puts a number of counters on the second object of each kind the first object had before it left the battlefield. The player doesn\u2019t move counters from one object to another.",
+            "ruleNum": "122.8"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Some promotional versions of Ikoria\u2122: Lair of Behemoths cards feature a name other than their own in the upper left corner, with their normal name in a secondary title bar below it. These cards have only the card name specified in the secondary title bar, not the name printed where a card\u2019s name would normally appear.",
+            "ruleNum": "201.5"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        },
+        "new": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, new_start Lukka, new_end Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, new_start Otter, new_end Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, new_start Shark, new_end Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words \u201cbasic land type,\u201d it\u2019s referring to one of these subtypes. old_start A old_end land old_start with old_end a basic land type has the intrinsic ability \u201c{T}: Add [mana symbol],\u201d even if the text box doesn\u2019t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, \u201cMana Abilities.\u201d",
+            "ruleNum": "305.6"
+        },
+        "new": {
+            "ruleText": "The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words \u201cbasic land type,\u201d it\u2019s referring to one of these subtypes. new_start An object with the new_end land new_start card type and new_end a basic land type has the intrinsic ability \u201c{T}: Add [mana symbol],\u201d even if the text box doesn\u2019t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, \u201cMana Abilities.\u201d",
+            "ruleNum": "305.6"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an object in the command zone is put into the command zone, it doesn\u2019t change zones, but it becomes a new object that has just entered the command zone.",
+            "ruleNum": "400.10"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start If an ability causes a player to \u201cchoose a [value]\u201d and a second, linked ability refers to that choice, the second ability is the only ability that can refer to that choice. An object doesn\u2019t \u201cremember\u201d that choice and use it for other abilities it may copy later. old_end If an object old_start copies old_end an ability that refers to a choice, but either (a) doesn\u2019t copy that ability\u2019s linked ability or (b) does copy the linked ability but no choice is made for it, then the choice is considered to be \u201cundefined.\u201d If an ability refers to an undefined choice, that part of the ability won\u2019t do anything.",
+            "ruleNum": "706.7a"
+        },
+        "new": {
+            "ruleText": "If an object new_start gains new_end an ability that refers to a choice, but either (a) doesn\u2019t copy that ability\u2019s linked ability or (b) does copy the linked ability but no choice is made for it, then the choice is considered to be \u201cundefined.\u201d If an ability refers to an undefined choice, that part of the ability won\u2019t do anything.",
+            "ruleNum": "607.5a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If the object that\u2019s resolving is a permanent spell, its resolution involves a single step (unless it\u2019s an old_start Aura). old_end The spell card becomes a permanent and is put onto the battlefield under the control of the spell\u2019s controller.",
+            "ruleNum": "608.3"
+        },
+        "new": {
+            "ruleText": "If the object that\u2019s resolving is a permanent spell, its resolution involves a single step (unless it\u2019s an new_start Aura or a mutating creature spell). new_end The spell card becomes a permanent and is put onto the battlefield under the control of the spell\u2019s controller.",
+            "ruleNum": "608.3"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If the object that\u2019s resolving is a mutating creature spell, its resolution involves two steps. First, it checks whether the target creature with the same owner as the spell is still legal. If so, the spell card merges with that permanent. Otherwise, it becomes a creature spell and is put onto the battlefield under the control of the spell\u2019s controller. (See rule 702.139, \u201cMutate.\u201d)",
+            "ruleNum": "608.3b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer old_start 1: Copy old_end effects are applied. See rule 706, \u201cCopying Objects.\u201d",
+            "ruleNum": "613.1a"
+        },
+        "new": {
+            "ruleText": "Layer 1: Rules and effects that modify copiable values are applied.",
+            "ruleNum": "613.1a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer 6: Ability\u2013adding effects, ability\u2013removing effects, and effects that say an object can\u2019t have an ability are applied.",
+            "ruleNum": "613.1f"
+        },
+        "new": {
+            "ruleText": "Layer 6: Ability\u2013adding effects, new_start keyword counters, new_end ability\u2013removing effects, and effects that say an object can\u2019t have an ability are applied.",
+            "ruleNum": "613.1f"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Within layer 1, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order (see rule 613.7). Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.8.)",
+            "ruleNum": "613.2"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 706, \u201cCopying Objects\u201d) and changes to an object\u2019s base characteristics determined by merging an object with a permanent (see rule 721, \u201cMerging with Permanents\u201d).",
+            "ruleNum": "613.2a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Layer 1b: Face\u2013down spells and permanents have their characteristics modified as defined in rule 707.2.",
+            "ruleNum": "613.2b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "After all rules and effects in layer 1 have been applied, the object\u2019s characteristics are its copiable values. (See rule 706.2.)",
+            "ruleNum": "613.2c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Within layers old_start 1\u20136, old_end apply effects from characteristic\u2013defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)",
+            "ruleNum": "613.2"
+        },
+        "new": {
+            "ruleText": "Within layers new_start 2\u20136, new_end apply effects from characteristic\u2013defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.7). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.8.)",
+            "ruleNum": "613.3"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer old_start 7d: Power old_end and/or toughness old_start changes from counters old_end are applied. See rule 122, \u201cCounters.\u201d",
+            "ruleNum": "613.3d"
+        },
+        "new": {
+            "ruleText": "Layer new_start 7a: Effects from characteristic\u2013defining abilities that define power new_end and/or toughness are applied. See rule 604.3.",
+            "ruleNum": "613.4a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer 7c: Effects that modify power and/or toughness (but don\u2019t set power and/or toughness to a specific number or value) are applied.",
+            "ruleNum": "613.3c"
+        },
+        "new": {
+            "ruleText": "Layer 7c: Effects new_start and counters new_end that modify power and/or toughness (but don\u2019t set power and/or toughness to a specific number or value) are applied.",
+            "ruleNum": "613.4c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer old_start 7e: old_end Effects that switch a creature\u2019s power and toughness are applied. Such effects take the value of power and apply it to the creature\u2019s toughness, and take the value of toughness and apply it to the creature\u2019s power.",
+            "ruleNum": "613.3e"
+        },
+        "new": {
+            "ruleText": "Layer new_start 7d: new_end Effects that switch a creature\u2019s power and toughness are applied. Such effects take the value of power and apply it to the creature\u2019s toughness, and take the value of toughness and apply it to the creature\u2019s power.",
+            "ruleNum": "613.4d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Each counter receives a timestamp as it\u2019s put on an object or player. If that object or player already has a counter of that kind on it, each counter of that kind receives a new timestamp identical to that of the new counter.",
+            "ruleNum": "613.7c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An Aura, Equipment, or Fortification receives a new timestamp old_start at the old_end time it becomes attached to an object or player.",
+            "ruleNum": "613.6d"
+        },
+        "new": {
+            "ruleText": "An Aura, Equipment, or Fortification receives a new timestamp new_start each new_end time it becomes attached to an object or player.",
+            "ruleNum": "613.7e"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A permanent receives a new timestamp old_start at the old_end time it turns face up or face down.",
+            "ruleNum": "613.6e"
+        },
+        "new": {
+            "ruleText": "A permanent receives a new timestamp new_start each new_end time it turns face up or face down.",
+            "ruleNum": "613.7f"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A double\u2013faced permanent receives a new timestamp old_start at the time old_end it transforms.",
+            "ruleNum": "613.6f"
+        },
+        "new": {
+            "ruleText": "A double\u2013faced permanent receives a new timestamp new_start each new_end it transforms.",
+            "ruleNum": "613.7g"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player old_start determines their old_end relative timestamp order old_start at old_end that old_start time. old_end",
+            "ruleNum": "613.6j"
+        },
+        "new": {
+            "ruleText": "If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, new_start their relative timestamps are determined in APNAP order (see rule 101.4). Objects controlled by new_end the active player new_start (or owned by the active player, if they have no controller) have an earlier new_end relative timestamp new_start in the new_end order new_start of new_end that new_start player\u2019s choice, followed by each other player in turn order. new_end",
+            "ruleNum": "613.7k"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An effect is said to \u201cdepend on\u201d another if (a) it\u2019s applied in the same layer (and, if applicable, sublayer) as the other old_start effect (see rules 613.1 and 613.3); old_end (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic\u2013defining ability or both effects are from characteristic\u2013defining abilities. Otherwise, the effect is considered to be independent of the other effect.",
+            "ruleNum": "613.7a"
+        },
+        "new": {
+            "ruleText": "An effect is said to \u201cdepend on\u201d another if (a) it\u2019s applied in the same layer (and, if applicable, sublayer) as the other new_start effect; new_end (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic\u2013defining ability or both effects are from characteristic\u2013defining abilities. Otherwise, the effect is considered to be independent of the other effect.",
+            "ruleNum": "613.8a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A replacement effect doesn\u2019t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace old_start it. old_end",
+            "ruleNum": "614.5"
+        },
+        "new": {
+            "ruleText": "A replacement effect doesn\u2019t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace new_start that event. new_end",
+            "ruleNum": "614.5"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An effect may state that \u201cthe same is true for\u201d a list of keyword old_start abilities. old_end If one of those keyword abilities has variants or variables and the effect grants that keyword to one or more objects and/or players, it grants each appropriate variant and variable of that keyword.",
+            "ruleNum": "702.1c"
+        },
+        "new": {
+            "ruleText": "An effect may state that \u201cthe same is true for\u201d a list of keyword new_start abilities or similar. new_end If one of those keyword abilities has variants or variables and the effect grants new_start that keyword or counters of new_end that keyword to one or more objects and/or players, it grants each appropriate variant and variable of that keyword.",
+            "ruleNum": "702.1c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any old_start remaining old_end damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that\u2019s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that\u2019s actually dealt. The attacking creature\u2019s controller need not assign lethal damage to all those blocking creatures but in that case can\u2019t assign any damage to the player or planeswalker it\u2019s attacking.",
+            "ruleNum": "702.19b"
+        },
+        "new": {
+            "ruleText": "The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. Once all those blocking creatures are assigned lethal damage, any new_start excess new_end damage is assigned as its controller chooses among those blocking creatures and the player or planeswalker the creature is attacking. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures that\u2019s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that\u2019s actually dealt. The attacking creature\u2019s controller need not assign lethal damage to all those blocking creatures but in that case can\u2019t assign any damage to the player or planeswalker it\u2019s attacking.",
+            "ruleNum": "702.19b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been old_start cast. old_end When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders old_start separately. See old_end rule 903.11a.",
+            "ruleNum": "702.123d"
+        },
+        "new": {
+            "ruleText": "Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been new_start cast (see rule 903.6). new_end When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders new_start separately (see new_end rule 903.10a).",
+            "ruleNum": "702.123d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Companion is a keyword ability that functions outside the game. It\u2019s written as \u201cCompanion\u2014[Condition].\u201d Before the game begins, you may reveal one card you own from outside the game with a companion ability whose condition is fulfilled by your starting deck. (See rule 103.1b.) If you do, once during that game, you may play that card from outside the game.",
+            "ruleNum": "702.138a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a companion ability refers to your starting deck, it refers to your deck after you\u2019ve set aside any sideboard cards. In a Commander game, this is also before you\u2019ve set aside your commander.",
+            "ruleNum": "702.138b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Once you play the card with companion, it remains in the game until the game ends.",
+            "ruleNum": "702.138c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Mutate appears on some creature cards. It represents a static ability that functions while the spell with mutate is on the stack. \u201cMutate [cost]\u201d means \u201cYou may pay [cost] rather than pay this spell\u2019s mana cost. If you do, it becomes a mutating creature spell and targets a non\u2013Human creature with the same owner as this spell.\u201d Casting a spell using its mutate ability follows the rules for paying alternative costs (see 601.2b and 601.2f\u2013h).",
+            "ruleNum": "702.139a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "As a mutating creature spell begins resolving, if its target is illegal, it ceases to be a mutating creature spell and continues resolving as a creature spell and will be put onto the battlefield under the control of the spell\u2019s controller.",
+            "ruleNum": "702.139b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "As a mutating creature spell resolves, if its target is legal, it doesn\u2019t enter the battlefield. Rather, it merges with the target creature and becomes one object represented by more than one card or token (see rule 721, \u201cMerging with Permanents\u201d). The spell\u2019s controller chooses whether the spell is put on top of the creature or on the bottom. The resulting permanent is a mutated permanent.",
+            "ruleNum": "702.139c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "An ability that triggers whenever a creature mutates triggers when a spell merges with a creature as a result of a resolving mutating creature spell.",
+            "ruleNum": "702.139d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A mutated permanent has all abilities of each card and token that represents it. Its other characteristics are derived from the topmost card or token.",
+            "ruleNum": "702.139e"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Any effect that refers to or modifies the mutating creature spell refers to or modifies the mutated permanent it merges with as it resolves.",
+            "ruleNum": "702.139f"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a creature has toughness greater than 0, and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.",
+            "ruleNum": "704.5g"
+        },
+        "new": {
+            "ruleText": "If a creature has toughness greater than 0, new_start it has damage marked on it, new_end and the total damage marked on it is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed. Regeneration can replace this event.",
+            "ruleNum": "704.5g"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "When copying an object, the copy acquires the copiable values of the original object\u2019s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The old_start \u201ccopiable values\u201d old_end are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face\u2013down status, and by \u201cas . . . enters the battlefield\u201d and \u201cas . . . is turned face up\u201d abilities that set power and toughness (and may also set additional characteristics). Other effects (including type\u2013changing and text\u2013changing effects), status, and counters are not copied.",
+            "ruleNum": "706.2"
+        },
+        "new": {
+            "ruleText": "When copying an object, the copy acquires the copiable values of the original object\u2019s characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The new_start copiable values new_end are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face\u2013down status, and by \u201cas . . . enters the battlefield\u201d and \u201cas . . . is turned face up\u201d abilities that set power and toughness (and may also set additional characteristics). Other effects (including type\u2013changing and text\u2013changing effects), status, and counters are not copied.",
+            "ruleNum": "706.2"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "The mana cost of a split card is the combined mana costs of its two halves. A split card\u2019s colors and converted mana cost are determined from its combined mana cost.",
+            "ruleNum": "708.4b"
+        },
+        "new": {
+            "ruleText": "The mana cost of a split card is the combined mana costs of its two halves. A split card\u2019s colors and converted mana cost are determined from its combined mana cost. new_start An effect that refers specifically to the symbols in a split card\u2019s mana cost sees the separate symbols rather than the whole mana cost. new_end",
+            "ruleNum": "708.4b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "One keyword causes an object to merge with a permanent. See rule 702.139, \u201cMutate.\u201d",
+            "ruleNum": "721.1"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card that represented that object in addition to any other components that were representing it.",
+            "ruleNum": "721.2"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A merged permanent has only the characteristics of its topmost component, unless otherwise specified by the effect that caused them to merge. This is a copiable effect whose timestamp is the time the objects merged. (See rule 613.2.)",
+            "ruleNum": "721.2a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "As an object merges with a permanent, that object leaves its previous zone and becomes part of an object on the battlefield, but the resulting permanent isn\u2019t considered to have just entered the battlefield.",
+            "ruleNum": "721.2b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Because a merged permanent is the same object that it was before, it hasn\u2019t just come under a player\u2019s control, any continuous effects that affected it continue to do so, and so on.",
+            "ruleNum": "721.2c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent contains a token, the resulting permanent is a token only if the topmost component is a token.",
+            "ruleNum": "721.2d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent contains face\u2013up and face\u2013down components, the permanent\u2019s status is determined by its topmost component. If a face\u2013down permanent becomes a face\u2013up permanent as a result of an object merging with it, other effects don\u2019t count it as being turned face up.",
+            "ruleNum": "721.2e"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent is turned face down, each face\u2013up component that represents it is turned face down. If a face\u2013down merged permanent is turned face up, each face\u2013down component that represents it is turned face up.",
+            "ruleNum": "721.2f"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A face\u2013down merged permanent that contains an instant or sorcery card can\u2019t be turned face up. If such a permanent would turn face up, its controller reveals it and leaves it face down. Abilities that trigger when a permanent is turned face up won\u2019t trigger.",
+            "ruleNum": "721.2g"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent contains a flip card (see rule 709), that component\u2019s alternative characteristics are used instead of its normal characteristics if the merged permanent is flipped.",
+            "ruleNum": "721.2h"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent contains one or more double\u2013faced cards (see rule 711), transforming that permanent causes each of those double\u2013faced cards to turn so that its other face is up.",
+            "ruleNum": "721.2i"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A face\u2013up merged permanent that contains a double\u2013faced card or meld card can\u2019t be turned face down.",
+            "ruleNum": "721.2j"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent leaves the battlefield, one permanent leaves the battlefield and each of the individual components are put into the appropriate zone.",
+            "ruleNum": "721.3"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a merged permanent is put into its owner\u2019s graveyard or library, that player may arrange the new objects in any order. If it\u2019s put into its owner\u2019s library, that player doesn\u2019t reveal the order.",
+            "ruleNum": "721.3a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player exiles a merged permanent, that player determines the relative timestamp order of the cards at that time. This is an exception to the procedure described in rule 613.7k.",
+            "ruleNum": "721.3b"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If an effect can find the new object that a merged permanent becomes as it leaves the battlefield, it finds all of those objects. (See rule 400.7.) If that effect causes actions to be taken upon those objects, the same actions are taken upon each of them.",
+            "ruleNum": "721.3c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If multiple replacement effects could be applied to the event of a merged permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to one of the objects affects all of the objects. If the merged permanent is a commander, it may be exempt from this rule; see rule 903.9a.",
+            "ruleNum": "721.3d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player\u2019s commander is a component of a merged permanent, the resulting merged permanent is that player\u2019s commander.",
+            "ruleNum": "903.3c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Each deck must contain exactly 100 cards, including its commander.",
+            "ruleNum": "903.5a"
+        },
+        "new": {
+            "ruleText": "Each deck must contain exactly 100 cards, including its commander. new_start In other words, the minimum deck size and the maximum deck size are both 100. new_end",
+            "ruleNum": "903.5a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a commander is a melded permanent and its owner chooses to put it into the command zone this way, that permanent and old_start the card old_end representing it that isn\u2019t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone.",
+            "ruleNum": "903.9a"
+        },
+        "new": {
+            "ruleText": "If a commander is a melded new_start permanent or a merged new_end permanent and its owner chooses to put it into the command zone this way, that permanent and new_start each component new_end representing it that isn\u2019t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone.",
+            "ruleNum": "903.9a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a player is allowed to bring a card from outside the game into a Commander game, that player can\u2019t bring a card into the game this way if it has the same name as a card that player had in their starting deck, if it has the same name as a card that the player has already brought into the game, or if any color in its color identity isn\u2019t in the color identity of the player\u2019s commander.",
+            "ruleNum": "903.11"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A player\u2019s deck must contain exactly 60 cards, including its commander.",
+            "ruleNum": "903.11d"
+        },
+        "new": {
+            "ruleText": "A player\u2019s deck must contain exactly 60 cards, including its commander. new_start In other words, the minimum deck size and the maximum deck size are both 60. new_end",
+            "ruleNum": "903.12d"
+        }
+    }
+]

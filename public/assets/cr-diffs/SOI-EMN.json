@@ -1,0 +1,592 @@
+[
+    {
+        "names": {
+            "old_full": "Shadows over Innistrad",
+            "new_full": "Eldritch Moon",
+            "new_setcode": "EMN",
+            "old_setcode": "SOI"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "103.1a",
+            "ruleText": "If a player is using a sideboard (see rule 100.4) or cards being represented by checklist cards (see rule 713), those cards are set aside before shuffling."
+        },
+        "old": {
+            "ruleNum": "103.1a",
+            "ruleText": "If a player is using a sideboard (see rule 100.4) or old_start double\u2013faced old_end cards being represented by checklist cards (see rule 711.3), those cards are set aside before shuffling."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "201.3",
+            "ruleText": "If an effect instructs a player to name a card, the player must choose the name of a card that is legal in the format of the game the player is playing. (See rule 100.6.) A player may not choose the name of a token unless it\u2019s also the name of a card."
+        },
+        "old": {
+            "ruleNum": "201.3",
+            "ruleText": "If an effect instructs a player to name a card, the player must choose the name of a card that old_start exists in the Oracle card reference (see rule 108.1) and old_end is legal in the format of the game the player is playing. (See rule 100.6.) old_start If the player wants to name a split card, the player must choose the name of one of its halves, but not both. (See rule 708.) If the player wants to name a flip card\u2019s alternative name, the player may do so. (See rule 709.) If the player wants to name the back face of a double\u2013faced card, the player may do so. (See rule 711.) old_end A player may not choose the name of a token unless it\u2019s also the name of a card."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "201.3a",
+            "ruleText": "If a player wants to name a split card, the player must choose the name of one of its halves, but not both. (See rule 708.)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "201.3b",
+            "ruleText": "If a player wants to name a flip card\u2019s alternative name, the player may do so. (See rule 709.)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "201.3c",
+            "ruleText": "If a player wants to name the back face of a double\u2013faced card, the player may do so. (See rule 711.)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "201.3d",
+            "ruleText": "If a player wants to name the combined back face of a meld pair, the player may do so. (See rule 712.)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "202.3a",
+            "ruleText": "The converted mana cost of an object with no mana cost is 0, unless that object is the back face of a double\u2013faced new_start permanent or is a melded new_end permanent."
+        },
+        "old": {
+            "ruleNum": "202.3a",
+            "ruleText": "The converted mana cost of an object with no mana cost is 0, unless that object is the back face of a double\u2013faced permanent."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "202.3c",
+            "ruleText": "The converted mana cost of a melded permanent is calculated as though it had the combined mana cost of the front faces of each card that represents it. If a permanent is a copy of a melded permanent (even if that copy is represented by two other meld cards), the converted mana cost of the copy is 0."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "401.4",
+            "ruleText": "If an effect puts two or more cards new_start in a specific position in new_end a library at the same time, the owner of those cards may arrange them in any order. That library\u2019s owner doesn\u2019t reveal the order in which the cards go into his or her library."
+        },
+        "old": {
+            "ruleNum": "401.4",
+            "ruleText": "If an effect puts two or more cards old_start on the top or bottom of old_end a library at the same time, the owner of those cards may arrange them in any order. That library\u2019s owner doesn\u2019t reveal the order in which the cards go into his or her library."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "500.7",
+            "ruleText": "Some effects can give a player extra turns. They do this by adding the turns directly after the new_start specified new_end turn. If a player is given multiple extra turns, the extra turns are added one at a time. If multiple players are given extra turns, the extra turns are added one at a time, in APNAP order (see rule 101.4). The most recently created turn will be taken first."
+        },
+        "old": {
+            "ruleNum": "500.7",
+            "ruleText": "Some effects can give a player extra turns. They do this by adding the turns directly after the old_start current old_end turn. If a player is given multiple extra turns, the extra turns are added one at a time. If multiple players are given extra turns, the extra turns are added one at a time, in APNAP order (see rule 101.4). The most recently created turn will be taken first."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "508.4a",
+            "ruleText": "If the effect that new_start puts new_end a creature onto the battlefield attacking specifies it\u2019s attacking a certain player, and that player is no longer in the game when the effect resolves, the creature is put onto the battlefield but is never considered an attacking creature. The same is true if the effect specifies a creature is put onto the battlefield attacking a planeswalker and that planeswalker is no longer on the battlefield or is no longer a planeswalker when the effect resolves."
+        },
+        "old": {
+            "ruleNum": "508.4a",
+            "ruleText": "If the effect that old_start put old_end a creature onto the battlefield attacking specifies it\u2019s attacking a certain player, and that player is no longer in the game when the effect resolves, the creature is put onto the battlefield but is never considered an attacking creature. The same is true if the effect specifies a creature is put onto the battlefield attacking a planeswalker and that planeswalker is no longer on the battlefield or is no longer a planeswalker when the effect resolves."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "508.4b",
+            "ruleText": "A creature that\u2019s put onto the battlefield attacking isn\u2019t affected by requirements or restrictions that apply to the declaration of attackers."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "509.7a",
+            "ruleText": "If the effect that puts a creature onto the battlefield blocking specifies it\u2019s blocking a certain creature and that creature is no longer attacking, the creature is put onto the battlefield but is never considered a blocking creature. The same is true if the controller of the creature that\u2019s put onto the battlefield blocking isn\u2019t a defending player for the specified attacking creature."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "509.7b",
+            "ruleText": "A creature that\u2019s put onto the battlefield blocking isn\u2019t affected by requirements or restrictions that apply to the declaration of blockers."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "601.2",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a\u2013d) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this new_start process (see rule 601.3), new_end ignoring any effect that would prohibit that spell from being cast based on information determined during that spell\u2019s proposal. (Such effects are considered during the check detailed in rule 601.2e.) If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 719, \u201cHandling Illegal Actions\u201d)."
+        },
+        "old": {
+            "ruleNum": "601.2",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a\u2013d) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this old_start process, old_end ignoring any effect that would prohibit that spell from being cast based on information determined during that spell\u2019s proposal. (Such effects are considered during the check detailed in rule 601.2e.) If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 717, \u201cHandling Illegal Actions\u201d)."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "601.3",
+            "ruleText": "A player can\u2019t begin to cast a spell unless a rule or effect allows that player to cast it. If that player is no longer allowed to cast that spell after completing its proposal, the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 719, \u201cHandling Illegal Actions\u201d)."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "601.3a",
+            "ruleText": "If an effect allows a player to cast a spell as though it had flash only if an alternative or additional cost is paid, that player may begin to cast that spell as though it had flash."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "601.3b",
+            "ruleText": "If an effect allows a player to cast a spell with certain characteristics as though it had flash, that player may consider any choices to be made during that spell\u2019s proposal that may cause it to have those characteristics. If any such choices could cause it to match these characteristics, that player may begin to cast that spell."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "605.3c",
+            "ruleText": "Once a player begins to activate a mana ability, that ability can\u2019t be activated again until it has resolved."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "608.2g",
+            "ruleText": "If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability new_start itself, new_end the effect uses the current information of that object if it\u2019s in the public zone it was expected to be in; if it\u2019s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object\u2019s last known information. See rule 112.7a. If an ability states that an object does something, it\u2019s the object as it exists\u2013or as it most recently existed\u2013that does it, not the ability."
+        },
+        "old": {
+            "ruleNum": "608.2g",
+            "ruleText": "If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability old_start itself or a target that\u2019s become illegal, old_end the effect uses the current information of that object if it\u2019s in the public zone it was expected to be in; if it\u2019s no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object\u2019s last known information. See rule 112.7a. If an ability states that an object does something, it\u2019s the object as it exists\u2013or as it most recently existed\u2013that does it, not the ability."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "614.12a",
+            "ruleText": "new_start If a replacement new_end effect that modifies how a permanent enters the new_start battlefield requires new_end a new_start choice, that new_end choice new_start is made before the new_end permanent new_start enters new_end the battlefield."
+        },
+        "old": {
+            "ruleNum": "614.13a",
+            "ruleText": "old_start When applying an old_end effect that modifies how a permanent enters the old_start battlefield, you can\u2019t make old_end a choice old_start that would cause that old_end permanent old_start to go to a different zone and not enter old_end the battlefield."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "614.13a",
+            "ruleText": "While applying an effect that modifies how a permanent enters the battlefield, you may have to choose a number of objects that will also change zones. You can\u2019t choose the object that will become that permanent or any other object entering the battlefield at the same time as that object."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "700.2d",
+            "ruleText": "If new_start a player is allowed to choose more than one mode for a modal spell or ability, that player normally can\u2019t choose the same mode more than once. However, a few modal spells include the instruction \u201cYou may choose the same mode more than once.\u201d If new_end a particular mode new_start is new_end chosen new_start multiple times, the spell is treated as if that mode appeared that many times in sequence. If new_end that mode requires a target, the same player or object may be chosen as the target for each of those modes, or different targets may be chosen."
+        },
+        "old": {
+            "ruleNum": "700.2d",
+            "ruleText": "If old_start an effect allows old_end a particular mode old_start to be old_end chosen old_start more than once and old_end that mode requires a target, the same player or object may be chosen as the target for each of those modes, or different targets may be chosen."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.16b",
+            "ruleText": "Some effects cause a player to search a library for a card or cards, shuffle that library, then put the found card or cards in a certain position in that library. Even though the found card or cards never leave that library, they aren\u2019t included in the shuffle. Rather, all the cards in that library except those are shuffled. Abilities that trigger when a library is shuffled will still trigger. new_start See also rule 401, \u201cLibrary.\u201d new_end"
+        },
+        "old": {
+            "ruleNum": "701.16b",
+            "ruleText": "Some effects cause a player to search a library for a card or cards, shuffle that library, then put the found card or cards in a certain position in that library. Even though the found card or cards never leave that library, they aren\u2019t included in the shuffle. Rather, all the cards in that library except those are shuffled. Abilities that trigger when a library is shuffled will still trigger."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.34a",
+            "ruleText": "Meld is a keyword action that appears in an ability on one card in a meld pair. (See rule 712, \u201cMeld Cards.\u201d) To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined. The resulting permanent is a single object represented by two cards."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "701.34b",
+            "ruleText": "Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren\u2019t meld cards, or meld cards that don\u2019t form a meld pair can\u2019t be melded."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "701.34c",
+            "ruleText": "If an effect instructs a player to meld cards that can\u2019t be melded, they stay in their current zone."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.5b",
+            "ruleText": "For more information new_start about new_end Auras, see rule 303, \u201cEnchantments.\u201d"
+        },
+        "old": {
+            "ruleNum": "702.5b",
+            "ruleText": "For more information old_start on old_end Auras, see rule 303, \u201cEnchantments.\u201d"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.8a",
+            "ruleText": "new_start Flash new_end is a static ability that functions in any zone from which new_start you could play new_end the card new_start it\u2019s on. \u201cFlash\u201d new_end means \u201cYou may new_start play new_end this card any time you could cast an new_start instant.\u201d new_end"
+        },
+        "old": {
+            "ruleNum": "702.47a",
+            "ruleText": "old_start Offering old_end is a static ability old_start of a card old_end that functions in any zone from which the card old_start can be cast. \u201c[Subtype] offering\u201d old_end means \u201cYou may old_start cast old_end this card any time you could cast an old_start instant by sacrificing a [subtype] permanent. If you do, the total cost to cast this card is reduced by the sacrificed permanent\u2019s mana cost.\u201d old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.36f",
+            "ruleText": "See rule 707, \u201cFace\u2013Down Spells and Permanents,\u201d for more information new_start about new_end how to cast cards with a morph ability."
+        },
+        "old": {
+            "ruleNum": "702.36f",
+            "ruleText": "See rule 707, \u201cFace\u2013Down Spells and Permanents,\u201d for more information old_start on old_end how to cast cards with a morph ability."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.47a",
+            "ruleText": "Offering is a static ability that functions while the spell with offering is on the stack. \u201c[Subtype] offering\u201d means \u201cAs an additional cost to cast this spell, you may sacrifice a [subtype] permanent. If you chose to pay the additional cost, this spell\u2019s total cost is reduced by the sacrificed permanent\u2019s mana cost, and you may cast this spell any time you could cast an instant.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.47b",
+            "ruleText": "new_start You choose which new_end permanent new_start to sacrifice as you make choices for new_end the spell (see rule 601.2b), and you sacrifice that permanent as you pay the total cost (see rule 601.2h)."
+        },
+        "old": {
+            "ruleNum": "702.47b",
+            "ruleText": "old_start The old_end permanent old_start is sacrificed at the same time old_end the spell old_start is announced old_end (see rule 601.2a). The total old_start cost of the spell is reduced by the sacrificed permanent\u2019s mana old_end cost (see rule 601.2f)."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.47c",
+            "ruleText": "Generic mana in the sacrificed permanent\u2019s mana cost reduces generic mana in the new_start spell\u2019s new_end total new_start cost. new_end Colored new_start and colorless new_end mana in the sacrificed permanent\u2019s mana cost reduces mana of the same new_start type new_end in new_start spell\u2019s new_end total new_start cost, and any new_end excess reduces that much generic mana in new_start spell\u2019s new_end total cost."
+        },
+        "old": {
+            "ruleNum": "702.47c",
+            "ruleText": "Generic mana in the sacrificed permanent\u2019s mana cost reduces generic mana in the total old_start cost to cast the card with offering. old_end Colored mana in the sacrificed permanent\u2019s mana cost reduces mana of the same old_start color old_end in old_start the old_end total old_start cost to cast the card with offering. Colored mana in the sacrificed permanent\u2019s mana cost that doesn\u2019t match colored mana in the colored mana cost of the card with offering, or is in old_end excess old_start of the card\u2019s colored mana cost, old_end reduces that much generic mana in old_start the old_end total cost."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.118a",
+            "ruleText": "Emerge represents two static abilities that function while the spell with emerge is on the stack. \u201cEmerge [cost]\u201d means \u201cYou may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost\u201d and \u201cIf you chose to pay this spell\u2019s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature\u2019s converted mana cost.\u201d Paying a card\u2019s emerge cost follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.118b",
+            "ruleText": "You choose which creature to sacrifice as you choose to pay a spell\u2019s emerge cost (see rule 601.2b), and you sacrifice that creature as you pay the total cost (see rule 601.2h)."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.119a",
+            "ruleText": "Escalate is a static ability of modal spells (see rule 700.2) that functions while the spell with escalate is on the stack. \u201cEscalate [cost]\u201d means \u201cFor each mode you choose beyond the first as you cast this spell, you pay an additional [cost].\u201d Paying a spell\u2019s escalate cost follows the rules for paying additional costs in rules 601.2f\u2013h."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "706.8",
+            "ruleText": "When copying a double\u2013faced new_start permanent, a face\u2013up meld card, or a melded new_end permanent, only the copiable values of the face that\u2019s currently up are copied. (See rule 711, \u201cDouble\u2013Faced new_start Cards,\u201d and rule 712, \u201cMeld new_end Cards.\u201d)"
+        },
+        "old": {
+            "ruleNum": "706.8",
+            "ruleText": "When copying a double\u2013faced permanent, only the copiable values of the face that\u2019s currently up are copied. (See rule 711, \u201cDouble\u2013Faced Cards.\u201d)"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "706.10d",
+            "ruleText": "Some effects copy a spell or ability for each player or object it \u201ccould target.\u201d The copies are put onto the stack with those targets in the order of their controller\u2019s choice. If the spell or ability has more than one target, each of its targets must be the same player or object. If that player or object isn\u2019t a legal target for each instance of the word \u201ctarget,\u201d a copy isn\u2019t created for that player or object."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "711.1a",
+            "ruleText": "A double\u2013faced card\u2019s new_start front new_end face is marked by a new_start front\u2013face new_end symbol in its upper left corner. new_start On Magic Origins double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. new_end On cards in the Innistrad block and Shadows over Innistrad set, new_start as well as on Ulrich of new_end the new_start Krallenhorde in the Eldritch Moon set, the front\u2013face new_end symbol is a new_start sun. new_end On new_start other Eldritch Moon new_end double\u2013faced cards, the new_start front\u2013face new_end symbol is a full new_start moon. new_end"
+        },
+        "old": {
+            "ruleNum": "711.1b",
+            "ruleText": "A double\u2013faced card\u2019s old_start back old_end face is marked by a old_start back\u2013face old_end symbol in its upper left corner. On cards in the Innistrad block and Shadows over Innistrad set, the old_start back\u2013face old_end symbol is a old_start crescent moon. old_end On old_start Magic Origins old_end double\u2013faced cards, the old_start back\u2013face old_end symbol is a full old_start Planeswalker icon. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "711.1b",
+            "ruleText": "A double\u2013faced card\u2019s new_start back new_end face is marked by a new_start back\u2013face new_end symbol in its upper left corner. new_start On Magic Origins double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. new_end On cards in the Innistrad block and Shadows over Innistrad set, new_start as well as on Ulrich, Uncontested Alpha in new_end the new_start Eldritch Moon set, the back\u2013face new_end symbol is a new_start crescent moon. new_end On new_start other Eldritch Moon new_end double\u2013faced cards, the new_start back\u2013face new_end symbol is a new_start stylized image of Emrakul. new_end"
+        },
+        "old": {
+            "ruleNum": "711.1a",
+            "ruleText": "A double\u2013faced card\u2019s old_start front old_end face is marked by a old_start front\u2013face old_end symbol in its upper left corner. On cards in the Innistrad block and Shadows over Innistrad set, the old_start front\u2013face old_end symbol is a old_start sun. old_end On old_start Magic Origins old_end double\u2013faced cards, the old_start front\u2013face old_end symbol is a old_start modified Planeswalker icon. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "711.1d",
+            "ruleText": "Meld cards have a Magic card face on one side and half of an oversized Magic card face on the other. These aren\u2019t double\u2013faced cards and are subject to their own set of rules. See rule 712, \u201cMeld Cards.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "711.3",
+            "ruleText": "Players must ensure that double\u2013faced cards in hidden zones are indistinguishable from other cards in the same zone. To do this, the owner of a double\u2013faced card may use completely opaque card sleeves or substitute a checklist new_start card (see rule 713). new_end Sanctioned tournaments have additional rules for playing with double\u2013faced cards. See rule 100.6."
+        },
+        "old": {
+            "ruleNum": "711.3",
+            "ruleText": "Players must ensure that double\u2013faced cards in hidden zones are indistinguishable from other cards in the same zone. To do this, the owner of a double\u2013faced card may use completely opaque card sleeves or substitute a checklist old_start card. old_end Sanctioned tournaments have additional rules for playing with double\u2013faced cards. See rule 100.6."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.1",
+            "ruleText": "A meld card has a Magic card face on one side and half of an oversized Magic card face on the other. It doesn\u2019t have a Magic card back."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.1a",
+            "ruleText": "There are three specific meld pairs. Each meld pair consists of two specific cards whose back faces combine to form one oversized Magic card face: Midnight Scavengers and Graf Rats meld to form Chittering Host; Hanweir Garrison and Hanweir Battlements meld to form Hanweir, the Writhing Township; and Bruna, the Fading Light and Gisela, the Broken Blade meld to form Brisela, Voice of Nightmares."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.1b",
+            "ruleText": "A meld card isn\u2019t a double\u2013faced card. It can\u2019t transform or enter the battlefield transformed. (See rule 711, \u201cDouble\u2013Faced Cards.\u201d)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.2",
+            "ruleText": "One card in each meld pair has an ability that exiles both that object and its counterpart and melds them. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined (see rule 701.34, \u201cMeld\u201d). The resulting permanent is a single object represented by two cards."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.3",
+            "ruleText": "The front face of each meld card and the combined face formed by a meld pair each has its own set of characteristics."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.3a",
+            "ruleText": "While a meld card is outside the game, in a zone other than the battlefield, or on the battlefield with its front face up, it has only the characteristics of its front face."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.3b",
+            "ruleText": "While the two cards of a meld pair are on the battlefield as a melded permanent, the object represented by those cards has only the characteristics of the combined back face, and its converted mana cost is the sum of the converted mana costs of its front faces. If a permanent is copying a melded permanent, the converted mana cost of the copy is 0. See rule 202.3c."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.3c",
+            "ruleText": "Anything that needs information about a meld card or a melded permanent sees only the information given by the face that is currently up."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.4",
+            "ruleText": "If a melded permanent leaves the battlefield, one permanent leaves the battlefield and two cards are put into the appropriate zone."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.4a",
+            "ruleText": "If a melded permanent is put into its owner\u2019s graveyard or library, that player may arrange the two cards in any order. If it\u2019s put into its owner\u2019s library, that player doesn\u2019t reveal the order."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.4b",
+            "ruleText": "If a player exiles a melded permanent, that player determines the relative timestamp order of the two cards at that time. This is an exception to the procedure described in rule 613.6j."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.4c",
+            "ruleText": "If an effect can find the new object that a melded permanent becomes as it leaves the battlefield, it finds both cards. (See rule 400.7.) If that effect causes actions to be taken upon those cards, the same actions are taken upon each of them."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.4d",
+            "ruleText": "If multiple replacement effects could be applied to the event of a melded permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to one of the two cards affects both cards. If the melded permanent is a commander, it may be exempt from this rule; see rule 903.9a."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.5",
+            "ruleText": "Players who are allowed to look at a meld card may look at its half of the combined back face. Players may access Oracle text for the other member of the meld pair and the combined face at any time (see rule 108.1)."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.6",
+            "ruleText": "Meld cards in a player\u2019s deck may be represented by checklist cards. See rule 713, \u201cChecklist Cards.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.7",
+            "ruleText": "If a meld card is cast as a spell, it\u2019s put on the stack with its front face up. See rule 601, \u201cCasting Spells.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.8",
+            "ruleText": "A meld card enters the battlefield with its front face up unless it\u2019s being melded with its counterpart."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.9",
+            "ruleText": "If an effect allows a player to cast a meld card as a face\u2013down spell, or if a meld card enters the battlefield face down, it will have the characteristics given to it by the rule or effect that caused it to be face down. That card remains hidden, using either a face\u2013down checklist card or opaque sleeves. See rule 707, \u201cFace\u2013Down Spells and Permanents.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.10",
+            "ruleText": "Meld cards on the battlefield and melded permanents can\u2019t be turned face down. If a spell or ability tries to turn such a permanent face down, nothing happens."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.11",
+            "ruleText": "If an effect instructs a player to name a card, the player may name the front face of a meld card or the combined back face of a meld pair."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "713.1",
+            "ruleText": "A checklist card is a game supplement that can be used to represent a double\u2013faced card or meld card."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "713.2",
+            "ruleText": "A checklist card has a normal Magic card back. The face of a checklist card is divided into sections. Each section lists the name and mana cost of each double\u2013faced card new_start or meld card new_end it could represent and includes a fill\u2013in circle. Before a checklist card can be used, exactly one of the fill\u2013in circles must be marked to denote which card the checklist card represents."
+        },
+        "old": {
+            "ruleNum": "711.3a",
+            "ruleText": "A checklist card has a normal Magic card back. The face of a checklist card is divided into sections. Each section lists the name and mana cost of each double\u2013faced card it could represent and includes a fill\u2013in circle. Before a checklist card can be used, exactly one of the fill\u2013in circles must be marked to denote which old_start double\u2013faced old_end card the checklist card represents."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "713.3",
+            "ruleText": "If a checklist card is used in a deck, the card it represents is set aside prior to the beginning of the game (see rule 103.1a) and must remain available throughout the game. A checklist card can\u2019t be included in a deck unless it is representing a double\u2013faced new_start card or a meld new_end card."
+        },
+        "old": {
+            "ruleNum": "711.3b",
+            "ruleText": "If a checklist card is used in a deck, the old_start double\u2013faced old_end card it represents is set aside prior to the beginning of the game (see rule 103.1a) and must remain available throughout the game. A checklist card can\u2019t be included in a deck unless it is representing a double\u2013faced card."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "713.4",
+            "ruleText": "For all game purposes, the checklist card is considered to be the card it\u2019s representing."
+        },
+        "old": {
+            "ruleNum": "711.3c",
+            "ruleText": "For all game purposes, the checklist card is considered to be the old_start double\u2013faced old_end card it\u2019s representing."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "713.5",
+            "ruleText": "If the checklist card is face up in a public zone, it should be set aside and the double\u2013faced card new_start or meld card that it represents should be new_end used instead."
+        },
+        "old": {
+            "ruleNum": "711.3d",
+            "ruleText": "If the checklist card is face up in a public zone, it should be set aside and the double\u2013faced card used instead."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "714.4",
+            "ruleText": "If information about an object new_start in the game new_end would be visible to the player being controlled, it\u2019s visible to both that player and the controller of the player. new_start If information about cards outside the game would be visible to the player being controlled, it\u2019s visible only to that player, not the controller of the player. new_end"
+        },
+        "old": {
+            "ruleNum": "712.4",
+            "ruleText": "If information about an object would be visible to the player being controlled, it\u2019s visible to both that player and the controller of the player."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "718.1a",
+            "ruleText": "The rules for taking shortcuts are largely new_start informal. new_end As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable."
+        },
+        "old": {
+            "ruleNum": "716.1a",
+            "ruleText": "The rules for taking shortcuts are largely old_start unformalized. old_end As long as each player in the game understands the intent of each other player, any shortcut system they use is acceptable."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "800.4i",
+            "ruleText": "If a player who has left the game would begin a turn, that turn doesn\u2019t begin."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "903.3b",
+            "ruleText": "If a player\u2019s commander is a meld card and it\u2019s melded with the other member of its meld pair, the resulting melded permanent is that player\u2019s commander."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "903.9a",
+            "ruleText": "If a commander is a melded permanent and its owner chooses to put it into the command zone this way, that permanent and the card representing it that isn\u2019t a commander are put into the appropriate zone, and the card that represents it and is a commander is put into the command zone."
+        },
+        "old": null
+    }
+]

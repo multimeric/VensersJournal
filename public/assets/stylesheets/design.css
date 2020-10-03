@@ -61,6 +61,14 @@ h5 {font-size: 1.2rem;}
   line-height: 3rem;
 }
 
+.dropdown {
+  list-style-type: none;
+}
+.dropdown-menu {
+  background-color: #343a40;
+  color: var(--cream);
+}
+
 a {
   color: #004ba1;
 }
@@ -147,4 +155,24 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
+}
+
+.nav-tabs {
+  font-size:1.728rem;
+  background-color: #343a40;
+  color: var(--cream);
+  font-family:"Oswald", sand-serif;
+}
+
+.nav-link.active {
+  background-color: var(--cream);
+  color: #343a40;
+}
+
+a.nav-link {
+  color: var(--cream);
+}
+
+a.nav-link:hover {
+  color: var(--white);
 }

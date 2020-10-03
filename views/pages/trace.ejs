@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <head>
+    <% include ../partials/head %>
+    <link href="/public/assets/stylesheets/rules.css" rel=stylesheet />
+    <script src="/public/assets/scripts/rules.js" type="text/javascript"></script>
+  </head>
+
+  <header>
+    <% include ../partials/header %>
+  </header>
+
+  <body>
+    <div class='container-fluid'>
+      <table>
+        <% for(var i = 0; i < trace.length; i++) { %>
+          <tr style="border-bottom: none;">
+            <th id='oldHeader' style="width: 50%"><%- trace[i].oldCr %></th>
+            <th id='newHeader' style="width: 50%"><%- trace[i].newCr %></th>
+          </tr>
+          <tr>
+          <% if(!trace[i].rule.new) { %>
+            <% trace[i].rule.old.ruleText = trace[i].rule.old.ruleText.replace(/old_start/g, '<span class=\'old\'>'); %>
+            <% trace[i].rule.old.ruleText = trace[i].rule.old.ruleText.replace(/ old_end/g, '</span> '); %>
+            <td class='remove'><b><%- trace[i].rule.old.ruleNum %></b><br><%= trace[i].rule.old.ruleText %></td>
+            <td></td>
+          <% } else if(!trace[i].rule.old) { %>
+            <td></td>
+            <% trace[i].rule.new.ruleText = trace[i].rule.new.ruleText.replace(/new_start/g, '<span class=\'new\'>'); %>
+            <% trace[i].rule.new.ruleText = trace[i].rule.new.ruleText.replace(/new_end/g, '</span> '); %>
+            <td class='add'><b><%- trace[i].rule.new.ruleNum %></b><br><%= trace[i].rule.new.ruleText %></td>
+          <% } else { %>
+            <% let oldMatches = trace[i].rule.old.ruleText.match(/(?:^.+these subtypes are called (.+ types)\.)|(?:^.+(Ability words).+entries in the Comprehensive Rules.)/) %>
+            <% if (oldMatches) { %>
+              <% trace[i].rule.old.ruleText = trace[i].rule.old.ruleText.replace(/old_start/g, '<span class=\'old\'>'); %>
+              <% trace[i].rule.old.ruleText = trace[i].rule.old.ruleText.replace(/ old_end/g, '</span> '); %>
+              <% let oldStuff = trace[i].rule.old.ruleText.match(/<span class='old'>[^\\s]+<\/span>/g) %>
+              <% if (!oldStuff) { %>
+                <% let matchText = oldMatches[1] || oldMatches[2].toLowerCase() %>
+                <% trace[i].rule.old.ruleText = oldMatches[0] + '<br>No ' + matchText + ' were removed in this update.' %>
+              <% } else { %>
+                <% oldStuff.forEach(function(el, index, arr) { arr[index] = el.substring(0, el.length-8) + el.substring(el.length-7, el.length)}) %>
+                <% trace[i].rule.old.ruleText = oldMatches[0] + '<br>The old ' + oldMatches[1] +  ' this set are: ' +  oldStuff.join(',') %>
+              <% } %>
+            <% } %>
+            <td><b><%- trace[i].rule.old.ruleNum %></b><br><%- trace[i].rule.old.ruleText %></td>
+            <% let newMatches = trace[i].rule.new.ruleText.match(/(?:^.+these subtypes are called (.+ types)\.)|(?:^.+(Ability words).+entries in the Comprehensive Rules.)/) %>
+            <% if (newMatches) { %>
+              <% trace[i].rule.new.ruleText = trace[i].rule.new.ruleText.replace(/new_start/g, '<span class=\'new\'>'); %>
+              <% trace[i].rule.new.ruleText = trace[i].rule.new.ruleText.replace(/ new_end/g, '</span> '); %>
+              <% let newStuff = trace[i].rule.new.ruleText.match(/<span class='new'>.+?<\/span>/g) %>
+              <% if (!newStuff) { console.log(trace[i].rule.new.ruleText); continue} %>
+              <% newStuff.forEach(function(el, index, arr) { arr[index] = el.substring(0, el.length-8) + el.substring(el.length-7, el.length)}) %>
+              <% let matchText = newMatches[1] || newMatches[2].toLowerCase() %>
+              <% trace[i].rule.new.ruleText = newMatches[0] + '<br>The new ' + matchText +  ' this set are: ' +  newStuff.join(', ') %>
+            <% } %>
+            <td><b><%- trace[i].rule.new.ruleNum %></b><br><%- trace[i].rule.new.ruleText %></td>
+          <% } %>
+          </tr>
+        <% } %>
+      </table>
+    </div>
+  </body>  
+</html>

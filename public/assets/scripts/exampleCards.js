@@ -1,4 +1,5 @@
-var cardList = require('/home/vill/VensersJournal/static/res/cardlist').getCardList();
+var cardList = require('/home/vill/VensersJournal/static/utils/cardlist').getCardList();
+var ignorableCards = require('/home/vill/VensersJournal/static/utils/cardlist').getIgnorableCards();
 
 getCardsFromExample = function(str) {
   if (str === null) return "";
@@ -8,22 +9,25 @@ getCardsFromExample = function(str) {
   var alreadyMatched = new Set();
   var outputCardList = [];
   var flippedCards = ['Stabwhisker the Odious', 'Tomoya the Revealer', 'Tok-Tok, Volcano Born'];
-  var planesCards = ['Jund'];
-  var adventures = new BidirectionalAdventureMap({ "Giant Killer" : "Chop Down" });
+  var sidewaysCards = ['Jund', 'Assault', 'Fire'];
+  var multiple = new BidirectionalMap({"Giant Killer" : "Chop Down",
+                                       "Assault" : "Battery",
+                                       "Fire" : "Ice"});
 
   while ((cardnames = cardname_regex.exec(str)) !== null) {
     card = cardnames[0];
     if (cardList[card]) {
-      if (card == 'Exile') continue;
-
+      if (ignorableCards.includes(card)) continue;
+      console.log(card);
       if (!alreadyMatched.has(card)) {
         status = flippedCards.includes(card) ? 'flipped' : 'regular';
-        status = planesCards.includes(card) ? 'plane' : status;
+        status = sidewaysCards.includes(card) ? 'sideways' : status;
         outputCardList.push(new CardObject(cardList[card], status));
         alreadyMatched.add(card);
-        if(adventures.get(card) || adventures.revGet(card)) {
-          alreadyMatched.add(adventures.get(card));
-          alreadyMatched.add(adventures.revGet(card));
+
+        if(multiple.get(card) || multiple.revGet(card)) {
+          alreadyMatched.add(multiple.get(card));
+          alreadyMatched.add(multiple.revGet(card));
         }
       }
     }
@@ -38,7 +42,7 @@ class CardObject {
   }
 }
 
-function BidirectionalAdventureMap(map) {
+function BidirectionalMap(map) {
   this.map = map;
   this.reverseMap = {};
   for (var k in map) {
@@ -47,7 +51,7 @@ function BidirectionalAdventureMap(map) {
   }
 }
 
-BidirectionalAdventureMap.prototype.get = function(k){ return this.map[k]; };
-BidirectionalAdventureMap.prototype.revGet = function(k){ return this.reverseMap[k]; };
+BidirectionalMap.prototype.get = function(k){ return this.map[k]; };
+BidirectionalMap.prototype.revGet = function(k){ return this.reverseMap[k]; };
 
 module.exports = { getCardsFromExample }

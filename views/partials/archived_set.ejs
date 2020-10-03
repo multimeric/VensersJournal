@@ -1,0 +1,30 @@
+<div class="card flip-card m-2 rounded">
+  <div class="flip-card-inner">
+    <!-- Front of card -->
+    <div class="flip-card-front"> 
+      <div class="card-body">       
+        <i class="ss ss-iko big-centered-icon"></i>
+        <h4 class="card-title"><%= set.Info["fullname"] %></h4>
+      </div>
+    </div>
+    <!-- Back of card -->
+    <div class="flip-card-back">
+      <div class="card-body">
+        <div class="d-flex">
+          <% set.children.forEach(function(doctype) { %>
+              <div class="flex-column" style="flex-grow:1;">
+                <h4 class="card-title"><%= doctype.name %></h4>
+                  <% doctype.children.forEach(function(file) { %>
+                    <% if (doctype.name == "diffs") { %>
+                      <% file.path = file.path.slice(9, file.path.search(/(?<=\w{2,3})\./)) %>
+                    <% } %>
+                    <% file.name = file.name.slice(0, file.name.search(/(?<=\w{2,3})\./)) %>
+                    <a href="<%= file.path %>"><p><%= file.name.toUpperCase() %></p></a>
+                  <% }) %>
+              </div>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

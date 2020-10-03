@@ -28,6 +28,7 @@
         <% } %>
         </div>
         <br><br>
+        <% include ../partials/section_select %>
         <h2><%= section.section %>. <%= section.name %></h2>
         <% for (let rule in section.rules) { %>
           <p id="_<%- section.rules[rule]['fragment'] %>" class="
@@ -43,7 +44,7 @@
             <% example_list = section.rules[rule]['examples'].replace(/Example: /g, '<br><i><b>Example: </b>').split('\n') %>
             <% for (let i=0; i < example_list.length; i++) { %>
               <%- example_list[i] %></i>
-              <% cards = helpers.getCardsFromExample(example_list[i]) %>
+              <% cards = rulesUtils.getCardsFromExample(example_list[i]) %>
               <%if (cards) { %>
                 <span class='img-container'>
                   <% for (let i=0; i < cards.length; i++) { %>
@@ -58,5 +59,4 @@
       </div>
     </div>
   </body>
-  
 </html>

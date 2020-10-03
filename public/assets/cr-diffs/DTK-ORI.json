@@ -1,0 +1,439 @@
+[
+    {
+        "names": {
+            "old_setcode": "DTK",
+            "old_full": "Dragons of Tarkir",
+            "new_full": "Magic Origins",
+            "new_setcode": "ORI"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "106.10a",
+            "ruleText": "An ability that triggers whenever a permanent \u201cis tapped for mana\u201d or \u201cis tapped for mana [of a specified type]\u201d triggers whenever such a mana ability resolves and produces mana or the specified type of mana."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "107.12",
+            "ruleText": "The chaos symbol is new_start {CHAOS}. new_end It appears on one face of the planar die used in the Planechase casual variant, as well as in abilities that refer to the results of rolling the planar die. See rule 901, \u201cPlanechase.\u201d"
+        },
+        "old": {
+            "ruleNum": "107.12",
+            "ruleText": "The chaos symbol is old_start {C}. old_end It appears on one face of the planar die used in the Planechase casual variant, as well as in abilities that refer to the results of rolling the planar die. See rule 901, \u201cPlanechase.\u201d"
+        }
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleNum": "107.14",
+            "ruleText": "The moon symbol appears in the upper left corner of the back face of double\u2013faced cards. See rule 711, \u201cDouble\u2013Faced Cards.\u201d"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, new_start spell mastery, new_end strive, sweep, tempting offer, threshold, and will of the council."
+        },
+        "old": {
+            "ruleNum": "207.2c",
+            "ruleText": "An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, strive, sweep, tempting offer, threshold, and will of the council."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "207.4",
+            "ruleText": "The chaos symbol new_start {CHAOS} new_end appears in the text box of each plane card to the left of a triggered ability that triggers whenever new_start {CHAOS} new_end is rolled on the planar die. The symbol itself has no special rules meaning."
+        },
+        "old": {
+            "ruleNum": "207.4",
+            "ruleText": "The chaos symbol old_start {C} old_end appears in the text box of each plane card to the left of a triggered ability that triggers whenever old_start {C} old_end is rolled on the planar die. The symbol itself has no special rules meaning."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "309.7",
+            "ruleText": "Each plane card has a triggered ability that triggers \u201cWhenever you roll new_start {CHAOS}.\u201d new_end These are called \u201cchaos abilities.\u201d Each one is indicated by a new_start {CHAOS} new_end to its left, though the symbol itself has no special rules meaning."
+        },
+        "old": {
+            "ruleNum": "309.7",
+            "ruleText": "Each plane card has a triggered ability that triggers \u201cWhenever you roll old_start {C}.\u201d old_end These are called \u201cchaos abilities.\u201d Each one is indicated by a old_start {C} old_end to its left, though the symbol itself has no special rules meaning."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "400.4b",
+            "ruleText": "If a new_start conspiracy, phenomenon, new_end plane, new_start scheme, new_end or new_start vanguard new_end card would leave the command zone, it remains in the command zone."
+        },
+        "old": {
+            "ruleNum": "400.4b",
+            "ruleText": "If a plane, old_start phenomenon, vanguard, old_end or old_start scheme old_end card would leave the command zone, it remains in the command zone."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "408.3",
+            "ruleText": "In the Planechase, Vanguard, Commander, new_start Archenemy, new_end and new_start Conspiracy Draft new_end casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, \u201cCasual Variants.\u201d"
+        },
+        "old": {
+            "ruleNum": "408.3",
+            "ruleText": "In the Planechase, Vanguard, Commander, and old_start Archenemy old_end casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, \u201cCasual Variants.\u201d"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "601.2",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell new_start includes proposal of the spell (rules 601.2a\u2013e) and determination and payment of costs (rules 601.2f\u2013h). To cast a spell, a player new_end follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before new_start the casting of new_end that spell new_start was proposed new_end (see rule 717, \u201cHandling Illegal Actions\u201d)."
+        },
+        "old": {
+            "ruleNum": "601.2",
+            "ruleText": "To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell old_start started to be cast old_end (see rule 717, \u201cHandling Illegal Actions\u201d). old_start Announcements and payments can\u2019t be altered after they\u2019ve been made. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "601.2a",
+            "ruleText": "new_start To propose the casting of a spell, a new_end player new_start first moves new_end that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it\u2019s countered, it resolves, or an effect moves it elsewhere. new_start Whether casting the proposed spell is a legal action isn\u2019t checked at this time. new_end"
+        },
+        "old": {
+            "ruleNum": "601.2a",
+            "ruleText": "old_start The old_end player old_start announces old_end that old_start he or she is casting the spell. That old_end card (or that copy of a card) old_start moves old_end from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it\u2019s countered, it resolves, or an effect moves it elsewhere."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "601.2b",
+            "ruleText": "If the spell is new_start modal, new_end the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it\u2019s being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). A player can\u2019t apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it\u2019s being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player\u2019s options when making these choices."
+        },
+        "old": {
+            "ruleNum": "601.2b",
+            "ruleText": "If the spell is old_start modal old_end the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it\u2019s being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2e). A player can\u2019t apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it\u2019s being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player\u2019s options when making these choices."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "601.2e",
+            "ruleText": "Based on the previous announcements, the game checks to see if the proposed spell can legally be cast based on applicable timing rules (including ones based on the card\u2019s type) and other effects that may allow a spell to be cast or prohibit a spell from being cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 717, \u201cHandling Illegal Actions\u201d)."
+        },
+        "old": null
+    },
+    {
+        "new": null,
+        "old": {
+            "ruleNum": "601.5a",
+            "ruleText": "If an effect allows a card that\u2019s prohibited from being cast to be cast face down, and the face\u2013down spell would not be prohibited, that spell can be cast face down. See rule 707, \u201cFace\u2013Down Spells and Permanents.\u201d"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "602.5",
+            "ruleText": "A player can\u2019t begin to new_start activate an ability new_end that\u2019s prohibited from being new_start activated. new_end"
+        },
+        "old": {
+            "ruleNum": "601.5",
+            "ruleText": "A player can\u2019t begin to old_start cast a spell old_end that\u2019s prohibited from being old_start cast. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "603.6d",
+            "ruleText": "Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves\u2013the\u2013battlefield abilities, new_start abilities that trigger when a card leaves a graveyard, new_end abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to \u201clook back in time\u201d to determine if these abilities trigger."
+        },
+        "old": {
+            "ruleNum": "603.6d",
+            "ruleText": "Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves\u2013the\u2013battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to \u201clook back in time\u201d to determine if these abilities trigger."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "605.1a",
+            "ruleText": "An activated ability is a mana ability if it meets new_start all of the following new_end criteria: it doesn\u2019t have a target, it could put mana into a player\u2019s mana pool when it resolves, and it\u2019s not a loyalty ability. (See rule 606, \u201cLoyalty Abilities.\u201d)"
+        },
+        "old": {
+            "ruleNum": "605.1a",
+            "ruleText": "An activated ability is a mana ability if it meets old_start three old_end criteria: it doesn\u2019t have a target, it could put mana into a player\u2019s mana pool when it resolves, and it\u2019s not a loyalty ability. (See rule 606, \u201cLoyalty Abilities.\u201d)"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "605.1b",
+            "ruleText": "A triggered ability new_start is new_end a mana ability new_start if it meets all of the following criteria: it doesn\u2019t have a target, it triggers from the resolution of an activated mana ability (see rule 106.10a), new_end and new_start it new_end could put mana into a player\u2019s mana pool when it new_start resolves. new_end"
+        },
+        "old": {
+            "ruleNum": "605.1b",
+            "ruleText": "A triggered ability old_start without a target that triggers from activating old_end a mana ability and could put mana into a player\u2019s mana pool when it old_start resolves is a mana ability. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "608.2b",
+            "ruleText": "If the spell or ability specifies targets, it checks whether the targets are still legal. A target that\u2019s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word \u201ctarget,\u201d are now illegal. If the spell or ability is not countered, it will resolve normally. new_start Illegal targets, new_end if new_start any, won\u2019t be affected by parts of a resolving spell\u2019s new_end effect for which new_start they\u2019re illegal. Other new_end parts of the effect for which those targets are not illegal may still affect them. new_start If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don\u2019t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won\u2019t happen. new_end"
+        },
+        "old": {
+            "ruleNum": "608.2b",
+            "ruleText": "If the spell or ability specifies targets, it checks whether the targets are still legal. A target that\u2019s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word \u201ctarget,\u201d are now illegal. If the spell or ability is not countered, it will resolve normally. old_start However, old_end if old_start any of its targets are illegal, the part of the spell or ability\u2019s old_end effect for which old_start it is an illegal target can\u2019t perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. If the spell or ability creates a continuous effect that affects game rules (see rule 613.10), that effect doesn\u2019t apply to illegal targets. The effect may still determine information about illegal targets, though, and other old_end parts of the effect for which those targets are not illegal may still affect them."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "608.2f",
+            "ruleText": "If an effect gives a player the option to pay mana, he or she may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, he or she does so by following the steps in rules 601.2a\u2013i, except no player receives priority after it\u2019s cast. new_start That spell becomes the topmost object on the stack, and the new_end currently resolving spell or ability continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution."
+        },
+        "old": {
+            "ruleNum": "608.2f",
+            "ruleText": "If an effect gives a player the option to pay mana, he or she may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, he or she does so by old_start putting that spell on top of the stack, then continuing to cast it by old_end following the steps in rules 601.2a\u2013h, except no player receives priority after it\u2019s cast. old_start The old_end currently resolving spell or ability old_start then old_end continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "613.6c",
+            "ruleText": "An new_start object receives a new_end timestamp new_start at new_end the time it new_start enters new_end a new_start zone. new_end"
+        },
+        "old": {
+            "ruleNum": "613.6c",
+            "ruleText": "An old_start object\u2019s old_end timestamp old_start is old_end the time it old_start entered the zone it\u2019s currently in, unless it\u2019s an Aura, Equipment, or Fortification that\u2019s attached to another object or player, or it\u2019s old_end a old_start face\u2013up plane card, phenomenon card, or scheme card. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "613.6d",
+            "ruleText": "An Aura, Equipment, or Fortification receives a new timestamp at the time it becomes attached to an object or player."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "613.6e",
+            "ruleText": "A permanent receives a new timestamp at the time it turns face up or face down."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "613.6f",
+            "ruleText": "A double\u2013faced permanent receives a new timestamp at the time it transforms."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "613.6i",
+            "ruleText": "A conspiracy card receives a timestamp at the beginning of the game. If it\u2019s face down, it receives a new timestamp at the time it turns face up."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "613.6j",
+            "ruleText": "If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player determines their new_start relative new_end timestamp order at that time."
+        },
+        "old": {
+            "ruleNum": "613.6g",
+            "ruleText": "If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player determines their timestamp order at that time."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.3c",
+            "ruleText": "new_start Attaching new_end an Aura, Equipment, or Fortification new_start on the battlefield new_end to new_start a different new_end object new_start causes new_end the Aura, Equipment, or Fortification new_start to receive new_end a new new_start timestamp. new_end"
+        },
+        "old": {
+            "ruleNum": "613.6d",
+            "ruleText": "old_start If old_end an Aura, Equipment, or Fortification old_start becomes attached old_end to old_start an old_end object old_start or player, old_end the Aura, Equipment, or Fortification old_start receives old_end a new old_start timestamp at that time. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.16c",
+            "ruleText": "If an effect would cause a player to shuffle one or more specific objects into a library, new_start that library is shuffled even if none of those objects are in the zone they\u2019re expected to be in new_end or new_start an new_end effect causes all new_start of those new_end objects to be moved to another zone new_start or remain in their current zone. new_end"
+        },
+        "old": {
+            "ruleNum": "701.16d",
+            "ruleText": "If an effect would cause a player to shuffle one or more specific objects into a library, old_start and a replacement old_end or old_start prevention old_end effect causes all old_start such old_end objects to be moved to another zone old_start instead, that library isn\u2019t shuffled. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.18a",
+            "ruleText": "To \u201cscry N\u201d means to look at the top N cards of your library, put any number of them on the bottom of your library in any new_start order new_end and the rest on top of your library in any order."
+        },
+        "old": {
+            "ruleNum": "701.18a",
+            "ruleText": "To \u201cscry N\u201d means to look at the top N cards of your library, put any number of them on the bottom of your library in any old_start order, old_end and old_start put old_end the rest on top of your library in any order."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.19a",
+            "ruleText": "To \u201cfateseal N\u201d means to look at the top N cards of an opponent\u2019s library, put any number of them on the bottom of that library in any new_start order new_end and the rest on top of that library in any order."
+        },
+        "old": {
+            "ruleNum": "701.19a",
+            "ruleText": "To \u201cfateseal N\u201d means to look at the top N cards of an opponent\u2019s library, put any number of them on the bottom of that library in any old_start order, old_end and old_start put old_end the rest on top of that library in any order."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.28a",
+            "ruleText": "\u201cMonstrosity N\u201d means \u201cIf this permanent isn\u2019t monstrous, put N +1/+1 counters on it and it becomes monstrous.\u201d"
+        },
+        "old": {
+            "ruleNum": "701.28a",
+            "ruleText": "\u201cMonstrosity N\u201d means \u201cIf this permanent isn\u2019t monstrous, put N +1/+1 counters on it and it becomes monstrous.\u201d old_start Monstrous is a condition of that permanent that can be referred to by other abilities. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "701.28b",
+            "ruleText": "Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify. Only permanents can be or become monstrous. Once a permanent becomes monstrous, it stays monstrous until it leaves the battlefield. Monstrous is neither an ability nor part of the permanent\u2019s copiable values."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.57b",
+            "ruleText": "If a new_start permanent new_end has multiple instances of graft, each one works separately."
+        },
+        "old": {
+            "ruleNum": "702.57b",
+            "ruleText": "If a old_start creature old_end has multiple instances of graft, each one works separately."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.102b",
+            "ruleText": "new_start If a new_end spell\u2019s controller new_start chooses new_end to pay its bestow new_start cost, new_end that player new_start chooses new_end a legal target for that new_start Aura new_end spell new_start as defined by its enchant creature ability and rule 601.2c. See also rule 303.4. new_end"
+        },
+        "old": {
+            "ruleNum": "702.102c",
+            "ruleText": "old_start A old_end spell\u2019s controller old_start can\u2019t choose old_end to pay its bestow old_start cost unless old_end that player old_start can choose old_end a legal target for that spell old_start after it becomes an Aura spell. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.102c",
+            "ruleText": "The check for whether a spell can legally be cast happens after its controller has chosen whether to pay its bestow cost; see rule 601.2e."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.110a",
+            "ruleText": "Menace is an evasion ability."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.110b",
+            "ruleText": "A creature with menace can\u2019t be blocked except by two or more creatures. (See rule 509, \u201cDeclare Blockers Step.\u201d)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.110c",
+            "ruleText": "Multiple instances of menace on the same creature are redundant."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.111a",
+            "ruleText": "Renown is a triggered ability. \u201cRenown N\u201d means \u201cWhen this creature deals combat damage to a player, if it isn\u2019t renowned, put N +1/+1 counters on it and it becomes renowned.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.111b",
+            "ruleText": "Renowned is a designation that has no rules meaning other than to act as a marker that the renown ability and other spells and abilities can identify. Only permanents can be or become renowned. Once a permanent becomes renowned, it stays renowned until it leaves the battlefield. Renowned is neither an ability nor part of the permanent\u2019s copiable values."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.111c",
+            "ruleText": "If a creature has multiple instances of renown, each triggers separately. The first such ability to resolve will cause the creature to become renowned, and subsequent abilities will have no effect. (See rule 603.4)"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "711.1a",
+            "ruleText": "A double\u2013faced card\u2019s front face new_start includes new_end its new_start mana cost. Its back face has no mana cost. new_end"
+        },
+        "old": {
+            "ruleNum": "711.1a",
+            "ruleText": "A double\u2013faced card\u2019s front face old_start is indicated by the sun symbol in old_end its old_start upper left corner. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "711.1b",
+            "ruleText": "new_start Each face of a new_end double\u2013faced new_start card has an icon new_end in its upper left new_start corner (for example, a sun or a stylized Planeswalker symbol). These icons have no effect on game play. new_end"
+        },
+        "old": {
+            "ruleNum": "711.1b",
+            "ruleText": "old_start A old_end double\u2013faced old_start card\u2019s back face is indicated by the moon symbol old_end in its upper left old_start corner. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "713.1",
+            "ruleText": "new_start Three new_end cards (Time new_start Stop, new_end Sundial of the new_start Infinite, and Day\u2019s Undoing) new_end end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, \u201cResolving Spells and Abilities\u201d)."
+        },
+        "old": {
+            "ruleNum": "713.1",
+            "ruleText": "old_start Two old_end cards (Time old_start Stop and old_end Sundial of the old_start Infinite) old_end end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, \u201cResolving Spells and Abilities\u201d)."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "713.1a",
+            "ruleText": "If there are any triggered abilities that triggered before this process began but haven\u2019t been put onto the stack yet, those abilities cease to exist. They won\u2019t be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 713.2)."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "713.2",
+            "ruleText": "No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered new_start since this process began, new_end those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, \u201cCleanup Step.\u201d"
+        },
+        "old": {
+            "ruleNum": "713.2",
+            "ruleText": "No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered old_start between the spell or ability resolving and the cleanup step ending, old_end those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, \u201cCleanup Step.\u201d"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "901.3a",
+            "ruleText": "A planar die is a six\u2013sided die. One face has the Planeswalker symbol {PW}. One face has the chaos symbol new_start {CHAOS}. new_end The other faces are blank."
+        },
+        "old": {
+            "ruleNum": "901.3a",
+            "ruleText": "A planar die is a six\u2013sided die. One face has the Planeswalker symbol {PW}. One face has the chaos symbol old_start {C}. old_end The other faces are blank."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "901.9b",
+            "ruleText": "If the die roll is the chaos symbol new_start {CHAOS}, new_end any ability of a face\u2013up plane that starts \u201cWhen you roll new_start {CHAOS}\u201d new_end triggers and is put on the stack. The active player gets priority."
+        },
+        "old": {
+            "ruleNum": "901.9b",
+            "ruleText": "If the die roll is the chaos symbol old_start {C}, old_end any ability of a face\u2013up plane that starts \u201cWhen you roll old_start {C}\u201d old_end triggers and is put on the stack. The active player gets priority."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "903.11",
+            "ruleText": "If a commander would be new_start exiled from anywhere or new_end put into new_start its owner\u2019s hand, graveyard, or library new_end from anywhere, its owner may put it into the command zone instead. new_start This replacement effect may apply more than once to the same event. This is an exception to rule 614.5. new_end"
+        },
+        "old": {
+            "ruleNum": "903.12",
+            "ruleText": "If a commander would be put into old_start the exile zone old_end from anywhere, its owner may put it into the command zone instead."
+        }
+    }
+]

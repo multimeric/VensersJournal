@@ -1,5 +1,6 @@
 function makeItPretty() {
   makeAutoCards();
+  attachFlippers();
 }
 
 function makeAutoCards() {
@@ -8,7 +9,7 @@ function makeAutoCards() {
                               // I am going to assume that anybody who plays this game knows what lands do.
       let problem_children = ["Plains", "Island", "Swamp", "Mountain", "Forest",
                               "Snow-Covered Plains", "Snow-Covered Island", "Snow-Covered Swamp", "Snow-Covered Mountain", "Snow-Covered Forest",
-                              "Warning", "Example", "Exile",
+                              "Warning", "Example", "Exile", "Regenerate", "Regeneration", "Sacrifice",
                               "Goblin Wizard"]
       let link = $(this).html().replace(/[A-Z][a-z]{2,}(?:(?:[ ,'\-](?:s| )? ?| \w{2,3}?(?:\s\w{2,3})? ?)[A-Z][a-z]*)*/g, function(match) {
         if (problem_children.includes(match)) {
@@ -22,5 +23,11 @@ function makeAutoCards() {
       });
       $(this).html(link);
     }
+  });
+}
+
+function attachFlippers() {
+  $('.flip-card').on('click', function() {
+    $(this).toggleClass('flipped');
   });
 }
