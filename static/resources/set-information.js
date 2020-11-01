@@ -1006,7 +1006,7 @@ const setInfo = {
     "ELD": {
         "setcode": "ELD",
         "fullname": "Throne of Eldraine",
-        "releaseDate": "2020-10-01",
+        "releaseDate": "2019-10-04",
         "previousSet": "C19",
         "nextSet": "THB"
     },
@@ -1056,6 +1056,13 @@ const setInfo = {
         "fullname": "Zendikar Rising",
         "releaseDate": "2020-09-25",
         "previousSet": "2XM",
+        "nextSet": "CMR"
+    },
+    "CMR": {
+        "setcode": "CMR",
+        "fullname": "Commander Legends",
+        "releaseDate": "2020-11-20",
+        "previousSet": "ZNR",
         "nextSet": "IDK"
     }
 }
