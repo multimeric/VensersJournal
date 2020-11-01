@@ -1,0 +1,3197 @@
+{
+    "217.7c": {
+        "ruleNumber": "217.7c",
+        "ruleText": "Cards that might return to play should be kept in separate piles to keep track of their respective ways of returning. Cards with no way of returning may be kept in one pile for each player, regardless of what removed them.",
+        "navigation": {
+            "nextRule": "217.8",
+            "previousRule": "217.7b"
+        },
+        "examples": null
+    },
+    "409.3": {
+        "ruleNumber": "409.3",
+        "ruleText": "An activation cost for a creature's ability that includes tapping (ocT) can't be played unless the creature was continuously under the player's control since the most recent start of his or her turn. 410. Handling Triggered Abilities",
+        "navigation": {
+            "nextRule": "410.1",
+            "previousRule": "409.2"
+        },
+        "examples": null
+    },
+    "420.2": {
+        "ruleNumber": "420.2",
+        "ruleText": "State-based effects are always active and are not controlled by either player.",
+        "navigation": {
+            "nextRule": "420.3",
+            "previousRule": "420.1"
+        },
+        "examples": null
+    },
+    "308.3": {
+        "ruleNumber": "308.3",
+        "ruleText": "If the proposed attack isn't legal or the active player can't pay all required costs, all actions described in rules 308.1 and 308.2 are canceled. Then the active player redeclares attacking creatures. (See rule 422, \"Handling Illegal Actions.\")",
+        "navigation": {
+            "nextRule": "308.4",
+            "previousRule": "308.2"
+        },
+        "examples": null
+    },
+    "406.1e": {
+        "ruleNumber": "406.1e",
+        "ruleText": "The ability resolves immediately, without going on the stack. (See rule 408.2, \"Actions That Don't Use the Stack.\") Abilities that trigger on playing mana abilities do go on the stack, however.",
+        "navigation": {
+            "nextRule": "406.2",
+            "previousRule": "406.1d"
+        },
+        "examples": null
+    },
+    "411.3": {
+        "ruleNumber": "411.3",
+        "ruleText": "Triggered mana abilities trigger when activated mana abilities are played and add additional mana to a player's mana pool. These abilities resolve immediately after the mana ability that triggered them, without waiting for priority. If an activated or triggered ability produces both mana and another effect, both the mana and the other effect resolve immediately.",
+        "navigation": {
+            "nextRule": "412.1",
+            "previousRule": "411.2"
+        },
+        "examples": null
+    },
+    "502.3": {
+        "ruleNumber": "502.3",
+        "ruleText": "Flanking",
+        "navigation": {
+            "nextRule": "502.3a",
+            "previousRule": "502.2d"
+        },
+        "examples": null
+    },
+    "409.1d": {
+        "ruleNumber": "409.1d",
+        "ruleText": "If the spell or ability affects several targets, the player announces how it will apply to each.",
+        "navigation": {
+            "nextRule": "409.1e",
+            "previousRule": "409.1c"
+        },
+        "examples": null
+    },
+    "101.3": {
+        "ruleNumber": "101.3",
+        "ruleText": "Once the starting player has been determined, each player sets his or her life total to 20 and draws a hand of seven cards.",
+        "navigation": {
+            "nextRule": "101.4",
+            "previousRule": "101.2"
+        },
+        "examples": null
+    },
+    "418.5c": {
+        "ruleNumber": "418.5c",
+        "ruleText": "Whenever one effect depends on another, the independent one is applied first. If several dependent effects form a loop, or if none depends on another, they're applied in \"timestamp order.\" (See Glossary.)",
+        "navigation": {
+            "nextRule": "418.5d",
+            "previousRule": "418.5b"
+        },
+        "examples": null
+    },
+    "212.1": {
+        "ruleNumber": "212.1",
+        "ruleText": "All cards have one or more types: artifact, creature, enchantment, instant, land, or sorcery. Only one multiple type-artifact creature-currently exists. Artifact creature satisfies the criteria for any effect that applies to an artifact card or a creature card.",
+        "navigation": {
+            "nextRule": "212.2",
+            "previousRule": "211.1"
+        },
+        "examples": null
+    },
+    "413.2d": {
+        "ruleNumber": "413.2d",
+        "ruleText": "If an instruction requires both players to make choices or take actions, the active player makes and announces his or hers first, then his or her opponent does (knowing the first player's choices). This is called the \"active player rule.\" Then, the actions are processed simultaneously.",
+        "navigation": {
+            "nextRule": "413.2e",
+            "previousRule": "413.2c"
+        },
+        "examples": null
+    },
+    "217.6b": {
+        "ruleNumber": "217.6b",
+        "ruleText": "A spell card is played face up in the stack zone, and other spells or abilities played in response are \"stacked\" on top of it. Abilities in the stack are represented by imaginary cards called pseudospells. A pseudospell has the color of the permanent that created it, as well as the text of the ability, and is controlled by the player who played the ability.",
+        "navigation": {
+            "nextRule": "217.6c",
+            "previousRule": "217.6a"
+        },
+        "examples": null
+    },
+    "408.1g": {
+        "ruleNumber": "408.1g",
+        "ruleText": "Combat damage goes on the stack once it's been assigned. For more information, see rule 310, \"Combat Damage Step.\"",
+        "navigation": {
+            "nextRule": "408.1h",
+            "previousRule": "408.1f"
+        },
+        "examples": null
+    },
+    "410.3": {
+        "ruleNumber": "410.3",
+        "ruleText": "If multiple abilities have triggered since the last time a player received priority, pseudospells controlled by the active player go on the stack first, in any order he or she chooses, then those controlled by the opponent go on the stack in the same way. (Then the players once again check for state-based effects and add any new abilities that triggered during this process.)",
+        "navigation": {
+            "nextRule": "410.4",
+            "previousRule": "410.2"
+        },
+        "examples": null
+    },
+    "406.2d": {
+        "ruleNumber": "406.2d",
+        "ruleText": "A delayed ability that refers to a particular permanent will fail if the permanent leaves play (even if it returns again before the specified time). Similarly, delayed abilities that apply to a card in a particular zone will fail if the card leaves that zone.",
+        "navigation": {
+            "nextRule": "406.2e",
+            "previousRule": "406.2c"
+        },
+        "examples": null
+    },
+    "418.5": {
+        "ruleNumber": "418.5",
+        "ruleText": "Interaction of Continuous Effects",
+        "navigation": {
+            "nextRule": "418.5a",
+            "previousRule": "418.4b"
+        },
+        "examples": null
+    },
+    "214.3": {
+        "ruleNumber": "214.3",
+        "ruleText": "A card becomes a permanent when it comes into play and stops being a permanent when it leaves play. The term \"card\" or \"spell\" is often used to refer to a card that's not in play, such as a creature card in a player's hand. For more information, see rule 217, \"Zones.\"",
+        "navigation": {
+            "nextRule": "214.4",
+            "previousRule": "214.2"
+        },
+        "examples": null
+    },
+    "100.3": {
+        "ruleNumber": "100.3",
+        "ruleText": "For sealed-deck or draft play, only forty cards are required in a deck, and a player may use as many copies of a card as he or she has. See the DCI\u2122 Magic Floor Rules for more information; they can be found at [www.wizards.com/DCI/UTR_MTG.asp].",
+        "navigation": {
+            "nextRule": "100.4",
+            "previousRule": "100.2"
+        },
+        "examples": null
+    },
+    "409.1f": {
+        "ruleNumber": "409.1f",
+        "ruleText": "The player pays all costs in any order. Partial payments aren't allowed. Usually this is just the mana cost (for spells) or activation cost (for abilities). Some cards list additional or alternative costs in their text, and some effects may increase or reduce the cost to pay. The player announces choices for any variable or alternative costs at this time. Costs may include paying mana, tapping cards, sacrificing permanents, discarding cards, and so on. The total cost is the mana or activation cost, plus all cost increases and minus all cost reductions. If the cost includes mana, mana abilities can be played at this time. (See rule 411, \"Playing Mana Abilities.\")",
+        "navigation": {
+            "nextRule": "409.2",
+            "previousRule": "409.1e"
+        },
+        "examples": null
+    },
+    "214.8d": {
+        "ruleNumber": "214.8d",
+        "ruleText": "As part of playing a local enchantment spell, the player announces the spell's target. The local enchantment comes into play attached to the target permanent. If a local enchantment is coming into play through any other means, the player putting it into play chooses a permanent for it to enchant before it can enter play. If no legal permanent is available, the enchantment remains in the zone that it attempted to move from.",
+        "navigation": {
+            "nextRule": "214.8e",
+            "previousRule": "214.8c"
+        },
+        "examples": null
+    },
+    "401.3": {
+        "ruleNumber": "401.3",
+        "ruleText": "As the final part of an instant or sorcery spell's resolution, the card is put into its owner's graveyard. As the final part of an artifact, creature, or enchantment spell's resolution, the card becomes a permanent and is put into the in-play zone. If any spell is countered, the card is put into its owner's graveyard as part of the resolution of the countering spell or ability. (See rule 413, \"Resolving Spells and Abilities.\") 402. Abilities",
+        "navigation": {
+            "nextRule": "402.1",
+            "previousRule": "401.2"
+        },
+        "examples": null
+    },
+    "413.2a": {
+        "ruleNumber": "413.2a",
+        "ruleText": "If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's removed from play, or from the zone designated by the spell or ability, is illegal. A target may also become illegal if its characteristics changed since the spell or ability was played or if an effect changed the wording of the spell or ability. If all targets are now illegal, the spell or ability is countered. If some but not all targets are illegal, the spell will resolve normally, affecting only the targets that are still legal. The effect on the remaining legal targets is the same as it would have been if all targets had remained legal.",
+        "navigation": {
+            "nextRule": "413.2b",
+            "previousRule": "413.2"
+        },
+        "examples": null
+    },
+    "217.7": {
+        "ruleNumber": "217.7",
+        "ruleText": "Removed from the Game",
+        "navigation": {
+            "nextRule": "217.7a",
+            "previousRule": "217.6c"
+        },
+        "examples": null
+    },
+    "101.1": {
+        "ruleNumber": "101.1",
+        "ruleText": "At the start of a game, each player shuffles his or her own deck so that the cards are in a random order. Each player may then cut his or her opponent's deck.",
+        "navigation": {
+            "nextRule": "101.2",
+            "previousRule": "100.5"
+        },
+        "examples": null
+    },
+    "102.7": {
+        "ruleNumber": "102.7",
+        "ruleText": "A player may concede a game at any time. 103. The Golden Rule",
+        "navigation": {
+            "nextRule": "103.1",
+            "previousRule": "102.6"
+        },
+        "examples": null
+    },
+    "214.9d": {
+        "ruleNumber": "214.9d",
+        "ruleText": "The basic lands are plains, island, swamp, mountain, and forest.",
+        "navigation": {
+            "nextRule": "214.9e",
+            "previousRule": "214.9c"
+        },
+        "examples": null
+    },
+    "502.6b": {
+        "ruleNumber": "502.6b",
+        "ruleText": "Landwalk is an evasion ability. A creature with landwalk is unblockable as long as the defending player controls at least one land of the specified type.",
+        "navigation": {
+            "nextRule": "502.6c",
+            "previousRule": "502.6a"
+        },
+        "examples": null
+    },
+    "419.5": {
+        "ruleNumber": "419.5",
+        "ruleText": "If an event is prevented or replaced, it never happens. Instead of a replaced event, a modified event occurs, which may in turn trigger abilities. Note that the modified event may contain instructions that can't be carried out, in which case the player simply ignores the impossible instruction. A prevented event is simply ignored-no abilities trigger.",
+        "navigation": {
+            "nextRule": "419.6",
+            "previousRule": "419.4"
+        },
+        "examples": null
+    },
+    "305.2": {
+        "ruleNumber": "305.2",
+        "ruleText": "The main phase has no steps.",
+        "navigation": {
+            "nextRule": "305.3",
+            "previousRule": "305.1"
+        },
+        "examples": null
+    },
+    "417.1": {
+        "ruleNumber": "417.1",
+        "ruleText": "A one-shot effect does something just once and doesn't have a duration. Examples include damage dealing, destruction, and moving cards between zones.",
+        "navigation": {
+            "nextRule": "417.2",
+            "previousRule": "416.3"
+        },
+        "examples": null
+    },
+    "420.1": {
+        "ruleNumber": "420.1",
+        "ruleText": "State-based effects are a special category that applies only to those conditions listed below. Abilities that watch for a specified game state are triggered abilities. (See rule 410.8.)",
+        "navigation": {
+            "nextRule": "420.2",
+            "previousRule": "419.8b"
+        },
+        "examples": null
+    },
+    "214.8a": {
+        "ruleNumber": "214.8a",
+        "ruleText": "A global enchantment simply reads \"Enchantment\" as its type. Local enchantments comprise various subtypes: enchant artifact, enchant creature, enchant enchantment, enchant land, and enchant permanent.",
+        "navigation": {
+            "nextRule": "214.8b",
+            "previousRule": "214.8"
+        },
+        "examples": null
+    },
+    "410.7": {
+        "ruleNumber": "410.7",
+        "ruleText": "An ability is triggered only if its trigger event actually occurs. An event that's prevented or replaced won't trigger anything.",
+        "navigation": {
+            "nextRule": "410.8",
+            "previousRule": "410.6"
+        },
+        "examples": null
+    },
+    "419.7b": {
+        "ruleNumber": "419.7b",
+        "ruleText": "Some prevention effects refer to a specific amount of damage-for example, \"Prevent the next 3 damage to target creature or player this turn.\" These work like ablative shields. Each 1 damage that would be dealt to the \"shielded\" creature or player instead reduces the shield by 1. Once the shield has been reduced to 0, any remaining damage is dealt normally. Such effects count only the amount of damage; the number of events or sources dealing it doesn't matter.",
+        "navigation": {
+            "nextRule": "419.7c",
+            "previousRule": "419.7a"
+        },
+        "examples": null
+    },
+    "419.8": {
+        "ruleNumber": "419.8",
+        "ruleText": "Interaction of Replacement or Prevention Effects",
+        "navigation": {
+            "nextRule": "419.8a",
+            "previousRule": "419.7c"
+        },
+        "examples": null
+    },
+    "103.2": {
+        "ruleNumber": "103.2",
+        "ruleText": "When two card contradict each other, the card that states something can't happen takes precedence. For example, if a card in play states \"Players can't gain life\" and you play a card that would normally give you life, you don't gain life. Note that adding and removing characteristics  (including abilities) from cards doesn't fall under this rule. See rule 407, \"Adding and Removing Abilities.\"",
+        "navigation": {
+            "nextRule": "200.1",
+            "previousRule": "103.1"
+        },
+        "examples": null
+    },
+    "406.2b": {
+        "ruleNumber": "406.2b",
+        "ruleText": "If a delayed ability is triggered, the trigger event is irrelevant until the ability actually exists. Other events that happen earlier may make the trigger event impossible.",
+        "navigation": {
+            "nextRule": "406.2c",
+            "previousRule": "406.2a"
+        },
+        "examples": null
+    },
+    "421.2": {
+        "ruleNumber": "421.2",
+        "ruleText": "If the loop contains one or more optional actions and one player controls them all, that player chooses a number. The loop is treated as repeating that many times or until the other player intervenes, whichever comes first.",
+        "navigation": {
+            "nextRule": "421.3",
+            "previousRule": "421.1"
+        },
+        "examples": null
+    },
+    "420.5c": {
+        "ruleNumber": "420.5c",
+        "ruleText": "A creature with lethal damage is destroyed. Lethal damage is an amount of damage greater than 0 and greater than or equal to a creature's toughness. Regeneration does replace this event.",
+        "navigation": {
+            "nextRule": "420.5d",
+            "previousRule": "420.5b"
+        },
+        "examples": null
+    },
+    "217.3a": {
+        "ruleNumber": "217.3a",
+        "ruleText": "The hand is where a player holds cards that have been drawn but not yet played.",
+        "navigation": {
+            "nextRule": "217.3b",
+            "previousRule": "217.3"
+        },
+        "examples": null
+    },
+    "300.5": {
+        "ruleNumber": "300.5",
+        "ruleText": "When a phase or step begins, any triggered abilities \"at the beginning of\" that phase or step are added to the stack.",
+        "navigation": {
+            "nextRule": "300.6",
+            "previousRule": "300.4"
+        },
+        "examples": null
+    },
+    "214.9f": {
+        "ruleNumber": "214.9f",
+        "ruleText": "If an effect changes a permanent into a basic land, the permanent is no longer its old land type and has only the mana ability of that basic land. It now counts as a basic land. If that land was \"Legendary,\" it is no longer.",
+        "navigation": {
+            "nextRule": "214.9g",
+            "previousRule": "214.9e"
+        },
+        "examples": null
+    },
+    "309.2": {
+        "ruleNumber": "309.2",
+        "ruleText": "The defending player determines whether the block is legal. (See section 5, \"Additional Combat Rules.\") If it is, he or she pays all required costs. A player may play mana abilities at this time only if a blocking cost includes a mana payment.",
+        "navigation": {
+            "nextRule": "309.2a",
+            "previousRule": "309.1"
+        },
+        "examples": null
+    },
+    "213.2": {
+        "ruleNumber": "213.2",
+        "ruleText": "A spell's type is the same as its card type. 214. Permanent Type",
+        "navigation": {
+            "nextRule": "214.1",
+            "previousRule": "213.1"
+        },
+        "examples": null
+    },
+    "308.5": {
+        "ruleNumber": "308.5",
+        "ruleText": "A creature becomes an attacking creature when declared as part of a legal attack and all attack costs have been paid. It remains an attacking creature until it's removed from combat or the combat phase ends.",
+        "navigation": {
+            "nextRule": "308.6",
+            "previousRule": "308.4"
+        },
+        "examples": null
+    },
+    "502.8a": {
+        "ruleNumber": "502.8a",
+        "ruleText": "Shadow is an evasion ability.",
+        "navigation": {
+            "nextRule": "502.8b",
+            "previousRule": "502.8"
+        },
+        "examples": null
+    },
+    "300.4": {
+        "ruleNumber": "300.4",
+        "ruleText": "When a phase ends (but not a step), any unused mana left in a player's mana pool is lost. That player loses 1 life for each one mana lost this way. This is called mana burn. Note that mana burn is loss of life, not damage, so it can't be prevented or altered by effects that affect damage. (See rule 406.1, \"Mana Abilities.\")",
+        "navigation": {
+            "nextRule": "300.5",
+            "previousRule": "300.3"
+        },
+        "examples": null
+    },
+    "502.9f": {
+        "ruleNumber": "502.9f",
+        "ruleText": "When there are several attacking creatures, it's legal to assign damage from those without trample so as to maximize the damage of those with trample.",
+        "navigation": {
+            "nextRule": "502.9g",
+            "previousRule": "502.9e"
+        },
+        "examples": null
+    },
+    "413.2f": {
+        "ruleNumber": "413.2f",
+        "ruleText": "If an instruction requires information from the game (such as the number of creatures in play), the answer is determined when the player carries out that instruction. The instruction uses the current information of a specific permanent, if that permanent is still in play, or of a specific card in the stated zone; otherwise, the instruction uses the last known information the card or permanent had before leaving that zone. If the ability text states that a permanent does something, it's the permanent as it exists (or most recently existed) that does it, not the ability.",
+        "navigation": {
+            "nextRule": "413.2g",
+            "previousRule": "413.2e"
+        },
+        "examples": null
+    },
+    "410.10a": {
+        "ruleNumber": "410.10a",
+        "ruleText": "Comes-into-play abilities trigger when a permanent enters the in-play zone. These are written, \"When [this card] comes into play, . . . \" or \"Whenever a [permanent type] comes into play, . . .\" Each time an event puts one or more permanents into play, all permanents in play (including the newcomers) are checked for any comes-into-play triggers that match the event.",
+        "navigation": {
+            "nextRule": "410.10b",
+            "previousRule": "410.10"
+        },
+        "examples": null
+    },
+    "217.5d": {
+        "ruleNumber": "217.5d",
+        "ruleText": "A card outside the in-play zone isn't \"in play\" and isn't considered tapped or untapped and isn't controlled by either player.",
+        "navigation": {
+            "nextRule": "217.6",
+            "previousRule": "217.5c"
+        },
+        "examples": null
+    },
+    "418.1": {
+        "ruleNumber": "418.1",
+        "ruleText": "A continuous effect modifies permanents or the rules of the game for a fixed or indefinite period. A continuous effect may be generated by the resolution of a spell or ability or by a static ability of a permanent.",
+        "navigation": {
+            "nextRule": "418.2",
+            "previousRule": "417.2"
+        },
+        "examples": null
+    },
+    "420.5": {
+        "ruleNumber": "420.5",
+        "ruleText": "The state-based effects are as follows:",
+        "navigation": {
+            "nextRule": "420.5a",
+            "previousRule": "420.4"
+        },
+        "examples": null
+    },
+    "502.9": {
+        "ruleNumber": "502.9",
+        "ruleText": "Trample",
+        "navigation": {
+            "nextRule": "502.9a",
+            "previousRule": "502.8c"
+        },
+        "examples": null
+    },
+    "214.2": {
+        "ruleNumber": "214.2",
+        "ruleText": "A nontoken permanent's type(s) and subtype(s) are the same as those printed on its card. A token's type(s) and subtype(s) are set by the spell or ability that created it.",
+        "navigation": {
+            "nextRule": "214.3",
+            "previousRule": "214.1"
+        },
+        "examples": null
+    },
+    "419.8a": {
+        "ruleNumber": "419.8a",
+        "ruleText": "If two or more replacement or prevention effects are attempting to modify the same event in contradictory ways, the affected player chooses the order to apply them. If no player is directly affected, the player who controls the affected permanent chooses the order to apply them.",
+        "navigation": {
+            "nextRule": "419.8b",
+            "previousRule": "419.8"
+        },
+        "examples": null
+    },
+    "203.4": {
+        "ruleNumber": "203.4",
+        "ruleText": "Any additional cost listed in a card's rules text isn't part of the mana cost. (See rule 409, \"Playing Spells and Activated Abilities.\") 204. Illustration",
+        "navigation": {
+            "nextRule": "204.1",
+            "previousRule": "203.3"
+        },
+        "examples": null
+    },
+    "207.1": {
+        "ruleNumber": "207.1",
+        "ruleText": "The text box is printed on the lower half of the card. It contains rules text stating what the card does and any special requirements for playing it.",
+        "navigation": {
+            "nextRule": "207.2",
+            "previousRule": "206.3"
+        },
+        "examples": null
+    },
+    "418.3c": {
+        "ruleNumber": "418.3c",
+        "ruleText": "If the spell or ability creating a continuous effect is variable, the effect is determined only once, on resolution. A numeric change other than simple addition or subtraction (for example, double or half) converts to a simple +X or -X at resolution. It isn't recomputed if the initial value changes later.",
+        "navigation": {
+            "nextRule": "418.3d",
+            "previousRule": "418.3b"
+        },
+        "examples": null
+    },
+    "100.1": {
+        "ruleNumber": "100.1",
+        "ruleText": "These Magic rules assume a game between two players. Optional rules allow for more players but aren't discussed here. These can be found at the Wizards of the Coast\u00ae website at [www.wizards.com].",
+        "navigation": {
+            "nextRule": "100.2",
+            "previousRule": "502.9g"
+        },
+        "examples": null
+    },
+    "216.3": {
+        "ruleNumber": "216.3",
+        "ruleText": "A token in a zone other than the in-play zone ceases to exist. This is a state-based effect. (Note that a token changing zones will set off triggered abilities before the token ceases to exist.) 217. Zones",
+        "navigation": {
+            "nextRule": "217.1",
+            "previousRule": "216.2"
+        },
+        "examples": null
+    },
+    "418.5a": {
+        "ruleNumber": "418.5a",
+        "ruleText": "Sometimes the results of one effect determine whether another effect applies or what it does. For example, one effect might read, \"All white creatures get +1/+1\" and another, \"Enchanted creature is white.\"",
+        "navigation": {
+            "nextRule": "418.5b",
+            "previousRule": "418.5"
+        },
+        "examples": null
+    },
+    "418.3a": {
+        "ruleNumber": "418.3a",
+        "ruleText": "A continuous effect generated by the resolution of a spell or ability lasts as long as stated by the spell or ability creating it (such as \"until end of turn\"). If no duration is stated, it lasts until the end of the game.",
+        "navigation": {
+            "nextRule": "418.3b",
+            "previousRule": "418.3"
+        },
+        "examples": null
+    },
+    "410.5": {
+        "ruleNumber": "410.5",
+        "ruleText": "Some triggered abilities give a player a choice of completing an action or doing nothing (denoted with the word \"may\"). This choice is made at the time the ability would be put on the stack. If the player chooses to complete the action, a psuedospell is added to the stack. Otherwise, nothing is added to the stack; the ability is ignored. This doesn't apply to a triggered ability that requires a player to do something \"unless\" that player pays the alternative requirement.",
+        "navigation": {
+            "nextRule": "410.6",
+            "previousRule": "410.4"
+        },
+        "examples": null
+    },
+    "419.3": {
+        "ruleNumber": "419.3",
+        "ruleText": "There are no special restrictions on playing a spell or ability that generates a replacement or prevention effect. Such effects last until they're used up or their duration has expired.",
+        "navigation": {
+            "nextRule": "419.4",
+            "previousRule": "419.2"
+        },
+        "examples": null
+    },
+    "202.1": {
+        "ruleNumber": "202.1",
+        "ruleText": "The name of a card is printed on its upper-left corner.",
+        "navigation": {
+            "nextRule": "202.2",
+            "previousRule": "201.1"
+        },
+        "examples": null
+    },
+    "406.1a": {
+        "ruleNumber": "406.1a",
+        "ruleText": "A mana ability is an activated ability that puts mana into a player's mana pool when it resolves or a triggered ability that triggers from an activated mana ability and produces additional mana. It can generate other effects at the same time it produces mana.",
+        "navigation": {
+            "nextRule": "406.1b",
+            "previousRule": "406.1"
+        },
+        "examples": null
+    },
+    "300.2": {
+        "ruleNumber": "300.2",
+        "ruleText": "A phase or step ends when the stack is empty and both players pass in succession. No game events can occur between turns, phases, or steps. (Simply having the stack become empty doesn't cause the phase or step to end; both players have to pass with the stack empty. Because of this, each player always gets a chance to add new things to the stack before the current step or phase ends.)",
+        "navigation": {
+            "nextRule": "300.3",
+            "previousRule": "300.1"
+        },
+        "examples": null
+    },
+    "307.1": {
+        "ruleNumber": "307.1",
+        "ruleText": "After triggered abilities (if any) are added to the stack, the active player receives priority to play spells and abilities when the step begins. 308. Declare Attackers Step",
+        "navigation": {
+            "nextRule": "308.1",
+            "previousRule": "306.2"
+        },
+        "examples": null
+    },
+    "310.1": {
+        "ruleNumber": "310.1",
+        "ruleText": "First the active player announces how each attacking creature will assign its combat damage. Then the defending player announces how each blocking creature will assign its combat damage. (See also rule 502.2, \"First Strike.\") A player may divide a creature's combat damage as he or she chooses among the legal recipients. Dividing combat damage is subject to the following restrictions:",
+        "navigation": {
+            "nextRule": "310.1a",
+            "previousRule": "309.5"
+        },
+        "examples": null
+    },
+    "208.1": {
+        "ruleNumber": "208.1",
+        "ruleText": "A creature card has two numbers separated by a slash printed on its lower-right corner. The first number is the creature's power (the amount of damage it deals in combat); the second is its toughness (the amount of damage needed to destroy it). For example, 2/3 means the creature has power 2 and toughness 3. 209. Credit",
+        "navigation": {
+            "nextRule": "209.1",
+            "previousRule": "207.2"
+        },
+        "examples": null
+    },
+    "215.1": {
+        "ruleNumber": "215.1",
+        "ruleText": "The word \"Legend\" or \"Legendary\" may be added to a card type or subtype. This means that the permanent created when that card enters play is subject to the Legend rule (see rule 420, \"State-Based Effects\") as well as the rules for its type and subtype.",
+        "navigation": {
+            "nextRule": "215.2",
+            "previousRule": "214.9h"
+        },
+        "examples": null
+    },
+    "308.2": {
+        "ruleNumber": "308.2",
+        "ruleText": "The active player determines whether the attack is legal. (See section 5, \"Additional Combat Rules.\") If it is, he or she pays all required costs. Tapping is a cost to attack for all creatures unless otherwise specified; other costs and/or restrictions may also apply. (See rule 409.1f.) The active player may play mana abilities at this time only if an attack cost includes a mana payment.",
+        "navigation": {
+            "nextRule": "308.3",
+            "previousRule": "308.1"
+        },
+        "examples": null
+    },
+    "407.3": {
+        "ruleNumber": "407.3",
+        "ruleText": "Effects that remove an ability remove all copies of it.",
+        "navigation": {
+            "nextRule": "408.1",
+            "previousRule": "407.2"
+        },
+        "examples": null
+    },
+    "305.1": {
+        "ruleNumber": "305.1",
+        "ruleText": "There are two main phases in a turn. The first main phase, known as the precombat main phase, and second main phase, known as the postcombat main phase, are separated by the combat phase (see rule 306, \"Combat Phase\") and are collectively known as the \"main phase.\"",
+        "navigation": {
+            "nextRule": "305.2",
+            "previousRule": "304.1"
+        },
+        "examples": null
+    },
+    "102.2": {
+        "ruleNumber": "102.2",
+        "ruleText": "When a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, then loses the game the next time a player receives priority. (This is a state-based effect. See rule 420, \"State-Based Effects.\")",
+        "navigation": {
+            "nextRule": "102.3",
+            "previousRule": "102.1"
+        },
+        "examples": null
+    },
+    "408.1e": {
+        "ruleNumber": "408.1e",
+        "ruleText": "When a spell or ability is played, it goes on top of the stack.",
+        "navigation": {
+            "nextRule": "408.1f",
+            "previousRule": "408.1d"
+        },
+        "examples": null
+    },
+    "502.6c": {
+        "ruleNumber": "502.6c",
+        "ruleText": "Landwalk abilities don't \"cancel\" one another.",
+        "navigation": {
+            "nextRule": "502.6d",
+            "previousRule": "502.6b"
+        },
+        "examples": null
+    },
+    "214.9": {
+        "ruleNumber": "214.9",
+        "ruleText": "Lands",
+        "navigation": {
+            "nextRule": "214.9a",
+            "previousRule": "214.8i"
+        },
+        "examples": null
+    },
+    "214.9b": {
+        "ruleNumber": "214.9b",
+        "ruleText": "A player may normally play only one land card during each of his or her own turns. Spells and abilities may allow playing additional lands; doing so doesn't prevent a player from taking the normal action of playing a land. As a player plays a land, he or she announces if he or she is playing his or her normal land or using an ability. Spells and abilities may also allow you to put lands into play. This isn't the same as \"playing a land\" and doesn't count toward the player's one land played during his or her turn.",
+        "navigation": {
+            "nextRule": "214.9c",
+            "previousRule": "214.9a"
+        },
+        "examples": null
+    },
+    "420.5b": {
+        "ruleNumber": "420.5b",
+        "ruleText": "A creature with toughness 0 (or less) is put into its owner's graveyard. Regeneration can't replace this event.",
+        "navigation": {
+            "nextRule": "420.5c",
+            "previousRule": "420.5a"
+        },
+        "examples": null
+    },
+    "502.8": {
+        "ruleNumber": "502.8",
+        "ruleText": "Shadow",
+        "navigation": {
+            "nextRule": "502.8a",
+            "previousRule": "502.7c"
+        },
+        "examples": null
+    },
+    "102.4": {
+        "ruleNumber": "102.4",
+        "ruleText": "If both players lose simultaneously, the game is a draw.",
+        "navigation": {
+            "nextRule": "102.5",
+            "previousRule": "102.3"
+        },
+        "examples": null
+    },
+    "216.2": {
+        "ruleNumber": "216.2",
+        "ruleText": "A token is subject to anything that affects permanents in general or the token's type or subtype. A token isn't considered a card (even if represented by cards from other games or Unglued token cards) and isn't subject to any effect that specifically uses the word \"card.\"",
+        "navigation": {
+            "nextRule": "216.3",
+            "previousRule": "216.1"
+        },
+        "examples": null
+    },
+    "502.9e": {
+        "ruleNumber": "502.9e",
+        "ruleText": "Assigning damage from a creature with trample considers only the actual toughness of a blocking creature, not any abilities or effects that might change the final amount of damage dealt.",
+        "navigation": {
+            "nextRule": "502.9f",
+            "previousRule": "502.9d"
+        },
+        "examples": null
+    },
+    "313.1": {
+        "ruleNumber": "313.1",
+        "ruleText": "The end of turn step begins with the active player having priority. All \"at end of turn\" abilities trigger and go on the stack. Then players may play spells and abilities. ",
+        "navigation": {
+            "nextRule": "314.1",
+            "previousRule": "312.1"
+        },
+        "examples": null
+    },
+    "407.1": {
+        "ruleNumber": "407.1",
+        "ruleText": "Effects can add or remove abilities of permanents. If two or more effects add and remove the same ability, in general the most recent one prevails. (See rule 418.5, \"Interaction of Continuous Effects.\")",
+        "navigation": {
+            "nextRule": "407.2",
+            "previousRule": "406.2e"
+        },
+        "examples": null
+    },
+    "418.3b": {
+        "ruleNumber": "418.3b",
+        "ruleText": "The set of permanents subject to continuous effects from a spell or ability is chosen either when the spell or ability is played (if it targets the permanents) or when it resolves (if it's not targeted). After resolution, this set won't change. Note that this differs from continuous effects from permanents.",
+        "navigation": {
+            "nextRule": "418.3c",
+            "previousRule": "418.3a"
+        },
+        "examples": null
+    },
+    "405.1": {
+        "ruleNumber": "405.1",
+        "ruleText": "A static ability does something all the time rather than being activated or triggered. The ability isn't played-it just \"is.\" 406. Ability Subtypes",
+        "navigation": {
+            "nextRule": "406.1",
+            "previousRule": "404.2"
+        },
+        "examples": null
+    },
+    "413.2b": {
+        "ruleNumber": "413.2b",
+        "ruleText": "The controller of the spell or ability follows its instructions in the order written. However, replacement effects may modify these actions. In some cases, later text on the card may modify the meaning of earlier text (for example, \"Destroy target creature. It can't be regenerated\" or \"Counter target spell. Put it on top of its owner's library instead of into its owner's graveyard.\") Don't just execute the instructions step by step without thinking in these cases-read the whole card and apply the rules of English to the text.",
+        "navigation": {
+            "nextRule": "413.2c",
+            "previousRule": "413.2a"
+        },
+        "examples": null
+    },
+    "408.1d": {
+        "ruleNumber": "408.1d",
+        "ruleText": "A player may play a spell or activated ability only when he or she has priority. Spells other than instants can be played only during a player's main phase, when that player has priority, and only when the stack is empty.",
+        "navigation": {
+            "nextRule": "408.1e",
+            "previousRule": "408.1c"
+        },
+        "examples": null
+    },
+    "406.2e": {
+        "ruleNumber": "406.2e",
+        "ruleText": "A delayed triggered ability will trigger only once unless there's a stated duration.  407. Adding and Removing Abilities",
+        "navigation": {
+            "nextRule": "407.1",
+            "previousRule": "406.2d"
+        },
+        "examples": null
+    },
+    "419.6": {
+        "ruleNumber": "419.6",
+        "ruleText": "Replacement Effects",
+        "navigation": {
+            "nextRule": "419.6a",
+            "previousRule": "419.5"
+        },
+        "examples": null
+    },
+    "310.4": {
+        "ruleNumber": "310.4",
+        "ruleText": "When the combat damage resolves, it's dealt as originally assigned. This happens even if the creature dealing damage is no longer in play or has its power changed or if the creature receiving damage has left combat. (Note that the source of the damage is the creature as it currently exists, or as it most recently existed if it is no longer in play.) If a creature that was supposed to receive damage is no longer in play, the damage assigned to it isn't dealt. 311. End of Combat Step",
+        "navigation": {
+            "nextRule": "311.1",
+            "previousRule": "310.3"
+        },
+        "examples": null
+    },
+    "415.3": {
+        "ruleNumber": "415.3",
+        "ruleText": "If an effect edits any characteristics of a spell that becomes a permanent, the effect continues to apply to the permanent when the spell resolves.",
+        "navigation": {
+            "nextRule": "416.1",
+            "previousRule": "415.2b"
+        },
+        "examples": null
+    },
+    "502.2a": {
+        "ruleNumber": "502.2a",
+        "ruleText": "First strike is a static ability that modifies the rules for the combat damage step.",
+        "navigation": {
+            "nextRule": "502.2b",
+            "previousRule": "502.2"
+        },
+        "examples": null
+    },
+    "309.5": {
+        "ruleNumber": "309.5",
+        "ruleText": "After all legal blocks have been declared and all required costs paid, the active player receives priority to play spells and abilities. 310. Combat Damage Step",
+        "navigation": {
+            "nextRule": "310.1",
+            "previousRule": "309.4"
+        },
+        "examples": null
+    },
+    "212.2b": {
+        "ruleNumber": "212.2b",
+        "ruleText": "Enchantment subtypes are listed after the \"Enchant,\" separated by a space: \"Enchant Creature,\" \"Enchant Player,\" etc. (\"Enchant World\" isn't a type or subtype, but a special category of \"Enchantment\" found only in sets.) An \"Enchantment\" card has no enchantment subtype. An enchantment subtype specifies what the enchantment can be attached to legally. \"Local enchantment\" and \"global enchantment\" aren't types or subtypes; they're categories of enchantments.",
+        "navigation": {
+            "nextRule": "212.2c",
+            "previousRule": "212.2a"
+        },
+        "examples": null
+    },
+    "217.6c": {
+        "ruleNumber": "217.6c",
+        "ruleText": "When both players decline to add a spell or ability to the stack, the top (last-played) spell or ability resolves.",
+        "navigation": {
+            "nextRule": "217.7",
+            "previousRule": "217.6b"
+        },
+        "examples": null
+    },
+    "407.2": {
+        "ruleNumber": "407.2",
+        "ruleText": "A characteristic of a permanent as the result of an effect is different from an ability granted by an effect. When a permanent \"gains\" or \"has\" an ability, it can be removed by another effect. If an effect defines a characteristic of the permanent (\"[permanent] is [characteristic]\"), it's not granting an ability.",
+        "navigation": {
+            "nextRule": "407.3",
+            "previousRule": "407.1"
+        },
+        "examples": null
+    },
+    "402.3": {
+        "ruleNumber": "402.3",
+        "ruleText": "Text on a card stating that the card \"is\" or \"counts as\" a particular type or color isn't an ability. Such statements apply no matter what zone the card is in and aren't removed by effects that cause a permanent to lose its abilities.",
+        "navigation": {
+            "nextRule": "402.4",
+            "previousRule": "402.2"
+        },
+        "examples": null
+    },
+    "302.1": {
+        "ruleNumber": "302.1",
+        "ruleText": "First, the active player determines which permanents he or she controls will untap. (Normally they all do, but effects may modify this.) Then he or she untaps them all simultaneously.",
+        "navigation": {
+            "nextRule": "302.2",
+            "previousRule": "301.1"
+        },
+        "examples": null
+    },
+    "421.5": {
+        "ruleNumber": "421.5",
+        "ruleText": "If the loop contains at least one optional action controlled by each player and these actions don't depend on one another, the active player chooses a number. The nonactive player can either agree to that number or choose a higher number. Note that this rule applies even if the actions could exist in separate loops rather than in a single loop. 422. Handling Illegal Actions",
+        "navigation": {
+            "nextRule": "422.1",
+            "previousRule": "421.4"
+        },
+        "examples": null
+    },
+    "212.2a": {
+        "ruleNumber": "212.2a",
+        "ruleText": "Creature subtypes are listed after the \"Creature,\" separated by a long dash: \"Creature - Minotaur,\" \"Artifact Creature - Golem Legend,\" etc. Creature subtypes are one word each and are also called \"creature types.\" Creature cards may have multiple creature types listed.",
+        "navigation": {
+            "nextRule": "212.2b",
+            "previousRule": "212.2"
+        },
+        "examples": null
+    },
+    "413.2e": {
+        "ruleNumber": "413.2e",
+        "ruleText": "If an instruction gives a player the option to pay mana, he or she may play mana abilities as part of the action. No other spells or abilities can be played during resolution.",
+        "navigation": {
+            "nextRule": "413.2f",
+            "previousRule": "413.2d"
+        },
+        "examples": null
+    },
+    "415.2b": {
+        "ruleNumber": "415.2b",
+        "ruleText": "The word \"you\" in a card's text isn't a target. A spell that affects only its player can't be retargeted.",
+        "navigation": {
+            "nextRule": "415.3",
+            "previousRule": "415.2a"
+        },
+        "examples": null
+    },
+    "217.4": {
+        "ruleNumber": "217.4",
+        "ruleText": "Graveyard",
+        "navigation": {
+            "nextRule": "217.4a",
+            "previousRule": "217.3c"
+        },
+        "examples": null
+    },
+    "412.3": {
+        "ruleNumber": "412.3",
+        "ruleText": "Some static abilities apply while a spell is on the stack. These are limited to abilities that refer to countering the spell.",
+        "navigation": {
+            "nextRule": "412.4",
+            "previousRule": "412.2"
+        },
+        "examples": null
+    },
+    "402.1": {
+        "ruleNumber": "402.1",
+        "ruleText": "An instruction in a card's text is an ability. The result of following such an instruction or of following a spell's text is an effect. (See rule 416, \"Effects.\")",
+        "navigation": {
+            "nextRule": "402.2",
+            "previousRule": "401.3"
+        },
+        "examples": null
+    },
+    "420.5e": {
+        "ruleNumber": "420.5e",
+        "ruleText": "If two or more Legends or Legendary permanents with the same name are in play, all except the one with the earliest timestamp are put into in their owners' graveyards. This is called the \"Legend rule.\" In the event of a tie for earliest timestamp, each Legend with the same name is put into its owner's graveyard.",
+        "navigation": {
+            "nextRule": "420.5f",
+            "previousRule": "420.5d"
+        },
+        "examples": null
+    },
+    "202.3": {
+        "ruleNumber": "202.3",
+        "ruleText": "Two cards are considered to have the same name if the English versions of their names are identical, regardless of anything else printed on the cards. 203. Mana Cost",
+        "navigation": {
+            "nextRule": "203.1",
+            "previousRule": "202.2"
+        },
+        "examples": null
+    },
+    "419.1": {
+        "ruleNumber": "419.1",
+        "ruleText": "Replacement and prevention effects are similar to continuous effects. They watch for a type of event and replace it with a different one, modify it in some way, or prevent it from happening. These effects act like \"shields\" around whatever they're affecting. Replacement effects use the word \"instead,\" while prevention effects use \"prevent.\"",
+        "navigation": {
+            "nextRule": "419.2",
+            "previousRule": "418.5d"
+        },
+        "examples": null
+    },
+    "406.2a": {
+        "ruleNumber": "406.2a",
+        "ruleText": "An effect may create a delayed ability that can do something at a later time. Delayed abilities can be activated or triggered.",
+        "navigation": {
+            "nextRule": "406.2b",
+            "previousRule": "406.2"
+        },
+        "examples": null
+    },
+    "310.3": {
+        "ruleNumber": "310.3",
+        "ruleText": "Assigning combat damage isn't a spell or ability, so it can't be countered.",
+        "navigation": {
+            "nextRule": "310.4",
+            "previousRule": "310.2"
+        },
+        "examples": null
+    },
+    "408.1b": {
+        "ruleNumber": "408.1b",
+        "ruleText": "Spells and activated abilities are played by players (if they choose) using a system of priority, while other types of abilities and effects are automatically generated by the game rules. Each time a player receives priority, all applicable state-based effects resolve (See rule 420, \"State-Based Effects\"), then triggered abilities are added to the stack (See rule 410, \"Handling Triggered Abilities\"); these steps repeat until no further state-based effects or triggered abilities are generated. Then the player may play a spell, ability, or land as governed by the rules for that phase.",
+        "navigation": {
+            "nextRule": "408.1c",
+            "previousRule": "408.1a"
+        },
+        "examples": null
+    },
+    "206.3": {
+        "ruleNumber": "206.3",
+        "ruleText": "A spell or ability that affects cards from a particular set \"looks\" only for that set's expansion symbol. A card reprinted in the basic set receives the basic set's expansion symbol; the reprinted version of the card no longer counts as part of its original set. The first five editions of the basic set had no expansion symbol. 207. Text Box",
+        "navigation": {
+            "nextRule": "207.1",
+            "previousRule": "206.2"
+        },
+        "examples": null
+    },
+    "419.2": {
+        "ruleNumber": "419.2",
+        "ruleText": "Replacement and prevention effects apply continuously as events happen-they aren't locked in ahead of time.",
+        "navigation": {
+            "nextRule": "419.3",
+            "previousRule": "419.1"
+        },
+        "examples": null
+    },
+    "214.9a": {
+        "ruleNumber": "214.9a",
+        "ruleText": "A land card isn't a spell card. It's put directly into play.",
+        "navigation": {
+            "nextRule": "214.9b",
+            "previousRule": "214.9"
+        },
+        "examples": null
+    },
+    "214.8e": {
+        "ruleNumber": "214.8e",
+        "ruleText": "If a local enchantment ends up enchanting an illegal permanent or the permanent it was attached to no longer exists, the enchantment card is put into its owner's graveyard. This is a state-based effect. (See rule 420, \"State-Based Effects.\")",
+        "navigation": {
+            "nextRule": "214.8f",
+            "previousRule": "214.8d"
+        },
+        "examples": null
+    },
+    "502.4b": {
+        "ruleNumber": "502.4b",
+        "ruleText": "A creature with flying can't be blocked by creatures without flying. A creature with flying can block a creature with or without flying.",
+        "navigation": {
+            "nextRule": "502.4c",
+            "previousRule": "502.4a"
+        },
+        "examples": null
+    },
+    "502.6d": {
+        "ruleNumber": "502.6d",
+        "ruleText": "Multiple copies of the same type of landwalk on the same creature are redundant.",
+        "navigation": {
+            "nextRule": "502.7",
+            "previousRule": "502.6c"
+        },
+        "examples": null
+    },
+    "413.2c": {
+        "ruleNumber": "413.2c",
+        "ruleText": "If the instructions offer any choices other than choices already made as part of playing the spell or ability, the player announces these while carrying them out. The player can't choose an option that's illegal or impossible. If the instructions provide an optional action with a consequence for not doing so, the player can't choose that action unless he or she can meet all requirements.",
+        "navigation": {
+            "nextRule": "413.2d",
+            "previousRule": "413.2b"
+        },
+        "examples": null
+    },
+    "408.2a": {
+        "ruleNumber": "408.2a",
+        "ruleText": "Effects don't go on the stack. When a spell or ability resolves, its instructions are executed immediately. These instruction may create a delayed ability. (See rule 406.2, \"Delayed Abilities.\")",
+        "navigation": {
+            "nextRule": "408.2b",
+            "previousRule": "408.2"
+        },
+        "examples": null
+    },
+    "502.5a": {
+        "ruleNumber": "502.5a",
+        "ruleText": "Haste is a static ability.",
+        "navigation": {
+            "nextRule": "502.5b",
+            "previousRule": "502.5"
+        },
+        "examples": null
+    },
+    "406.2c": {
+        "ruleNumber": "406.2c",
+        "ruleText": "A delayed ability that refers to a particular permanent still affects it even if the permanent changes characteristics.",
+        "navigation": {
+            "nextRule": "406.2d",
+            "previousRule": "406.2b"
+        },
+        "examples": null
+    },
+    "410.2": {
+        "ruleNumber": "410.2",
+        "ruleText": "Whenever a game event matches the trigger event of an ability, that ability \"triggers.\"  When a phase or step begins, all abilities that trigger \"at the beginning of\" that phase or step trigger. The ability doesn't do anything when it triggers but automatically puts a pseudospell (see rule 217.6b) on the stack as soon as a player gets priority. If the ability says a player \"may\" do something, that player controls the triggered ability and the pseudospell. If the ability says this for more than one player, it generates one pseudospell per player. If the ability doesn't use the word \"may,\" the controller of the source of the triggered ability controls the ability (and the pseudospell).",
+        "navigation": {
+            "nextRule": "410.3",
+            "previousRule": "410.1"
+        },
+        "examples": null
+    },
+    "214.8f": {
+        "ruleNumber": "214.8f",
+        "ruleText": "A local enchantment can't be attached to itself.",
+        "navigation": {
+            "nextRule": "214.8g",
+            "previousRule": "214.8e"
+        },
+        "examples": null
+    },
+    "214.7b": {
+        "ruleNumber": "214.7b",
+        "ruleText": "Plurality and gender are ignored when determining creature types.",
+        "navigation": {
+            "nextRule": "214.8",
+            "previousRule": "214.7a"
+        },
+        "examples": null
+    },
+    "411.2": {
+        "ruleNumber": "411.2",
+        "ruleText": "A player may play an activated mana ability whenever he or she has priority and also whenever a rule or effect asks for a mana payment, even in the middle of playing or resolving a spell or ability.",
+        "navigation": {
+            "nextRule": "411.3",
+            "previousRule": "411.1"
+        },
+        "examples": null
+    },
+    "217.2": {
+        "ruleNumber": "217.2",
+        "ruleText": "Library",
+        "navigation": {
+            "nextRule": "217.2a",
+            "previousRule": "217.1"
+        },
+        "examples": null
+    },
+    "502.6": {
+        "ruleNumber": "502.6",
+        "ruleText": "Landwalk",
+        "navigation": {
+            "nextRule": "502.6a",
+            "previousRule": "502.5c"
+        },
+        "examples": null
+    },
+    "502.1": {
+        "ruleNumber": "502.1",
+        "ruleText": "Most creature abilities describe exactly what they do in the card's rules text. Some, though, are very common or would require too much space to define on the card. In these cases, the card lists only the name of the ability as a \"keyword\"; sometimes reminder text summarizes the game rule.",
+        "navigation": {
+            "nextRule": "502.2",
+            "previousRule": "501.3"
+        },
+        "examples": null
+    },
+    "419.8b": {
+        "ruleNumber": "419.8b",
+        "ruleText": "Two or more replacement effects can interact without contradicting one another.",
+        "navigation": {
+            "nextRule": "420.1",
+            "previousRule": "419.8a"
+        },
+        "examples": null
+    },
+    "409.2": {
+        "ruleNumber": "409.2",
+        "ruleText": "Activated abilities that read \"Play this ability any time you could play [spell type]\" or \"Play this ability only if you could play [spell type]\" mean follow the timing rules for that spell type, though the ability isn't actually of that spell type.",
+        "navigation": {
+            "nextRule": "409.3",
+            "previousRule": "409.1f"
+        },
+        "examples": null
+    },
+    "100.4": {
+        "ruleNumber": "100.4",
+        "ruleText": "There is no maximum deck size.",
+        "navigation": {
+            "nextRule": "100.5",
+            "previousRule": "100.3"
+        },
+        "examples": null
+    },
+    "217.5b": {
+        "ruleNumber": "217.5b",
+        "ruleText": "A spell or ability affects only the in-play zone unless it specifically mentions another zone. Permanents exist only in the in-play zone.",
+        "navigation": {
+            "nextRule": "217.5c",
+            "previousRule": "217.5a"
+        },
+        "examples": null
+    },
+    "301.1": {
+        "ruleNumber": "301.1",
+        "ruleText": "The beginning phase consists of three steps, in this order: untap, upkeep, and draw. 302. Untap Step",
+        "navigation": {
+            "nextRule": "302.1",
+            "previousRule": "300.6"
+        },
+        "examples": null
+    },
+    "214.6b": {
+        "ruleNumber": "214.6b",
+        "ruleText": "Artifact creatures combine the characteristics of both the creature and artifact subtypes and are subject to spells and abilities that affect both.",
+        "navigation": {
+            "nextRule": "214.7",
+            "previousRule": "214.6a"
+        },
+        "examples": null
+    },
+    "309.3": {
+        "ruleNumber": "309.3",
+        "ruleText": "A creature becomes a blocking creature when declared as part of a legal block and all block costs have been paid. An attacking creature with one or more creatures declared as blockers against it becomes a blocked creature; one with no blockers becomes an unblocked creature. The creature's status remains unchanged until the creature is removed from combat or the combat phase ends.",
+        "navigation": {
+            "nextRule": "309.4",
+            "previousRule": "309.2a"
+        },
+        "examples": null
+    },
+    "419.7a": {
+        "ruleNumber": "419.7a",
+        "ruleText": "Prevention effects usually apply to damage that would be dealt.",
+        "navigation": {
+            "nextRule": "419.7b",
+            "previousRule": "419.7"
+        },
+        "examples": null
+    },
+    "420.3": {
+        "ruleNumber": "420.3",
+        "ruleText": "Whenever a player has priority to play a spell or ability (see rule 408, \"Timing of Spells and Abilities\"), the game checks for any of the listed conditions for state-based effects. All applicable effects resolve as a single event, then the check is repeated. This check is also made during the cleanup step (see rule 314); if any of the listed conditions apply, the active player receives priority.",
+        "navigation": {
+            "nextRule": "420.4",
+            "previousRule": "420.2"
+        },
+        "examples": null
+    },
+    "214.9h": {
+        "ruleNumber": "214.9h",
+        "ruleText": "Nonbasic lands don't necessarily have mana abilities. 215. Legends and Legendary Types",
+        "navigation": {
+            "nextRule": "215.1",
+            "previousRule": "214.9g"
+        },
+        "examples": null
+    },
+    "406.1c": {
+        "ruleNumber": "406.1c",
+        "ruleText": "A mana ability exists even if the game state doesn't allow it to produce mana.",
+        "navigation": {
+            "nextRule": "406.1d",
+            "previousRule": "406.1b"
+        },
+        "examples": null
+    },
+    "309.1": {
+        "ruleNumber": "309.1",
+        "ruleText": "The defending player declares which, if any, creatures he or she controls are blocking and which attacking creature each one blocks. Tapped creatures and noncreature permanents can't be declared as blockers. Each creature may block only one attacking creature, though any number of creatures may block the same attacking creature. (Note that blocking doesn't cause a creature to tap.) This declaration is simultaneous, not sequential, and doesn't go on the stack. Any triggered ability generated during this action waits until a player receives priority.",
+        "navigation": {
+            "nextRule": "309.2",
+            "previousRule": "308.6"
+        },
+        "examples": null
+    },
+    "414.1": {
+        "ruleNumber": "414.1",
+        "ruleText": "To counter a spell is to move the spell card from the stack to its owner's graveyard. Countering an ability removes its pseudospell from the stack. Spells and abilities that are countered don't resolve.",
+        "navigation": {
+            "nextRule": "414.2",
+            "previousRule": "413.2h"
+        },
+        "examples": null
+    },
+    "413.2": {
+        "ruleNumber": "413.2",
+        "ruleText": "Resolution may involve several steps but is treated by the game as a single indivisible action. These steps are followed in the order listed below.",
+        "navigation": {
+            "nextRule": "413.2a",
+            "previousRule": "413.1"
+        },
+        "examples": null
+    },
+    "309.4": {
+        "ruleNumber": "309.4",
+        "ruleText": "Once a creature has been declared as a blocker, playing a spell or ability that removes it from combat doesn't \"unblock\" creatures it was blocking.",
+        "navigation": {
+            "nextRule": "309.5",
+            "previousRule": "309.3"
+        },
+        "examples": null
+    },
+    "212.2c": {
+        "ruleNumber": "212.2c",
+        "ruleText": "Land subtypes are also called \"land type\" and are always the same as the name of the land card; they aren't listed on the type line. A card named \"Island\" has land type \"island\"; a card named \"Henge of Ramos\" has land type \"Henge of Ramos.\" Only basic lands get special abilities just for being a given land type. (See rule 214.9e.) Every land card has one land type listed. \"Basic land\" and \"nonbasic land\" aren't types or subtypes; they're categories of land.",
+        "navigation": {
+            "nextRule": "212.2d",
+            "previousRule": "212.2b"
+        },
+        "examples": null
+    },
+    "412.1": {
+        "ruleNumber": "412.1",
+        "ruleText": "A static ability may generate a continuous effect or a prevention or replacement effect. These effects last as long as the permanent with the static ability remains in play.",
+        "navigation": {
+            "nextRule": "412.2",
+            "previousRule": "411.3"
+        },
+        "examples": null
+    },
+    "217.2c": {
+        "ruleNumber": "217.2c",
+        "ruleText": "A player may count the number of cards remaining in either player's library at any time.",
+        "navigation": {
+            "nextRule": "217.3",
+            "previousRule": "217.2b"
+        },
+        "examples": null
+    },
+    "402.5": {
+        "ruleNumber": "402.5",
+        "ruleText": "An ability isn't a spell and therefore can't be countered by anything that counters only spells.",
+        "navigation": {
+            "nextRule": "402.6",
+            "previousRule": "402.4"
+        },
+        "examples": null
+    },
+    "412.4": {
+        "ruleNumber": "412.4",
+        "ruleText": "Some static abilities apply while a card is in your hand. These are limited to \"you may/can't play [this spell] . . . .\"",
+        "navigation": {
+            "nextRule": "413.1",
+            "previousRule": "412.3"
+        },
+        "examples": null
+    },
+    "103.1": {
+        "ruleNumber": "103.1",
+        "ruleText": "The Magic Golden Rule is: Whenever a card's text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation. If an instruction requires taking an impossible action, it's ignored. (In many cases the card will specify consequences for this; if it doesn't, there's no effect.)",
+        "navigation": {
+            "nextRule": "103.2",
+            "previousRule": "102.7"
+        },
+        "examples": null
+    },
+    "419.7": {
+        "ruleNumber": "419.7",
+        "ruleText": "Prevention Effects",
+        "navigation": {
+            "nextRule": "419.7a",
+            "previousRule": "419.6b"
+        },
+        "examples": null
+    },
+    "214.9c": {
+        "ruleNumber": "214.9c",
+        "ruleText": "A land card is one of two categories: basic and nonbasic. Basic and nonbasic are not types or subtypes.",
+        "navigation": {
+            "nextRule": "214.9d",
+            "previousRule": "214.9b"
+        },
+        "examples": null
+    },
+    "214.7": {
+        "ruleNumber": "214.7",
+        "ruleText": "Creatures",
+        "navigation": {
+            "nextRule": "214.7a",
+            "previousRule": "214.6b"
+        },
+        "examples": null
+    },
+    "206.1": {
+        "ruleNumber": "206.1",
+        "ruleText": "The expansion symbol indicates in which Magic set the card was published and is printed below the right edge of the illustration.",
+        "navigation": {
+            "nextRule": "206.2",
+            "previousRule": "205.1"
+        },
+        "examples": null
+    },
+    "410.10c": {
+        "ruleNumber": "410.10c",
+        "ruleText": "Leaves-play abilities trigger when a permanent leaves the in-play zone. These are written as, but aren't limited to, \"Whenever [this card] leaves play, . . .\" or \"Whenever [permanent type] is put into a graveyard from play, . . . .\" An ability that attempts to do something to the card that left play checks for it only in the first zone that it went to.",
+        "navigation": {
+            "nextRule": "410.10d",
+            "previousRule": "410.10b"
+        },
+        "examples": null
+    },
+    "502.5b": {
+        "ruleNumber": "502.5b",
+        "ruleText": "A creature with haste can attack or use activated abilities whose cost includes tapping the creature even if it hasn't been controlled by its controller continuously since the most recent beginning of his or her turn.",
+        "navigation": {
+            "nextRule": "502.5c",
+            "previousRule": "502.5a"
+        },
+        "examples": null
+    },
+    "404.1": {
+        "ruleNumber": "404.1",
+        "ruleText": "A triggered ability begins with the word \"when,\" \"whenever,\" or \"at.\" The phrase containing one of these words is the trigger condition, which defines the trigger event.",
+        "navigation": {
+            "nextRule": "404.2",
+            "previousRule": "403.3"
+        },
+        "examples": null
+    },
+    "502.8c": {
+        "ruleNumber": "502.8c",
+        "ruleText": "Multiple copies of shadow on the same creature are redundant.",
+        "navigation": {
+            "nextRule": "502.9",
+            "previousRule": "502.8b"
+        },
+        "examples": null
+    },
+    "409.1e": {
+        "ruleNumber": "409.1e",
+        "ruleText": "If the spell or ability requires the player to divide an effect (such as damage or counters) among a variable number of targets, the player announces the division as he or she plays the spell. Each of these targets must receive at least one of whatever is being divided. This doesn't apply when the player isn't given a choice.",
+        "navigation": {
+            "nextRule": "409.1f",
+            "previousRule": "409.1d"
+        },
+        "examples": null
+    },
+    "214.8i": {
+        "ruleNumber": "214.8i",
+        "ruleText": "The controller of a local enchantment is separate from the controller of the enchanted permanent. Changing control of the permanent doesn't change control of the enchantment, and vice versa. Only the enchantment's controller can play its abilities. However, if the enchantment adds an ability to the enchanted permanent, that enchanted permanent's controller is the only one who can play that ability.",
+        "navigation": {
+            "nextRule": "214.9",
+            "previousRule": "214.8h"
+        },
+        "examples": null
+    },
+    "217.2b": {
+        "ruleNumber": "217.2b",
+        "ruleText": "Each library must be kept in a single face-down pile. Players can't look at or change the order of cards in a library.",
+        "navigation": {
+            "nextRule": "217.2c",
+            "previousRule": "217.2a"
+        },
+        "examples": null
+    },
+    "408.1h": {
+        "ruleNumber": "408.1h",
+        "ruleText": "Static abilities aren't played-they continuously affect the game. Priority doesn't apply to them. (See rule 418, \"Continuous Effects\" and rule 419, \"Prevention and Replacement Effects.\")",
+        "navigation": {
+            "nextRule": "408.2",
+            "previousRule": "408.1g"
+        },
+        "examples": null
+    },
+    "214.6": {
+        "ruleNumber": "214.6",
+        "ruleText": "Artifacts",
+        "navigation": {
+            "nextRule": "214.6a",
+            "previousRule": "214.5"
+        },
+        "examples": null
+    },
+    "214.8g": {
+        "ruleNumber": "214.8g",
+        "ruleText": "The permanent a local enchantment is attached to is called \"enchanted.\" The enchantment \"enchants\" that permanent.",
+        "navigation": {
+            "nextRule": "214.8h",
+            "previousRule": "214.8f"
+        },
+        "examples": null
+    },
+    "419.6b": {
+        "ruleNumber": "419.6b",
+        "ruleText": "Regeneration is a destruction-replacement effect. The key word \"instead\" doesn't appear on the card but is implicit in its definition. \"Regenerate [permanent]\" means \"The next time [permanent] would be destroyed this turn, instead remove all damage from it, tap it, and (if it's in combat) remove it from combat.\" Note that if destruction is caused by lethal damage, any abilities that trigger from that damage being dealt still trigger even if the permanent regenerates.",
+        "navigation": {
+            "nextRule": "419.7",
+            "previousRule": "419.6a"
+        },
+        "examples": null
+    },
+    "420.4": {
+        "ruleNumber": "420.4",
+        "ruleText": "Unlike triggered abilities, state-based effects pay no attention to what happens during the resolution of a spell or ability.",
+        "navigation": {
+            "nextRule": "420.5",
+            "previousRule": "420.3"
+        },
+        "examples": null
+    },
+    "415.1": {
+        "ruleNumber": "415.1",
+        "ruleText": "A few effects can \"edit\" a spell or ability after it goes on the stack, changing its target, rules text, or other characteristics.",
+        "navigation": {
+            "nextRule": "415.2",
+            "previousRule": "414.2"
+        },
+        "examples": null
+    },
+    "217.6a": {
+        "ruleNumber": "217.6a",
+        "ruleText": "When a spell or ability is played, it goes on top of the stack and waits to resolve. The stack keeps track of the order that spells and/or abilities were added to it. See rule 408, \"Timing of Spells and Abilities.\"",
+        "navigation": {
+            "nextRule": "217.6b",
+            "previousRule": "217.6"
+        },
+        "examples": null
+    },
+    "308.6": {
+        "ruleNumber": "308.6",
+        "ruleText": "After a legal attack has been declared and all required costs paid, the active player receives priority to play spells and abilities. 309. Declare Blockers Step",
+        "navigation": {
+            "nextRule": "309.1",
+            "previousRule": "308.5"
+        },
+        "examples": null
+    },
+    "314.1": {
+        "ruleNumber": "314.1",
+        "ruleText": "The cleanup step proceeds in the following order.",
+        "navigation": {
+            "nextRule": "314.1a",
+            "previousRule": "313.1"
+        },
+        "examples": null
+    },
+    "403.3": {
+        "ruleNumber": "403.3",
+        "ruleText": "If an activated ability has a restriction on its use (for example, \"Play this ability only once each turn\"), the restriction continues to apply to that permanent even if its controller changes. 404. Triggered Abilities",
+        "navigation": {
+            "nextRule": "404.1",
+            "previousRule": "403.2"
+        },
+        "examples": null
+    },
+    "214.1": {
+        "ruleNumber": "214.1",
+        "ruleText": "A permanent is a card or token that remains in play. There are four types of permanents: artifacts, creatures, enchantments, and lands.",
+        "navigation": {
+            "nextRule": "214.2",
+            "previousRule": "213.2"
+        },
+        "examples": null
+    },
+    "502.9d": {
+        "ruleNumber": "502.9d",
+        "ruleText": "An attacking creature with trample ignores any blocking creatures that can't have damage assigned to them.",
+        "navigation": {
+            "nextRule": "502.9e",
+            "previousRule": "502.9c"
+        },
+        "examples": null
+    },
+    "421.4": {
+        "ruleNumber": "421.4",
+        "ruleText": "If the loop contains only mandatory actions, the game ends in a draw. (See rule 102.6.)",
+        "navigation": {
+            "nextRule": "421.5",
+            "previousRule": "421.3"
+        },
+        "examples": null
+    },
+    "209.1": {
+        "ruleNumber": "209.1",
+        "ruleText": "The illustration credit for a card is printed directly below the text box. This has no effect on game play. 210. Legal Text",
+        "navigation": {
+            "nextRule": "210.1",
+            "previousRule": "208.1"
+        },
+        "examples": null
+    },
+    "300.1": {
+        "ruleNumber": "300.1",
+        "ruleText": "A turn consists of five phases, in this order: beginning, first main, combat, second main, and end. Each of these phases takes place every turn, even if nothing happens during the phase. The beginning, combat, and end phases are further broken down into steps, which are followed in order.",
+        "navigation": {
+            "nextRule": "300.2",
+            "previousRule": "217.8"
+        },
+        "examples": null
+    },
+    "206.2": {
+        "ruleNumber": "206.2",
+        "ruleText": "The color of the expansion symbol indicates the rarity of the card within its set. A gold symbol signifies the card is rare; silver, uncommon; and black, common or basic land. (Prior to the Exodus\u2122 set, all expansion symbols were black.)",
+        "navigation": {
+            "nextRule": "206.3",
+            "previousRule": "206.1"
+        },
+        "examples": null
+    },
+    "408.f": {
+        "ruleNumber": "408.f",
+        "ruleText": "Card text that isn't an ability, such as \"[This card] counts as a forest,\" is simply read and followed as applicable.",
+        "navigation": {
+            "nextRule": "408.g",
+            "previousRule": "408.2e"
+        },
+        "examples": null
+    },
+    "413.2g": {
+        "ruleNumber": "413.2g",
+        "ruleText": "An instruction that refers to characteristics of a permanent checks only for the value of the specified characteristics, regardless of any related ones the permanent may also have.",
+        "navigation": {
+            "nextRule": "413.2h",
+            "previousRule": "413.2f"
+        },
+        "examples": null
+    },
+    "201.1": {
+        "ruleNumber": "201.1",
+        "ruleText": "The parts of a card are: name, mana cost, illustration, type, expansion symbol, text box, power/toughness, credit, legal text, and collector number. 202. Name",
+        "navigation": {
+            "nextRule": "202.1",
+            "previousRule": "200.1"
+        },
+        "examples": null
+    },
+    "302.2": {
+        "ruleNumber": "302.2",
+        "ruleText": "No player receives priority during the untap step, so no spells or abilities can be played or resolved. Any ability that triggers during this step will be held until a player receives priority during the upkeep step. (See rule 303, \"Upkeep Step.\") 303. Upkeep Step",
+        "navigation": {
+            "nextRule": "303.1",
+            "previousRule": "302.1"
+        },
+        "examples": null
+    },
+    "502.8b": {
+        "ruleNumber": "502.8b",
+        "ruleText": "A creature with shadow can't be blocked by creatures without shadow, and a creature without shadow can't be blocked by creatures with shadow.",
+        "navigation": {
+            "nextRule": "502.8c",
+            "previousRule": "502.8a"
+        },
+        "examples": null
+    },
+    "214.6a": {
+        "ruleNumber": "214.6a",
+        "ruleText": "Artifacts have no special characteristics. Artifact spells are colorless, although other spells or abilities might confer a color.",
+        "navigation": {
+            "nextRule": "214.6b",
+            "previousRule": "214.6"
+        },
+        "examples": null
+    },
+    "502.3b": {
+        "ruleNumber": "502.3b",
+        "ruleText": "Whenever a creature with flanking is blocked by a creature without flanking, the blocking creature gets -1/-1 until end of turn.",
+        "navigation": {
+            "nextRule": "502.3c",
+            "previousRule": "502.3a"
+        },
+        "examples": null
+    },
+    "217.7a": {
+        "ruleNumber": "217.7a",
+        "ruleText": "A spell or ability can remove a card from the game. Some spells or abilities may provide a way for the card to return to play and use the term \"set aside.\" Cards that are set aside this way are still removed from the game, even if temporarily.",
+        "navigation": {
+            "nextRule": "217.7b",
+            "previousRule": "217.7"
+        },
+        "examples": null
+    },
+    "416.2": {
+        "ruleNumber": "416.2",
+        "ruleText": "Effects apply only to cards in play unless the instruction's text states otherwise or they clearly can't apply to another zone.",
+        "navigation": {
+            "nextRule": "416.3",
+            "previousRule": "416.1"
+        },
+        "examples": null
+    },
+    "408.2": {
+        "ruleNumber": "408.2",
+        "ruleText": "Actions That Don't Use the Stack",
+        "navigation": {
+            "nextRule": "408.2a",
+            "previousRule": "408.1h"
+        },
+        "examples": null
+    },
+    "401.2": {
+        "ruleNumber": "401.2",
+        "ruleText": "Each card type other than land has a corresponding spell type. For example, a creature card is a creature spell until it resolves.",
+        "navigation": {
+            "nextRule": "401.3",
+            "previousRule": "401.1"
+        },
+        "examples": null
+    },
+    "408.1c": {
+        "ruleNumber": "408.1c",
+        "ruleText": "The active player has priority at the beginning of most phases and steps. (The exceptions are the untap step and the cleanup step.) The player with priority may either play a spell or ability, or pass. If he or she plays a spell or ability, the player again receives priority; otherwise, his or her opponent receives priority. If both players pass in succession, the top spell or ability on the stack resolves and the active player receives priority. If the stack is empty when both players pass in succession, the phase or step ends.",
+        "navigation": {
+            "nextRule": "408.1d",
+            "previousRule": "408.1b"
+        },
+        "examples": null
+    },
+    "101.4": {
+        "ruleNumber": "101.4",
+        "ruleText": "The player who plays first skips the draw step (see rule 304, \"Draw Step\") of his or her first turn.",
+        "navigation": {
+            "nextRule": "101.5",
+            "previousRule": "101.3"
+        },
+        "examples": null
+    },
+    "502.5": {
+        "ruleNumber": "502.5",
+        "ruleText": "Haste",
+        "navigation": {
+            "nextRule": "502.5a",
+            "previousRule": "502.4c"
+        },
+        "examples": null
+    },
+    "217.5": {
+        "ruleNumber": "217.5",
+        "ruleText": "In Play",
+        "navigation": {
+            "nextRule": "217.5a",
+            "previousRule": "217.4c"
+        },
+        "examples": null
+    },
+    "502.4a": {
+        "ruleNumber": "502.4a",
+        "ruleText": "Flying is an evasion ability.",
+        "navigation": {
+            "nextRule": "502.4b",
+            "previousRule": "502.4"
+        },
+        "examples": null
+    },
+    "406.1b": {
+        "ruleNumber": "406.1b",
+        "ruleText": "Spells that put mana into a player's mana pool aren't mana abilities. They're played and resolved exactly like any other spell. Triggered abilities that put mana into a player's mana pool but trigger from events other than activating mana abilities aren't mana abilities. They go on the stack and resolve like any other triggered ability.",
+        "navigation": {
+            "nextRule": "406.1c",
+            "previousRule": "406.1a"
+        },
+        "examples": null
+    },
+    "414.2": {
+        "ruleNumber": "414.2",
+        "ruleText": "The player who played the countered spell or ability doesn't get a \"refund\" of any costs that were paid. 415. Editing a Spell or Ability",
+        "navigation": {
+            "nextRule": "415.1",
+            "previousRule": "414.1"
+        },
+        "examples": null
+    },
+    "204.1": {
+        "ruleNumber": "204.1",
+        "ruleText": "The illustration is printed on the upper half of a card and has no game significance. For example, a creature doesn't have the flying ability unless stated in its rules text, even if it's depicted as flying. 205. Type",
+        "navigation": {
+            "nextRule": "205.1",
+            "previousRule": "203.4"
+        },
+        "examples": null
+    },
+    "410.9a": {
+        "ruleNumber": "410.9a",
+        "ruleText": "An ability that reads \"Whenever [name] blocks\" or \"Whenever [name] becomes blocked\" triggers only once each combat for that creature, even if it blocks or is blocked by multiple creatures. An effect that causes the creature to become blocked (if the creature wasn't already blocked) will also trigger such abilities.",
+        "navigation": {
+            "nextRule": "410.9b",
+            "previousRule": "410.9"
+        },
+        "examples": null
+    },
+    "214.4": {
+        "ruleNumber": "214.4",
+        "ruleText": "When a permanent's type or subtype changes, the new type replaces any existing type(s). This changes only the permanent type-the card type doesn't change. Counters, effects, and damage affecting the permanent remain with it, even if they are meaningless to the new type.",
+        "navigation": {
+            "nextRule": "214.5",
+            "previousRule": "214.3"
+        },
+        "examples": null
+    },
+    "502.2b": {
+        "ruleNumber": "502.2b",
+        "ruleText": "During the combat damage step, if at least one attacking or blocking creature has first strike, creatures without first strike don't assign combat damage. Instead of proceeding to end of combat, the phase gets a second combat damage step to handle the remaining creatures.",
+        "navigation": {
+            "nextRule": "502.2c",
+            "previousRule": "502.2a"
+        },
+        "examples": null
+    },
+    "202.2": {
+        "ruleNumber": "202.2",
+        "ruleText": "Card text that refers to that card by name means just that particular copy of the card and not any other copies of it, regardless of any name changes due to game effects.",
+        "navigation": {
+            "nextRule": "202.3",
+            "previousRule": "202.1"
+        },
+        "examples": null
+    },
+    "403.1": {
+        "ruleNumber": "403.1",
+        "ruleText": "An activated ability can exist in one of three places: on a permanent; on a card outside the in-play zone with the text \"Play this ability only if [this card] is in [zone]; or as a delayed ability. An activated ability that isn't from a delayed ability is written as \"cost: effect.\" The activation cost is everything before the colon (:). An activated ability that's from a delayed ability is written as \"[Player] may pay [cost] to [effect].\" In both cases the activation cost must be paid to play the ability.",
+        "navigation": {
+            "nextRule": "403.2",
+            "previousRule": "402.10"
+        },
+        "examples": null
+    },
+    "418.2": {
+        "ruleNumber": "418.2",
+        "ruleText": "Continuous effects that modify characteristics of permanents do so as the permanents come into play. They don't wait for the permanent to enter play and then change it.",
+        "navigation": {
+            "nextRule": "418.3",
+            "previousRule": "418.1"
+        },
+        "examples": null
+    },
+    "406.1d": {
+        "ruleNumber": "406.1d",
+        "ruleText": "A mana ability can be activated or triggered. However, the rules for playing and resolving mana abilities differ slightly from those for other abilities. See rule 411, \"Playing Mana Abilities,\" for details.",
+        "navigation": {
+            "nextRule": "406.1e",
+            "previousRule": "406.1c"
+        },
+        "examples": null
+    },
+    "410.4": {
+        "ruleNumber": "410.4",
+        "ruleText": "When a triggered ability goes on the stack, the controller of the pseudospell makes all required choices, following the rules for activated abilities (see rule 409, \"Playing Spells and Activated Abilities\"). If no legal choice can be made (or if a rule or a continuous effect otherwise makes the ability illegal), the pseudospell is simply removed from the stack.",
+        "navigation": {
+            "nextRule": "410.5",
+            "previousRule": "410.3"
+        },
+        "examples": null
+    },
+    "502.2d": {
+        "ruleNumber": "502.2d",
+        "ruleText": "Multiple copies of first strike on the same creature are redundant.",
+        "navigation": {
+            "nextRule": "502.3",
+            "previousRule": "502.2c"
+        },
+        "examples": null
+    },
+    "409.1b": {
+        "ruleNumber": "409.1b",
+        "ruleText": "If the spell or ability is modal (uses the phrase \"Choose one -\"), the player announces which mode he or she is using. A few spells and abilities allow the player's opponent to choose the mode. That choice is also made at this time. If the spell or ability has a variable mana cost (indicated by \"oX\"), the player announces the value of X at this time.",
+        "navigation": {
+            "nextRule": "409.1c",
+            "previousRule": "409.1a"
+        },
+        "examples": null
+    },
+    "305.3": {
+        "ruleNumber": "305.3",
+        "ruleText": "The main phase begins with the active player having priority. After triggered abilities (if any) are added to the stack, players may play spells and abilities. (This is the only phase in which a player can normally play artifact, creature, enchantment, and sorcery spells and only the active player may play these spells.)",
+        "navigation": {
+            "nextRule": "305.4",
+            "previousRule": "305.2"
+        },
+        "examples": null
+    },
+    "402.8": {
+        "ruleNumber": "402.8",
+        "ruleText": "Abilities function only while the permanent with the ability is in play unless the ability states otherwise.",
+        "navigation": {
+            "nextRule": "402.9",
+            "previousRule": "402.7"
+        },
+        "examples": null
+    },
+    "409.1a": {
+        "ruleNumber": "409.1a",
+        "ruleText": "The player announces that he or she is playing the spell or ability. It goes on the stack and remains there until it's countered or resolves. Spell cards are physically placed on the stack. For abilities, a pseudospell with the text and color of the card generating the ability goes on the stack.",
+        "navigation": {
+            "nextRule": "409.1b",
+            "previousRule": "409.1"
+        },
+        "examples": null
+    },
+    "217.4b": {
+        "ruleNumber": "217.4b",
+        "ruleText": "Each graveyard is kept in a single face-up pile. A can examine the cards in any graveyard at any time but can't change their order.",
+        "navigation": {
+            "nextRule": "217.4c",
+            "previousRule": "217.4a"
+        },
+        "examples": null
+    },
+    "415.2a": {
+        "ruleNumber": "415.2a",
+        "ruleText": "Modal spells may have different targeting requirements for each mode. Target changing can't change the mode.",
+        "navigation": {
+            "nextRule": "415.2b",
+            "previousRule": "415.2"
+        },
+        "examples": null
+    },
+    "101.5": {
+        "ruleNumber": "101.5",
+        "ruleText": "A player who is dissatisfied with his or her initial hand may mulligan. That player shuffles his or her hand back into the deck, then draws a new hand of six cards. He or she may repeat this process as many times as desired, drawing one fewer card each time, until the hand reaches zero cards. Once the first player decides to keep a hand, the second player may mulligan. Once both players are satisfied with their hands, the first player takes his or her turn. 102. Winning and Losing",
+        "navigation": {
+            "nextRule": "102.1",
+            "previousRule": "101.4"
+        },
+        "examples": null
+    },
+    "305.4": {
+        "ruleNumber": "305.4",
+        "ruleText": "During either main phase, the active player may play one land from his or her hand if the stack is empty, the player has priority, and he or she hasn't yet taken this special action this turn. (See rule 214.9, \"Lands.\") 306. Combat Phase",
+        "navigation": {
+            "nextRule": "306.1",
+            "previousRule": "305.3"
+        },
+        "examples": null
+    },
+    "403.2": {
+        "ruleNumber": "403.2",
+        "ruleText": "Only a permanent's controller can play its activated ability unless the card specifically says otherwise.",
+        "navigation": {
+            "nextRule": "403.3",
+            "previousRule": "403.1"
+        },
+        "examples": null
+    },
+    "502.9g": {
+        "ruleNumber": "502.9g",
+        "ruleText": "Multiple copies of trample on the same creature are redundant.",
+        "navigation": {
+            "nextRule": null,
+            "previousRule": "502.9f"
+        },
+        "examples": null
+    },
+    "308.1": {
+        "ruleNumber": "308.1",
+        "ruleText": "The active player declares which, if any, creatures he or she controls are attacking. Tapped creatures (even those that can attack without tapping), Walls, creatures that the active player didn't control continuously since the beginning of the turn, and noncreature permanents can't be declared as attackers. This declaration is simultaneous, not sequential, and doesn't go on the stack. Any triggered ability generated during this action waits until a player receives priority.",
+        "navigation": {
+            "nextRule": "308.2",
+            "previousRule": "307.1"
+        },
+        "examples": null
+    },
+    "310.2": {
+        "ruleNumber": "310.2",
+        "ruleText": "All announcements of combat damage go on the stack as a single entry. Then the active player receives priority to play spells and abilities.",
+        "navigation": {
+            "nextRule": "310.3",
+            "previousRule": "310.1d"
+        },
+        "examples": null
+    },
+    "418.3d": {
+        "ruleNumber": "418.3d",
+        "ruleText": "If an effect's duration expires before the spell or ability creating it resolves, then the effect does nothing-it doesn't start and immediately stop again, and it doesn't last forever.",
+        "navigation": {
+            "nextRule": "418.4",
+            "previousRule": "418.3c"
+        },
+        "examples": null
+    },
+    "417.2": {
+        "ruleNumber": "417.2",
+        "ruleText": "Some one-shot effects instruct a player to do something later in the game (usually at a specific time) rather than when they resolve. Their effects actually create a new ability that waits to be activated or triggered. (See rule 406.2, \"Delayed Abilities.\") 418. Continuous Effects",
+        "navigation": {
+            "nextRule": "418.1",
+            "previousRule": "417.1"
+        },
+        "examples": null
+    },
+    "214.9g": {
+        "ruleNumber": "214.9g",
+        "ruleText": "Any land that isn't a basic land is a nonbasic land. Even if its rules text or a game effect states that it \"counts as\" a basic land type, it is still nonbasic. Basic and nonbasic are not types; they're categories.",
+        "navigation": {
+            "nextRule": "214.9h",
+            "previousRule": "214.9f"
+        },
+        "examples": null
+    },
+    "410.8": {
+        "ruleNumber": "410.8",
+        "ruleText": "Triggered abilities with a condition directly following the trigger event (for example, \"When[ever] [trigger], if [condition], [event]\"), check for the condition to be true as part of the trigger event; if it isn't, the ability doesn't trigger. The ability checks the condition again on resolution. If it's not satisfied, the ability does nothing. Note that this mirrors the check for legal targets.",
+        "navigation": {
+            "nextRule": "410.9",
+            "previousRule": "410.7"
+        },
+        "examples": null
+    },
+    "420.5f": {
+        "ruleNumber": "420.5f",
+        "ruleText": "A token in a zone other than the in-play zone ceases to exist. 421. Handling \"Infinite\" Loops",
+        "navigation": {
+            "nextRule": "421.1",
+            "previousRule": "420.5e"
+        },
+        "examples": null
+    },
+    "214.8h": {
+        "ruleNumber": "214.8h",
+        "ruleText": "The abilities of local enchantments don't target the enchanted permanent unless they're activated abilities that can target something.",
+        "navigation": {
+            "nextRule": "214.8i",
+            "previousRule": "214.8g"
+        },
+        "examples": null
+    },
+    "410.10e": {
+        "ruleNumber": "410.10e",
+        "ruleText": "Some permanents have text that reads, \"[This permanent] comes into play as . . . ,\" \"[This permanent] comes into play with . . . ,\" or \"As [this permanent] comes into play . . . .\" Such text isn't a triggered ability. It happens as part of the event that puts the permanent into play.",
+        "navigation": {
+            "nextRule": "410.11",
+            "previousRule": "410.10d"
+        },
+        "examples": null
+    },
+    "410.9b": {
+        "ruleNumber": "410.9b",
+        "ruleText": "An ability that reads \"Whenever [name] blocks a creature\" triggers once for each attacking creature the named creature blocks.",
+        "navigation": {
+            "nextRule": "410.9c",
+            "previousRule": "410.9a"
+        },
+        "examples": null
+    },
+    "502.7": {
+        "ruleNumber": "502.7",
+        "ruleText": "Protection",
+        "navigation": {
+            "nextRule": "502.7a",
+            "previousRule": "502.6d"
+        },
+        "examples": null
+    },
+    "411.1": {
+        "ruleNumber": "411.1",
+        "ruleText": "To play a mana ability, the player announces that he or she is playing it and pays the activation cost. It resolves immediately and doesn't go on the stack. (See rule 408.2e.)",
+        "navigation": {
+            "nextRule": "411.2",
+            "previousRule": "410.11"
+        },
+        "examples": null
+    },
+    "402.10": {
+        "ruleNumber": "402.10",
+        "ruleText": "There are three general types of abilities: activated, triggered, and static. 403. Activated Abilities",
+        "navigation": {
+            "nextRule": "403.1",
+            "previousRule": "402.9"
+        },
+        "examples": null
+    },
+    "400.1": {
+        "ruleNumber": "400.1",
+        "ruleText": "The difference between an ability and an effect is that text in a card's text box is an ability (except for text setting characteristics), and following the instructions of that text generates an effect. Text itself is never an effect. 401. Spells",
+        "navigation": {
+            "nextRule": "401.1",
+            "previousRule": "314.1c"
+        },
+        "examples": null
+    },
+    "308.4": {
+        "ruleNumber": "308.4",
+        "ruleText": "If no creatures are declared as attackers, the game proceeds directly to the end of combat step, skipping the remainder of the declare attackers step and the intervening steps.",
+        "navigation": {
+            "nextRule": "308.5",
+            "previousRule": "308.3"
+        },
+        "examples": null
+    },
+    "207.2": {
+        "ruleNumber": "207.2",
+        "ruleText": "The text box may also contain italicized reminder text (in parentheses and italics) summarizing a rule that applies to that card, and/or italicized flavor text that has no game function but, like the illustration, adds artistic appeal to the game. 208. Power/Toughness",
+        "navigation": {
+            "nextRule": "208.1",
+            "previousRule": "207.1"
+        },
+        "examples": null
+    },
+    "408.2d": {
+        "ruleNumber": "408.2d",
+        "ruleText": "Playing a land is a special action consisting of putting that land into play. (See rule 214.9, \"Lands.\")",
+        "navigation": {
+            "nextRule": "408.2e",
+            "previousRule": "408.2c"
+        },
+        "examples": null
+    },
+    "418.5d": {
+        "ruleNumber": "418.5d",
+        "ruleText": "A continuous effect can override another.",
+        "navigation": {
+            "nextRule": "419.1",
+            "previousRule": "418.5c"
+        },
+        "examples": null
+    },
+    "100.5": {
+        "ruleNumber": "100.5",
+        "ruleText": "Most Magic tournaments have special rules (not included here) and may limit the use of some cards, including barring all cards from older sets. See the DCI Magic Floor Rules for more information. 101. Starting the Game",
+        "navigation": {
+            "nextRule": "101.1",
+            "previousRule": "100.4"
+        },
+        "examples": null
+    },
+    "419.4": {
+        "ruleNumber": "419.4",
+        "ruleText": "Replacement or prevention effects must exist before the appropriate event occurs-they can't \"go back in time\" and change something that's already happened. Usually spells and abilities that generate these effects are played in response to whatever would produce the event and thus resolve before that event would occur.",
+        "navigation": {
+            "nextRule": "419.5",
+            "previousRule": "419.3"
+        },
+        "examples": null
+    },
+    "217.3b": {
+        "ruleNumber": "217.3b",
+        "ruleText": "Each player has a maximum hand size, which is normally seven cards. A player may have any number of cards in his or her hand but as part of his or her clean-up step must discard excess cards down to the maximum hand size.",
+        "navigation": {
+            "nextRule": "217.3c",
+            "previousRule": "217.3a"
+        },
+        "examples": null
+    },
+    "501.1": {
+        "ruleNumber": "501.1",
+        "ruleText": "Evasion abilities restrict what can block an attacking creature. These are static abilities that modify the declare blockers step of combat.",
+        "navigation": {
+            "nextRule": "501.2",
+            "previousRule": "500.2"
+        },
+        "examples": null
+    },
+    "502.7c": {
+        "ruleNumber": "502.7c",
+        "ruleText": "Multiple copies of protection from the same quality on the same permanent are redundant.",
+        "navigation": {
+            "nextRule": "502.8",
+            "previousRule": "502.7b"
+        },
+        "examples": null
+    },
+    "408.1": {
+        "ruleNumber": "408.1",
+        "ruleText": "Timing, Priority, and the Stack",
+        "navigation": {
+            "nextRule": "408.1a",
+            "previousRule": "407.3"
+        },
+        "examples": null
+    },
+    "410.10b": {
+        "ruleNumber": "410.10b",
+        "ruleText": "Continuous effects that modify card characteristics do so as cards come into play. They don't wait for the card to enter play and then change it.",
+        "navigation": {
+            "nextRule": "410.10c",
+            "previousRule": "410.10a"
+        },
+        "examples": null
+    },
+    "300.6": {
+        "ruleNumber": "300.6",
+        "ruleText": "Some spells or abilities can give a player additional turns. If a player has multiple additional turns or if both players have additional turns, the additional turns are taken in the order they were created.",
+        "navigation": {
+            "nextRule": "301.1",
+            "previousRule": "300.5"
+        },
+        "examples": null
+    },
+    "501.2": {
+        "ruleNumber": "501.2",
+        "ruleText": "Evasion abilities are cumulative.",
+        "navigation": {
+            "nextRule": "501.3",
+            "previousRule": "501.1"
+        },
+        "examples": null
+    },
+    "306.1": {
+        "ruleNumber": "306.1",
+        "ruleText": "The combat phase has five steps: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat.",
+        "navigation": {
+            "nextRule": "306.2",
+            "previousRule": "305.4"
+        },
+        "examples": null
+    },
+    "210.1": {
+        "ruleNumber": "210.1",
+        "ruleText": "Legal text (the fine print at the bottom of the card) lists the copyright information. It has no effect on game play. 211. Collector Number",
+        "navigation": {
+            "nextRule": "211.1",
+            "previousRule": "209.1"
+        },
+        "examples": null
+    },
+    "214.8b": {
+        "ruleNumber": "214.8b",
+        "ruleText": "A global enchantment is put into play like any other spell that creates a permanent.",
+        "navigation": {
+            "nextRule": "214.8c",
+            "previousRule": "214.8a"
+        },
+        "examples": null
+    },
+    "203.2": {
+        "ruleNumber": "203.2",
+        "ruleText": "A card is the color or colors of the mana symbols in its mana cost, regardless of the color of its border. For example, a card with a mana cost oo2oW is white; one with a mana cost of o2oWoB is both white and black. Cards with no colored mana symbols are colorless.",
+        "navigation": {
+            "nextRule": "203.3",
+            "previousRule": "203.1"
+        },
+        "examples": null
+    },
+    "310.1d": {
+        "ruleNumber": "310.1d",
+        "ruleText": "A blocking creature will assign combat damage, divided as its controller chooses, to the attacking creatures it's blocking. If it isn't currently blocking any creatures (if, for example, they were destroyed or removed from combat), it will assign no combat damage.",
+        "navigation": {
+            "nextRule": "310.2",
+            "previousRule": "310.1c"
+        },
+        "examples": null
+    },
+    "304.1": {
+        "ruleNumber": "304.1",
+        "ruleText": "The draw step begins with the active player having priority. \"Draw a card\" is placed on the stack, just as if a card read \"At the beginning of your draw step, draw a card.\" Then players may play spells and abilities. 305. Main Phase",
+        "navigation": {
+            "nextRule": "305.1",
+            "previousRule": "303.1"
+        },
+        "examples": null
+    },
+    "203.3": {
+        "ruleNumber": "203.3",
+        "ruleText": "The converted mana cost of a card is the total amount of mana in the mana cost, regardless of color (for example, a mana cost of o3oUoU translates to a converted mana cost of 5). The converted mana cost may be paid with any combination of colored and/or colorless mana.",
+        "navigation": {
+            "nextRule": "203.4",
+            "previousRule": "203.2"
+        },
+        "examples": null
+    },
+    "217.3c": {
+        "ruleNumber": "217.3c",
+        "ruleText": "A player may arrange his or her hand in any convenient fashion and look at it as much as he or she wishes. A player can't look at the cards in the other player's hand but may count the number of cards in either player's hand at any time.",
+        "navigation": {
+            "nextRule": "217.4",
+            "previousRule": "217.3b"
+        },
+        "examples": null
+    },
+    "214.8c": {
+        "ruleNumber": "214.8c",
+        "ruleText": "A local enchantment spell requires a target, whose type is indicated by the enchantment subtype. The local enchantment permanent the spell puts into play must enchant that type of permanent and comes into play attached to the permanent the spell targeted. Additional restrictions are indicated by the phrase \"Play [card] only on [permanent type].\" These restrictions apply to both playing the spell and to the permanent created by the spell.",
+        "navigation": {
+            "nextRule": "214.8d",
+            "previousRule": "214.8b"
+        },
+        "examples": null
+    },
+    "409.1c": {
+        "ruleNumber": "409.1c",
+        "ruleText": "If the spell or ability requires any targets, the player announces these. It can't be played unless the required number of legal targets are chosen. The same target can't be chosen multiple times. A few spells or abilities allow the player's opponent to choose the target or require some choice that affects the number or type of targets. Those choices are also made at this time. If both players are required to choose targets, the player playing the spell or ability chooses first.",
+        "navigation": {
+            "nextRule": "409.1d",
+            "previousRule": "409.1b"
+        },
+        "examples": null
+    },
+    "100.2": {
+        "ruleNumber": "100.2",
+        "ruleText": "In constructed-deck play, each player needs his or her own deck of at least sixty cards with no more than four copies of any card except basic lands; small objects to represent any tokens and counters; and some way to clearly track life totals.",
+        "navigation": {
+            "nextRule": "100.3",
+            "previousRule": "100.1"
+        },
+        "examples": null
+    },
+    "217.5a": {
+        "ruleNumber": "217.5a",
+        "ruleText": "Most of the area between the players represents the in-play zone. The in-play zone starts out empty. Cards a player controls (other than local enchantments enchanting the other player's permanents) are kept in front of him or her.",
+        "navigation": {
+            "nextRule": "217.5b",
+            "previousRule": "217.5"
+        },
+        "examples": null
+    },
+    "410.9": {
+        "ruleNumber": "410.9",
+        "ruleText": "Some abilities trigger when creatures block or are blocked in combat. (See rules 306\u2013311 and section 5, \"Additional Combat Rules.\") They may trigger once or repeatedly, depending on the wording of the ability.",
+        "navigation": {
+            "nextRule": "410.9a",
+            "previousRule": "410.8"
+        },
+        "examples": null
+    },
+    "406.1": {
+        "ruleNumber": "406.1",
+        "ruleText": "Mana Abilities",
+        "navigation": {
+            "nextRule": "406.1a",
+            "previousRule": "405.1"
+        },
+        "examples": null
+    },
+    "217.3": {
+        "ruleNumber": "217.3",
+        "ruleText": "Hand",
+        "navigation": {
+            "nextRule": "217.3a",
+            "previousRule": "217.2c"
+        },
+        "examples": null
+    },
+    "212.2": {
+        "ruleNumber": "212.2",
+        "ruleText": "Some card types include subtypes, printed on the same line. If more than one word is listed after the \"-,\" the card has each of those subtypes.",
+        "navigation": {
+            "nextRule": "212.2a",
+            "previousRule": "212.1"
+        },
+        "examples": null
+    },
+    "212.2d": {
+        "ruleNumber": "212.2d",
+        "ruleText": "There are no subtypes for artifact cards, instant cards, or sorcery cards. 213. Spell Type",
+        "navigation": {
+            "nextRule": "213.1",
+            "previousRule": "212.2c"
+        },
+        "examples": null
+    },
+    "402.4": {
+        "ruleNumber": "402.4",
+        "ruleText": "An additional cost or alternative cost to play a card isn't an ability of the card.",
+        "navigation": {
+            "nextRule": "402.5",
+            "previousRule": "402.3"
+        },
+        "examples": null
+    },
+    "415.2": {
+        "ruleNumber": "415.2",
+        "ruleText": "The target of a spell or ability can change only to another legal target. If the new target is illegal when the change resolves, the original target is unchanged.",
+        "navigation": {
+            "nextRule": "415.2a",
+            "previousRule": "415.1"
+        },
+        "examples": null
+    },
+    "312.1": {
+        "ruleNumber": "312.1",
+        "ruleText": "The end phase consists of two steps: end of turn and cleanup. 313. End of Turn Step",
+        "navigation": {
+            "nextRule": "313.1",
+            "previousRule": "311.1"
+        },
+        "examples": null
+    },
+    "408.1a": {
+        "ruleNumber": "408.1a",
+        "ruleText": "Spells and abilities can be played only at certain times and follow a simple set of rules for doing so.",
+        "navigation": {
+            "nextRule": "408.1b",
+            "previousRule": "408.1"
+        },
+        "examples": null
+    },
+    "217.6": {
+        "ruleNumber": "217.6",
+        "ruleText": "Stack",
+        "navigation": {
+            "nextRule": "217.6a",
+            "previousRule": "217.5d"
+        },
+        "examples": null
+    },
+    "314.1c": {
+        "ruleNumber": "314.1c",
+        "ruleText": "Then, only if the conditions for any state-based effects exist or if any abilities have triggered, the active player receives priority to play spells and abilities. Once the stack is empty and both players pass, another cleanup step begins. Otherwise, no player receives priority and the step ends.",
+        "navigation": {
+            "nextRule": "400.1",
+            "previousRule": "314.1b"
+        },
+        "examples": null
+    },
+    "502.2c": {
+        "ruleNumber": "502.2c",
+        "ruleText": "Adding or removing first strike after the first combat damage step won't prevent a creature from dealing combat damage or allow it to deal combat damage twice.",
+        "navigation": {
+            "nextRule": "502.2d",
+            "previousRule": "502.2b"
+        },
+        "examples": null
+    },
+    "502.9b": {
+        "ruleNumber": "502.9b",
+        "ruleText": "The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. If all those blocking creatures receive lethal damage, any remaining damage is assigned as its controller chooses among the blocking creatures and the defending player. The controller need not assign lethal damage to all blocking creatures but can't assign any damage to the defending player in this case.",
+        "navigation": {
+            "nextRule": "502.9c",
+            "previousRule": "502.9a"
+        },
+        "examples": null
+    },
+    "102.5": {
+        "ruleNumber": "102.5",
+        "ruleText": "If a player would both win and lose simultaneously, he or she loses.",
+        "navigation": {
+            "nextRule": "102.6",
+            "previousRule": "102.4"
+        },
+        "examples": null
+    },
+    "418.4b": {
+        "ruleNumber": "418.4b",
+        "ruleText": "The effect applies at all times that the permanent generating it is in play.",
+        "navigation": {
+            "nextRule": "418.5",
+            "previousRule": "418.4a"
+        },
+        "examples": null
+    },
+    "300.3": {
+        "ruleNumber": "300.3",
+        "ruleText": "When a phase or step ends, any effects scheduled to last \"until the end of\" that phase or step expire. When a phase or step begins, any effects scheduled to last \"until\" that phase or step expire.",
+        "navigation": {
+            "nextRule": "300.4",
+            "previousRule": "300.2"
+        },
+        "examples": null
+    },
+    "502.5c": {
+        "ruleNumber": "502.5c",
+        "ruleText": "Multiple copies of haste on the same creature are redundant.",
+        "navigation": {
+            "nextRule": "502.6",
+            "previousRule": "502.5b"
+        },
+        "examples": null
+    },
+    "408.2e": {
+        "ruleNumber": "408.2e",
+        "ruleText": "Mana abilities resolve immediately. If a mana ability produces both mana and another effect, both the mana and the other effect resolve immediately. (See rule 406.1, \"Mana Abilities.\")",
+        "navigation": {
+            "nextRule": "408.f",
+            "previousRule": "408.2d"
+        },
+        "examples": null
+    },
+    "410.6": {
+        "ruleNumber": "410.6",
+        "ruleText": "An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences.",
+        "navigation": {
+            "nextRule": "410.7",
+            "previousRule": "410.5"
+        },
+        "examples": null
+    },
+    "215.2": {
+        "ruleNumber": "215.2",
+        "ruleText": "\"Legend\" is a creature type; \"Legendary\" is not. If a \"Legendary\" noncreature permanent becomes a creature, it gets the creature type \"Legend\" for as long as it's a creature. If a creature of type \"Legend\" becomes a noncreature permanent, it's a \"Legendary\" permanent of the new type. In other words, they mean the same thing, except that one refers to creatures and the other to noncreatures. 216. Tokens",
+        "navigation": {
+            "nextRule": "216.1",
+            "previousRule": "215.1"
+        },
+        "examples": null
+    },
+    "421.3": {
+        "ruleNumber": "421.3",
+        "ruleText": "If the loop contains at least one optional action controlled by each player and actions by both players are required to continue the loop, the active player chooses a number. The nonactive player then has two choices. He or she can choose a lower number, in which case the loop continues that number of times plus whatever fraction is necessary for the active player to \"have the last word.\" Or he or she can agree to the number the active player chose, in which case the loop continues that number of times plus whatever fraction is necessary for the nonactive player to \"have the last word.\" (Note that either fraction may be zero.)",
+        "navigation": {
+            "nextRule": "421.4",
+            "previousRule": "421.2"
+        },
+        "examples": null
+    },
+    "502.6a": {
+        "ruleNumber": "502.6a",
+        "ruleText": "Landwalk is a generic term; a card's rules text usually names a specific type of land (such as in \"islandwalk\" or \"swampwalk\").",
+        "navigation": {
+            "nextRule": "502.6b",
+            "previousRule": "502.6"
+        },
+        "examples": null
+    },
+    "502.7b": {
+        "ruleNumber": "502.7b",
+        "ruleText": "A permanent with protection can't be targeted by spells or abilities that have the stated quality, and can't be enchanted by enchantments that have the stated quality. In addition, any damage that would be dealt to it from sources having that quality is prevented. If it attacks, it can't be blocked by creatures having that quality.",
+        "navigation": {
+            "nextRule": "502.7c",
+            "previousRule": "502.7a"
+        },
+        "examples": null
+    },
+    "102.6": {
+        "ruleNumber": "102.6",
+        "ruleText": "If the game somehow \"loops,\" repeating a sequence of events with no way to stop, the game is a draw. Loops that contain an optional action don't result in a draw.",
+        "navigation": {
+            "nextRule": "102.7",
+            "previousRule": "102.5"
+        },
+        "examples": null
+    },
+    "410.10d": {
+        "ruleNumber": "410.10d",
+        "ruleText": "Leaves-play triggers have to be treated specially because the permanent with the ability may no longer be in play after the event. The game has to \"look back in time\" to resolve them. Each time an event removes one or more permanents from play, all the permanents that were in play just before the event (with continuous effects that existed at that time) are checked for any leaves-play triggers that match what just left play.",
+        "navigation": {
+            "nextRule": "410.10e",
+            "previousRule": "410.10c"
+        },
+        "examples": null
+    },
+    "214.7a": {
+        "ruleNumber": "214.7a",
+        "ruleText": "If a card instruction requires choosing a creature subtype, this may be any noun (even if the creature doesn't exist in Magic), but only one. A word that has some other Magic meaning isn't a valid choice, because that would cause confusion.",
+        "navigation": {
+            "nextRule": "214.7b",
+            "previousRule": "214.7"
+        },
+        "examples": null
+    },
+    "419.7c": {
+        "ruleNumber": "419.7c",
+        "ruleText": "Some prevention effects apply to damage from a specified source-for example, \"The next time a red source of your choice would deal damage to you this turn, prevent that damage.\" The source is chosen when the spell or ability resolves. If an effect requires a player to choose a source, he or she may choose either a permanent or a spell on the stack (including one that creates a permanent) or any card or permanent referred to by a spell or pseudospell on the stack.. If the player chooses a permanent or a permanent spell, the prevention will apply to the next damage from that card, regardless of whether it's from one of that permanent's abilities or combat damage dealt by it. It's possible for the source to be out of play by the time the spell or ability resolves.",
+        "navigation": {
+            "nextRule": "419.8",
+            "previousRule": "419.7b"
+        },
+        "examples": null
+    },
+    "203.1": {
+        "ruleNumber": "203.1",
+        "ruleText": "The mana cost of a card is indicated by mana symbols printed on its upper-right corner. Tokens and lands have a mana cost of zero. Paying a card's mana cost requires matching the color of any colored mana symbols as well as paying the generic mana indicated.",
+        "navigation": {
+            "nextRule": "203.2",
+            "previousRule": "202.3"
+        },
+        "examples": null
+    },
+    "500.1": {
+        "ruleNumber": "500.1",
+        "ruleText": "Some abilities and continuous effects restrict declaring attackers or blockers in combat. (See rule 308, \"Declare Attackers Step,\" and rule 309, \"Declare Blockers Step.\")",
+        "navigation": {
+            "nextRule": "500.2",
+            "previousRule": "422.2"
+        },
+        "examples": null
+    },
+    "217.1": {
+        "ruleNumber": "217.1",
+        "ruleText": "A zone is a place that Magic cards can be during a game. There are six basic zones: library, hand, graveyard, in play, stack, and removed from the game. Each player has his or her own copy of each zone, except for the in-play and stack zones, which are shared.",
+        "navigation": {
+            "nextRule": "217.2",
+            "previousRule": "216.3"
+        },
+        "examples": null
+    },
+    "402.6": {
+        "ruleNumber": "402.6",
+        "ruleText": "Once activated or triggered, an ability exists independently of its source (the card on which it's printed). Destruction or removal of the source after that time won't affect the ability. Note that some abilities make a source do something (for example, \"Prodigal Sorcerer deals 1 damage to target creature or player.\") rather than the ability do the something directly. In these cases anything that cares about characteristics of the source will check the source's characteristics at the ability's resolution or the last known characteristics if the source is no longer in play.",
+        "navigation": {
+            "nextRule": "402.7",
+            "previousRule": "402.5"
+        },
+        "examples": null
+    },
+    "502.3c": {
+        "ruleNumber": "502.3c",
+        "ruleText": "If a creature has multiple copies of flanking, each triggers separately.",
+        "navigation": {
+            "nextRule": "502.4",
+            "previousRule": "502.3b"
+        },
+        "examples": null
+    },
+    "217.5c": {
+        "ruleNumber": "217.5c",
+        "ruleText": "Whenever a card enters the in-play zone, it's a brand-new permanent as far as the game is concerned and has no relationship to any previous permanent represented by the same card.",
+        "navigation": {
+            "nextRule": "217.5d",
+            "previousRule": "217.5b"
+        },
+        "examples": null
+    },
+    "310.1c": {
+        "ruleNumber": "310.1c",
+        "ruleText": "A blocked creature will assign combat damage, divided as its controller chooses, to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it will assign no combat damage.",
+        "navigation": {
+            "nextRule": "310.1d",
+            "previousRule": "310.1b"
+        },
+        "examples": null
+    },
+    "413.2h": {
+        "ruleNumber": "413.2h",
+        "ruleText": "A spell card is put into play under the control of the spell's controller (for permanents) or is put into its owner's graveyard (for instants and sorceries) as the final step of resolution. 414. Countering Spells and Abilities",
+        "navigation": {
+            "nextRule": "414.1",
+            "previousRule": "413.2g"
+        },
+        "examples": null
+    },
+    "502.3a": {
+        "ruleNumber": "502.3a",
+        "ruleText": "Flanking is a triggered ability that triggers during the declare blockers step.",
+        "navigation": {
+            "nextRule": "502.3b",
+            "previousRule": "502.3"
+        },
+        "examples": null
+    },
+    "410.11": {
+        "ruleNumber": "410.11",
+        "ruleText": "Some triggered abilities watch for a game state, such as a player's life total or the number of cards in play, rather than an event. These abilities trigger as soon as the game state matches the condition (even if it's not otherwise legal to play a spell or ability at that time). These are called \"state triggers.\" (Note that state triggers aren't the same as state-based effects.)  A state-triggered ability doesn't trigger again until the pseudospell it created has resolved or been countered. Then, if the permanent with the ability is still in play and the game state still matches its trigger condition, the ability will trigger again.",
+        "navigation": {
+            "nextRule": "411.1",
+            "previousRule": "410.10e"
+        },
+        "examples": null
+    },
+    "416.1": {
+        "ruleNumber": "416.1",
+        "ruleText": "When a spell or ability resolves, it creates one or more effects. There are three main types: one-shot effects, continuous effects, and replacement and prevention effects. Effects of a fourth category, state-based effects, are generated by specific states of the game.",
+        "navigation": {
+            "nextRule": "416.2",
+            "previousRule": "415.3"
+        },
+        "examples": null
+    },
+    "420.5a": {
+        "ruleNumber": "420.5a",
+        "ruleText": "A player with 0 life or less or who was required to draw more cards than were in his or her library loses the game.",
+        "navigation": {
+            "nextRule": "420.5b",
+            "previousRule": "420.5"
+        },
+        "examples": null
+    },
+    "502.4c": {
+        "ruleNumber": "502.4c",
+        "ruleText": "Multiple copies of flying on the same creature are redundant.",
+        "navigation": {
+            "nextRule": "502.5",
+            "previousRule": "502.4b"
+        },
+        "examples": null
+    },
+    "310.1a": {
+        "ruleNumber": "310.1a",
+        "ruleText": "Each attacking creature and each blocking creature will assign combat damage equal to its power.",
+        "navigation": {
+            "nextRule": "310.1b",
+            "previousRule": "310.1"
+        },
+        "examples": null
+    },
+    "409.1": {
+        "ruleNumber": "409.1",
+        "ruleText": "Playing a spell or activated ability follows the steps listed below, in order. (If partially through the step a player determines that he or she is unable to comply with the steps listed below , see rule 422, \"Handling Illegal Actions.\") No announcements or payments can be altered after they've been made. Playing a spell or ability that alters costs won't do anything to spells and abilities that are already on the stack.",
+        "navigation": {
+            "nextRule": "409.1a",
+            "previousRule": "408.g"
+        },
+        "examples": null
+    },
+    "309.2a": {
+        "ruleNumber": "309.2a",
+        "ruleText": "If the proposed block isn't legal or the defending player can't pay all required costs, all actions described in rules 309.1 and 309.2 are canceled. Then the defending player redeclares blocking creatures. (See rule 422, \"Handling Illegal Actions.\")",
+        "navigation": {
+            "nextRule": "309.3",
+            "previousRule": "309.2"
+        },
+        "examples": null
+    },
+    "402.9": {
+        "ruleNumber": "402.9",
+        "ruleText": "Some cards have abilities that can be played when the card's not in play. These are clearly marked; for example, \"Play only when [this card] is in your graveyard.\" They're not abilities of any class of permanent, just card abilities-cards not in play aren't permanents.",
+        "navigation": {
+            "nextRule": "402.10",
+            "previousRule": "402.8"
+        },
+        "examples": null
+    },
+    "413.1": {
+        "ruleNumber": "413.1",
+        "ruleText": "Each time both players pass in succession, the top spell or ability on the stack resolves, creating one or more effects. (See rule 416, \"Effects.\")",
+        "navigation": {
+            "nextRule": "413.2",
+            "previousRule": "412.4"
+        },
+        "examples": null
+    },
+    "502.4": {
+        "ruleNumber": "502.4",
+        "ruleText": "Flying",
+        "navigation": {
+            "nextRule": "502.4a",
+            "previousRule": "502.3c"
+        },
+        "examples": null
+    },
+    "410.9c": {
+        "ruleNumber": "410.9c",
+        "ruleText": "An ability that reads \"Whenever a creature blocks [name]\" triggers once for each creature that blocks the named creature. It won't trigger if the attacking creature becomes blocked by an effect rather than a blocking creature.",
+        "navigation": {
+            "nextRule": "410.10",
+            "previousRule": "410.9b"
+        },
+        "examples": null
+    },
+    "422.2": {
+        "ruleNumber": "422.2",
+        "ruleText": "When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. Otherwise, the player may redo the reversed action in a legal way or take any other action allowed by the rules.",
+        "navigation": {
+            "nextRule": "500.1",
+            "previousRule": "422.1"
+        },
+        "examples": null
+    },
+    "410.1": {
+        "ruleNumber": "410.1",
+        "ruleText": "Because they aren't played, triggered abilities can trigger even when it isn't otherwise legal to play spells and abilities, and effects that prevent abilities from being played don't affect them.",
+        "navigation": {
+            "nextRule": "410.2",
+            "previousRule": "409.3"
+        },
+        "examples": null
+    },
+    "502.2": {
+        "ruleNumber": "502.2",
+        "ruleText": "First Strike",
+        "navigation": {
+            "nextRule": "502.2a",
+            "previousRule": "502.1"
+        },
+        "examples": null
+    },
+    "217.7b": {
+        "ruleNumber": "217.7b",
+        "ruleText": "Cards in the removed-from-the-game zone are kept face up and may be examined by either player at any time. Cards \"removed from the game face down\" can't be examined by either player except when instructions allow it.",
+        "navigation": {
+            "nextRule": "217.7c",
+            "previousRule": "217.7a"
+        },
+        "examples": null
+    },
+    "502.9a": {
+        "ruleNumber": "502.9a",
+        "ruleText": "Trample is a static ability that modifies the rules for assigning an attacking creature's combat damage. A creature with trample has no special abilities when blocking or dealing noncombat damage.",
+        "navigation": {
+            "nextRule": "502.9b",
+            "previousRule": "502.9"
+        },
+        "examples": null
+    },
+    "217.4a": {
+        "ruleNumber": "217.4a",
+        "ruleText": "A graveyard is a discard pile. Any card that's countered, discarded, destroyed, or sacrificed is put on top of its owner's graveyard. Each player's graveyard starts out empty.",
+        "navigation": {
+            "nextRule": "217.4b",
+            "previousRule": "217.4"
+        },
+        "examples": null
+    },
+    "408.2b": {
+        "ruleNumber": "408.2b",
+        "ruleText": "Static abilities continuously generate effects and don't go on the stack.",
+        "navigation": {
+            "nextRule": "408.2c",
+            "previousRule": "408.2a"
+        },
+        "examples": null
+    },
+    "311.1": {
+        "ruleNumber": "311.1",
+        "ruleText": "All \"at end of combat\" abilities trigger and go on the stack. (See rule 404, \"Triggered Abilities.\") Then the active player receives priority to play spells and abilities. 312. End Phase",
+        "navigation": {
+            "nextRule": "312.1",
+            "previousRule": "310.4"
+        },
+        "examples": null
+    },
+    "200.1": {
+        "ruleNumber": "200.1",
+        "ruleText": "When a rule or card text refers to a \"card,\" it means a Magic card with a Magic card front and the Magic card back. Tokens aren't considered cards-even an Unglued\u2122 card that represents a token isn't considered a card for rules purposes. 201. Parts of a Card",
+        "navigation": {
+            "nextRule": "201.1",
+            "previousRule": "103.2"
+        },
+        "examples": null
+    },
+    "102.3": {
+        "ruleNumber": "102.3",
+        "ruleText": "A game immediately ends when either these rules or a card effect states that a player loses or wins.",
+        "navigation": {
+            "nextRule": "102.4",
+            "previousRule": "102.2"
+        },
+        "examples": null
+    },
+    "101.2": {
+        "ruleNumber": "101.2",
+        "ruleText": "After the decks have been shuffled, the players determine who will take the first turn, using any mutually agreeable method (flipping a coin, rolling dice, etc.). In a match of several games, the loser of the previous game decides who will take the first turn. If the previous game was a draw, the person who determined who would take the first turn in the previous game decides.",
+        "navigation": {
+            "nextRule": "101.3",
+            "previousRule": "101.1"
+        },
+        "examples": null
+    },
+    "217.8": {
+        "ruleNumber": "217.8",
+        "ruleText": "Whenever a card moves from one zone to another, it is treated as a new copy of that card (effects connected to its previous existence expire) with the exception that effects editing a spell in the stack will continue to apply to the permanent that spell becomes.",
+        "navigation": {
+            "nextRule": "300.1",
+            "previousRule": "217.7c"
+        },
+        "examples": null
+    },
+    "406.2": {
+        "ruleNumber": "406.2",
+        "ruleText": "Delayed Abilities",
+        "navigation": {
+            "nextRule": "406.2a",
+            "previousRule": "406.1e"
+        },
+        "examples": null
+    },
+    "211.1": {
+        "ruleNumber": "211.1",
+        "ruleText": "Some card sets feature collector numbers. This information is printed in the form [card number/total cards in the set], immediately following the legal text. These numbers have no effect on game play. 212. Card Type",
+        "navigation": {
+            "nextRule": "212.1",
+            "previousRule": "210.1"
+        },
+        "examples": null
+    },
+    "306.2": {
+        "ruleNumber": "306.2",
+        "ruleText": "A creature is removed from combat if it stops being a creature or its controller changes. \"Removed from combat\" means the creature stops being an attacking, blocking, blocked, and/or unblocked creature. Once it's declared as an attacker or blocker, tapping or untapping a creature doesn't remove it from combat or prevent it from dealing combat damage. Neither does playing a spell or ability that, if played earlier, would have prevented it from attacking or blocking. 307. Beginning of Combat Step",
+        "navigation": {
+            "nextRule": "307.1",
+            "previousRule": "306.1"
+        },
+        "examples": null
+    },
+    "421.1": {
+        "ruleNumber": "421.1",
+        "ruleText": "Occasionally the game can get into a state where a set of actions could be repeated forever. The \"infinity rule\" governs how to break such loops.",
+        "navigation": {
+            "nextRule": "421.2",
+            "previousRule": "420.5f"
+        },
+        "examples": null
+    },
+    "214.8": {
+        "ruleNumber": "214.8",
+        "ruleText": "Enchantments",
+        "navigation": {
+            "nextRule": "214.8a",
+            "previousRule": "214.7b"
+        },
+        "examples": null
+    },
+    "402.7": {
+        "ruleNumber": "402.7",
+        "ruleText": "A card may have several abilities. Aside from certain defined abilities that may be strung together on a single line (see rule 502, \"Keyword Abilities\"), each paragraph break in the card's text marks a separate ability. A card may also have multiple copies of the same ability. Each copy functions independently. This may or may not produce more effects than a single copy; refer to the specific ability for more information.",
+        "navigation": {
+            "nextRule": "402.8",
+            "previousRule": "402.6"
+        },
+        "examples": null
+    },
+    "404.2": {
+        "ruleNumber": "404.2",
+        "ruleText": "Triggered abilities aren't played. Instead, they automatically \"trigger\" each time their trigger event occurs. Once an ability has triggered, it goes on the stack the next time a player receives priority. 405. Static Abilities",
+        "navigation": {
+            "nextRule": "405.1",
+            "previousRule": "404.1"
+        },
+        "examples": null
+    },
+    "502.9c": {
+        "ruleNumber": "502.9c",
+        "ruleText": "If all the creatures blocking an attacking creature with trample are removed from combat before the combat damage step, all its damage is assigned to the defending player.",
+        "navigation": {
+            "nextRule": "502.9d",
+            "previousRule": "502.9b"
+        },
+        "examples": null
+    },
+    "501.3": {
+        "ruleNumber": "501.3",
+        "ruleText": "Some creatures have abilities that restrict how they can block. As with evasion abilities, these modify only the rules for the declare blockers step of combat. (If a creature gains an evasion ability after a legal block has been declared, it doesn't affect that block.) 502. Keyword Abilities",
+        "navigation": {
+            "nextRule": "502.1",
+            "previousRule": "501.2"
+        },
+        "examples": null
+    },
+    "419.6a": {
+        "ruleNumber": "419.6a",
+        "ruleText": "A replacement effect doesn't invoke itself repeatedly and gets only one opportunity for each event.",
+        "navigation": {
+            "nextRule": "419.6b",
+            "previousRule": "419.6"
+        },
+        "examples": null
+    },
+    "205.1": {
+        "ruleNumber": "205.1",
+        "ruleText": "The type (and subtype, if applicable) of a card is printed directly below the illustration. (See rules 212\u2013215.) 206. Expansion Symbol",
+        "navigation": {
+            "nextRule": "206.1",
+            "previousRule": "204.1"
+        },
+        "examples": null
+    },
+    "402.2": {
+        "ruleNumber": "402.2",
+        "ruleText": "Abilities can be beneficial or detrimental-for example, \"[This creature] can't block\" is an ability.",
+        "navigation": {
+            "nextRule": "402.3",
+            "previousRule": "402.1"
+        },
+        "examples": null
+    },
+    "216.1": {
+        "ruleNumber": "216.1",
+        "ruleText": "Some spells and abilities put a token creature into play. The token is controlled by whoever put it into play and owned by the controller of the spell or ability that created it. The rules text of the spell or ability defines the initial characteristics of the token it creates. A token's name is its creature type unless otherwise specified; for example, the creature type of a Goblin token is Goblin. Once a token is in play, changing its name doesn't change its creature type, and vice versa.",
+        "navigation": {
+            "nextRule": "216.2",
+            "previousRule": "215.2"
+        },
+        "examples": null
+    },
+    "214.5": {
+        "ruleNumber": "214.5",
+        "ruleText": "The initial value of a permanent's characteristic is the value printed on the card or specified by the spell or ability that create the token or changed the type of the permanent. Using a type-changing ability that says it changes a characteristic changes the initial values of characteristics stated in the ability's text, not the current values. Continuous effects that don't change the type of a permanent affect current values of characteristics and can override characteristics set by type-changing abilities.",
+        "navigation": {
+            "nextRule": "214.6",
+            "previousRule": "214.4"
+        },
+        "examples": null
+    },
+    "418.5b": {
+        "ruleNumber": "418.5b",
+        "ruleText": "An effect is said to \"depend on\" another if applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to. Otherwise, the effect is considered to be independent of the first effect.",
+        "navigation": {
+            "nextRule": "418.5c",
+            "previousRule": "418.5a"
+        },
+        "examples": null
+    },
+    "410.10": {
+        "ruleNumber": "410.10",
+        "ruleText": "Trigger events that involve cards or permanents changing zones are called \"zone-change triggers.\" Many abilities with zone-change triggers attempt to do something to the card after it changes zones. During resolution, these abilities look for the card in the zone that it moved to. If the card leaves the specified zone before the ability resolves, the part of the ability attempting to do something to the card will fail to do anything. (This rule applies even if the card leaves the zone and returns again before the ability resolves.) The most common types of zone-change triggers are comes-into-play triggers and leaves-play triggers.",
+        "navigation": {
+            "nextRule": "410.10a",
+            "previousRule": "410.9c"
+        },
+        "examples": null
+    },
+    "412.2": {
+        "ruleNumber": "412.2",
+        "ruleText": "Many local enchantments have static abilities that modify their enchanted permanent, but those abilities don't target that permanent. If a local enchantment is moved to a different permanent, the ability stops applying to the original permanent and starts modifying the new one.",
+        "navigation": {
+            "nextRule": "412.3",
+            "previousRule": "412.1"
+        },
+        "examples": null
+    },
+    "416.3": {
+        "ruleNumber": "416.3",
+        "ruleText": "If an effect attempts to do something impossible, it does only as much as possible.",
+        "navigation": {
+            "nextRule": "417.1",
+            "previousRule": "416.2"
+        },
+        "examples": null
+    },
+    "408.2c": {
+        "ruleNumber": "408.2c",
+        "ruleText": "State-based effects (see rule 420) resolve whenever a player receives priority as long as the required game condition is true.",
+        "navigation": {
+            "nextRule": "408.2d",
+            "previousRule": "408.2b"
+        },
+        "examples": null
+    },
+    "102.1": {
+        "ruleNumber": "102.1",
+        "ruleText": "If a player's life total is 0 or less, he or she loses the game the next time a player receives priority. (This is a state-based effect.  See rule 420, \"State-Based Effects.\")",
+        "navigation": {
+            "nextRule": "102.2",
+            "previousRule": "101.5"
+        },
+        "examples": null
+    },
+    "418.4": {
+        "ruleNumber": "418.4",
+        "ruleText": "Continuous Effects from Permanents",
+        "navigation": {
+            "nextRule": "418.4a",
+            "previousRule": "418.3d"
+        },
+        "examples": null
+    },
+    "213.1": {
+        "ruleNumber": "213.1",
+        "ruleText": "Every card, except land cards, is a spell as it's being played and stops being a spell when it resolves or is countered. For more information, see rule 401, \"Spells.\"",
+        "navigation": {
+            "nextRule": "213.2",
+            "previousRule": "212.2d"
+        },
+        "examples": null
+    },
+    "408.1f": {
+        "ruleNumber": "408.1f",
+        "ruleText": "Triggered abilities can trigger at any time, including during the playing or resolution of a spell or another ability. However, nothing actually happens at the time the abilities trigger. Each time a player receives priority, all abilities that have triggered but that haven't been put on the stack go on the stack before the player with priority may play spells or abilities. (See rule 410, \"Handling Triggered Abilities.\")",
+        "navigation": {
+            "nextRule": "408.1g",
+            "previousRule": "408.1e"
+        },
+        "examples": null
+    },
+    "303.1": {
+        "ruleNumber": "303.1",
+        "ruleText": "The upkeep step begins with the active player having priority. Any abilities that triggered during the untap step, as well as abilities that trigger at the beginning of upkeep, go on the stack. Upkeep-triggered abilities use the phrase \"At the beginning of your upkeep\" or similar wording. (See rule 404, \"Triggered Abilities.\") Then players may play spells and abilities. 304. Draw Step",
+        "navigation": {
+            "nextRule": "304.1",
+            "previousRule": "302.2"
+        },
+        "examples": null
+    },
+    "422.1": {
+        "ruleNumber": "422.1",
+        "ruleText": "If a player realizes that he or she can't legally take an action after starting to do so, the entire action is reversed and any payments already made are canceled. No abilities trigger as a result of an undone action. If the action was playing a spell, the spell card returns to the player's hand. He or she may also reverse any legal mana abilities played while making the illegal play.",
+        "navigation": {
+            "nextRule": "422.2",
+            "previousRule": "421.5"
+        },
+        "examples": null
+    },
+    "500.2": {
+        "ruleNumber": "500.2",
+        "ruleText": "The active player checks each creature declared as an attacker for any restriction on attacking when combined with the rest of the proposed attack. Likewise, he or she checks each creature not declared as an attacker for any attacking requirements that don't conflict with the rest of the proposed attack. If either of these is the case, that set of attackers is illegal, and the active player must propose another attack. Similar restrictions apply to declaring blockers.",
+        "navigation": {
+            "nextRule": "501.1",
+            "previousRule": "500.1"
+        },
+        "examples": null
+    },
+    "401.1": {
+        "ruleNumber": "401.1",
+        "ruleText": "A spell is a card on the stack. As the first step of being \"played,\" the card becomes a spell and goes on the stack. (See rule 217.6, \"Stack.\") It stops being a spell when it resolves (see rule 413.2) or is countered (see rule 414).",
+        "navigation": {
+            "nextRule": "401.2",
+            "previousRule": "400.1"
+        },
+        "examples": null
+    },
+    "214.9e": {
+        "ruleNumber": "214.9e",
+        "ruleText": "A basic land has an intrinsic ability to produce colored mana. (See rule 406.1, \"Mana Abilities.\") The card is treated as if its text box read, \"ocT: Add [mana symbol] to your mana pool\" even if the text box doesn't actually contain text. Plains produce white mana; islands, blue; swamps, black; mountains, red; and forests, green. If a card becomes a basic land, this text replaces all other text on the card.",
+        "navigation": {
+            "nextRule": "214.9f",
+            "previousRule": "214.9d"
+        },
+        "examples": null
+    },
+    "408.g": {
+        "ruleNumber": "408.g",
+        "ruleText": "Game actions-untapping during the untap step, cleanup, and mana burn-don't use the stack. 409. Playing Spells and Activated Abilities",
+        "navigation": {
+            "nextRule": "409.1",
+            "previousRule": "408.f"
+        },
+        "examples": null
+    },
+    "502.7a": {
+        "ruleNumber": "502.7a",
+        "ruleText": "Protection is a static ability, written \"Protection from [quality].\" This quality is usually a color (as in \"protection from black\") but can be any characteristic, such as a permanent type.",
+        "navigation": {
+            "nextRule": "502.7b",
+            "previousRule": "502.7"
+        },
+        "examples": null
+    },
+    "217.2a": {
+        "ruleNumber": "217.2a",
+        "ruleText": "When a game begins, each player's deck becomes his or her library.",
+        "navigation": {
+            "nextRule": "217.2b",
+            "previousRule": "217.2"
+        },
+        "examples": null
+    },
+    "217.4c": {
+        "ruleNumber": "217.4c",
+        "ruleText": "If an effect puts two or more cards into the same graveyard at the same time, the owner of those cards may arrange them in any order.",
+        "navigation": {
+            "nextRule": "217.5",
+            "previousRule": "217.4b"
+        },
+        "examples": null
+    },
+    "418.3": {
+        "ruleNumber": "418.3",
+        "ruleText": "Continuous Effects from Spells or Abilities",
+        "navigation": {
+            "nextRule": "418.3a",
+            "previousRule": "418.2"
+        },
+        "examples": null
+    },
+    "314.1b": {
+        "ruleNumber": "314.1b",
+        "ruleText": "Then, simultaneously, all damage is removed from permanents and all \"until end of turn\" and \"this turn\" effects end. This action doesn't go on the stack.",
+        "navigation": {
+            "nextRule": "314.1c",
+            "previousRule": "314.1a"
+        },
+        "examples": null
+    },
+    "420.5d": {
+        "ruleNumber": "420.5d",
+        "ruleText": "A local enchantment that enchants an illegal or nonexistent permanent is put into its owner's graveyard.",
+        "navigation": {
+            "nextRule": "420.5e",
+            "previousRule": "420.5c"
+        },
+        "examples": null
+    },
+    "310.1b": {
+        "ruleNumber": "310.1b",
+        "ruleText": "An unblocked creature will assign all its combat damage to the defending player.",
+        "navigation": {
+            "nextRule": "310.1c",
+            "previousRule": "310.1a"
+        },
+        "examples": null
+    },
+    "314.1a": {
+        "ruleNumber": "314.1a",
+        "ruleText": "First, if the active player's hand contains more cards than his or her maximum hand size (normally seven), he or she discards enough cards to reduce the hand to that number. This action doesn't go on the stack.",
+        "navigation": {
+            "nextRule": "314.1b",
+            "previousRule": "314.1"
+        },
+        "examples": null
+    },
+    "418.4a": {
+        "ruleNumber": "418.4a",
+        "ruleText": "A continuous effect generated by a static ability of a permanent isn't \"locked in\"; it applies at any given moment to whatever its text indicates.",
+        "navigation": {
+            "nextRule": "418.4b",
+            "previousRule": "418.4"
+        },
+        "examples": null
+    }
+}
