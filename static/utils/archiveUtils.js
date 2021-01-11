@@ -2,7 +2,6 @@
 
 const fs = require("fs");
 const path = require("path");
-let setInfo = require('../resources/set-information');
 
 function dirTree(filename) {
     var stats = fs.lstatSync(filename),
@@ -18,6 +17,10 @@ function dirTree(filename) {
         });
     } else {
         info.type = "file";
+    }
+
+    if (filename.includes("rules.json")) {
+        console.log(info);
     }
     return info;
 }

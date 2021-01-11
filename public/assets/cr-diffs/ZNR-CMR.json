@@ -1,0 +1,185 @@
+[
+    {
+        "names": {
+            "new_setcode": "CMR",
+            "new_full": "Commander Legends",
+            "old_full": "Zendikar Rising",
+            "old_setcode": "ZNR"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "121.8",
+            "ruleText": "If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i) or until the casting process is reversed (see rule 723, \u201cHandling Illegal Actions\u201d). old_start While face down, it\u2019s considered to have no characteristics. old_end The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it\u2019s being drawn, it\u2019s revealed after the spell becomes cast or the ability becomes activated."
+        },
+        "new": {
+            "ruleNum": "121.8",
+            "ruleText": "If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i) or until the casting process is reversed (see rule 723, \u201cHandling Illegal Actions\u201d). The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it\u2019s being drawn, it\u2019s revealed after the spell becomes cast or the ability becomes activated. new_start While face down, the drawn card is considered to have no characteristics and can\u2019t be used to pay any part of the cost of the spell or ability that would require the card to have specific characteristics. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.2a",
+            "ruleText": "Two objects have the same name if their names are identical."
+        },
+        "new": {
+            "ruleNum": "201.2a",
+            "ruleText": "Two objects have the same name if their names are identical. new_start An object with no name doesn\u2019t have the same name as any other object, including another object with no name. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.2c",
+            "ruleText": "Two or more objects have different names if old_start there are old_end no old_start names old_end that old_start both objects old_end have old_start in common. old_end"
+        },
+        "new": {
+            "ruleNum": "201.2c",
+            "ruleText": "Two or more objects have different names new_start only new_end if new_start each of them has at least one name and new_end no new_start two objects in new_end that new_start group new_end have new_start the same name. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.5",
+            "ruleText": "Some old_start promotional old_end versions of Ikoria\u2122: Lair of Behemoths cards feature a name other than their own in the upper left corner, with their normal name in a secondary title bar below it. These cards have only the card name specified in the secondary title bar, not the name printed where a card\u2019s name would normally appear."
+        },
+        "new": {
+            "ruleNum": "201.5",
+            "ruleText": "Some versions of Ikoria\u2122: Lair of Behemoths new_start cards and other promotional new_end cards feature a name other than their own in the upper left corner, with their normal name in a secondary title bar below it. These cards have only the card name specified in the secondary title bar, not the name printed where a card\u2019s name would normally appear. new_start That name is considered flavor text and has no effect on game play. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "603.12",
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them."
+        },
+        "new": {
+            "ruleNum": "603.12",
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them. new_start If the trigger event or events occur multiple times during that time, the reflexive triggered ability will trigger once for each of those times. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "607.2n",
+            "ruleText": "If an object has both a static ability that causes a player to make a choice for a characteristic\u2013defining ability before the game begins and that characteristic\u2013defining ability printed on it in the same paragraph, those abilities are linked. The second ability refers only to the choice made as a result of the first ability and continues to refer to that choice as the object changes zones during the game."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "608.2f",
+            "ruleText": "Some spells and abilities include actions taken on multiple players and/or objects. In most cases, each such action is processed simultaneously. If the action can\u2019t be processed simultaneously, it\u2019s instead processed considering each affected player or object individually. APNAP order is used to make the primary determination of the order of those actions. Secondarily, if the action is to be taken on both a player and an object they control or on multiple objects controlled by the same player, the player who controls the resolving spell or ability chooses the relative order of those actions."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.16n",
+            "ruleText": "Some Auras both give the enchanted creature protection and say \u201cthis effect doesn\u2019t remove\u201d either that specific Aura or all Auras. This means that the specified Auras old_start can legally enchant that creature and old_end aren\u2019t put into their owners\u2019 graveyards as a state\u2013based action. If the creature has other instances of protection from the same quality, those instances affect Auras as normal."
+        },
+        "new": {
+            "ruleNum": "702.16n",
+            "ruleText": "Some Auras both give the enchanted creature protection new_start from a quality new_end and say \u201cthis effect doesn\u2019t remove\u201d either that specific Aura or all Auras. This means that the specified Auras aren\u2019t put into their owners\u2019 graveyards as a state\u2013based action. If the creature has other instances of protection from the same quality, those instances affect Auras as normal."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.16p",
+            "ruleText": "One Aura (Benevolent Blessing) gives the enchanted creature protection from a quality and says the effect doesn\u2019t remove certain permanents that are \u201calready attached to\u201d that creature. This means that any object with the stated quality attached to that creature at the moment the protection effect starts to apply (including the Aura giving the permanent protection) aren\u2019t put into their owners\u2019 graveyards as a state\u2013based action. Other permanents with the stated quality can\u2019t become attached to the creature. If the creature has other instances of protection from the same quality, those instances affect attached permanents as normal."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.84b",
+            "ruleText": "If an effect allows a player to take an action with one or more of the exiled cards \u201cas you cascade,\u201d the player may take that action after they have finished exiling cards due to the cascade ability. This action is taken before choosing whether to cast the last exiled card or, if no appropriate card was exiled, before putting the exiled cards on the bottom of their library in a random order."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.140a",
+            "ruleText": "Encore is an activated ability that functions while the card with encore is in a graveyard. \u201cEncore [cost]\u201d means \u201c[Cost], Exile this card from your graveyard: For each opponent, create a token that\u2019s a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate this ability only any time you could cast a sorcery.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "711.8",
+            "ruleText": "A player playing a modal double\u2013faced card as a land chooses one of its faces that\u2019s a land before putting it onto the battlefield. It enters the battlefield with that face up. See rule 305, \u201cLands.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "718.4",
+            "ruleText": "If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order becomes the monarch."
+        },
+        "new": {
+            "ruleNum": "718.4",
+            "ruleText": "If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order becomes the monarch. new_start If no player still in the game can become the monarch, the game continues with no monarch. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.4b",
+            "ruleText": "If a commander has a static ability that causes a player to choose its color before the game begins, that choice applies during deck construction and throughout the game, even as the commander changes zones. That choice affects the commander\u2019s color identity. The player reveals that choice as they put their commander into the command zone before the game begins. See rules 103.2c and 607.2n."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.4e",
+            "ruleText": "If an ability refers to the colors or number of colors in a commander\u2019s color identity, that quality is undefined if that player doesn\u2019t have a commander. That part of the ability won\u2019t do anything. Costs that refer to that quality are unpayable."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13a",
+            "ruleText": "Commander Draft is an option for a different style of Commander game. It consists of a draft (a style of limited play where players choose cards from sealed booster packs to build their decks) followed by a multiplayer game. The Commander Draft option uses Commander Legends booster packs by default."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13b",
+            "ruleText": "A draft typically consists of three draft rounds. In each draft round, each player opens a booster pack, drafts two cards by placing them in a face\u2013down pile in front of them, then passes the remaining cards to the next player. Each player then drafts two cards from the booster pack passed to them and passes the remaining cards. This procedure continues until all cards in that draft round have been drafted."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13c",
+            "ruleText": "In the first and third draft rounds, booster packs are passed to each player\u2019s left. In the second draft round, booster packs are passed to each player\u2019s right."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13d",
+            "ruleText": "During the draft, a player can look only at cards in the booster pack they are currently drafting from and cards they have already drafted. A player may not reveal drafted cards to other players unless an ability instructs them to."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13e",
+            "ruleText": "After the draft is complete, the cards a player drafted become that player\u2019s card pool. A player may add up to two cards named The Prismatic Piper to their card pool, but only if those cards are used as the player\u2019s commander(s)."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13f",
+            "ruleText": "Commander Draft deck construction follows the same rules as Commander deck construction (see rule 903.5) with two exceptions: (1) A player\u2019s deck must contain at least 60 cards. There is no maximum deck size. (2) A player\u2019s deck may include any number of cards from that player\u2019s card pool with the same name."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "903.13g",
+            "ruleText": "Commander Draft games follow the same rules as Commander games. See rules 903.6\u2013903.11."
+        }
+    }
+]

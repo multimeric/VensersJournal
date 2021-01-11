@@ -110,7 +110,8 @@ def align_matches(some_list, match_list):
     for index, rule in enumerate(some_list):
         best = difflib.get_close_matches(
             rule,
-            match_list[index - 50:index + 50])
+            match_list,
+            cutoff=.4)
         try:
             if len(best) == 0:
                 raise IndexError

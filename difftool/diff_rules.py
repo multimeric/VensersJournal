@@ -29,11 +29,14 @@ rules = [{'names': {'old_full': sys.argv[2],
                     'new_setcode': dest_cr_set_code}}]
 changes = []
 deletions = []
-out_path = 'public/assets/cr-diffs/'
+out_path = '/home/vill/VensersJournal/public/assets/cr-diffs/'
 output_rules_file = '%s%s-%s.json' % (out_path,
                                       orig_cr_set_code,
                                       dest_cr_set_code)
 
+# output_rules_file = 'test.json'
+# output_rules_file = 'test.IKO'
+# output_number_changings = 'test_numbering.IKO'
 # output_rules_file = 'test.json'
 
 output_numbering_changes = '/home/vill/Southfall/changes.json'
@@ -57,8 +60,8 @@ with open(output_rules_file, 'w', encoding='utf-8') as out_json, \
                                   output_comparison['old']['ruleNum']})
 
     out_json.write(json.dumps(rules, indent=4))
-    finished_changes = {'lastUpdate':
-                        datetime.datetime.today().strftime('%Y-%d-%m'),
-                        'changes': changes,
-                        'deletions': deletions}
-    out_changes.write(json.dumps(finished_changes, indent=4))
+    # finished_changes = {'lastUpdate':
+    #                     datetime.datetime.today().strftime('%Y-%d-%m'),
+    #                     'changes': changes,
+    #                     'deletions': deletions}
+    # out_changes.write(json.dumps(finished_changes, indent=4))

@@ -209,5 +209,7 @@ var setDict = {
     "M21": "Core Set 2021",
     "JMP": "Jumpstart",
     "2XM": "Double Masters",
-    "ZNR": "Zendikar Rising"
+    "ZNR": "Zendikar Rising",
+    "CMR": "Commander Legends",
+    "KHM": "Kaldheim"
 }

@@ -15,6 +15,7 @@ card_image_dict = {}
 trash = ['Copy',          # tokens
          'Ape',
          'Myr',
+         'Elves',
          'Horror',
          'Ooze',
          'Wizard',
@@ -22,18 +23,20 @@ trash = ['Copy',          # tokens
          'Merfolk Wizard',
          'Cleric',
          'Bear',
-         'Plains',        # lands
+         'Plains',         # lands
          'Island',
          'Swamp',
          'Mountain',
          'Forest',
-         'Exile',         # verbs,not being used as cards
+         'Exile',          # verbs,not being used as cards
          'Sacrifice',
-         'Goblin Wizard'] # only used for creature types, not the card
+         'Goblin Wizard',  # only used for creature types, not the card
+         'Shapeshifter']   # ibid
+
 
 with open(sys.argv[1], 'r', encoding='utf-8') as file:
     rules_doc = file.read()
-    rules_doc = re.sub("’", "'",  rules_doc)
+    rules_doc = re.sub("’", "'", rules_doc)
 
     # Get all the Examples out of the CR first
     examples = re.findall('^Example:.*', rules_doc, re.MULTILINE)
@@ -70,7 +73,7 @@ with open(sys.argv[1], 'r', encoding='utf-8') as file:
                     card_image_dict[card] = dfc
         touched_names.add(card)
 
-cardlist_location = '/home/vill/VensersJournal/static/res/cardlist.js'
+cardlist_location = '/home/vill/VensersJournal/static/utils/cardlist.js'
 with open(cardlist_location, 'w', encoding='utf-8') as out_cardlist:
     out_cardlist.write('''module.exports = {
     getCardList: function() {
@@ -82,7 +85,7 @@ with open(cardlist_location, 'w', encoding='utf-8') as out_cardlist:
 }\n''')
     out_cardlist.write('var ignorableCards = [\n')
     for card in trash:
-      out_cardlist.write('"{}",\n'.format(card))
+        out_cardlist.write('"{}",\n'.format(card))
     out_cardlist.write(']\n')
 
     out_cardlist.write('var cardList = {\n')

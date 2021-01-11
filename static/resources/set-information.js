@@ -1064,5 +1064,19 @@ const setInfo = {
         "releaseDate": "2020-11-20",
         "previousSet": "ZNR",
         "nextSet": "IDK"
-    }
+    },
+    "KHM": {
+        "setcode": "KHM",
+        "fullname": "Kaldheim",
+        "releaseDate": "2021-02-05",
+        "previousSet": "CMR",
+        "nextSet": "STX"
+    },
+    "STX": {
+        "setcode": "STX",
+        "fullname": "Strixhaven: School of Mages",
+        "releaseDate": "2021-06-01",
+        "previousSet": "KHM",
+        "nextSet": "IDK"
+    },
 }
