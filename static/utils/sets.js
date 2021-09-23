@@ -211,5 +211,9 @@ var setDict = {
     "2XM": "Double Masters",
     "ZNR": "Zendikar Rising",
     "CMR": "Commander Legends",
-    "KHM": "Kaldheim"
+    "KHM": "Kaldheim",
+    "STX": "Strixhaven",
+    "MH2": "Modern Horizons 2",
+    "AFR": "Adventures in the Forgotten Realms",
+    "MID": "Innistrad: Midnight Hunt"
 }

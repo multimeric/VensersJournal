@@ -43,7 +43,7 @@
               <% console.log(rules[i].new.ruleText) %>
               <% newStuff.forEach(function(el, index, arr) { arr[index] = el.substring(0, el.length-8) + el.substring(el.length-7, el.length)}) %>
               <% let matchText = newMatches[1] || newMatches[2].toLowerCase() %>
-              <% rules[i].new.ruleText = newMatches[0] + '<br>The new ' + matchText +  ' this set are: ' +  newStuff.join(', ') + '<br><i>(Click the rule number to see the full list of ' + newMatches[1] + '.)' %>
+              <% rules[i].new.ruleText = newMatches[0] + '<br>The new ' + matchText +  ' this set are: ' +  newStuff.join(', ') + '<br><i>(Click the rule number to see the full list of ' + matchText + '.)' %>
             <% } %>
             <td><b><%- rules[i].new.ruleNum %></b><br><%- rules[i].new.ruleText %></td>
           <% } %>

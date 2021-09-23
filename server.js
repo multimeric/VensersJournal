@@ -35,6 +35,15 @@ app.get('/companion-changes', function(req, res) {
     });
 });
 
+// Special-case Cascade diff too :(
+app.get('/cascade-changes', function(req, res) {
+  fs.readFile('public/assets/cr-diffs/Cascade.json', 'utf8',
+    (err, data) => {
+      let rules = rulesUtils.getRules(data);
+      res.render('pages/rules', {rules: rules});
+    });
+});
+
 app.get('/about', function(req, res) {
   res.render('pages/about');
 });

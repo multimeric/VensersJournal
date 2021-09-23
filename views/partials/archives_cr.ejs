@@ -8,7 +8,7 @@
       <div style="clear: both; width:80%"> 
         <a href='/static/rules/<%= each.filepath %>' target='_blank'>
           <i class='ss ss-<%- each.filepath.substr(-7, 3).toLowerCase() %>' style='font-size:1.75em; float:left;'></i>
-          <% if (each.filepath == 'cr-2020-06-01-IKO.txt') { %>
+          <% if (each.filepath == 'cr-2020-06-01-IKO.txt' || each.filepath == 'cr-2021-02-15-KHM.txt') { %>
             <span style='float:right;'><%- each.setName %> (rev a)</span>
           <% } else { %>
             <span style='float:right;'><%- each.setName %></span>

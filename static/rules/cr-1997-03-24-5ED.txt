@@ -1,0 +1,604 @@
+// This file recomposed via https://web.archive.org/web/19990429041350/http://www.wizards.com/Magic/Fifth_Ed_Rulebook/Welcome.html
+
+Welcome to Magic: The Gathering!
+Object of the Game
+Magic: The Gathering®, or Magic, is a trading card game in which you and your opponent are rival wizards dueling for control of a magical plane. Reduce your opponent's score from 20 to 0 before he or she does the same to you!
+
+Summary of Play
+Each player builds a deck of at least forty cards from his or her collection and plays that deck against the opponent's.
+
+Each player begins by shuffling his or her deck and drawing seven cards. Players alternate taking turns. Your turn is made up of a series of actions, such as playing cards and attacking your opponent.
+
+There are several types of cards you can play. Lands are the most basic, providing the magical energy you need to play all other cards. Creature cards represent creatures in play to fight for you, either by attacking your opponent or by fighting off her creatures. Other cards represent spells you can cast to hurt your opponent or help your creatures.
+
+The basic strategy of Magic lies in choosing when to play your cards and when to use your creatures to attack your opponent or protect yourself. More complex strategies involve combining your cards to make them more powerful and choosing which cards to use in your deck to make it most effective.
+
+Rulebook Construction
+This rulebook is divided into four sections.
+
+Section I: Learning the Game is intended as a tutorial, to bring the new player to the point where she can usually play without having to consult the rulebook. The first half of this section teaches the basics of the game: how creatures work, how to bring them into play, and how to fight with them. The second half of this section expands the rules, addressing the other types of spells, describing how less basic game mechanics work, and so on. Once a player is familiar with Section I, she should be able to understand most common and uncommon cards.
+
+However, Section I often omits minor details of the rules it presents and occasionally contradicts the normal rules in the interests of accustoming new players to the game. Section II: Expanding Your Knowledge details most of the rules that are actually needed during play and corrects the omissions and simplifications in Section I. This section is presented more for rules reference than as a tutorial.
+
+Section III: Exploring the Rules describes some of the nooks and crannies of the rules. Only the advanced player needs to know all of the rules in this section.
+
+In Section IV: Game Support, you'll find the contact information for questions regarding rules, tournaments, and so on.
+
+Following Section IV is a glossary of common terms. The first time any of these terms appears in the text, it's linked to its entry in the glossary. 
+
+Section I: Learning the Game
+The First Rule of Magic
+Occasionally, a card contradicts the rules. In these cases, the card text always takes precedence.
+
+The Very Basics
+Take a few moments to glance at the cards in your deck. You'll notice that their backgrounds are white, blue, black, red, or green. These are the colors of Magic, and each one has its own strengths and weaknesses. Understanding these characteristics can help you build more powerful decks as you become a more advanced player. As a beginner, however, you'll find that the colors will serve mostly to help you organize your hand and determine which cards you can play at any given time.
+
+Any card with a background of one of the five colors is a spell; the remaining colorless cards are either artifacts (another type of spell) or lands. Take a closer look at your cards and separate the spells from the lands. (To determine which colorless cards are lands and which are artifacts, read the card type printed just below the artwork.) Lands are important, because they create the energy you need to play spells. The only spells you should be concerned with right now are summon spells, which produce creatures. You'll use creatures to attack your opponent, in an effort to reduce her life total to 0 or less and therefore win. Creatures are easily identified; each has a pair of numbers (written in an X/Y format) in the bottom right corner of the card. A sample creature is shown below.
+
+Throughout a duel, you can cast summon spells that become creatures like the Hurloon Minotaur. Once you have them in play, you can use creatures to attack your opponent. If you launch enough successful attacks, you can drive your opponent's life total to 0 or less and win the duel. Winning a Magic duel often depends on the strategies you build with creatures like this Minotaur.
+
+Of course, your opponent isn't going to just sit there while your creatures attack. She's going to put her own creatures into play and use them to attack you or to block your attackers. If she chooses to block, your attacking creatures fight her blocking creatures instead of damaging her.
+
+Putting creatures into play is a little more complicated than just deciding you want to. You have to pay for them with mana, which is typically produced by lands. Not much can happen in the game if you don't have the mana to pay for your creatures (or, later, other spells).
+
+Mana
+Just as there are five colors in Magic, there are five colors of mana, each with its own mana symbol: white (), blue (), black (), red (), and green (). Mana can also be colorless, though colorless mana doesn't have a symbol associated with it.
+
+The cost of playing a creature is called its casting cost. This cost includes one or more of the mana symbols and appears in the top right corner of the card. Each time a colored mana symbol appears as part of a cost, it means that you have to pay one mana of that color to satisfy the cost. Thus, a cost of "" can be paid only with two red mana.
+
+A casting cost may also include generic mana, which can be paid with any type of mana, including colorless mana. Generic mana costs are shown as numbers inside a gray circle. For example, in order to play a spell with a casting cost of , you must pay one blue mana and two generic mana.
+
+So what does this mean for the Hurloon Minotaur? The top right corner of the card lists its casting cost as , so you know you have to pay two red mana and one generic mana in order to play it. Of course, you have to get mana from somewhere, and lands are the usual source.
+
+Producing Mana from Lands
+In Magic, there are five basic land types, each producing a different color of mana. Plains make white (), islands make blue (), swamps make black (), mountains make red (), and forests make green (). Pull out a few lands from your deck. Note that although a land's background doesn't match any of the five colors, its text box is shaded to match the color of mana it produces. The ability of a land is to produce mana, so it's considered a mana source.
+
+When you use a land to produce mana, you tap it, or turn it sideways; this is signified by the tap symbol (). A tapped card can't be used to do anything that requires tapping it. Thus, a land can produce only one mana each turn. At the beginning of your turn, untap all your cards in play (that is, turn them back upright) so that you can use them again.
+
+For example, each mountain you play allows you to generate one red mana each turn. However, you can't store up mana for several turns by using your lands every turn. When a land produces mana, that mana is added to your mana pool and is stored there until you spend it. At the end of every turn, both players lose any mana they haven't spent. You may play only one land each turn, so building up your mana potential takes several turns.
+
+The amount and type of mana available in your pool determines which spells you can cast. To demonstrate, let's return to the Hurloon Minotaur, which has a casting cost of . Suppose that after three turns you've played three lands: two forests (green mana) and one mountain (red mana). Even though you have three lands in play, you can't afford to cast the Minotaur until you play another mountain.
+
+Throughout the game, you continue to play lands, increasing your mana potential. Remember, any type of mana can be used to pay generic mana costs; the color associated with a land is important only when you have to pay mana of a certain color. In other words, if your hand is full of green spells, playing mountains can still help you play the more expensive ones even though mountains produce red mana.
+
+Here, Critter, Critter!
+Now, pull a few creature cards out of your deck. They're easy to find because each one has two numbers (a power and toughness rating) in its bottom right corner. Creatures have a variety of power and toughness ratings. These numbers reflect a creature's effectiveness in combat. When a creature attacks, it deals combat damage equal to its power, whether to your opponent or to creatures that block it. A creature's toughness represents how much damage is required to kill it. If one of your creatures takes an amount of damage equal to or exceeding its toughness over the course of a turn, it's taken lethal damage and is put into your graveyard, or discard pile.
+
+EXAMPLE
+
+Creatures tap when they attack, and tapped creatures can't block. Therefore, committing a creature to an attack prevents you from blocking with it on your opponent's next turn, when she can attack you. Remember, though, that all your cards untap at the start of your turn, so you can attack with a creature numerous turns in a row, or attack with it now and block with it later on in the game.
+
+The Flow of the Game
+Before a duel begins, players randomly determine who goes first. Each player starts the game with 20 life and draws a hand of seven cards from his or her deck. The players then alternate taking turns, beginning with the "first" player. During a turn, a player can do any or all of the following: play a land, play creatures, and attack with creatures already in play. The following outlines the basic turn structure:
+
+    Untap: At the beginning of every turn, untap any creatures or lands that were tapped during the previous turn. Untapping a card makes it available for use.
+
+    Draw: Draw a card from your library.
+
+    Land: Play a land, if you have any in your hand.
+
+    Attack: You may attack with any or all of your creatures. (If you don't attack, skip ahead to "Play Creatures.") You can attack only with your creatures, and they can attack only your opponent. If you want to kill one of your opponent's creatures, you'll have to attack and hope he blocks with it. Attacking with a creature taps it.
+
+    Defense: When attacked, your opponent may block with some, all, or none of his creatures. Each creature can block only a single attacker, but more than one creature can gang up to block the same attacker. Blocking doesn't tap creatures, but tapped creatures can't block (so a creature that attacked during your opponent's last turn can't block this turn).
+
+    Damage Dealing: Each attacking creature that wasn't blocked deals its power in damage to your opponent. If this reduces his life total to 0 or less, you win. A creature that's blocked deals its damage to whatever blocked it and vice versa. If a creature has more than one blocker, you can distribute its damage among them as you like. For example, if your Hurloon Minotaur (2/3) is blocked by three Mons's Goblin Raiders (1/1), you can divide its 2 damage between two of the Raiders, killing them both, but the three Raiders will kill the Minotaur in return.
+
+    Play Creatures: You can play as many creatures as you can afford. Remember, you have to pay a creature's casting cost to play it, which requires tapping your lands for mana.
+
+    Discard: If you have more than seven cards in your hand at the end of your turn, discard down to seven. 
+
+Game Setup
+During a game, it's easy to build up quite a few cards in play. For this reason, you'll want to find a dry, flat surface to use as a playing area. You'll also need something to help you keep track of your life total, such as spare change or a pencil and paper.
+
+Each player begins the game with a deck of at least forty cards, which compose his or her library. Before play begins, each player shuffles his or her deck and offers it to the opponent, who may shuffle and/or cut it. Next, one player decides who will play first and who will draw first; whoever takes the first turn of the game doesn't draw a card that turn. If you and your opponent have just finished a game, the player who lost that game decides who plays first; if the game was a draw, whoever decided who went first that game does so again. If this is your first game in a series, determine randomly who decides.
+
+Now, play a few games to get a feel for what you've learned. The point of these games is to become familiar with how lands and mana work and with the basics of creature combat. Whether you win a game isn't very important. In your first few games, if you draw a card that's not a basic land or a creature, set it aside and draw another card. When you play a creature, pay attention only to its power and toughness; for now, ignore its text box.
+
+When you play these games you might want to leave the rulebook open to the turn sequence above or to the tipsheet below. 
+
+Don't Forget...
+Life Total
+Each player starts the game with 20 life. If a creature damages you, deduct the damage from your life total. If you drop to 0 life or less, you lose the game.  Lands and Spells
+Every card is either a land or a spell. The card type, listed below the art, tells you what it is.
+Mana
+Every spell has a casting cost, which lists the amount and type of mana needed to play the spell. Lands provide the mana to cast spells.  Creatures
+For now, the only spells you're playing with are those that become creatures when cast. Creatures remain in play and fight for you until they're killed.
+Power and Toughness
+Every creature has a power and toughness rating, which represents its effectiveness in combat. These numbers are printed in the lower right corener of the card and aid in identifying creature cards as such.  Tap
+Lands are tapped, or turned sideways, when they produce mana. Also, creatures are tapped when they attack. All of your lands and creatures untap at the start of your turn.
+Attacking and Blocking
+Once during your turn, you can attack your opponent with some, all, or none of your creatures. When your opponent attacks you, your untapped creatures can block hers.  Damage
+When a creature attacks, it deals damage equal to its power. If the creature is blocked, it deals that damage to whatever blocks it; otherwise, it deals the damage to your opponent.
+Lethal Damage
+If a creature suffers damage equal to or greater than its toughness during a combat, it dies and is put into your graveyard, or discard pile.
+
+Expanding the Game
+The first few games you just played were probably rather simple. During your turn, you drew a card, played a land if you had any, attacked if you wanted to, and played creatures if you had any. During your opponent's turn, you could do nothing but block. Creatures themselves didn't do anything other than attack or block. These are the basic moves of Magic.
+
+In a normal game of Magic, you can assist your creatures in battle by playing spells that make them bigger, help them evade other creatures, and so on. Spells may also hinder or kill your opponent's creatures, and some spells even let you affect your opponent directly.
+
+The remainder of this section adds to the basics you've already learned. It looks at other types of spells, more detailed turn and attack sequences, and some basic creature abilities. Once you're comfortable with the contents of this section, you should be able to play quite a few games of Magic without having to refer to Section II.
+
+Other Types of Spells
+So far, you've only played spells that generated creatures: summon spells and artifact creature spells. As you played your first few games, you probably set aside spells of most of the other types. (If you haven't played yet, take a moment to examine the spells in your deck.) Those other spells are divided into two categories.
+
+Spells in the first category remain in play when cast. Once in play, these cards become permanents. In addition to the summon and artifact creature spells you've already seen, artifact spells, enchantment spells, and lands become permanents when played (see "More about Permanents").
+
+Spells in the second category don't become permanents when you play them, but instead take effect once and are then put into your graveyard. Each of these spells is identified on its card type line as "Instant," "Interrupt," "Sorcery," or "Mana Source." Remember that all spells, except artifacts, will have a background of one of the five colors.
+
+More about Permanents
+The four types of permanents are artifacts, creatures, enchantments, and lands. A permanent can be of more than one type; artifact creature spells, for example, become permanents that are both artifacts and creatures and that will be affected by spells and abilities that affect either.
+
+Once you've played a land or paid to cast a spell that becomes a permanent, it remains in play until something specifically removes it. You don't have to keep paying its casting cost to keep it around, but you also can't get rid of it just because you want to. You've already seen that creatures leave play if they sustain lethal damage; in addition, it's possible to destroy or bury a permanent. Either sort of effect sends the permanent to its owner's graveyard. (See "Regeneration" for the difference between the two effects.)
+
+Most permanents have special abilities of some kind. These are generally explained on the card, but some creature abilities are described in the rulebook (see "Basic Creature Abilities"). Some abilities take effect as soon as the permanent enters play and end only when the permanent leaves play; such abilities are called continuous abilities.
+
+Continuous abilities are always "on," even if the ability's effect is working against you at the moment. Usually, the only way to stop a continuous ability from taking effect is to remove the appropriate permanent from play. If an artifact becomes tapped, however, its continuous abilities "shut off" until it untaps (unless it also counts as a creature and/or land). Many abilities have an associated cost that must be paid in order to use the ability. Such abilities are played when you pay the appropriate cost. These abilities are typically written in a "cost: ability" format and are said to have an activation cost.
+
+An activation cost typically involves paying mana but may also require tapping the card itself. When the card must be tapped to use a special ability, the symbol appears. You can't use the abilities of an artifact that's tapped unless it also counts as a creature and/or land.
+
+Every permanent has a controller, who decides when to use its abilities, when to attack or block with it, and so on. A permanent enters play under the control of whoever played it. Other effects may change who controls it, in which case it's moved to the territory of its new controller. Whenever card text says "you" or "your" or speaks in the imperative, it's referring to the card's controller.
+
+Playing Spells and Abilities
+Playing a spell or an ability of a permanent involves the following steps.
+
+1. Review your hand and what you have in play and decide which spells or abilities to play. This decision is based largely on what you can afford and how many spells or abilities you think you'll want to use this turn. The chosen card isn't considered part of your hand for purposes of the following steps.
+
+2. Pay any costs required to play the spell or ability. This is typically limited to the casting cost of a spell or the activation cost of an ability.
+
+Some spells and abilities include "" as part of their costs. These have a variable effect that depends on the amount of mana that's paid. To determine how much of the effect is generated, pick a value for X and pay that amount of generic mana. The spell's text explains what the X value generates, with each X becoming whatever you paid. Because the cost is variable, you decide how much mana you spend, unless X is restricted to certain values.
+
+EXAMPLE
+
+Some spells and abilities list additional costs in their text. Such costs aren't part of the casting cost but are still paid at this time. Spells with additional costs typically list them in the "cost: effect" format. This format may resemble an ability's, but the spell is still played and paid for only once; it doesn't grant a long-term ability.
+
+3. Choose any required target(s). Some spells and abilities can be played under any circumstances, while others must have one or more targets. Such spells and abilities describe what they target in a phrase beginning with the word "target," such as "target creature" or "target blue enchantment." You can play such a spell or ability only if you choose valid targets for it; for example, you can't play a spell that targets a creature if there aren't any creatures in play. If a spell or ability requires choosing more than one target, you can't choose the same target twice.
+
+4. Make any other choices called for by the spell or ability. Certain spells and abilities can be used in one of several ways. Decide what the spell or ability will do when it's played this time.
+
+5. When you complete steps 2 through 4, the spell or ability is played. (If you couldn't complete any of those steps--for example, if you didn't choose a valid target for a targeted spell--you couldn't play the spell or ability in the first place.) If you played a spell, it leaves your hand; when it takes effect, it goes into play if it becomes a permanent, and into your graveyard otherwise. If you played an ability, its effect is considered separate from the source--but that effect "remembers" everything true of the source at the time you played the ability. Removing or altering the source of an effect won't alter the effect.
+
+Enchantments
+There are two types of enchantments: global and local. Global enchantments are simply put into play, but local enchantments are played only on permanents. Every local enchantment targets a category of permanents. Rather than using a phrase such as "target creature" in its text, however, it defines its target in its card type.
+
+EXAMPLE
+
+If the target of a local enchantment becomes invalid or leaves play, the enchantment is buried in its owner's graveyard. Changing control of a permanent doesn't change who controls any enchantments played on that permanent.
+
+Special Lands
+In addition to the five basic land types, there are various special lands with their own abilities. Many of these lands produce mana, but only if a mana-producing ability is listed in the text box. Special lands count as basic land types only if they say so, and even then they aren't considered basic lands.
+
+Creatures
+Creatures are the battle troops of Magic. Some act as support personnel, helping other creatures, but most of them do their work on the battlefield.
+
+A creature's power and toughness ratings are written in an X/Y format, where X is power and Y is toughness. Effects that modify a creature's rating use the same format.
+
+When you gain control of a creature (when you play a spell that becomes a creature, for example), you can't tap it to pay for its ability or attack with it until the beginning of your next turn. This is called summoning sickness and affects all creatures, including artifact creatures. Once a creature has had at least one turn to recover, it's no longer "sick" and is free to attack or use its abilities.
+
+Some creatures are Walls and can't attack. This includes any creature whose card type is "Summon Wall." Walls are treated like other creatures in all other respects.
+
+Damage
+Certain spells or abilities deal damage to creatures and/or players. Also, a creature in combat deals an amount of damage equal to its power. When a player receives damage, it's simply deducted from his life total, but damage dealt to creatures accumulates for the whole turn. If the damage accumulated by a creature is equal to or greater than its toughness, it suffers lethal damage and is destroyed.
+
+Whenever damage is dealt, players have the opportunity to play spells or abilities that prevent or redirect damage; this step is called damage prevention. Effects that prevent damage remove it as if it never occurred. Effects that redirect damage change who the damage is being dealt to; the damage will affect its new target unless prevented or again redirected.
+
+When both players are done with such effects, any remaining damage is applied to the creature or player it's dealt to. Once damage has been applied to a creature or player, you don't get another chance to prevent or redirect it. For example, if your opponent does something during her discard phase that damages you, you can't take advantage of that opportunity to prevent damage that was dealt to you during combat.
+
+Regeneration
+When a creature is destroyed, whether as the result of a destroy effect or of lethal damage, it can be regenerated instead of being put into its owner's graveyard. Spells or abilities that regenerate a creature can't be used if the creature is being put into a graveyard by other types of effects, such as burial. Because regeneration is used in place of putting the creature into its owner's graveyard, rather than after the creature is in that graveyard, you can't regenerate a creature that's already in your graveyard.
+
+A creature that regenerates becomes tapped as a part of the regeneration's effect; note that since it's tapping as part of the effect, not as a cost, a tapped creature can regenerate. All damage successfully dealt to the creature so far this turn is erased. Because a regenerated creature doesn't actually leave play, any effects applying to it continue for their normal duration, all enchantments played on it remain in place, and so on. If the creature is attacking or blocking, regenerating it removes it from combat.
+
+Basic Creature Abilities
+Certain abilities are standard among creatures. This section explains some of the simpler abilities, and Section II details some that are more complex. It's important to remember that abilities without a cost are continuous and so are in effect regardless of whether you want them to be.
+
+Flying: Creatures without flying can't be assigned to block those with flying. In other words, creatures with flying must be blocked in the air. Creatures with flying can be assigned to block those without the ability, however.
+
+Landwalk: Landwalk is a group of abilities; a creature never has "landwalk," but "islandwalk," "swampwalk," and so on instead. If the defending player controls any lands of the appropriate type, that player can't assign any creatures to block an attacking creature with a landwalk ability.
+
+Landhome: Landhome is a group of abilities similar to landwalk. Creatures with a landhome ability can't attack if the defending player controls no lands of the appropriate type. Also, any creatures with landhome a player controls are buried if at any time that player controls no lands of the appropriate type.
+
+First Strike: When damage dealing begins, creatures are divided into two groups: those with first strike, and those without. Creatures in the first group deal their damage during the first damage-dealing step of combat; the others deal their damage during the second one. If a creature is killed in the first damage-dealing step, it won't deal damage during the second one, as dead creatures don't deal damage.
+
+Trample: Attacking creatures with trample attempt to deal as much damage as possible to the defending player, even when they're blocked. If an attacker with trample is blocked, all damage it deals to its blockers over what is needed to destroy them is redirected to the defending player. If it can't deal damage to the blocking creatures (if none of them can receive combat damage this turn, for example), it assigns its full damage to the defending player.
+
+The amount of damage redirected from a blocking creature to the defending player is calculated at the end of damage prevention, not when damage is assigned (see "Damage Prevention"). Thus, if you prevent damage dealt to that creature, you reduce the amount redirected to you, rather than saving the creature while leaving the trample damage intact.
+
+Parts of the Turn
+As a player takes her turn, she's required to go through each of the phases outlined below even if she's not required to do anything during a given phase. Either player can play fast effects (instants, interrupts, and mana sources) during any of these phases except for untap and cleanup.
+
+Untap: Untap all of your permanents. Untapping your lands, creatures, and so on makes them available for use again.
+
+Upkeep: If a permanent does something every turn, it typically does it during this phase.
+
+Draw: Draw one card from your library. Drawing a card usually gives you new options during a turn.
+
+Main: This phase is where most of the action occurs. During your main phase, you can play any kind of card, including lands and non--fast effects. You may play only one land each turn. Once during your main phase, you may attack (see "Attack!"). Once the attack is over, your main phase resumes, and you may get the opportunity to play more spells or to play a land if you haven't already. Remember, creatures enter play with summoning sickness, so if you play a creature before the attack, you can't attack with it this turn.
+
+Discard: If you have more than seven cards in your hand at the end of this phase, discard down to seven.
+
+Cleanup: All damage dealt to creatures during this turn is erased. Effects that last "until end of turn" wear off at the same time damage is erased. Effects that occur "at end of turn" happen at the end of this phase.
+
+If either player has less than 1 life at the end of any phase or at the beginning or end of an attack, that player loses and the game is over. If both players have less than 1 life at that time, the game is a draw and neither player wins.
+
+Attack!
+Once during the main phase of your turn, you can declare that you're going to attack instead of starting a batch of effects or declining to do so (see "Series and Batches"). You then send one or more of your creatures over to attack your opponent. She may choose to block them and avoid damage. You attack your opponent with the intention of reducing her life total; you can't attack her creatures directly. Your creatures will fight hers if and only if she chooses to block them.
+
+You can attack with as many creatures as you like, but you can attack only once a turn. This means that you can't send over one wave of attackers and then another later on in the turn. (Abilities that happen to deal damage aren't attacks, so they're not bound by these restrictions.) Whenever you try to attack, your opponent can avoid it by beginning a batch of effects; in this case, you can declare the attack again later in your main phase.
+
+The attack follows certain steps, outlined here (see also "Step by Step").
+
+Declare Attackers: You declare the total number of attackers. A creature can attack as long as it's untapped, doesn't have summoning sickness, and isn't a Wall. Attacking with a creature causes it to tap. Creatures normally attack individually rather than in groups. Once a creature attacks, it remains in the attack until the end of combat; tapping or untapping an attacker doesn't remove it from combat.
+
+Fast Effects before Blocking: Both players can play as many fast effects as they wish.
+
+Declare Blockers: Your opponent can now assign her creatures, one at a time, to block yours. Tapped creatures can't block, although creatures with summoning sickness can. A creature is assigned to block only one attacker; however, you may assign several creatures to block the same attacker. Once an attacking creature is blocked, it remains blocked for the rest of the combat even if all of its blockers are killed (or otherwise leave play) before damage dealing. If an attacker is blocked, the defending player will not receive combat damage from that attacker. Even if the attacker has more than enough power to kill a given blocking creature, the block keeps the defending player from receiving damage.
+
+Fast Effects after Blocking: Both players can play fast effects again; these effects are generally influenced by the blocking assignments or lack thereof. Players can play as many fast effects as they wish.
+
+Damage Dealing: Unblocked creatures deal their damage to the defending player. Blocked creatures deal their damage to the creatures blocking them, and blocking creatures deal their damage to the attackers they're blocking. Once all damage has been assigned, players may prevent damage. Any creatures that still have lethal damage after that are destroyed.
+
+Timing Simplified
+Magic has fairly rigid rules about when players can and can't do certain things. We'll touch on the major points here and then cover the topic in detail in Section II.
+
+Instants are the foundation of timing; they form the largest group of spells and abilities. Whenever an instant is successfully cast, there's a pause before it takes effect in order to give each player an opportunity to respond with another instant. If any player responds, the first instant is put on hold, there's another pause to see if there's a response to the second instant, and so on. If both players want to respond to a given instant, the active player (the player whose turn it is) gets the first chance. A group of instants played this way is called a batch. The first instant played starts the batch; the last finishes it.
+
+When both players have finished playing instants, those in the batch start to resolve, or take effect, in last-in, first-out order. Each effect in the batch resolves completely before the next one begins, and no new batches may be started while a batch is resolving.
+
+When a phase begins, the active player gets the first chance to begin a batch of effects. If that player declines, the opponent may begin a batch. If the opponent also declines, the phase ends. If either player starts a batch, this process is repeated once that batch has resolved.
+
+Noncontinuous abilities of permanents are played as if they were instants unless they require special circumstances to be usable, such as spells or abilities that prevent damage. Remember, once an ability has been played, removing or changing the source will do nothing to the effect.
+
+Interrupts will be covered in Section II (see "Interrupts"). It's best to ignore them for now. Instants, interrupts, and mana sources are collectively called fast effects; the term includes both spells and abilities. You may play fast effects during any phase of either player's turn unless otherwise noted.
+
+Sorceries, and spells that become permanents, can only start a batch. Otherwise, they follow the same rule as instants, so although they can't be played in response to other spells or abilities, instants can always be played in response to them. You can play such spells only during your main phase and not while an attack is in progress.
+
+And You're Off!
+You should have a basic idea of how to play Magic now, so go ahead and try it out. Refer back to the rules as often as necessary, but don't get bogged down with cards you don't understand or that have abilities that haven't been explained yet. If you draw a card with unfamiliar abilities, just set it aside and draw again. Right now, learning to play is more important that winning.
+
+When you're comfortable with what's been covered so far, start reading Section II. Once you've learned what's there, you should be able to understand any card in the basic set. 
+
+Section II: Expanding Your Knowledge
+Color
+Every card in Magic has a color definition which describes it as being one, many, or none of the five colors: white, blue, black, red, and green. A card with more than one color is called multicolored; a card with no colors is called colorless. A card's basic color is defined by the colored mana symbols in its casting cost. Lands, which don't have casting costs, are considered colorless, as are artifacts that don't have colored mana symbols in their casting costs. Any effect that changes a card's color replaces the old color definition with a new one.
+
+EXAMPLE
+
+More on Creatures
+A creature's most important feature is its power and toughness rating. If an effect causes a creature's power to drop to less than 0, consider the power 0 for all purposes except that of raising or lowering it (see "New Math"). Whenever a creature's toughness is reduced, check to see whether its accumulated damage for the turn equals or exceeds its new toughness; if so, the creature dies. Thus, if a creature's toughness drops to less than 1, it dies automatically. Note that regenerating a creature with a toughness of 0 or less is generally pointless, as its toughness will probably still be 0 or less after it regenerates, so it will just be destroyed again.
+
+If you haven't had control of a creature since the start of your most recent turn (counting the current one), you can't use any of its abilities with in the activation cost, and you can't attack with it. This is called summoning sickness, as it normally applies to a creature you've just summoned, but it applies to all of your creatures.
+
+EXAMPLE
+
+Some effects search for creatures of a given type, just as with lands. A creature's type isn't defined by its name, but by its card type, and sometimes by its card text. On the Hurloon Minotaur, for example, having "Summon Minotaur" as its card type indicates that the creature type is Minotaur. Artifact creature spells don't have a default creature type.
+
+Plurality and gender aren't important when checking for a creature type match.
+
+Advanced Creature Abilities
+Banding: Banding is an ability with two distinct features. The first allows you to group creatures so that they can attack your opponent with their combined power. The second gives you control over the distribution of combat damage.
+
+An attacking band can contain any number of creatures with banding and up to one creature without it. Once a band's been formed, the creatures within the band attack as a group. Creatures in the band keep their special abilities but don't share them with the others in the band. Once you've finished declaring attackers, you can't choose to form any new bands or break up existing ones. Creatures with banding aren't required to be part of a band when they attack.
+
+EXAMPLE
+
+Any creature assigned to block one member of a band automatically blocks the other members as well. In other words, the defending player has to either block the creatures as a group or let them all through.
+
+Creatures don't form bands when blocking; they have to block individually. For example, if a single Scryb Sprites (1/1, flying) attacks you, your Mesa Pegasus doesn't allow your creatures without flying to be assigned to block the Sprites.
+
+The second feature of banding applies only during the damage-dealing step. If combat damage is assigned to a group of creatures that includes at least one creature with banding, whoever controls those creatures decides how the damage is assigned. Such a group is typically either an attacking band or a group of creatures that blocked the same attacker and happened to include at least one creature with banding.
+
+EXAMPLE
+
+Protection: A creature with protection is largely immune to spells, abilities, and permanents with a given characteristic (usually a certain color). This ability is written as "protection from [characteristic]," such as "protection from blue."
+
+All forms of protection provide an equivalent set of abilities. For example, if a creature has protection from blue:
+
+    blue creatures can't be assigned to block it;
+    all damage dealt to it by blue sources is reduced to 0;
+    it can't be the target of blue spells, abilities, or enchantments.
+
+Blue spells and abilities that don't target anything and don't deal damage are the only things that can get through this protection. Note, however, that creature abilities are active only while the creature is in play; therefore, a blue spell can target the card while it's being cast, in a graveyard, and so on. Finally, because the creature can't be the target of blue enchantments, if a blue enchantment ever does end up on the creature, the enchantment is buried (see "Enchantments").
+
+Rampage: Creatures with rampage get bigger as more creatures are assigned to block them. Rampage always has a certain value, written as "Rampage X." If more than one creature is assigned to block an attacking creature with rampage X, that creature gets +X/+X until the end of the turn for each creature assigned to block it after the first.
+
+More on Enchantments
+Some local enchantments say to only play them, or not to play them, on a subclass of permanents. Such stipulations are part of the enchantment's targeting requirement, so the enchantment will be buried if they're not followed.
+
+Ownership
+Each player owns the cards he or she starts the game with. Whenever a card is sent to anyone's hand, library, or graveyard, it's sent to its owner's. Ownership of a card changes only when specifically indicated on a card. Changing control of a permanent doesn't change who owns it.
+
+Tokens
+Certain effects put tokens into play. Tokens represent artifacts, creatures, and so on, and their characteristics are defined by the effects that create them. They can be cards, coins, or anything else; if possible, use something that reminds you what the token represents.
+
+Tokens are treated like any other permanent, except that they aren't cards. A token's basic color definition is provided by the text of the effect that produced it, not by that effect's color. Since tokens were never spells, their total casting cost is 0. If a token enters play as a creature, its creature type is the same as its name as well as any described in the text of that effect. Each token is owned, and initially controlled, by the controller of the effect that generated it. If a token leaves play, it's permanently removed from the game.
+
+Counters
+Some effects instruct players to add counters to certain permanents. Whenever this happens, simply put the specified number of counters on the card. Coins, beads, or anything else that's handy can be used as counters.
+
+Counters generally serve one of two functions. First, they can be used to mark long-term changes to a permanent, such as giving a creature +1/+1 permanently. In this case, a single counter is placed on the card to remind the players of the change to that permanent. Second, counters are often used to mark how often an ability may be used. For instance, a card might build up counters of a certain type and then spend them on an ability.
+
+Counters that have the same name are considered interchangeable. For example, all effects that give a player poison counters say that a player with ten or more poison counters loses the game. Because these counters are called the same thing, their source isn't important when checking whether a player loses. Also, all poison counters are considered the same for purposes of an effect that removes them.
+
+Note that counters aren't tokens, and tokens aren't counters. Tokens are permanents, while counters are used as markers or reminders that a permanent does something special.
+
+Sacrifices
+To sacrifice a permanent is to put it into its owner's graveyard. Nothing can prevent this; for example, a sacrificed creature can't be regenerated. Sacrifices are typically called for as part of the cost of playing a spell or ability but will occasionally be called for by an effect or as a penalty for doing something. Sacrificing something as a cost follows the normal rules for costs; for example, countering a spell won't recover anything sacrificed to it. You can sacrifice only permanents you control; whether you own them is irrelevant. Abilities that trigger when certain permanents are put into a graveyard from play trigger, as appropriate, when a permanent is sacrificed (see "Triggered Abilities").
+
+Resolving Effects
+Characteristics of anything other than the source of an effect aren't determined until the effect begins resolving. Only the current characteristics of something are relevant; for example, effects that depend on a creature's power rely on its current power, not its base power. Thus, changing the characteristics of something in response to a spell or ability can change the results of the effect.
+
+EXAMPLE
+
+Effects that search for everything with a certain characteristic (such as a color) find everything with that characteristic, even if it has a related characteristic as well (such as a second color). Conversely, effects that ignore everything with a certain characteristic don't care what other related characteristics something might have.
+
+Effects that interact with players, the cards in your hand, your graveyard, and so on state so explicitly; otherwise, effects interact only with permanents.
+
+If the source of an effect leaves play, any effect that depends on the source being in a certain state, such as tapped or under your control, end. If a permanent leaves play, all effects that applied to it end with respect to that permanent.
+
+If an effect lasts only as long as a certain condition is met, and that condition is no longer met when the effect resolves, the effect ends as soon as it begins. If an effect has some additional effect when a certain condition is met, and that condition has been met by the time the effect resolves, the additional effect also occurs.
+
+EXAMPLE
+
+If a card instructs you to do something, you're forced to do it only if you have the resources available (such as mana in your mana pool, untapped creatures, and so on).
+
+Each new effect that resolves is applied after any existing effects. Thus, it's possible for one effect to override another. If an effect gives a creature flying and a later effect removes flying from it, for instance, the result is a creature without flying. The result of a continuous effect is not necessarily final when the effect is first applied to a card, permanent, and so on; if one continuous effect ends, later effects are reevaluated.
+
+EXAMPLE
+
+Giving a permanent an ability it already has often accomplishes nothing, as most abilities are redundant. An effect that causes the permanent to lose the duplicated ability will still cause it to lose the ability entirely, not just the most recent instance of the ability.
+
+EXAMPLE
+
+Effects are always applied to permanents, players, and so forth in the order in which those effects resolve. Permanents are therefore considered to have been in play before any other effects resolved. For example, an enchantment that says all creatures lose flying will apply to creatures that enter play after the enchantment.
+
+Paying Costs
+All spells have a casting cost, even if it's . Look in the upper right corner of the card to determine a spell's casting cost. (Costs described in the spell's text don't count as part of the casting cost.) Each represents a variable amount of mana. While the spell is being cast, X is the amount of mana that was spent on it when the spell was played; at all other times, X is 0. The total casting cost of a spell is the total amount of mana paid, ignoring the color(s) specified in the casting cost.
+
+You must have all the necessary resources available to pay a cost; for example, you tap lands for mana before playing a spell, not while you're playing it. Some abilities require additional mana to be paid to play a spell. This one-time "fee" is immediate and doesn't affect the spell's casting cost. In the same way, abilities that say a spell costs less to cast don't change a spell's casting cost but instead pay for some of that cost.
+
+EXAMPLE
+
+Many abilities also have costs to use. Typically these abilities are written in a "cost: effect" format, where "cost" is the activation cost of the ability. The activation cost is normally some amount of mana and/or the symbol but might have other components, such as paying life or removing counters from the permanent. If you want to generate an ability's effect more than once, you'll have to play the ability that many times, paying for the effect once each time.
+
+Nothing can stop a cost from being paid, and you can't play abilities that might do so. For example, a sacrificed creature is put into its owner's graveyard without giving anyone the chance to play abilities such as regeneration.
+
+More on Targeting
+A targeted spell or ability can't be played on an illegal target, which means that you can't play a spell or ability on an illegal target and later adjust either so that the match is valid. If a spell or ability targets more than one thing, you can't choose the same thing as more than one target.
+
+A target of an effect might have disappeared or become illegal by the time the effect resolves. In this case, the effect fizzles with respect to that target. If the effect has multiple targets, it fizzles or succeeds against each of them separately. If an effect fizzles with respect to all of its targets, any nontargeted parts of the effect are ignored.
+
+EXAMPLE
+
+Once a spell or ability has been played, its targets are not checked again until the effect resolves. If an effect resolves successfully, it does its best to apply itself to the target for the stated duration, even if the target becomes illegal at some point. Making the target illegal does not end the effect prematurely. (See "Enchantments" for the exception to this rule.)
+
+EXAMPLE
+
+EXAMPLE
+
+Certain permanents target something when the permanent itself is played rather than when its abilities are played. Such targets must be chosen when the permanent is played, just like the target for any other spell. Once the target's selected, it can't be changed at any point.
+
+Timing
+Timing systems serve two purposes: they dictate when cards can be played, and they mediate when both players want to do something at the same time or each wants to see what the other does first. In Magic, mediation between players is fairly straightforward, so we'll touch on it first.
+
+When both players want to do something, one of the players is given priority to do so. Typically this will be the active player, with some exceptions noted in the rules or the card text. The player with priority continues to play spells or abilities as long as she desires. When she's done, she yields priority to the other player, who then plays as many spells and abilities as he desires. Once that player yields priority, the chance to play spells and abilities has passed; for example, the first player can't reclaim priority just because the other player has yielded it.
+
+The same rules apply when both players are required to do something. If a player is both required and allowed to do something at the same time, she can interchange doing something she's required to do and playing spells and abilities she wants to. A player is free to ignore instructions that can't be followed, such as to play a targeted effect when there are no valid targets for it, but she can't otherwise yield priority if she's required to do something.
+
+Series and Batches
+Two kinds of effects exist in Magic. The first are played in series, wherein each spell or ability resolves as soon as it's successfully cast. During a series of effects, one player plays all of his spells and abilities, followed by the other; as always, assume that the active player has priority unless otherwise noted. Spells and abilities that become legal can be played, though once the player who starts with priority is done, he doesn't get to play spells and abilities during the series again and ignores such effects that he'd otherwise be required to play. Only spells and abilities that are part of the series can be played, and each legal spell or ability can be played only once during the series, by any player. A typical example of a series of effects is that of spells and abilities played at the beginning of a phase.
+
+The second kind of effects are played in batches, which can occur when the game is in a neutral state, in which both players have the chance to play effects of a certain type. Typical examples of a neutral state are when both players have the chance to play instants during a phase or to play interrupts during the casting of a spell or effect.
+
+Each neutral state begins with one player having priority in playing spells or abilities; as always, this is the active player unless otherwise noted. That player can either play a spell or ability, and thus begin a batch of effects, or yield priority to his opponent. The opponent can then either begin a batch of effects or also yield priority. If both players yield priority to begin a batch, that chance to play effects passes; if both players decline to begin a batch of interrupts, for example, the spell being cast becomes successfully cast.
+
+If either player begins a batch, both players have the chance to respond to the spell or ability that started the batch. If either player does respond, they can both respond to the second spell or ability, and so on. Whoever had priority to begin the batch of effects always has priority to respond in this way. Once both players yield priority in responding, the batch is complete and begins to resolve in last-in, first-out order; neither player can add another spell or ability to the batch at this point. Once the batch has finished resolving, the game is back to the neutral state.
+
+EXAMPLE
+
+A player can't yield priority during a series of effects or decline to begin a batch of effects if there are any spells or abilities he's is required to play. If he can't legally play such a spell or ability, it's ignored. Neutralizing the ability (by destroying the source or tapping an artifact source, for example) also removes the requirement to play it.
+
+Interrupts
+Playing a spell or ability isn't as simple as just paying the costs and making any required choices. Once the spell or ability has been played, it or its effect (as appropriate) is considered "being cast" and enters a neutral state from which batches of interrupts can be played. For purposes of playing interrupts, the controller of the spell or effect being interrupted, not necessarily the active player, has priority.
+
+Any spell or effect other than mana sources can be interrupted. Interrupts can target only the spell or effect that they interrupt. Since all interrupts target a spell or effect, spells and abilities that interrupt another spell or effect can target only that spell or effect.
+
+Some interrupts counter the targeted spell or effect. In this event, the spell or effect is canceled and, if a spell, put into its owner's graveyard. None of the costs paid for the spell or effect are recovered. Any remaining interrupts in the countering interrupt's batch fizzle when they resolve, as they're all targeting the spell or effect that's been countered and which is now an illegal target for interrupts, and the casting does not return to the neutral state.
+
+EXAMPLE
+
+If none of the interrupts played while a spell or effect is being cast counter it or if (as is normally the case) no interrupts are played at all, it's considered successfully cast. The spell or effect will then resolve at the appropriate time--when its turn comes up if it was part of a batch, immediately in most other cases.
+
+Some spells that list "Interrupt" as their spell type can be used in several ways, some of which don't target spells or effects. As with any spell or ability that can be used in more than one way, the different ways of playing such spells are played at the appropriate times, rather than necessarily as interrupts.
+
+EXAMPLE
+
+Mana Sources
+You may play mana sources whenever you have priority to play any kind of spell or ability, including times such as the untap phase (when you have priority to play untap abilities) or the resolution of an effect (when you have priority to play specialized abilities; see "Specialized Abilities"). Thus, you can't use mana sources concurrently with some other event. For example, you can't use them while playing a spell (but you can do so beforehand), and you can't use them while destroying creatures that have lethal damage. You may play mana sources regardless of whether you intend to do anything with the resulting mana.
+
+Mana sources are played, successfully cast, and resolved in one timing step; there's no opportunity to interrupt them, for example. Also, abilities that trigger on one of these events aren't played until after the mana source has resolved.
+
+EXAMPLE
+
+EXAMPLE
+
+Triggered Abilities
+Some spells and abilities are played only after a certain type of event occurs, with the spell's or ability's text describing when it's appropriate to use. These are collectively called triggered abilities, as very few spells are used in this way. Triggered abilities wait for an appropriate event to occur and are then played after the timing step (spell or ability being played, effect resolution, and so on) during which the event occurred. Following each timing step, a series of all the abilities that triggered during the step is played, even if they triggered at different points in the timing step.
+
+Most triggered abilities must be played; others are optional and typically have a cost. If you don't play a triggered ability during the appropriate series, it can't be played at all. Characteristics of a source are locked in when the ability triggers, not when the ability is played. Thus, once an ability triggers you can (and often must) play it regardless of what happens to the source later.
+
+EXAMPLE
+
+If damage is assigned and abilities are triggered during a timing step, triggered abilities are played before damage prevention begins. If the effect of a triggered ability assigns damage or triggers more abilities, those are handled before playing more triggered abilities from the original series.
+
+Specialized Abilities
+Some spells and abilities are played during a timing step rather than as part of a batch (as are instants) or after a timing step is over (as are triggered abilities). These spells and abilities are collectively called specialized abilities. While some of these spells and abilities fall into this category because they specify that they can be played during the timing step--for example, those which can be played only when attackers are declared--most replace one kind of event with another, such as replacing a card draw with some other effect, so are used just prior to the event that they replace.
+
+Before each event, a series of specialized abilities is played. These follow the normal rules for series of effects except that if an ability is played to modify an event, the serial process starts again from scratch, with both players able to modify what the event has become. If an event does more than one thing, it's possible to replace just part of it with another effect.
+
+EXAMPLE
+
+Remember that triggered abilities are never played, and damage prevention never occurs, within a timing step. Therefore, if a specialized ability triggers another ability or causes damage, that effect is delayed until after the timing step during which the specialized ability was played.
+
+Phase Structure
+Each turn has six phases: untap, upkeep, draw, main, discard, and cleanup. Each phase serves a purpose, so they're never skipped just because a player expects nothing to happen. For details about how the phases differ, see "More on the Turn."
+
+Fast effects may be played during each phase except untap and cleanup. Every phase goes through the same basic stages, however:
+
+    Abilities that apply at the beginning of the phase are played as a series.
+    The bulk of the phase. The phase begins in the "neutral state," with both players having the chance to play instants. If both players yield priority the chance to play instants is over; move on to the next step.
+    Abilities that apply at the end of the phase are played as a series.
+    Check all players for mana burn (see "Mana Burn").
+    Check each player's life total. Each player whose life total is 0 or less at this point loses the game.
+
+Some abilities are phrased as "During this phase, this happens" or "During this phase, you may do this." These are phase abilities, and they're played only during the appropriate phase, as instants, and only once during each such phase. Remember, a player can't decline to start a batch if there's an ability she's required to play unless it would be illegal. Also, destroying a permanent gets rid of its ability, and the abilities of a tapped artifact that doesn't count as a creature and/or land don't apply.
+
+EXAMPLE
+
+At the beginning and end of each phase, spells and abilities that are played only at the beginning or end of that phase are played as a series. Effects that were delayed until this time are also played as part of the series.
+
+EXAMPLE
+
+Some permanents have a cost paid during a certain phase. These phase costs are written much like phase abilities, typically as "During this phase, pay this or this happens," but occasionally as "During this phase, pay this. If you cannot, this happens." The former are optional, but if they're not paid, they have the listed consequences. The latter must be paid if you have the resources available, but you don't have to provide those resources.
+
+EXAMPLE
+
+Each phase cost is played according to the rules for instants. When you play this "ability," you either pay the phase cost to play an effect that does nothing or pay nothing to play an effect that does whatever's listed as the penalty. You can't, for example, pay just part of the cost. You can't use any activated abilities of permanents with phase costs until the phase cost's effect has finished resolving, regardless of whether you paid the cost when you played the ability. As usual, if the source of a phase cost leaves play, you can't play that phase cost ability. Tapping an artifact, however, doesn't suppress its phase costs.
+
+If a permanent has more than one phase cost that's paid at the beginning of, during, or at the end of a given phase, they combine into a single phase cost, which must be paid in full or carry all of the listed consequences. This cost is played at the latest time any of the individual costs would've been paid. If a permanent's current phase costs are paid and new phase costs appear at or before the time they would be paid, the new costs must still be paid as appropriate.
+
+Damage Prevention
+A damage-prevention step occurs after any timing step in which damage is assigned, typically the resolution of an effect or a damage-dealing step of combat. All damage assigned during a step is handled by the same damage-prevention step, even if the damage was assigned at different times. If a single source damaged a given creature or player more than once during a step, treat it as if it had assigned damage to that creature or player only once, for the total amount of damage.
+
+EXAMPLE
+
+At the beginning of damage prevention, abilities that automatically prevent damage or that otherwise trigger when damage is assigned are played as a series of triggered abilities.
+
+Damage prevention begins in the "neutral state," with only fast effects that prevent or redirect damage being legal. At the end of damage prevention, abilities that automatically redirect damage are played as a series of effects, followed by all other abilities that trigger when damage is dealt. If any damage is generated or redirected at the end of damage prevention, it's all handled during a damage-prevention step following the current one. Deducting damage from players' life totals and destroying creatures with lethal damage happens as a single step just after the current damage-prevention step but before the next one.
+
+If all damage assigned from a source to a creature or player is prevented, that source is no longer considered to be damaging that creature or player. For example, effects that trigger when the source deals damage wouldn't trigger on the damage just prevented. Redirecting damage from a creature or player prevents the damage to the old recipient and creates an identical amount and type of damage being dealt to the new one.
+
+EXAMPLE
+
+New damage generated within the context of a damage-prevention step is absorbed into the current damage-prevention step rather than starting a new one, with the exceptions noted above. As usual, the new damage triggers spells and abilities used only when damage is assigned, so it will be prevented automatically by appropriate effects.
+
+Only spells and abilities that prevent or redirect damage may be used during damage prevention, and none of those spells or abilities may be used outside of damage prevention. Spells and abilities that coincidentally let a creature avoid or survive damage can't be played. Spells or abilities that can be played to do more than one thing follow the normal rules for such. For example, if such a spell or ability is played during damage prevention, it can be used only in ways legal during damage prevention.
+
+EXAMPLE
+
+More on the Turn
+Fast effects are legal during every phase unless otherwise noted. A phase's special effects apply only to the active player.
+
+Untap: No fast effects are allowed. As a phase ability, all your permanents untap simultaneously. Any choices you might be required to make about what to untap are made when you play the ability.
+
+Upkeep: Most phase abilities and phase costs are played during this phase. Additionally, some permanents may have untap costs paid during or at the end of upkeep. Untap costs paid during upkeep are played as instants and may be played more than once each turn. Those paid at the end of upkeep are played as part of your "end of upkeep" series. As with phase costs, multiple untap costs are combined into a single cost, which is paid when the last of the individual costs would've been paid. Cards that have or provide untap costs also say that the permanent with the untap cost doesn't untap during the untap phase; this distinguishes them from fast effects that happen to untap something.
+
+Draw: As a phase ability, draw a card. Each ability instructing you to draw additional cards is its own phase ability.
+
+Main: You have three additional options whenever the main phase is in the neutral state. First, you may begin a batch of effects with a non­fast effect such as a sorcery instead of with a fast effect. Second, if you haven't played a land this turn, you may do so; the land comes into play, and the main phase returns to the neutral state. Finally, if you haven't attacked this turn, you may declare your intention to attack. If your opponent starts a batch of effects, the attack is aborted and you may later that turn again declare your intention to attack. If your opponent doesn't start a batch of effects, the attack begins. This is treated much like the end of a phase, so players take mana burn as appropriate, and their life totals are checked, before the attack begins. Once the attack is over, the main phase returns to the neutral state.
+
+Discard: As an "end of discard" ability, if you have more than seven cards in your hand. discard down to seven.
+
+Cleanup: No fast effects are allowed. As a phase ability, all damage dealt to permanents this turn wears off, as do all effects that last until end of turn. Once this phase effect resolves, "until end of turn" effects wear off as soon as they resolve, and damage that doesn't destroy a creature is ignored. All "at end of turn" abilities, and effects that happen then, are played as abilities that are played as a series at end of cleanup. This means that once the active player is done playing "at end of turn" effects, any new "at end of turn" effects he controls are ignored.
+
+More on Combat
+Once a creature has been declared as an attacker or blocker, it's attacking or blocking until end of combat, unless an effect changes this. A creature that's regenerated, whose controller changes, or that stops being a creature is removed from combat prematurely. Tapping or untapping a creature doesn't remove it from combat, and removing it from combat doesn't untap it.
+
+Abilities that apply to combat damage apply only to damage assigned during the damage-dealing steps of combat, not to other damage that happens to be assigned during combat.
+
+Step by Step
+Declare Attackers: A creature can attack as long as it's untapped, doesn't have summoning sickness, and isn't a Wall. Attacking with a creature causes it to tap. Having a power of 0 or less doesn't prevent a creature from attacking; it just means the creature assigns no combat damage. If any of your creatures are required to attack, you must declare them as attackers before or at the same time as declaring any other attackers. Otherwise, you may decline to declare any attackers at all, although such a null attack still counts as your one attack for the turn.
+
+Fast Effects before Blocking: There can be any number of batches of effects here. Note that once the attack begins, this is the first chance to play fast effects during combat.
+
+Declare Blockers: The defending player can assign some, all, or none of her untapped creatures to block a single attacker each. If a creature is assigned to block a member of a band, it's considered to block the other member(s) of the band as well, but not to be assigned to block them. Once a creature is blocked, it remains blocked for the rest of the combat, even if all its blockers are removed or a blocking assignment somehow becomes illegal. Tapped creatures can't block.
+
+All creatures required to block something must be assigned as blockers, if possible, before or at the same time as any other creatures are assigned to block. If a creature's required to block more creatures than is legally allowed (normally more than one), it blocks as many of those creatures as it can (again, normally one).
+
+Evasion abilities, such as flying and landwalk, restrict the sort of creatures that can block an attacker. If a creature has multiple evasion abilities, a would-be blocker has to deal with all of them before it can be assigned to block the attacker. For example, a creature with both flying and islandwalk can't be blocked, even by creatures with flying, if the defending player controls any islands. Evasion abilities apply only during this step; thus, it's not possible to cancel a block by giving the attacker an evasion ability later in combat.
+
+Fast Effects after Blocking: There can be any number of batches of effects here. Remember, destroying a blocker or otherwise removing it from combat doesn't cause whatever it blocked to become unblocked.
+
+First-Strike Damage Dealing and Normal Damage Dealing: The two damage-dealing steps follow virtually the same rules. The only difference is who deals damage during each step: creatures with first strike during the first step, and creatures without first strike during the second.
+
+All damage assigned during each step is dealt simultaneously, but the active player makes all choices of how to distribute damage first.
+
+Attacking creatures that aren't blocked deal combat damage to the defending player. Attacking creatures that are blocked assign combat damage to their blockers. If all of a creature's blockers have disappeared, it doesn't deal combat damage at all unless it has trample.
+
+Untapped blocking creatures deal combat damage to whatever they're blocking. A blocker that became tapped before its damage-dealing step (to pay for an ability, for example) doesn't deal combat damage.
+
+If damage is being assigned to a group of creatures, the player assigning the damage decides how to distribute the damage among the group. The damage may be piled on one creature, distributed among all the creatures, or anything in between. A creature that can't receive damage can't have any damage assigned to it at all.
+
+If any damage is assigned during either of these steps, the step is followed by damage prevention.
+
+End of Combat: The end of combat is treated like the end of a phase. Spells and abilities played at end of combat, as well as effects delayed until then, are played as a series. Players are checked for mana burn, and then their life totals are checked. Assuming neither player loses the game at this point, the main phase resumes.
+
+This Is Your Life
+You begin the game with 20 life. If you drop to 0 or less life for any reason, you're treated as being at 0 life for all purposes except adjusting your life total. If your life total is 0 or less at the end of any phase or at the start or end of an attack, you lose the game. If your opponent is also at less than 1 life, the game is a draw. There's no limit to the amount of life you can have, but you can't spend more life than you currently have to pay for costs.
+
+If you're instructed to lose some amount of life, simply deduct that amount from your life total; you can go to a negative life total in this way. It's not possible to prevent or redirect any loss of life that results from effects that flatly reduce your life total, because that's not considered damage. If an effect says to lose some fraction of your life and you're already at negative life, your life total doesn't change (see "New Math").
+
+Mana Burn
+The mana pool is a repository for mana. When you want to do something requiring mana, you draw mana from your mana sources and put it into your mana pool. You then take the mana out of your pool to pay for a spell or ability.
+
+You can't store mana in your pool indefinitely, however. Whenever a player's life total is checked (at the end of a phase and at the start and end of an attack), she must first check to see if she has any mana left in her mana pool. Any player with mana in her pool at this point loses that mana and an equivalent amount of life. This is known as mana burn. As with other loss-of-life effects, mana burn can't be prevented or redirected.
+
+Other Ways to Lose
+In addition to losing because he runs out of life, a player loses if he has to draw a card from his library but can't because it has no cards. Also, certain cards will create a new losing condition for one or both players. If a player loses by means other than running out of life, he doesn't survive until the end of the phase; he loses immediately.
+
+A player can concede the game at any time, in which case he loses immediately. Nothing can be done in response to this action; the game is simply over.
+
+Drawing and Discarding
+When you're instructed to draw a card, put the top card of your library into your hand. When you're instructed to discard a card, put a card from your hand onto the top of your graveyard. Abilities that trigger when a card is drawn or discarded or that modify how cards are drawn or discarded apply only when you're told specifically to draw or discard a card. If an effect simply moves a card from your library into your hand or from your hand into your graveyard, that isn't considered drawing or discarding a card.
+
+New Math
+The results of some effects depend on the characteristics of a card, permanent, or player, and specifically on the value of that characteristic. For example, the effect of a spell might depend on a creature's power, or only be usable when a player's life total is below a certain amount. If the value of that characteristic is less than 0, it is treated as 0 for all purposes except raising it above 0 again.
+
+The value is also treated as 0 if the card, permanent, or player doesn't have a value for that characteristic. Lands and tokens, for example, don't have casting costs, so they're considered to have a total casting cost of 0. 
+
+More on Enchantments
+Some effects move a local enchantment from one permanent to another. In these cases, the enchantment is considered to have been played "from scratch." Previous changes made to it are ignored, choices made when playing it are made again, and so on. Other abilities, however, interact with the enchantment as if it were just moved, not as if it were cast again. Abilities that trigger on the casting of a spell, for example, won't trigger on the enchantment being moved. In particular, because the enchantment is just a permanent, it can be moved onto permanents that can't be the targets of spells or effects (unless, of course, they prohibit enchantments from targeting them).
+
+EXAMPLE
+
+Zones of Play
+In Magic, each player's cards are divided into various zones, such as your hand, your library, your graveyard, and the cards you have in play. Other players know how many cards are in your hand but not what they are. Everyone knows how many cards are in your library but not what they are. Anyone can examine the cards you have in play or in your graveyard.
+
+If a card leaves one zone for another, it "forgets" where it used to be. For example, cards in your graveyard don't know whether they came from your hand, from play, or from somewhere else. Additionally, if a card leaves play for any other zone, it loses all memory of what happened in play, and any effects expecting it to be in play lose track of it. Any changes made to the card are erased, all counters are lost, and so on.
+
+Some effects set a card aside, with instructions for what to do with it later. The card isn't considered to be in play and may be examined by anyone who could've seen it where it used to be; for example, nobody may examine a card set aside from a library.
+
+Cards removed from the game are unavailable until the game is over but may be examined by anyone.
+
+Modifying Mana Production
+The type of mana produced by a spell or ability is determined after applying all effects that might modify either what the source is or what type of mana is produced by it. Effects that cause the spell or ability to produce additional mana cause it to produce mana of that type.
+
+Counts As . . .
+Some cards say in their card text that they count as a certain creature type, land type, color, or other characteristic. These cards have the appropriate characteristic in addition to any other related characteristics they might have--even when they're not in play. If a card counts as having the stated characteristic instead of the normal ones, it says so.
+
+Older Releases
+As the game of Magic has evolved, so have the rules. Earlier editions of Magic used slightly different sets of rules, and the wordings on the cards have changed over time. Keep this in mind when playing with older cards (whether they're yours or your opponent's). For example, many older spells and abilities could legally be played as interrupts when printed but can't under the new rules; these should be played as the appropriate type of spell or ability. In addition, some older cards refer to rules that applied only to that expansion; those rules aren't covered in this rulebook.
+
+Section IV: Game Support
+Getting Help
+If you have any questions or concerns about Magic, we're here to help you. For answers to quick rules questions, call (206) 624-0933 between 8 A.M. and 9 P.M. (PST) Monday through Saturday and ask to speak to a customer service rep. Also feel free to write us at our U.S. office: Wizards of the Coast, P.O. Box 707, Renton, WA 98057-0707, attn: Magic Customer Service.
+
+We also provide electronic customer support, including mailing lists and reps on many online services as well as rules support. Email us at questions@wizards.com with rules questions or requests for information. For general comments, including any regarding damaged product, email us at custserv@wizards.com.
+
+If you're in the United Kingdom, you can call our UK office at 0345-125599 or email us at uk@wizards.com. You can also write us Wizards of the Coast UK Ltd., P.O. Box 1562, Glasgow, G2 8BW, SCOTLAND, attn: Magic Customer Service.
+
+If you're in France, you can call our France office at +33-1-43-96-35-65 or send postal mail to Wizards of the Coast, France, BP 103, 94222 Charenton Cedex, FRANCE, attn: Magic Customer Service.
+
+In other European countries, you can call our Belgium office at +32-14-44-30-44, fax us at +32-14-44-30-88, or email us at custserv@wizards.be. You can also write us at Wizards of the Coast, Belgium, P.B. Box 34, 2300 Turnhout, BELGIUM, attn: Magic Customer Service, or send email or postal mail to our UK office.
+
+Rulings
+Because Magic is based on the interactions of card wordings, sometimes it's unclear what should happen when cards interact. In those cases, we provide rulings and rules clarifications for you. These are published periodically on the Internet wherever we have a Netrep, such as on the rec.games.trading-cards.magic-rules newsgroup or the mailing list at mtg-l@oracle.wizards.com. The latest rulings are also published in each issue of The Duelist magazine.
+
+Read All about It
+To find out more about Magic, check out The Duelist, our official trading card game magazine. With deck-building advice, strategy tips, preview cards, and more, The Duelist is the definitive Magic reference for beginners and experts alike. For more information, write to our U.S. office (attn: The Duelist) or call (425) 226-6500 and ask for The Duelist. [Before May 1997, please call (206) 226-6500.] To subscribe or renew only, call 1-800-395-7760.
+
+Playing Nicely with Others
+
+Many retailers sponsor in-house tournaments and/or leagues, in which you can meet and compete with other Magic players. In addition, Arena--The League for Magic: The Gathering offers players the chance to participate in official international league play through their local Magic retailers. For more information, write to our U.S. office (attn: Arena) or check out Arena's website at http://www.wizards.com/Arena.
+
+For serious players, we've formed Duelists' Convocation International, our official tournament organization. Membership allows you the opportunity to earn an official rating through sanctioned tournaments. For more information, write to our U.S. office (attn: DCI) or call (425) 204-8032. [Before May 1997, please call (206) 204-8032.]

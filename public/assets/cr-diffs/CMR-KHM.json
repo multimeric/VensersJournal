@@ -1,0 +1,470 @@
+[
+    {
+        "names": {
+            "old_full": "Commander Legends",
+            "new_setcode": "KHM",
+            "old_setcode": "CMR",
+            "new_full": "Kaldheim"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "106.3",
+            "ruleText": "Mana is produced by the effects of mana abilities (see rule 605). It may also be produced by the effects of spells, as well as by the effects of abilities that aren\u2019t mana abilities. A spell or ability that produces mana instructs a player to add that mana."
+        },
+        "new": {
+            "ruleNum": "106.3",
+            "ruleText": "Mana is produced by the effects of mana abilities (see rule 605). It may also be produced by the effects of spells, as well as by the effects of abilities that aren\u2019t mana abilities. A spell or ability that produces mana instructs a player to add that mana. new_start If mana is produced by a spell, the source of that mana is that spell. If mana is produced by an ability, the source of that mana is the source of that ability (see rule 113.7). new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.4",
+            "ruleText": "The mana symbols are {W}, {U}, {B}, {R}, {G}, and {C}; the numerical symbols {0}, {1}, {2}, {3}, {4}, and so on; the variable symbol {X}; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, and {2/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; and the snow symbol {S}."
+        },
+        "new": {
+            "ruleNum": "107.4",
+            "ruleText": "The mana symbols are {W}, {U}, {B}, {R}, {G}, and {C}; the numerical symbols {0}, {1}, {2}, {3}, {4}, and so on; the variable symbol {X}; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, and {2/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; and the snow new_start mana new_end symbol {S}."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "107.4h",
+            "ruleText": "old_start The old_end snow mana symbol {S} represents old_start one mana in old_end a old_start cost. This mana old_end can be paid with one mana of any type produced by a snow old_start permanent old_end (see rule 205.4g). Effects that reduce the amount of generic mana you pay don\u2019t affect {S} costs. Snow is neither a color nor a type of mana."
+        },
+        "new": {
+            "ruleNum": "107.4h",
+            "ruleText": "new_start When used in a cost, the new_end snow mana symbol {S} represents a new_start cost that new_end can be paid with one mana of any type produced by a snow new_start source new_end (see rule 106.3). Effects that reduce the amount of generic mana you pay don\u2019t affect {S} costs. new_start The {S} symbol can also be used to refer to mana of any type produced by a snow source spent to pay a cost. new_end Snow is neither a color nor a type of mana."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "109.2c",
+            "ruleText": "If a spell or ability uses a description of an object that includes the word \u201csource,\u201d it means a source matching that old_start description\u2013either a old_end source of an old_start ability old_end or old_start a source old_end of old_start damage\u2013in old_end any zone. See old_start rule old_end 609.7."
+        },
+        "new": {
+            "ruleNum": "109.2c",
+            "ruleText": "If a spell or ability uses a description of an object that includes the word \u201csource,\u201d it means a source matching that new_start description\u2013a new_end source of an new_start ability, of damage, new_end or of new_start mana\u2013in new_end any zone. See rules 113.7 and 609.7."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "111.10d",
+            "ruleText": "A Walker token is a 2/2 black Zombie creature token named Walker."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "111.10e",
+            "ruleText": "A Shard token is a colorless enchantment token with \u201c{2}, Sacrifice this enchantment: Scry 1, then draw a card.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "113.11",
+            "ruleText": "Effects can stop an object from having a specified ability. These effects say that the object \u201ccan\u2019t have\u201d that ability. If the object has that ability, it loses it. It\u2019s also impossible for an effect to add that ability to the object. If a resolving spell or ability creates a continuous effect that would add the specified ability to such an object, that part of that continuous effect does not apply; however, other parts of that continuous effect will still apply, and that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won\u2019t apply to that object."
+        },
+        "new": {
+            "ruleNum": "113.11",
+            "ruleText": "Effects can stop an object from having a specified ability. These effects say that the object \u201ccan\u2019t have\u201d that ability. If the object has that ability, it loses it. It\u2019s also impossible for an effect new_start or keyword counter new_end to add that ability to the object. If a resolving spell or ability creates a continuous effect that would add the specified ability to such an object, that part of that continuous effect does not apply; however, other parts of that continuous effect will still apply, and that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won\u2019t apply to that object."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "116.2",
+            "ruleText": "There are old_start nine old_end special actions:"
+        },
+        "new": {
+            "ruleNum": "116.2",
+            "ruleText": "There are new_start ten new_end special actions:"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "116.2h",
+            "ruleText": "A player who has a card with foretell in their hand may pay {2} and exile that card face down. This is a special action. A player may take this action any time they have priority during their turn. See rule 702.142, \u201cForetell.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "119.4",
+            "ruleText": "If a cost or effect allows a player to pay an amount of life greater than 0, the player may do so only if their life total is greater than or equal to the amount of the payment. If a player pays life, the payment is subtracted from their life total; in other words, the player loses that much life. old_start (Players can always pay 0 life.) old_end"
+        },
+        "new": {
+            "ruleNum": "119.4",
+            "ruleText": "If a cost or effect allows a player to pay an amount of life greater than 0, the player may do so only if their life total is greater than or equal to the amount of the payment. If a player pays life, the payment is subtracted from their life total; in other words, the player loses that much life."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "119.4a",
+            "ruleText": "If a cost or effect allows a player to pay an amount of life greater than 0 in a Two\u2013Headed Giant game, the player may do so only if their team\u2019s life total is greater than or equal to the total amount of life both team members are paying for that cost or effect. If a player pays life, the payment is subtracted from their team\u2019s life total. old_start (Players can always pay 0 life.) old_end"
+        },
+        "new": {
+            "ruleNum": "119.4a",
+            "ruleText": "If a cost or effect allows a player to pay an amount of life greater than 0 in a Two\u2013Headed Giant game, the player may do so only if their team\u2019s life total is greater than or equal to the total amount of life both team members are paying for that cost or effect. If a player pays life, the payment is subtracted from their team\u2019s life total."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "119.4b",
+            "ruleText": "Players can always pay 0 life, no matter what their (or their team\u2019s) life total is, and even if an effect says players can\u2019t pay life."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "120.4a",
+            "ruleText": "First, if an effect old_start is old_end causing damage to be dealt old_start to a creature and that effect specifies old_end that excess damage is dealt to another old_start object old_end or player instead, the damage event is modified old_start to deal damage old_end accordingly. old_start Excess old_end damage is damage old_start greater than old_end lethal damage that would be dealt old_start to old_end a old_start creature. Lethal old_end damage is the old_start creature\u2019s toughness minus old_end damage old_start marked on old_end that old_start creature and old_end other old_start damage being old_end dealt old_start to it old_end at the same old_start time as this damage. Any damage greater than 1 old_end is excess damage old_start if old_end the old_start source dealing that damage has deathtouch. old_end"
+        },
+        "new": {
+            "ruleNum": "120.4a",
+            "ruleText": "First, if an effect new_start that\u2019s new_end causing damage to be dealt new_start states new_end that excess damage new_start that would be dealt to a permanent new_end is dealt to another new_start permanent new_end or player instead, the damage event is modified accordingly. new_start If the first permanent is a creature, the excess new_end damage is new_start the amount of new_end damage new_start in excess of what would be new_end lethal new_start damage, taking into account new_end damage new_start already marked on the creature and damage from other sources new_end that would be dealt new_start at the same time. (See rule 120.6.) If the first permanent is new_end a new_start planeswalker, the excess new_end damage is the new_start amount of new_end damage new_start in excess of new_end that new_start planeswalker\u2019s loyalty, taking into account damage from new_end other new_start sources that would be new_end dealt at the same new_start time. If the first permanent new_end is new_start both a creature and a planeswalker, the new_end excess damage new_start is new_end the new_start greater of those two amounts. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "120.10",
+            "ruleText": "Some triggered abilities check whether a permanent has been dealt excess damage. These abilities check after the permanent has been dealt damage by one or more sources. If those sources together dealt an amount of damage to a creature greater than lethal damage, excess damage equal to the difference was dealt to that creature. If those sources together dealt an amount of damage to a planeswalker greater than that planeswalker\u2019s loyalty before the damage was dealt, excess damage equal to the difference was dealt to that planeswalker. If a permanent is both a creature and a planeswalker, the excess damage dealt to that permanent is the greater of those two amounts."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "122.8",
+            "ruleText": "If a triggered ability instructs a player to old_start \u201cput those counters\u201d or to \u201cput [an object\u2019s] counters\u201d old_end on another object and that ability\u2019s trigger condition or effect checks that the object with those counters left the battlefield, old_start that player puts a number of counters on old_end the old_start second object of each kind the first object had before it left the battlefield. The old_end player doesn\u2019t move counters from one object to old_start another. old_end"
+        },
+        "new": {
+            "ruleNum": "122.8",
+            "ruleText": "If a triggered ability instructs a player to new_start put one object\u2019s counters new_end on another object and that ability\u2019s trigger condition or effect checks that the object with those counters left the battlefield, the player doesn\u2019t move counters from one object to new_start the other. Rather, the player puts the same number of each kind of counter the first object had onto the second object. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.2a",
+            "ruleText": "Two objects have the same name if old_start their names are identical. old_end An object with no name doesn\u2019t have the same name as any other object, including another object with no name."
+        },
+        "new": {
+            "ruleNum": "201.2a",
+            "ruleText": "Two new_start or more new_end objects have the same name if new_start they have at least one name in common, even if one or more of those objects have additional names. new_end An object with no name doesn\u2019t have the same name as any other object, including another object with no name."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.2c",
+            "ruleText": "old_start Two old_end or more objects have different names only if each of them has at least one name and no two objects in that group have old_start the same name. old_end"
+        },
+        "new": {
+            "ruleNum": "201.2b",
+            "ruleText": "new_start Some spells and abilities refer to two new_end or more new_start objects with different names. Those new_end objects have different names only if each of them has at least one name and no two objects in that group have new_start a name in common. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "201.2c",
+            "ruleText": "Some spells or abilities check if one object has a different name than a second object or group of objects. The first object has a different name than those objects if the first object has at least one name and has no names in common with any of the other objects, even if one or more of the other objects have no names. If the first object has no name, it does not have a different name than any of the other objects, even if those other objects themselves have names."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "201.4a",
+            "ruleText": "If an ability\u2019s effect grants another ability to an object, and that second ability refers to that first ability\u2019s source by name, the name refers only to the specific object old_start that old_end is that first ability\u2019s old_start source, old_end not to any other object with the same old_start name. old_end This is also true if the second ability is copied onto a new object."
+        },
+        "new": {
+            "ruleNum": "201.4a",
+            "ruleText": "If an ability\u2019s effect grants another ability to an object, and that second ability refers to that first ability\u2019s source by name, the name refers only to the specific object new_start which new_end is that first ability\u2019s new_start source. The second ability does new_end not new_start refer new_end to any other object with the same new_start name as the first ability\u2019s source. However, if the second ability also moved the first ability\u2019s source to a different public zone, the name refers to the object the source became in its new zone. new_end This is also true if the second ability is copied onto a new object."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3h",
+            "ruleText": "Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Cartouche, Curse, Saga (see rule 714), and Shrine."
+        },
+        "new": {
+            "ruleNum": "205.3h",
+            "ruleText": "Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Cartouche, Curse, new_start Rune, new_end Saga (see rule 714), new_start Shard, new_end and Shrine."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Basri, Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Lukka, Nahiri, Narset, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling."
+        },
+        "new": {
+            "ruleNum": "205.3j",
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Basri, Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, new_start Jeska, new_end Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Lukka, Nahiri, Narset, new_start Niko, new_end Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, new_start Szat, new_end Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, new_start Tyvar, new_end Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        },
+        "new": {
+            "ruleNum": "205.3m",
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, new_start Phyrexian, new_end Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "205.4a",
+            "ruleText": "old_start A card old_end can old_start also old_end have one or more supertypes. old_start These old_end are printed directly before its card types. The supertypes are basic, legendary, ongoing, snow, and world."
+        },
+        "new": {
+            "ruleNum": "205.4a",
+            "ruleText": "new_start An object new_end can have one or more supertypes. new_start A card\u2019s supertypes new_end are printed directly before its card types. The supertypes are basic, legendary, ongoing, snow, and world."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "406.3",
+            "ruleText": "Exiled cards are, by default, kept face up and may be examined by any player at any time. Cards \u201cexiled face down\u201d can\u2019t be examined by any player except when instructions allow it. However, once a player is allowed to look at a card exiled face down, that player may continue to look at that card as long as it remains exiled, even if the instruction allowing the player to do so no longer applies. old_start A card exiled face down has no characteristics, but the spell or ability that exiled it may allow it to be played from exile. Unless that card is being cast face down (see rule 707.4), the card is turned face up just before the player announces that they are playing the card (see rule 601.2). old_end"
+        },
+        "new": {
+            "ruleNum": "406.3",
+            "ruleText": "Exiled cards are, by default, kept face up and may be examined by any player at any time. Cards \u201cexiled face down\u201d can\u2019t be examined by any player except when instructions allow it. However, once a player is allowed to look at a card exiled face down, that player may continue to look at that card as long as it remains exiled, even if the instruction allowing the player to do so no longer applies."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "406.3a",
+            "ruleText": "A card exiled face down has no characteristics, but the spell or ability that exiled it may allow it to be played from exile. Unless that card is being cast face down (see rule 707.4), the card is turned face up just before the player announces that they are playing the card (see rule 601.2)."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "406.3b",
+            "ruleText": "Some spells and abilities allow a player to cast spells with certain qualities from among face\u2013down cards in exile. A player may cast such a spell only if they are allowed to look at the face\u2013down card in exile and if the resulting spell has the specified qualities."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "601.2a",
+            "ruleText": "To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it\u2019s countered, old_start it resolves, old_end or old_start an old_end effect moves it elsewhere."
+        },
+        "new": {
+            "ruleNum": "601.2a",
+            "ruleText": "To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until new_start it resolves, new_end it\u2019s countered, or new_start a rule or new_end effect moves it elsewhere."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "601.3f",
+            "ruleText": "Some effects allow a player to cast a spell with certain qualities from among face\u2013down cards in exile. A player may begin to cast such a spell only if they can look at the face\u2013down card in exile."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "607.1d",
+            "ruleText": "An ability printed on an emblem is considered to be \u201cprinted on\u201d the planeswalker that was the source of the ability that created that emblem for these purposes."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "607.2p",
+            "ruleText": "Any of the above rules can apply to a planeswalker and an emblem with a pair of linked abilities even though the planeswalker and emblem are different objects."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "608.3",
+            "ruleText": "If the object that\u2019s resolving is a permanent spell, its resolution involves a single step (unless it\u2019s an old_start Aura old_end or a mutating creature spell). The spell card becomes a permanent and is put onto the battlefield under the control of the spell\u2019s controller."
+        },
+        "new": {
+            "ruleNum": "608.3",
+            "ruleText": "If the object that\u2019s resolving is a permanent spell, its resolution involves a single step (unless it\u2019s an new_start Aura, a copy of a permanent spell, new_end or a mutating creature spell). The spell card becomes a permanent and is put onto the battlefield under the control of the spell\u2019s controller."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "608.3c",
+            "ruleText": "If the object that\u2019s resolving is a mutating creature spell, its resolution involves two steps. First, it checks whether the target creature with the same owner as the spell is still legal. If so, the spell old_start card old_end merges with that permanent. Otherwise, it becomes a creature spell and is put onto the battlefield under the control of the spell\u2019s controller. (See rule 702.139, \u201cMutate.\u201d)"
+        },
+        "new": {
+            "ruleNum": "608.3c",
+            "ruleText": "If the object that\u2019s resolving is a mutating creature spell, its resolution involves two steps. First, it checks whether the target creature with the same owner as the spell is still legal. If so, the new_start object representing that new_end spell merges with that permanent. Otherwise, it becomes a creature spell and is put onto the battlefield under the control of the spell\u2019s controller. (See rule 702.139, \u201cMutate.\u201d)"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "701.12b",
+            "ruleText": "If old_start a creature old_end instructed to fight old_start is old_end no longer on the battlefield or old_start is old_end no longer old_start a creature, no damage is dealt. old_end If old_start a creature is an old_end illegal old_start target old_end for a resolving spell or ability that instructs old_start it old_end to fight, old_start no damage is dealt. old_end"
+        },
+        "new": {
+            "ruleNum": "701.12b",
+            "ruleText": "If new_start one or both creatures new_end instructed to fight new_start are new_end no longer on the battlefield or new_start are new_end no longer new_start creatures, neither of them fights or deals damage. new_end If new_start one or both creatures are new_end illegal new_start targets new_end for a resolving spell or ability that instructs new_start them new_end to fight, new_start neither of them fights or deals damage. new_end"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.16p",
+            "ruleText": "One Aura (Benevolent Blessing) gives the enchanted creature protection from a quality and says the effect doesn\u2019t remove certain permanents that are \u201calready attached to\u201d that creature. This means old_start that any object with the stated quality attached to that creature at the moment old_end the protection effect starts to old_start apply old_end (including the Aura giving old_start the permanent old_end protection) old_start aren\u2019t old_end put into their owners\u2019 graveyards as a state\u2013based action. Other permanents with the stated quality can\u2019t become attached to the creature. If the creature has other instances of protection from the same quality, those instances affect attached permanents as normal."
+        },
+        "new": {
+            "ruleNum": "702.16p",
+            "ruleText": "One Aura (Benevolent Blessing) gives the enchanted creature protection from a quality and says the effect doesn\u2019t remove certain permanents that are \u201calready attached to\u201d that creature. This means new_start that, when new_end the protection effect starts to new_start apply, any objects with the stated quality that are already attached to that creature new_end (including the Aura giving new_start that creature new_end protection) new_start will not be new_end put into their owners\u2019 graveyards as a state\u2013based action. Other permanents with the stated quality can\u2019t become attached to the creature. If the creature has other instances of protection from the same quality, those instances affect attached permanents as normal."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.33a",
+            "ruleText": "Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player\u2019s graveyard and another that functions while the card is on the stack. \u201cFlashback [cost]\u201d means \u201cYou may cast this card from your graveyard by paying [cost] rather than paying its mana cost\u201d and \u201cIf the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.\u201d Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h."
+        },
+        "new": {
+            "ruleNum": "702.33a",
+            "ruleText": "Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player\u2019s graveyard and another that functions while the card is on the stack. \u201cFlashback [cost]\u201d means \u201cYou may cast this card from your graveyard new_start if the resulting spell is an instant or sorcery spell new_end by paying [cost] rather than paying its mana cost\u201d and \u201cIf the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.\u201d Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "702.132a",
+            "ruleText": "Jump\u2013start appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player\u2019s graveyard and another that functions while the card is on the stack. \u201cJump\u2013start\u201d means \u201cYou may cast this card from your graveyard by discarding a card as an additional cost to cast it\u201d and \u201cIf this spell was cast using its jump\u2013start ability, exile this card instead of putting it anywhere else any time it would leave the stack.\u201d Casting a spell using its jump\u2013start ability follows the rules for paying additional costs in rules 601.2b and 601.2f\u2013h."
+        },
+        "new": {
+            "ruleNum": "702.132a",
+            "ruleText": "Jump\u2013start appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player\u2019s graveyard and another that functions while the card is on the stack. \u201cJump\u2013start\u201d means \u201cYou may cast this card from your graveyard new_start if the resulting spell is an instant or sorcery spell new_end by discarding a card as an additional cost to cast it\u201d and \u201cIf this spell was cast using its jump\u2013start ability, exile this card instead of putting it anywhere else any time it would leave the stack.\u201d Casting a spell using its jump\u2013start ability follows the rules for paying additional costs in rules 601.2b and 601.2f\u2013h."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.141a",
+            "ruleText": "A boast ability is a special kind of activated ability. \u201cBoast \u2014 [Cost]: [Effect]\u201d means \u201c[Cost]: [Effect]. Activate this ability only if this creature attacked this turn and only once each turn.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.141b",
+            "ruleText": "Effects may refer to boast abilities. If an effect refers to a creature boasting, it means its boast ability being activated."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.142a",
+            "ruleText": "Foretell is a keyword that functions while the card with foretell is in a player\u2019s hand. Any time a player has priority during their turn, that player may pay {2} and exile a card with foretell from their hand face down. That player may look at that card as long as it remains in exile. They may cast that card after the current turn has ended by paying any foretell cost it has rather than paying that spell\u2019s mana cost. Casting a spell this way follows the rules for paying alternative costs in rules 601.2b and 601.2f\u2013h."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.142b",
+            "ruleText": "Exiling a card using its foretell ability is a special action, which doesn\u2019t use the stack. See rule 116, \u201cSpecial Actions.\u201d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.142c",
+            "ruleText": "If an effect refers to foretelling a card, it means performing the special action associated with a foretell ability. If an effect refers to a card or spell that was foretold, it means a card put in the exile zone as a result of the special action associated with a foretell ability, or a spell that was a foretold card before it was cast, even if it was cast for a cost other than a foretell cost."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.142d",
+            "ruleText": "If an effect states that a card in exile becomes foretold, that card becomes a foretold card. That effect may give the card a foretell cost. That card may be cast for any foretell cost it has after the turn it became a foretold card has ended, even if the resulting spell doesn\u2019t have foretell."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.142e",
+            "ruleText": "If a player owns multiple foretold cards in exile, they must ensure that those cards can be easily differentiated from each other and from any other face\u2013down cards in exile which that player owns. This includes knowing both the order in which those cards were put into exile and any foretell costs other than their printed foretell costs those cards may have."
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "702.142f",
+            "ruleText": "If a player leaves the game, all face\u2013down foretold cards that player owns must be revealed to all players. At the end of each game, all face\u2013down foretold cards must be revealed to all players."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "704.6d",
+            "ruleText": "In a Commander game, if a commander is in a graveyard or in exile and that old_start card old_end was put into that zone since the last time state\u2013based actions were checked, its owner may put it into the command zone. See rule 903, \u201cCommander.\u201d"
+        },
+        "new": {
+            "ruleNum": "704.6d",
+            "ruleText": "In a Commander game, if a commander is in a graveyard or in exile and that new_start object new_end was put into that zone since the last time state\u2013based actions were checked, its owner may put it into the command zone. See rule 903, \u201cCommander.\u201d"
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "706.9c",
+            "ruleText": "Some copy effects modify a characteristic as part of the copying process. The final old_start value(s) old_end for that characteristic becomes part of the copiable values old_start for old_end the copy."
+        },
+        "new": {
+            "ruleNum": "706.9b",
+            "ruleText": "Some copy effects modify a characteristic as part of the copying process. The final new_start set of values new_end for that characteristic becomes part of the copiable values new_start of new_end the copy."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "706.9b",
+            "ruleText": "Some copy effects specifically state that they don\u2019t copy certain characteristics and instead retain their original values. old_start They old_end may also simply state that certain characteristics are not copied."
+        },
+        "new": {
+            "ruleNum": "706.9c",
+            "ruleText": "Some copy effects specifically state that they don\u2019t copy certain characteristics and new_start the affected objects new_end instead retain their original values. new_start Copy effects new_end may also simply state that certain characteristics are not copied."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "706.9d",
+            "ruleText": "When applying a copy effect that doesn\u2019t copy a certain characteristic, retains old_start an old_end original old_start value old_end for a certain characteristic, or old_start modifies the final value old_end of a certain characteristic, any characteristic\u2013defining ability (see rule 604.3) of the object being copied that defines that characteristic is not copied. If that characteristic is color, any color indicator (see rule 204) of that object is also not copied."
+        },
+        "new": {
+            "ruleNum": "706.9d",
+            "ruleText": "When applying a copy effect that doesn\u2019t copy a certain characteristic, retains new_start one or more new_end original new_start values new_end for a certain characteristic, or new_start provides a specific set new_end of new_start values for new_end a certain characteristic, any characteristic\u2013defining ability (see rule 604.3) of the object being copied that defines that characteristic is not copied. If that characteristic is color, any color indicator (see rule 204) of that object is also not copied. new_start This rule does not apply to copy effects with exceptions that state the object is a certain card type, supertype, and/or subtype \u201cin addition to its other types.\u201d In those cases, any characteristic\u2013defining ability that defines card type, supertype, and/or subtype is copied. new_end"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleNum": "706.9f",
+            "ruleText": "Some exceptions to the copying process apply only if the copy is or has certain characteristics. To determine whether such an exception applies, consider what the resulting permanent\u2019s characteristics would be if the copy effect were applied without that exception, taking into account any other exceptions that effect includes."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "716.2",
+            "ruleText": "old_start One card old_end (Word of old_start Command) allows old_end a player to control another player for a limited duration."
+        },
+        "new": {
+            "ruleNum": "716.2",
+            "ruleText": "new_start Two cards new_end (Word of new_start Command and Opposition Agent) allow new_end a player to control another player for a limited duration."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "721.2",
+            "ruleText": "To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card that represented that object in addition to any other components that were representing it."
+        },
+        "new": {
+            "ruleNum": "721.2",
+            "ruleText": "To merge an object with a permanent, place that object on top of or under that permanent. That permanent becomes a merged permanent represented by the card new_start or copy new_end that represented that object in addition to any other components that were representing it."
+        }
+    },
+    {
+        "old": {
+            "ruleNum": "903.9a",
+            "ruleText": "If a commander is in a graveyard or in exile and that old_start card old_end was put into that zone since the last time state\u2013based actions were checked, its owner may put it into the command zone. This is a state\u2013based action. See rule 704."
+        },
+        "new": {
+            "ruleNum": "903.9a",
+            "ruleText": "If a commander is in a graveyard or in exile and that new_start object new_end was put into that zone since the last time state\u2013based actions were checked, its owner may put it into the command zone. This is a state\u2013based action. See rule 704."
+        }
+    }
+]

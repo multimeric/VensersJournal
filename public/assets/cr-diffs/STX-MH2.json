@@ -1,0 +1,331 @@
+[
+    {
+        "names": {
+            "new_full": "Modern Horizons 2",
+            "old_full": "Strixhaven",
+            "old_setcode": "STX",
+            "new_setcode": "MH2"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "In a Commander game, a player old_start that\u2019s old_end been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state\u2013based action. See rule 704. See also rule 903.10.)",
+            "ruleNum": "104.3j"
+        },
+        "new": {
+            "ruleText": "In a Commander game, a player new_start who\u2019s new_end been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state\u2013based action. See rule 704. See also rule 903.10.)",
+            "ruleNum": "104.3j"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Each activated ability of a planeswalker has a loyalty symbol in its cost. Positive loyalty symbols point upward and feature a plus sign followed by a number. Negative loyalty symbols point downward and feature a minus sign followed by a number or an X. Neutral loyalty symbols don\u2019t point in either direction and feature a 0. [+N] means \u201cPut N loyalty counters on this permanent,\u201d [\u2014N] means \u201cRemove N loyalty counters from this permanent,\u201d and [0] means \u201cPut zero loyalty counters on this permanent.\u201d",
+            "ruleNum": "107.7"
+        },
+        "new": {
+            "ruleText": "Each activated ability of a planeswalker has a loyalty symbol in its cost. Positive loyalty symbols point upward and feature a plus sign followed by a number. Negative loyalty symbols point downward and feature a minus sign followed by a number or an X. Neutral loyalty symbols don\u2019t point in either direction and feature a 0. [+N] means \u201cPut N loyalty counters on this permanent,\u201d [\u2014N] means \u201cRemove N loyalty counters from this permanent,\u201d and [0] means \u201cPut zero loyalty counters on this permanent.\u201d new_start Loyalty symbols may also appear in abilities that modify loyalty costs. new_end",
+            "ruleNum": "107.7"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A triggered ability that has triggered but is waiting to be placed on the stack is controlled by the player who controlled its source at the time it triggered, unless it\u2019s a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d\u2013f. See also rule 603, \u201cHandling Triggered Abilities.\u201d",
+            "ruleNum": "109.4b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An emblem is controlled by the player old_start that old_end puts it into the command zone. See rule 114, \u201cEmblems.\u201d",
+            "ruleNum": "109.4b"
+        },
+        "new": {
+            "ruleText": "An emblem is controlled by the player new_start who new_end puts it into the command zone. See rule 114, \u201cEmblems.\u201d",
+            "ruleNum": "109.4c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A Clue token is a colorless Clue artifact token with \u201c{2}, Sacrifice this artifact: Draw a card.\u201d ",
+            "ruleNum": "111.10f"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "\u201cInvestigate\u201d means \u201cCreate a old_start colorless old_end Clue old_start artifact old_end token old_start with \u2018{2}, Sacrifice this artifact: Draw a card.\u2019\u201d old_end",
+            "ruleNum": "701.36a"
+        },
+        "new": {
+            "ruleText": "\u201cInvestigate\u201d means \u201cCreate a Clue token.\u201d new_start See rule 111.10f. new_end",
+            "ruleNum": "701.36a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Characteristic\u2013defining abilities function everywhere, even outside the old_start game. old_end (See rule 604.3.)",
+            "ruleNum": "113.6a"
+        },
+        "new": {
+            "ruleText": "Characteristic\u2013defining abilities function everywhere, even outside the new_start game and before the game begins. new_end (See rule 604.3.)",
+            "ruleNum": "113.6a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "An ability that states which zones it doesn\u2019t function in functions everywhere except for the specified zones, even outside the game and before the game begins.",
+            "ruleNum": "113.6c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some spells, activated abilities, and triggered abilities read, \u201c[Do something]. If [a player] [does, doesn\u2019t, or can\u2019t], [effect].\u201d old_start or old_end \u201c[A player] may [do something]. If [that player] [does, doesn\u2019t, or can\u2019t], [effect].\u201d The action [do something] is a cost, paid when the spell or ability resolves. The \u201cIf [a player] [does, doesn\u2019t, or can\u2019t]\u201d clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.",
+            "ruleNum": "118.12"
+        },
+        "new": {
+            "ruleText": "Some spells, activated abilities, and triggered abilities read, \u201c[Do something]. If [a player] [does, doesn\u2019t, or can\u2019t], [effect].\u201d new_start Or new_end \u201c[A player] may [do something]. If [that player] [does, doesn\u2019t, or can\u2019t], [effect].\u201d The action [do something] is a cost, paid when the spell or ability resolves. The \u201cIf [a player] [does, doesn\u2019t, or can\u2019t]\u201d clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.",
+            "ruleNum": "118.12"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Basri, Bolas, Calix, Chandra, Dack, Daretti, Davriel, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Jeska, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Lukka, Nahiri, Narset, Niko, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Szat, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Tyvar, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        },
+        "new": {
+            "ruleText": "Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Basri, Bolas, Calix, Chandra, Dack, new_start Dakkon, new_end Daretti, Davriel, new_start Dihada, new_end Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, new_start Grist, new_end Huatli, Jace, Jaya, Jeska, Karn, Kasmina, Kaya, Kiora, Koth, Liliana, Lukka, Nahiri, Narset, Niko, Nissa, Nixilis, Oko, Ral, Rowan, Saheeli, Samut, Sarkhan, Serra, Sorin, Szat, Tamiyo, Teferi, Teyo, Tezzeret, Tibalt, Tyvar, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Wrenn, Xenagos, Yanggu, and Yanling.",
+            "ruleNum": "205.3j"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        },
+        "new": {
+            "ruleText": "Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly\u2013Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dog, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Fractal, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Inkling, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Otter, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Phyrexian, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, new_start Ranger, new_end Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Shark, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.",
+            "ruleNum": "205.3m"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some artifacts have the subtype \u201cVehicle.\u201d Vehicles have a crew old_start ability, old_end which allows them to become artifact creatures. See rule 702.122, \u201cCrew.\u201d",
+            "ruleNum": "301.7"
+        },
+        "new": {
+            "ruleText": "Some artifacts have the subtype \u201cVehicle.\u201d new_start Most new_end Vehicles have a crew new_start ability new_end which allows them to become artifact creatures. See rule 702.122, \u201cCrew.\u201d",
+            "ruleNum": "301.7"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If an effect sets a land\u2019s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any old_start copy old_end effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn\u2019t remove any abilities that were granted to the land by other effects. Setting a land\u2019s subtype doesn\u2019t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.",
+            "ruleNum": "305.7"
+        },
+        "new": {
+            "ruleText": "If an effect sets a land\u2019s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any new_start copiable new_end effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn\u2019t remove any abilities that were granted to the land by other effects. Setting a land\u2019s subtype doesn\u2019t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.",
+            "ruleNum": "305.7"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "A triggered ability may have an instruction followed by \u201cDo this only once each turn.\u201d This ability triggers only if its source\u2019s controller has not yet taken the indicated action that turn.",
+            "ruleNum": "603.2h"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two\u2013part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn\u2019t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the old_start stack. old_end Then the game once again checks for and performs state\u2013based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state\u2013based actions are performed and no abilities trigger. Then the appropriate player gets priority.",
+            "ruleNum": "603.3b"
+        },
+        "new": {
+            "ruleText": "If multiple abilities have triggered since the last time a player received priority, the abilities are placed on the stack in a two\u2013part process. First, each player, in APNAP order, puts each triggered ability they control with a trigger condition that isn\u2019t another ability triggering on the stack in any order they choose. (See rule 101.4.) Second, each player, in APNAP order, puts all remaining triggered abilities they control on the new_start stack in any order they choose. new_end Then the game once again checks for and performs state\u2013based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state\u2013based actions are performed and no abilities trigger. Then the appropriate player gets priority.",
+            "ruleNum": "603.3b"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them. If the trigger event or events occur multiple times during that time, the reflexive triggered ability will trigger once for each of those times.",
+            "ruleNum": "603.12"
+        },
+        "new": {
+            "ruleText": "A new_start replacement effect or a new_end resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them. If the trigger event or events occur multiple times during that time, the reflexive triggered ability will trigger once for each of those times.",
+            "ruleNum": "603.12"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Some static abilities are characteristic\u2013defining abilities. A characteristic\u2013defining ability conveys information about an object\u2019s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness box). Characteristic\u2013defining abilities can add to or override information found elsewhere on that object. Characteristic\u2013defining abilities function in all zones. They also function outside the old_start game. old_end",
+            "ruleNum": "604.3"
+        },
+        "new": {
+            "ruleText": "Some static abilities are characteristic\u2013defining abilities. A characteristic\u2013defining ability conveys information about an object\u2019s characteristics that would normally be found elsewhere on that object (such as in its mana cost, type line, or power/toughness box). Characteristic\u2013defining abilities can add to or override information found elsewhere on that object. Characteristic\u2013defining abilities function in all zones. They also function outside the new_start game and before the game begins. new_end",
+            "ruleNum": "604.3"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "The cost to activate a loyalty ability of a permanent is to put on or remove from that permanent a certain number of loyalty counters, as shown by the loyalty symbol in the ability\u2019s cost.",
+            "ruleNum": "606.4"
+        },
+        "new": {
+            "ruleText": "The cost to activate a loyalty ability of a permanent is to put on or remove from that permanent a certain number of loyalty counters, as shown by the loyalty symbol in the ability\u2019s cost. new_start This cost may be modified by other effects. new_end",
+            "ruleNum": "606.4"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If the total cost to activate a loyalty ability contains multiple costs to add or remove loyalty counters, those costs are combined into a single cost to add or remove loyalty counters, as appropriate.",
+            "ruleNum": "606.5"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A loyalty ability with a negative loyalty old_start cost old_end can\u2019t be activated unless the permanent has at least that many loyalty counters on it.",
+            "ruleNum": "606.5"
+        },
+        "new": {
+            "ruleText": "A loyalty ability with a negative loyalty new_start cost, taking into account any additional costs, new_end can\u2019t be activated unless the permanent has at least that many loyalty counters on it.",
+            "ruleNum": "606.6"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a permanent spell has an ability printed on it that allows cards to be exiled while paying a cost to cast it and the permanent that spell becomes has an ability that refers to \u201ccards exiled with [this object],\u201d those abilities are linked. The second ability refers only to cards exiled to pay the cost of the spell that became that permanent.",
+            "ruleNum": "607.2p"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 706, \u201cCopying Objects\u201d) and changes to an object\u2019s old_start base old_end characteristics determined by merging an object with a permanent (see rule 721, \u201cMerging with Permanents\u201d). \u201cAs . . . enters the battlefield\u201d and \u201cas . . . is turned face up\u201d abilities generate copiable effects if they set power and toughness, even if they also define other characteristics.",
+            "ruleNum": "613.2a"
+        },
+        "new": {
+            "ruleText": "Layer 1a: Copiable effects are applied. This includes copy effects (see rule 706, \u201cCopying Objects\u201d) and changes to an object\u2019s characteristics determined by merging an object with a permanent (see rule 721, \u201cMerging with Permanents\u201d). \u201cAs . . . enters the battlefield\u201d and \u201cas . . . is turned face up\u201d abilities generate copiable effects if they set power and toughness, even if they also define other characteristics.",
+            "ruleNum": "613.2a"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "\u201cInvestigate\u201d means \u201cCreate a Clue token.\u201d See rule 111.10f.",
+            "ruleNum": "701.36a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "old_start \u201cEquip [quality] creature\u201d is a variant of the equip ability. \u201cEquip [quality] [cost]\u201d means \u201c[Cost]: Attach this permanent to target [quality] creature you control. Activate only as a sorcery.\u201d This old_end ability old_start doesn\u2019t old_end restrict what the Equipment may be attached to.",
+            "ruleNum": "702.6c"
+        },
+        "new": {
+            "ruleText": "new_start Equip abilities may further restrict what creatures may be chosen as legal targets. Such restrictions usually appear in the form \u201cEquip [quality]\u201d or \u201cEquip [quality] creature.\u201d These equip abilities may legally target only a creature that\u2019s controlled by the player activating the ability and that has the chosen quality. Additional restrictions for an equip new_end ability new_start don\u2019t new_end restrict what the Equipment may be attached to.",
+            "ruleNum": "702.6c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "An \u201cequip [quality] creature\u201d ability is an equip ability, and an \u201cequip [quality] creature\u201d cost is an equip cost. Any effect that modifies how or whether a player may activate an equip ability of an object affects \u201cequip [quality] creature\u201d abilities of that object. Any effect that increases or reduces an equip cost will increase or reduce a \u201cequip [quality] creature\u201d cost.",
+            "ruleNum": "702.6d"
+        },
+        "new": null
+    },
+    {
+        "old": {
+            "ruleText": "\u201cProtection from everything\u201d is a variant of the protection ability. A permanent with protection from everything has protection from each object regardless of that object\u2019s characteristic values. Such a permanent can\u2019t be targeted by spells or old_start abilities, old_end enchanted by old_start Auras, old_end equipped by Equipment, fortified by Fortifications, or blocked by old_start creatures, and all old_end damage that would be dealt to old_start it old_end is prevented.",
+            "ruleNum": "702.16j"
+        },
+        "new": {
+            "ruleText": "\u201cProtection from everything\u201d is a variant of the protection ability. A permanent new_start or player new_end with protection from everything has protection from each object regardless of that object\u2019s characteristic values. Such a permanent new_start or player new_end can\u2019t be targeted by spells or new_start abilities and can\u2019t be new_end enchanted by new_start Auras. Such a permanent can\u2019t be new_end equipped by Equipment, fortified by Fortifications, or blocked by new_start creatures. All new_end damage that would be dealt to new_start such a permanent or player new_end is prevented.",
+            "ruleNum": "702.16j"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Trample over planeswalkers is a variant of trample that modifies the rules for assigning combat damage to planeswalkers. The controller of a creature with trample over planeswalkers assigns that creature\u2019s combat damage as described in rule 702.19b, with one exception. If that creature is attacking a planeswalker, after lethal damage is assigned to all blocking creatures and damage at least equal to the loyalty of the planeswalker the creature is attacking is assigned to that planeswalker, further excess damage may be assigned as the attacking creature\u2019s controller chooses among those blocking creatures, that planeswalker, and that planeswalker\u2019s controller. When checking for assigned damage equal to a planeswalker\u2019s loyalty, take into account damage from other creatures that\u2019s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage that\u2019s actually dealt.",
+            "ruleNum": "702.19c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If an attacking creature with trample is blocked, but there are no creatures blocking it when damage is assigned, old_start all old_end its damage is assigned to the player old_start or old_end planeswalker old_start it\u2019s attacking. old_end",
+            "ruleNum": "702.19c"
+        },
+        "new": {
+            "ruleText": "If an attacking creature with trample new_start or trample over planeswalkers new_end is blocked, but there are no creatures blocking it when damage is assigned, its damage is assigned to the new_start defending new_end player new_start and/or new_end planeswalker new_start as though all blocking creatures have been assigned lethal damage. new_end",
+            "ruleNum": "702.19d"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "If a creature with trample over planeswalkers is attacking a planeswalker and that planeswalker is removed from combat, the creature\u2019s damage may be assigned to the defending player once all blocking creatures have been dealt lethal damage or, if there are no blocking creatures when damage is assigned, all its damage is assigned to the defending player. This does not cause the creature to be attacking that player.",
+            "ruleNum": "702.19e"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "If a creature old_start with old_end trample is attacking a planeswalker, none of its combat damage can be assigned to the defending player, even if that planeswalker has been removed from combat or the damage the attacking creature could assign is greater than the planeswalker\u2019s loyalty.",
+            "ruleNum": "702.19d"
+        },
+        "new": {
+            "ruleText": "If a creature new_start without new_end trample new_start over planeswalkers new_end is attacking a planeswalker, none of its combat damage can be assigned to the defending player, even if that planeswalker has been removed from combat or the damage the attacking creature could assign is greater than the planeswalker\u2019s loyalty.",
+            "ruleNum": "702.19f"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Multiple instances of trample on the same creature are redundant. Multiple instances of trample over planeswalkers on the same creature are redundant.",
+            "ruleNum": "702.19g"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "Devour [type] is a variant of devour. \u201cDevour [type] N\u201d means \u201cAs this object enters the battlefield, you may sacrifice any number of [type] permanents. This permanent enters the battlefield with N +1/+1 counters on it for each permanent sacrificed this way.\u201d",
+            "ruleNum": "702.82c"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "Living weapon is a triggered ability. \u201cLiving weapon\u201d means \u201cWhen this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this Equipment to it.\u201d",
+            "ruleNum": "702.92a"
+        },
+        "new": {
+            "ruleText": "Living weapon is a triggered ability. \u201cLiving weapon\u201d means \u201cWhen this Equipment enters the battlefield, create a 0/0 black new_start Phyrexian new_end Germ creature token, then attach this Equipment to it.\u201d",
+            "ruleNum": "702.92a"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "In a Commander game, a player old_start that\u2019s old_end been dealt 21 or more combat damage by the same commander over the course of the game loses the game. See rule 903, \u201cCommander.\u201d",
+            "ruleNum": "704.6c"
+        },
+        "new": {
+            "ruleText": "In a Commander game, a player new_start who\u2019s new_end been dealt 21 or more combat damage by the same commander over the course of the game loses the game. See rule 903, \u201cCommander.\u201d",
+            "ruleNum": "704.6c"
+        }
+    },
+    {
+        "old": null,
+        "new": {
+            "ruleText": "One card (Garth One\u2013Eye) instructs a player to create a copy of a card defined by name rather than by indicating an object to be copied. To do so, the player uses the Oracle card reference to determine the characteristics of the copy and creates the copy outside of the game.",
+            "ruleNum": "706.13"
+        }
+    },
+    {
+        "old": {
+            "ruleText": "A player old_start that\u2019s old_end been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state\u2013based action. See rule 704.)",
+            "ruleNum": "903.10a"
+        },
+        "new": {
+            "ruleText": "A player new_start \u2018who\u2019s new_end been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state\u2013based action. See rule 704.)",
+            "ruleNum": "903.10a"
+        }
+    }
+]

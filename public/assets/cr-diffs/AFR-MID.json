@@ -1,0 +1,342 @@
+[
+    {
+        "names": {
+            "old_setcode": "AFR",
+            "new_full": "Innistrad: Midnight Hunt",
+            "new_setcode": "MID",
+            "old_full": "Adventures in the Forgotten Realms"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "201.5",
+            "ruleText": "Some versions of new_start Ikoria\u00ae: new_end Lair of Behemoths cards and other promotional cards feature a name other than their own in the upper left corner, with their normal name in a secondary title bar below it. These cards have only the card name specified in the secondary title bar, not the name printed where a card\u2019s name would normally appear. That name is considered flavor text and has no effect on game play."
+        },
+        "old": {
+            "ruleNum": "201.5",
+            "ruleText": "Some versions of old_start Ikoria\u2122: old_end Lair of Behemoths cards and other promotional cards feature a name other than their own in the upper left corner, with their normal name in a secondary title bar below it. These cards have only the card name specified in the secondary title bar, not the name printed where a card\u2019s name would normally appear. That name is considered flavor text and has no effect on game play."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "202.3b",
+            "ruleText": "The mana value of a transforming double\u2013faced new_start permanent or spell\u2019s new_end back face is calculated as though it had the mana cost of its front face. If a permanent new_start or spell new_end is a copy of the back face of a transforming double\u2013faced card (even if the card representing that copy is itself a double\u2013faced card), the mana value of new_start the copy new_end is 0."
+        },
+        "old": {
+            "ruleNum": "202.3b",
+            "ruleText": "The mana value of a transforming double\u2013faced old_start permanent\u2019s old_end back face is calculated as though it had the mana cost of its front face. If a permanent is a copy of the back face of a transforming double\u2013faced card (even if the card representing that copy is itself a double\u2013faced card), the mana value of old_start that permanent old_end is 0."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "300.1",
+            "ruleText": "The card types are artifact, conspiracy, creature, new_start dungeon, new_end enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard."
+        },
+        "old": {
+            "ruleNum": "300.1",
+            "ruleText": "The card types are artifact, conspiracy, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "502.2",
+            "ruleText": "Second, if it\u2019s day and the previous turn\u2019s active player didn\u2019t cast any spells during that turn, it becomes night. If it\u2019s night and the previous turn\u2019s active player cast two or more spells during that turn, it becomes day. If it\u2019s neither day nor night, this check doesn\u2019t happen and it remains neither."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "502.2a",
+            "ruleText": "Multiplayer games using the shared team turns option use a modified rule. If it\u2019s day and no player on the previous turn\u2019s active team cast a spell during that turn, it becomes night. If it\u2019s night and any player on the previous turn\u2019s active team cast two or more spells during the previous turn, it becomes day. If it\u2019s neither day nor night, this check doesn\u2019t happen and it remains neither."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "502.3",
+            "ruleText": "new_start Third, new_end the active player determines which permanents they control will untap. Then they untap them all simultaneously. This turn\u2013based action doesn\u2019t use the stack. Normally, all of a player\u2019s permanents untap, but effects can keep one or more of a player\u2019s permanents from untapping."
+        },
+        "old": {
+            "ruleNum": "502.2",
+            "ruleText": "old_start Second, old_end the active player determines which permanents they control will untap. Then they untap them all simultaneously. This turn\u2013based action doesn\u2019t use the stack. Normally, all of a player\u2019s permanents untap, but effects can keep one or more of a player\u2019s permanents from untapping."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "601.2h",
+            "ruleText": "The player pays the total cost. First, they pay all costs that new_start don\u2019t new_end involve random elements or moving objects from new_start the library new_end to new_start a new_end public new_start zone, new_end in any order. Then they pay all remaining costs in any order. Partial payments are not allowed. Unpayable costs can\u2019t be paid."
+        },
+        "old": {
+            "ruleNum": "601.2h",
+            "ruleText": "The player pays the total cost. First, they pay all costs that old_start do not old_end involve random elements or moving objects from old_start hidden zones old_end to public old_start zones old_end in any order. Then they pay all remaining costs in any order. Partial payments are not allowed. Unpayable costs can\u2019t be paid."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "603.12",
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them."
+        },
+        "old": {
+            "ruleNum": "603.12",
+            "ruleText": "A resolving spell or ability may allow or instruct a player to take an action and create a triggered ability that triggers \u201cwhen [a player] [does or doesn\u2019t]\u201d take that action or \u201cwhen [something happens] this way.\u201d These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that they\u2019re checked immediately after being created and trigger based on whether the trigger event or events occurred earlier during the resolution of the spell or ability that created them. old_start If the trigger event or events occur multiple times during that time, the reflexive triggered ability will trigger once for each of those times. old_end"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "603.12a",
+            "ruleText": "Normally, if the trigger event or events occur multiple times during the resolution of the spell or ability that created it, the reflexive triggered ability will trigger once for each of those times. However, if a resolving spell or ability includes a choice to pay a cost \u201cany number of times\u201d and creates a triggered ability that triggers \u201cwhen [a player] pays [that cost] one or more times,\u201d paying that cost one or more times causes the reflexive triggered ability to trigger only once."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "607.2e",
+            "ruleText": "If an object has an ability printed on it that allows some information to be noted and another ability which refers to information noted for that object, those abilities are linked. The second ability refers only to information noted as a result of the first ability."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "607.2q",
+            "ruleText": "If a permanent spell has an ability printed on it that allows new_start one or more new_end cards to be exiled while paying a cost to cast it and the permanent that spell becomes has an ability that refers to new_start cards \u201cexiled new_end with [this object],\u201d those abilities are linked. The second ability refers only to cards exiled to pay the cost of the spell that became that permanent."
+        },
+        "old": {
+            "ruleNum": "607.2p",
+            "ruleText": "If a permanent spell has an ability printed on it that allows cards to be exiled while paying a cost to cast it and the permanent that spell becomes has an ability that refers to old_start \u201ccards exiled old_end with [this object],\u201d those abilities are linked. The second ability refers only to cards exiled to pay the cost of the spell that became that permanent."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "609.8",
+            "ruleText": "Some effects look back in time and consider previous game states and actions rather than considering the current game state. If such an effect refers to an object or group of objects, those objects don\u2019t need to be currently in the zone they were in at the time of the action, nor do they need to currently meet the criteria described in the action, as long as they did so at the specified time."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "700.5a",
+            "ruleText": "A player\u2019s devotion to each color and combination of colors, taking into account any effects that modify devotion, is calculated after considering any copy, control, or text\u2013changing effects but before any other effects that modify the characteristics of permanents. This is an exception to 613.10. See also rule 613, \u201cInteraction of Continuous Effects.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.103c",
+            "ruleText": "If a bestowed Aura spell is copied, the copy is also a bestowed Aura spell. Any rule that refers to a spell cast bestowed applies to the copy as well."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.103e",
+            "ruleText": "As a bestowed Aura spell begins resolving, if its target is illegal, it ceases to be bestowed and the effect making it an Aura spell ends. It continues resolving as a creature new_start spell. new_end This is an exception to rule 608.3a."
+        },
+        "old": {
+            "ruleNum": "702.103d",
+            "ruleText": "As a bestowed Aura spell begins resolving, if its target is illegal, it ceases to be bestowed and the effect making it an Aura spell ends. It continues resolving as a creature old_start spell and will be put onto the battlefield under the control of the spell\u2019s controller. old_end This is an exception to rule 608.3a."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "702.145a",
+            "ruleText": "Daybound and nightbound are found on opposite faces of some transforming double\u2013faced cards (see rule 712, \u201cDouble\u2013Faced Cards\u201d)."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.145b",
+            "ruleText": "Daybound is found on the front faces of some transforming double\u2013faced cards and represents three static abilities. \u201cDaybound\u201d means \u201cIf it is night, this permanent enters the battlefield transformed,\u201d \u201cAs it becomes night, if this permanent is front face up, transform it,\u201d and \u201cThis permanent can\u2019t be transformed except by its daybound ability.\u201d See rule 724, \u201cDay and Night.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.145c",
+            "ruleText": "Any time a player controls a permanent that is front face up with daybound and it\u2019s night, that player transforms that permanent. This happens immediately and isn\u2019t a state\u2013based action."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.145d",
+            "ruleText": "Any time a player controls a permanent with daybound, if it\u2019s neither day nor night, it becomes day."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.145e",
+            "ruleText": "Nightbound is found on the back faces of some transforming double\u2013faced cards and represents two static abilities. \u201cNightbound\u201d means \u201cAs it becomes day, if this permanent is back face up, transform it\u201d and \u201cThis permanent can\u2019t be transformed except by its nightbound ability.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.145f",
+            "ruleText": "Any time a player controls a permanent that is back face up with nightbound and it\u2019s day, that player transforms that permanent. This happens immediately and isn\u2019t a state\u2013based action."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.145g",
+            "ruleText": "Any time a player controls a permanent with nightbound, if it\u2019s neither day nor night and there are no permanents with daybound on the battlefield, it becomes night."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.146a",
+            "ruleText": "Disturb is an ability found on the front face of some transforming double\u2013faced cards (see rule 712, \u201cDouble\u2013Faced Cards\u201d). \u201cDisturb [cost]\u201d means \u201cYou may cast this card transformed from your graveyard by paying [cost] rather than its mana cost.\u201d See rule 712.4b."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.146b",
+            "ruleText": "A resolving transforming double\u2013faced spell that was cast using its disturb ability enters the battlefield with its back face up."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "702.147a",
+            "ruleText": "Decayed represents a static ability and a triggered ability. \u201cDecayed\u201d means \u201cThis creature can\u2019t block\u201d and \u201cWhen this creature attacks, sacrifice it at end of combat.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.1",
+            "ruleText": "A double\u2013faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. There are two kinds of double\u2013faced cards. Transforming double\u2013faced cards include abilities on one or both of their faces that allow the card to \u201ctransform\u201d (turn over to its other face) or allow the card to new_start be cast or new_end enter the battlefield \u201ctransformed\u201d (with its back face up). Modal double\u2013faced cards have two faces that are independent from one new_start another, new_end and new_start they new_end can\u2019t transform."
+        },
+        "old": {
+            "ruleNum": "712.1",
+            "ruleText": "A double\u2013faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. There are two kinds of double\u2013faced cards. Transforming double\u2013faced cards include abilities on one or both of their faces that allow the card to \u201ctransform\u201d (turn over to its other face) or allow the card to enter the battlefield \u201ctransformed\u201d (with its back face up). Modal double\u2013faced cards have two faces that are independent from one old_start another old_end and can\u2019t transform."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.1a",
+            "ruleText": "A transforming double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. On Magic Origins\u00ae and Core Set 2019 double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. On cards in the new_start Innistrad\u00ae block, new_end Shadows over Innistrad new_start set, and Innistrad: Midnight Hunt new_end set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon\u2122 set, the front\u2013face symbol is a sun. On other Eldritch Moon double\u2013faced cards, the front\u2013face symbol is a full moon. On Ixalan\u2122 and Rivals of Ixalan\u2122 cards, the front\u2013face symbol is a compass rose."
+        },
+        "old": {
+            "ruleNum": "712.1a",
+            "ruleText": "A transforming double\u2013faced card\u2019s front face is marked by a front\u2013face symbol in its upper left corner. On Magic Origins\u00ae and Core Set 2019 double\u2013faced cards, the front\u2013face symbol is a modified Planeswalker icon. On cards in the old_start Innistrad\u2122 block and old_end Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon\u2122 set, the front\u2013face symbol is a sun. On other Eldritch Moon double\u2013faced cards, the front\u2013face symbol is a full moon. On Ixalan\u2122 and Rivals of Ixalan\u2122 cards, the front\u2013face symbol is a compass rose."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.1b",
+            "ruleText": "A transforming double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. On Magic Origins and Core Set 2019 double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. On cards in the Innistrad new_start block, new_end Shadows over Innistrad new_start set, and Innistrad: Midnight Hunt new_end set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back\u2013face symbol is a crescent moon. On other Eldritch Moon double\u2013faced cards, the back\u2013face symbol is a stylized image of Emrakul. On Ixalan and Rivals of Ixalan cards, the back\u2013face symbol is a land icon."
+        },
+        "old": {
+            "ruleNum": "712.1b",
+            "ruleText": "A transforming double\u2013faced card\u2019s back face is marked by a back\u2013face symbol in its upper left corner. On Magic Origins and Core Set 2019 double\u2013faced cards, the back\u2013face symbol is a full Planeswalker icon. On cards in the Innistrad old_start block and old_end Shadows over Innistrad set, as well as on Ulrich, Uncontested Alpha in the Eldritch Moon set, the back\u2013face symbol is a crescent moon. On other Eldritch Moon double\u2013faced cards, the back\u2013face symbol is a stylized image of Emrakul. On Ixalan and Rivals of Ixalan cards, the back\u2013face symbol is a land icon."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.4b",
+            "ruleText": "Normally, a transforming double\u2013faced spell has its front face up while on the stack and has only the characteristics of its front face. However, if an effect allows a player to cast a transforming double\u2013faced card \u201ctransformed,\u201d the resulting spell will have its back face up and have only the characteristics of its back face. Its mana value is calculated using the mana cost of its front face. A copy of a transforming double\u2013faced spell with its back face up has mana value 0."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.4c",
+            "ruleText": "While a transforming double\u2013faced permanent has its front face up, it has only the characteristics of its front face."
+        },
+        "old": {
+            "ruleNum": "712.4b",
+            "ruleText": "While old_start a transforming double\u2013faced spell is on the stack or old_end a transforming double\u2013faced permanent has its front face up, it has only the characteristics of its front face."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.7",
+            "ruleText": "If a transforming double\u2013faced card is cast as a spell, it\u2019s put on the stack with its front new_start face up by default. If a transforming double\u2013faced card is cast \u201ctransformed,\u201d it\u2019s put on the stack with its back new_end face up. A player casting a modal double\u2013faced card as a spell chooses which face they are casting before putting it onto the stack. See rule 601, \u201cCasting Spells.\u201d"
+        },
+        "old": {
+            "ruleNum": "712.7",
+            "ruleText": "If a transforming double\u2013faced card is cast as a spell, it\u2019s put on the stack with its front face up. A player casting a modal double\u2013faced card as a spell chooses which face they are casting before putting it onto the stack. See rule 601, \u201cCasting Spells.\u201d"
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.7b",
+            "ruleText": "If an ability of a transforming double\u2013faced card\u2019s front face allows it to be cast \u201ctransformed,\u201d that ability is also considered when evaluating that spell to determine if it can be cast. This is an exception to 712.7a."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "712.9",
+            "ruleText": "new_start By default, a new_end resolving double\u2013faced spell that becomes a permanent is put onto the battlefield with the same face up that was face up on the stack. new_start Some abilities may cause a transforming double\u2013faced spell with its front face up on the stack to enter the battlefield transformed. new_end"
+        },
+        "old": {
+            "ruleNum": "712.9",
+            "ruleText": "old_start A old_end resolving old_start transforming double\u2013faced spell is put onto the battlefield front face up. A resolving modal old_end double\u2013faced spell that becomes a permanent is put onto the battlefield with the same face up that was face up on the stack."
+        }
+    },
+    {
+        "new": {
+            "ruleNum": "712.16",
+            "ruleText": "If a transforming double\u2013faced card would have an \u201cAs [this permanent] transforms . . .\u201d ability after it transforms, that ability is applied while that permanent is transforming, not afterward."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "724.1",
+            "ruleText": "Day and night are designations that the game itself can have. The game starts with neither designation. \u201cIt becomes day\u201d and \u201cit becomes night\u201d refer to the game gaining the day or night designation. It can become day or night through the daybound and nightbound keyword abilities (see rule 702.145). Other effects can also make it day or night. Once it has become day or night, the game will have exactly one of those designations from that point forward."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "724.1a",
+            "ruleText": "The phrases \u201cday becomes night\u201d and \u201cnight becomes day\u201d refer to the game losing the first designation and gaining the second one."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "724.2",
+            "ruleText": "As the second part of the untap step, the game checks the previous turn to see if the game\u2019s day/night designation should change. See rule 502, \u201cUntap Step.\u201d"
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "724.3a",
+            "ruleText": "If it\u2019s day and the previous turn\u2019s active player didn\u2019t cast any spells during that turn, it becomes night. Multiplayer games using the shared team turns option (see rule 805) use a modified rule: if it\u2019s day and no player from the previous turn\u2019s active team cast a spell during that turn, it becomes night."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "724.3b",
+            "ruleText": "If it\u2019s night, and previous turn\u2019s active player cast two or more spells during the previous turn, it becomes day. Multiplayer games using the shared team turns option (see rule 805) use a modified rule: if it\u2019s night and any player from the previous turn\u2019s active team cast two or more spells during that turn, it becomes day."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "724.3c",
+            "ruleText": "If it\u2019s neither day nor night, this check doesn\u2019t happen and it remains neither."
+        },
+        "old": null
+    },
+    {
+        "new": {
+            "ruleNum": "805.6a",
+            "ruleText": "If more than one player new_start is instructed new_end to draw cards in a game that\u2019s using the shared team turns option, first each player on the active team, in whatever order that team likes, performs that player\u2019s draws, then each player on each nonactive team in turn order does the same."
+        },
+        "old": {
+            "ruleNum": "805.6a",
+            "ruleText": "If old_start an effect instructs old_end more than one player to draw cards in a game that\u2019s using the shared team turns option, first each player on the active team, in whatever order that team likes, performs that player\u2019s draws, then each player on each nonactive team in turn order does the same."
+        }
+    }
+]

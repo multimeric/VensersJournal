@@ -1075,8 +1075,36 @@ const setInfo = {
     "STX": {
         "setcode": "STX",
         "fullname": "Strixhaven: School of Mages",
-        "releaseDate": "2021-06-01",
+        "releaseDate": "2021-04-22",
         "previousSet": "KHM",
-        "nextSet": "IDK"
+        "nextSet": "MH2"
     },
+    "MH2": {
+        "setcode": "MH2",
+        "fullname": "Modern Horizons 2",
+        "releaseDate": "2021-06-18",
+        "previousSet": "STX",
+        "nextSet": "AFR"
+    },
+    "AFR": {
+        "setcode": "AFR",
+        "fullname": "Adventures in the Forgotten Realms",
+        "releaseDate": "2021-07-23",
+        "previousSet": "MH2",
+        "nextSet": "DDA"
+    },
+    "MID": {
+        "setcode": "MID",
+        "fullname": "Innistrad: Midnight Hunt",
+        "releaseDate": "2021-09-24",
+        "previousSet": "AFR",
+        "nextSet": "VOW"
+    },
+    "VOW": {
+        "setcode": "VOW",
+        "fullname": "Innistrad: Crimson Vow",
+        "releaseDate": "2021-12-12",
+        "previousSet": "MID",
+        "nextSet": "???"
+    }
 }

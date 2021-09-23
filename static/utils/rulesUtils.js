@@ -94,7 +94,7 @@ module.exports = {
       if (startingRule) {
         console.log(`Found rule in ${sorted[0].file}`);
         trace.push({ "newCr": startingDiff[0]["names"]["new_full"],
-                     "oldCr": startingDIff[0]["names"]["old_full"],
+                     "oldCr": startingDiff[0]["names"]["old_full"],
                      "rule": startingRule });
 
         // If there's no old rule to look at, this is guaranteed to be

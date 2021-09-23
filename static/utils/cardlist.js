@@ -11,6 +11,7 @@ var ignorableCards = [
 "Ape",
 "Myr",
 "Elves",
+"Enchanted",
 "Horror",
 "Ooze",
 "Wizard",
@@ -232,4 +233,6 @@ var cardList = {
 "Elf Warrior": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/0/808b9201-6fc5-4613-85d6-6e66c6e36a8e.jpg?1562702166",
 "Wellspring": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/6/c69ba095-dd78-4999-87a9-63f7165846e4.jpg?1562721895",
 "Exotic Orchard": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f623a2c3-ebe5-4f43-8b87-59b4d6991ff0.jpg?1591321997",
+"Rune of Flight": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/5/d5c1a271-2107-462a-9d4a-9c7fbcfa8d77.jpg?1610497026",
+"Colossus Hammer": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/a/fa35b2b5-3e91-4a6c-90b1-8581b4ecaf8b.jpg?1592517613"
 }
