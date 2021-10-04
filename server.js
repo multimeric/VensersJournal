@@ -15,7 +15,7 @@ var date = new Date();
 var app = express();
 var https = require('https');
 var request = require('request-promise');
-const sectionJson = require('../Southfall/testOutput.json');
+const sectionJson = require('../Southfall/segmented.json');
 app.locals.sectionJson = sectionJson;
 
 
