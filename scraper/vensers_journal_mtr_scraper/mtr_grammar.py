@@ -112,5 +112,3 @@ text_line = (... + StringEnd()).set_parse_action(
     lambda s, loc, toks: TextContent(content=toks[0])
 )
 content = toc | header | chapter_header | section_header | introduction_header | page_num | standalone_section_num | text_line
-
-# mtr_grammar = header + effective + content
