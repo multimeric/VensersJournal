@@ -1,5 +1,6 @@
 import datetime
 import sys
+import re
 
 import requests
 from pdfminer import high_level
@@ -94,6 +95,14 @@ def process_elements(els: list) -> Mtr:
             )
         elif isinstance(el, Effective):
             mtr.effective = el.effective
+
+    # Now we've compiled the sections, fix the newlines
+    for section in mtr.sections:
+        # Delete incorrect newlines: those that are neither preceded by two spaces nor followed by a dot point
+        section.content = re.sub('((?<!  )\\n)(?!\\u2022)', "", section.content)
+        # Fix correct newlines
+        section.content = re.sub('  \\n', "\n", section.content)
+
     return mtr
 
 
