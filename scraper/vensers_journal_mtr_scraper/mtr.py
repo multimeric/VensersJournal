@@ -10,7 +10,7 @@ from vensers_journal_mtr_scraper.mtr_grammar import content, Effective, SectionH
 from dataclasses import dataclass, is_dataclass, asdict
 import json
 
-from pdfminer.layout import LTTextContainer
+from pdfminer.layout import LTTextContainer, LAParams
 
 
 @dataclass
@@ -18,7 +18,7 @@ class Section:
     """
     One section of the MTR (a subsection, ie 1.3, not a chapter such as 1.)
     """
-    name: SectionHeader
+    metadata: SectionHeader
     content: str
 
 
@@ -52,7 +52,9 @@ def mtr_parse(pdf: Union[str, IO]) -> list:
     """
     # return high_level.extract_text(pdf)
     toks = []
-    for page in high_level.extract_pages(pdf):
+    for page in high_level.extract_pages(pdf, laparams=LAParams(
+        boxes_flow=None
+    )):
         for element in page:
             if isinstance(element, LTTextContainer):
                 parsed = content.parse_string(element.get_text())[0]
@@ -76,7 +78,7 @@ def process_elements(els: list) -> Mtr:
             if i > 0 and isinstance(els[i - 1], SectionNumber):
                 mtr.sections.append(
                     Section(
-                        name=SectionHeader(name=el.content.strip(), num=els[i - 1].num),
+                        metadata=SectionHeader(name=el.content.strip(), num=els[i - 1].num),
                         content=""
                     )
                 )
@@ -86,7 +88,7 @@ def process_elements(els: list) -> Mtr:
         elif isinstance(el, SectionHeader):
             mtr.sections.append(
                 Section(
-                    name=el,
+                    metadata=el,
                     content=""
                 )
             )
